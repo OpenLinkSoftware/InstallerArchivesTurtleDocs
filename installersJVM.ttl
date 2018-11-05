@@ -43,7 +43,7 @@ source: a schema:CreativeWork ;
   schema:author <http://www.openlinksw.com/#this> ;
   schema:url :this ;
   schema:dateCreated "2015-01-27T15:44:00-05:00"^^xsd:dateTime;
-  schema:dateModified "2018-08-01T12:20:00-04:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T12:20:00-00:00"^^xsd:dateTime ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
   dcterms:subject
@@ -56,17 +56,9 @@ source: a schema:CreativeWork ;
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame28ProviderJARArchive#this>  ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame40ProviderJARArchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeRDF4J2ProviderJARArchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC1xDriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC2xDriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC2xSSLTLSDriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC3xDriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC3xSSLTLSDriverJARrchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC4DriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC4SSLTLSDriverJARrchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41DriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41SSLTLSDriverJARrchive#this>,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42DriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42SSLTLSDriverJARrchive#this> ;
+          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42DriverJARrchive#this> ;
   schema:about
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeJenaProviderJARArchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeJena2ProviderJARArchive#this> ,
@@ -76,25 +68,16 @@ source: a schema:CreativeWork ;
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame27ProviderJARArchive#this>  ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame28ProviderJARArchive#this>  ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame40ProviderJARArchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeRDF4J2ProviderJARArchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC1xDriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC2xDriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC2xSSLTLSDriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC3xDriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC3xSSLTLSDriverJARrchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC4DriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC4SSLTLSDriverJARrchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41DriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41SSLTLSDriverJARrchive#this>,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42DriverJARrchive#this> ,
-          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42SSLTLSDriverJARrchive#this> .
+          <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42DriverJARrchive#this> .
 
 
 # <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/26/virt_jena.jar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeJenaProviderJARArchive#this>
   a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   wdrs:describedby source: ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> , <https://github.com/#this> ;
   schema:name "OpenLink Virtuoso(TM) Provider for Jena(TM) Version 2.6.2"@en ;
@@ -104,21 +87,19 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                """@en ;
-  schema:dateCreated "2015-01-16T12:38:25-00:00"^^xsd:dateTime ;
-  schema:dateModified "2015-06-11T18:56:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jena-provider#this> ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virt_jena.jar" ;
+  dcterms:identifier "virt_jena_1.11.jar" ;
   dcterms:format "application/java-archive" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virt_jena.jarSpecification ;
+  oplinst:hasFileSizeSpecification :virt_jena_1.11.jarSpecification ;
   oplpro:versionText "1.11" ;
-  schema:downloadUrl
-       <https://github.com/openlink/virtuoso-opensource/blob/stable/7/binsrc/jena/virt_jena.jar>,
-              <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/26/virt_jena.jar> .
+  schema:downloadUrl  <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/26/virt_jena.jar> .
 
-:virt_jena.jarSpecification
+:virt_jena_1.11.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeJenaProviderJARArchive#this> ;
@@ -126,11 +107,13 @@ source: a schema:CreativeWork ;
   oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "33625"^^xsd:integer .
 
+
+
 # <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/27/virt_jena2.jar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeJena2aProviderJARArchive#this>
   a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   wdrs:describedby source: ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> , <https://github.com/#this> ;
   schema:name "OpenLink Virtuoso(TM) Provider for Jena(TM) Version 2.7.2"@en ;
@@ -141,22 +124,20 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                      URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2015-01-16T12:38:25-00:00"^^xsd:dateTime ;
-  schema:dateModified "2015-06-12T03:33:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jena2a-provider#this> ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virt_jena2.jar" ;
+  dcterms:identifier "virt_jena2_1.18.4.jar" ;
   dcterms:format "application/java-archive" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virt_jena2a.jarSpecification ;
+  oplinst:hasFileSizeSpecification :virt_jena2a_1.18.4.jarSpecification ;
   oplpro:versionText "1.18.4" ;
-  schema:downloadUrl
-       <https://github.com/openlink/virtuoso-opensource/blob/stable/7/binsrc/jena2/virt_jena2.jar> ,
-              <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/27/virt_jena2.jar> .
+  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/27/virt_jena2.jar> .
 
 
-:virt_jena2a.jarSpecification
+:virt_jena2a_1.18.4.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeJena2aProviderJARArchive#this> ;
@@ -164,11 +145,13 @@ source: a schema:CreativeWork ;
   oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "57037"^^xsd:integer .
 
+
+
 # <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/210/virt_jena2.jar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeJena2ProviderJARArchive#this>
   a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   wdrs:describedby source: ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> , <https://github.com/#this> ;
   schema:name "OpenLink Virtuoso(TM) Provider for Jena(TM) Version 2.12.0"@en ;
@@ -179,22 +162,20 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                      URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2015-01-16T12:38:25-00:00"^^xsd:dateTime ;
-  schema:dateModified "2017-12-21T17:46:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jena2-provider#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virt_jena2.jar" ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
+  dcterms:identifier "virt_jena2_1.29.jar" ;
   dcterms:format "application/java-archive" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virt_jena2.jarSpecification ;
+  oplinst:hasFileSizeSpecification :virt_jena2_1.29.jarSpecification ;
   oplpro:versionText "1.29" ;
-  schema:downloadUrl
-       <https://github.com/openlink/virtuoso-opensource/blob/stable/7/binsrc/jena2/virt_jena2.jar> ,
-              <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/210/virt_jena2.jar> .
+  schema:downloadUrl   <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/210/virt_jena2.jar> .
 
 
-:virt_jena2.jarSpecification
+:virt_jena2_1.29.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeJena2ProviderJARArchive#this> ;
@@ -202,10 +183,12 @@ source: a schema:CreativeWork ;
   oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "67784"^^xsd:integer .
 
+
+
 <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeJena3ProviderJARArchive#this>
   a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   wdrs:describedby source: ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> , <https://github.com/#this> ;
   schema:name "OpenLink Virtuoso(TM) Provider for Jena(TM) Version 3.0.0"@en ;
@@ -216,22 +199,20 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                      URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2016-01-24T00:17:55+01:00"^^xsd:dateTime ;
-  schema:dateModified "2018-01-25T15:59:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jena3-provider#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virt_jena3.jar" ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
+  dcterms:identifier "virt_jena3_1.31.jar" ;
   dcterms:format "application/java-archive" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.2-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virt_jena3.jarSpecification ;
-  oplpro:versionText "8.1" ;
-  schema:downloadUrl
-       <https://github.com/openlink/virtuoso-opensource/blob/develop/7/binsrc/jena3/virt_jena3.jar> ,
-              <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/30/virt_jena3.jar> .
+  oplinst:hasFileSizeSpecification :virt_jena3_1.31.jarSpecification ;
+  oplpro:versionText "1.31" ;
+  schema:downloadUrl      <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/jena/30/virt_jena3.jar> .
 
 
-:virt_jena3.jarSpecification
+:virt_jena3_1.31.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeJena3ProviderJARArchive#this> ;
@@ -246,7 +227,7 @@ source: a schema:CreativeWork ;
 <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame26ProviderJARArchive#this>
   a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   wdrs:describedby source: ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> ;
   schema:name "OpenLink Virtuoso(TM) Provider for Sesame2(TM) Version 2.6"@en ;
@@ -257,19 +238,19 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2015-01-16T12:38:25-00:00"^^xsd:dateTime ;
-  schema:dateModified "2015-01-26T18:32:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-sesame2-provider#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virt_sesame26.jar" ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
+  dcterms:identifier "virt_sesame26_1.20.jar" ;
   dcterms:format "application/java-archive" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virt_sesame26.jarSpecification ;
+  oplinst:hasFileSizeSpecification :virt_sesame26_1.20.jarSpecification ;
   oplpro:versionText "1.20" ;
   schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/sesame/26/virt_sesame2.jar> .
 
-:virt_sesame26.jarSpecification
+:virt_sesame26_1.20.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame26ProviderJARArchive#this> ;
@@ -283,7 +264,7 @@ source: a schema:CreativeWork ;
 <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame27ProviderJARArchive#this>
   a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   wdrs:describedby source: ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> ;
   schema:name "OpenLink Virtuoso(TM) Provider for Sesame2(TM) Version 2.7.3"@en ;
@@ -294,19 +275,19 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2015-01-28T15:30:38-00:00"^^xsd:dateTime ;
-  schema:dateModified "2015-06-11T21:33:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-sesame2-provider#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virt_sesame27jar" ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
+  dcterms:identifier "virt_sesame27_1.25jar" ;
   dcterms:format "application/java-archive" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virt_sesame27.jarSpecification ;
+  oplinst:hasFileSizeSpecification :virt_sesame27_1.25.jarSpecification ;
   oplpro:versionText "1.25" ;
   schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/sesame/27/virt_sesame2.jar> .
 
-:virt_sesame27.jarSpecification
+:virt_sesame27_1.25.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame27ProviderJARArchive#this> ;
@@ -320,7 +301,7 @@ source: a schema:CreativeWork ;
 <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame28ProviderJARArchive#this>
   a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   wdrs:describedby source: ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> ;
   schema:name "OpenLink Virtuoso(TM) Provider for Sesame2(TM) Version 2.8.6"@en ;
@@ -330,19 +311,19 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2015-01-28T15:30:38-00:00"^^xsd:dateTime ;
-  schema:dateModified "2017-12-21T17:39:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-sesame2-provider#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virt_sesame28jar" ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
+  dcterms:identifier "virt_sesame28_1.31jar" ;
   dcterms:format "application/java-archive" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virt_sesame28.jarSpecification ;
+  oplinst:hasFileSizeSpecification :virt_sesame28_1.31.jarSpecification ;
   oplpro:versionText "1.31" ;
   schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/sesame/28/virt_sesame2.jar> .
 
-:virt_sesame28.jarSpecification
+:virt_sesame28_1.31.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame28ProviderJARArchive#this> ;
@@ -366,11 +347,11 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2016-01-08T14:30:29+01:00"^^xsd:dateTime ;
-  schema:dateModified "2017-12-21T17:46:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-sesame2-provider#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virt_sesame4.jar" ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
+  dcterms:identifier "virt_sesame4_0.7.jar" ;
   dcterms:format "application/java-archive" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
@@ -378,7 +359,7 @@ source: a schema:CreativeWork ;
   oplpro:versionText "0.7" ;
   schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/sesame/40/virt_sesame4.jar> .
 
-:virt_sesame4.jarSpecification
+:virt_sesame4_0.7.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame40ProviderJARArchive#this> ;
@@ -391,7 +372,7 @@ source: a schema:CreativeWork ;
 <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeRDF4J2ProviderJARArchive#this>
   a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   wdrs:describedby source: ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> ;
   schema:name "OpenLink Virtuoso(TM) Provider for RDF4J(TM) Version 2.1.4"@en ;
@@ -402,19 +383,19 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2018-05-04T14:30:29+01:00"^^xsd:dateTime ;
-  schema:dateModified "2017-12-21T17:46:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-rdf4j2-provider#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virt_rdf4j.jar" ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
+  dcterms:identifier "virt_rdf4j_1.6.jar" ;
   dcterms:format "application/java-archive" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virt_rdf4j.jarSpecification ;
+  oplinst:hasFileSizeSpecification :virt_rdf4j_1.6.jarSpecification ;
   oplpro:versionText "1.6" ;
   schema:downloadUrl <http://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/rdfproviders/rdf4j/2/virt_rdf4j.jar> .
 
-:virt_rdf4j.jarSpecification
+:virt_rdf4j_1.6.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeRDF4J2ProviderJARArchive#this> ;
@@ -422,197 +403,6 @@ source: a schema:CreativeWork ;
   oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "59144"^^xsd:integer .
 
-
-## JDBC 1.0 JAR
-
-# <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC1xDriverJARrchive#this>
-<http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC1xDriverJARrchive#this>
-  a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
-  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  wdrs:describedby source: ;
-  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-  schema:name "OpenLink Virtuoso(TM) Driver for JDBC(TM) Version 1.x"@en ;
-  schema:description """Java JAR file that constitutes Virtuoso's JDBC 1.x Driver. Once installed into 
-                        a Java Virtual Machine (JVM), JDBC based applications are equipped with complete 
-                        access to Virtuoso's suite of RDF related functionality.
-                     """@en ;
-  schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
-                    URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
-                 """@en ;
-  schema:dateCreated "2007-06-04T10:25:00-05:00"^^xsd:dateTime ;
-  schema:dateModified "2007-06-04T10:25:00-05:00"^^xsd:dateTime ;
-  oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc.jar" ;
-  dcterms:format "application/java-archive" ;
-  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
-  oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virtjdbc.jarSpecification ;
-  oplpro:versionText "3.11" ;
-  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc.jar> .
-
-:virtjdbc.jarSpecification
-  a oplinst:FileSizeSpecification, schema:CreativeWork ;
-  wdrs:describedby source: ;
-  schema:name "File Size Details -- virtjdbc.jar" ;
-  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC1xDriverJARrchive#this> ;
-  oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "77316"^^xsd:integer .
-
-## JDBC 2.0 JAR
-
-# <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC2xDriverJARrchive#this>
-<http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC2xDriverJARrchive#this>
-  a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
-  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  wdrs:describedby source: ;
-  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-  schema:name "OpenLink Virtuoso(TM) Driver for JDBC(TM) Version 2.x"@en ;
-  schema:description """Java JAR file that constitutes Virtuoso's JDBC 2.x Driver. Once installed into 
-                        a Java Virtual Machine (JVM), JDBC based applications are equipped with complete 
-                        access to Virtuoso's suite of RDF related functionality.
-                     """@en ;
-  schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
-                    URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
-                 """@en ;
-  schema:dateCreated "2011-02-12T17:14:00-05:00"^^xsd:dateTime ;
-  schema:dateModified "2011-02-12T17:14:00-05:00"^^xsd:dateTime ;
-  oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc2.jar" ;
-  dcterms:format "application/java-archive" ;
-  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
-  oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virtjdbc2.jarSpecification ;
-  # oplcomp:hasComponentMandatoryDependency <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Licenses.ttl#License-2014-04-virtuoso-7-pilot-16-30-ANY> ;
-  oplpro:versionText "3.56" ;
-  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc2.jar> .
-
-:virtjdbc2.jarSpecification
-  a oplinst:FileSizeSpecification, schema:CreativeWork ;
-  wdrs:describedby source: ;
-  schema:name "File Size Details -- virtjdbc2.jar" ;
-  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC2xDriverJARrchive#this> ;
-  oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "81592"^^xsd:integer .
-
-## JDBC 2.0 SSL/TLS JAR
-
-# <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC2xSSLTLSDriverJARrchive#this>
-<http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC2xSSLTLSDriverJARrchive#this>
-  a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
-  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  wdrs:describedby source: ;
-  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-  schema:name "JDBC 2.x SSL/TLS Driver JAR Installer Archive"@en ;
-  schema:description """Java JAR file that constitutes Virtuoso's JDBC 2.x + SSL/TLS Driver. Once installed into 
-                        a Java Virtual Machine (JVM), JDBC based applications are equipped with complete access 
-                        to Virtuoso's suite of RDF related functionality.
-                     """@en ;
-  schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
-                    URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
-                 """@en ;
-  schema:dateCreated "2009-12-09T10:42:00-05:00"^^xsd:dateTime ;
-  schema:dateModified "2009-12-09T10:42:00-05:00"^^xsd:dateTime ;
-  oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc2ssl.jar" ;
-  dcterms:format "application/java-archive" ;
-  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
-  oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virtjdbc2ssl.jarSpecification ;
-  # oplcomp:hasComponentMandatoryDependency <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Licenses.ttl#License-2014-04-virtuoso-7-pilot-16-30-ANY> ;
-  oplpro:versionText "3.42" ;
-  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc2ssl.jar> .
-
-:virtjdbc2ssl.jarSpecification
-  a oplinst:FileSizeSpecification, schema:CreativeWork ;
-  wdrs:describedby source: ;
-  schema:name "File Size Details -- virtjdbc2ssl.jar" ;
-  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC2xSSLTLSDriverJARrchive#this>;
-  oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "82435"^^xsd:integer .
-
-
-
-## JDBC 3.0 JAR
-
-# <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC3xDriverJARrchive#this>
-<http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC3xDriverJARrchive#this>
-  a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
-  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  wdrs:describedby source: ;
-  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-  schema:name "OpenLink Virtuoso(TM) Driver for JDBC(TM) Version 3.x"@en ;
-  schema:description """Java JAR file that constitutes Virtuoso's JDBC 3.0 Driver. Once installed into 
-                        a Java Virtual Machine (JVM), JDBC based applications are equipped with complete 
-                        access to Virtuoso's suite of RDF related functionality.
-                     """@en ;
-  schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
-                    URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
-                 """@en ;
-  schema:dateCreated "2015-01-19T16:05:45-00:00"^^xsd:dateTime ;
-  schema:dateModified "2017-04-27T22:53:00-05:00"^^xsd:dateTime ;
-  oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc3.jar" ;
-  dcterms:format "application/java-archive" ;
-  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
-  oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virtjdbc3.jarSpecification ;
-  # oplcomp:hasComponentMandatoryDependency <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Licenses.ttl#License-2014-04-virtuoso-7-pilot-16-30-ANY> ;
-  oplpro:versionText "3.100" ;
-  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc3.jar> .
-
-:virtjdbc3.jarSpecification
-  a oplinst:FileSizeSpecification, schema:CreativeWork ;
-  wdrs:describedby source: ;
-  schema:name "File Size Details -- virtjdbc3.jar" ;
-  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC3xDriverJARrchive#this> ;
-  oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "266426"^^xsd:integer .
-
-## JDBC 3.0 SSL/TLS JAR
-
-# <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC3xSSLTLSDriverJARrchive#this>
-<http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC3xSSLTLSDriverJARrchive#this>
-  a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
-  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  wdrs:describedby source: ;
-  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-  schema:name "OpenLink Virtuoso(TM) Driver with SSL support for JDBC(TM) Version 3.x"@en ;
-  schema:description """Java JAR file that constitutes Virtuoso's JDBC 3.0 + SSL/TLS Driver. Once installed into 
-                        a Java Virtual Machine (JVM), JDBC based applications are equipped with complete access 
-                        to Virtuoso's suite of RDF related functionality.
-                     """@en ;
-  schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
-                    URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
-                 """@en ;
-  schema:dateCreated "2015-01-19T16:05:45-00:00"^^xsd:dateTime ;
-  schema:dateModified "2017-04-27T22:53:00-05:00"^^xsd:dateTime ;
-  oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc3ssl.jar" ;
-  dcterms:format "application/java-archive" ;
-  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
-  oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virtjdbc3ssl.jarSpecification ;
-  # oplcomp:hasComponentMandatoryDependency <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Licenses.ttl#License-2014-04-virtuoso-7-pilot-16-30-ANY> ;
-  oplpro:versionText "3.100" ;
-  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc3ssl.jar> .
-
-:virtjdbc3ssl.jarSpecification
-  a oplinst:FileSizeSpecification, schema:CreativeWork ;
-  wdrs:describedby source: ;
-  schema:name "File Size Details -- virtjdbc3ssl.jar" ;
-  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC3xSSLTLSDriverJARrchive#this>;
-  oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "272580"^^xsd:integer .
 
 
 ## JDBC 4.0 JAR
@@ -632,64 +422,27 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2015-01-19T16:05:48-00:00"^^xsd:dateTime ;
-  schema:dateModified "2018-04-05T15:56:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc4.jar" ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
+  dcterms:identifier "virtjdbc4_3.111.jar" ;
   dcterms:format "application/java-archive" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virtjdbc4.jarSpecification ;
+  oplinst:hasFileSizeSpecification :virtjdbc4_3.111.jarSpecification ;
   # oplcomp:hasComponentMandatoryDependency <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Licenses.ttl#License-2014-04-virtuoso-7-pilot-16-30-ANY> ;
-  oplpro:versionText "3.108" ;
+  oplpro:versionText "3.111" ;
   schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc4.jar> .
 
-:virtjdbc4.jarSpecification
+:virtjdbc4_3.111.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   schema:name "File Size Details -- virtjdbc4.jar" ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC4DriverJARrchive#this> ;
   oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "306102"^^xsd:integer .
+  oplinst:hasMeasurementValue "312538"^^xsd:integer .
 
-# JDBC 4.0 SSL/TLS JAR
-
-# <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC4SSLTLSDriverJARrchive#this>
-<http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC4SSLTLSDriverJARrchive#this>
-  a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
-  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  wdrs:describedby source: ;
-  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-  schema:name "OpenLink Virtuoso(TM) Driver with SSL support for JDBC(TM) Version 4.0"@en ;
-  schema:description """Java JAR file that constitutes Virtuoso's JDBC 4.0 + SSL/TLS Driver. Once installed into 
-                        a Java Virtual Machine (JVM), JDBC based applications are equipped with complete access 
-                        to Virtuoso's suite of RDF related functionality.
-                     """@en ;
-  schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
-                    URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
-                 """@en ;
-  schema:dateCreated "2015-01-19T16:05:45-00:00"^^xsd:dateTime ;
-  schema:dateModified "2018-04-05T15:56:00-05:00"^^xsd:dateTime ;
-  oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc4ssl.jar" ;
-  dcterms:format "application/java-archive" ;
-  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
-  oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  oplinst:hasFileSizeSpecification :virtjdbc4ssl.jarSpecification ;
-  # oplcomp:hasComponentMandatoryDependency <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Licenses.ttl#License-2014-04-virtuoso-7-pilot-16-30-ANY> ;
-  oplpro:versionText "3.108" ;
-  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc4ssl.jar> .
-
-:virtjdbc4ssl.jarSpecification
-  a oplinst:FileSizeSpecification, schema:CreativeWork ;
-  wdrs:describedby source: ;
-  schema:name "File Size Details -- virtjdbc4ssl.jar" ;
-  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC4SSLTLSDriverJARrchive#this> ;
-  oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "312577"^^xsd:integer .
 
 ## JDBC 4.1 JAR
 
@@ -697,7 +450,7 @@ source: a schema:CreativeWork ;
 <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41DriverJARrchive#this>
   a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   wdrs:describedby source: ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> ;
   schema:name "OpenLink Virtuoso(TM) Driver for JDBC(TM) Version 4.1"@en ;
@@ -708,64 +461,27 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2015-01-19T16:05:39-00:00"^^xsd:dateTime ;
-  schema:dateModified "2018-04-05T15:56:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc4_1.jar" ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
+  dcterms:identifier "virtjdbc4_1_3.111.jar" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
   dcterms:format "application/java-archive" ;
-  oplinst:hasFileSizeSpecification :virtjdbc4_1.jarSpecification ;
+  oplinst:hasFileSizeSpecification :virtjdbc4_1_3.111.jarSpecification ;
   # oplcomp:hasComponentMandatoryDependency <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Licenses.ttl#License-2014-04-virtuoso-7-pilot-16-30-ANY> ;
-  oplpro:versionText "3.108" ;
+  oplpro:versionText "3.111" ;
   schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc4_1.jar> .
 
-:virtjdbc4_1.jarSpecification
+:virtjdbc4_1_3.111.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   schema:name "File Size Details -- virtjdbc4_1.jar" ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41DriverJARrchive#this> ;
   oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "318942"^^xsd:integer .
+  oplinst:hasMeasurementValue "318983"^^xsd:integer .
 
-## JDBC 4.1 SSL/TLS JAR
-
-# <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41SSLTLSDriverJARrchive#this>
-<http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41SSLTLSDriverJARrchive#this>
-  a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
-  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  wdrs:describedby source: ;
-  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-  schema:name "OpenLink Virtuoso(TM) Driver with SSL support for JDBC(TM) Version 4.1"@en ;
-  schema:description """Java JAR file that constitutes Virtuoso's JDBC 4.1 + SSL/TLS Driver. Once installed into 
-                        a Java Virtual Machine (JVM), JDBC based applications are equipped with complete access 
-                        to Virtuoso's suite of RDF related functionality.
-                     """@en ;
-  schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
-                    URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
-                 """@en ;
-  schema:dateCreated "2015-01-19T16:05:39-00:00"^^xsd:dateTime ;
-  schema:dateModified "2018-04-05T15:56:00-05:00"^^xsd:dateTime ;
-  oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc4_1ssl.jar" ;
-  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
-  oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  dcterms:format "application/java-archive" ;
-  oplinst:hasFileSizeSpecification :virtjdbc4_1ssl.jarSpecification ;
-  # oplcomp:hasComponentMandatoryDependency <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Licenses.ttl#License-2014-04-virtuoso-7-pilot-16-30-ANY> ;
-  oplpro:versionText "3.108" ;
-  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc4_1ssl.jar> .
-
-:virtjdbc4_1ssl.jarSpecification
-  a oplinst:FileSizeSpecification, schema:CreativeWork ;
-  wdrs:describedby source: ;
-  schema:name "File Size Details -- virtjdbc4_1.jar" ;
-  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41SSLTLSDriverJARrchive#this> ;
-  oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "313046"^^xsd:integer .
 
 ## JDBC 4.2 JAR
 
@@ -773,7 +489,7 @@ source: a schema:CreativeWork ;
 <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42DriverJARrchive#this>
   a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   wdrs:describedby source: ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> ;
   schema:name "OpenLink Virtuoso(TM) Driver for JDBC(TM) Version 4.2"@en ;
@@ -784,64 +500,23 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2015-01-19T16:05:39-00:00"^^xsd:dateTime ;
-  schema:dateModified "2018-04-05T15:57:00-05:00"^^xsd:dateTime ;
+  schema:dateCreated "2018-11-04T20:00:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-05T20:00:00-00:00"^^xsd:dateTime ;
   oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc4_2.jar" ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
+  dcterms:identifier "virtjdbc4_2_3.111.jar" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
   dcterms:format "application/java-archive" ;
-  oplinst:hasFileSizeSpecification :virtjdbc4_2.jarSpecification ;
+  oplinst:hasFileSizeSpecification :virtjdbc4_2_3.111.jarSpecification ;
   # oplcomp:hasComponentMandatoryDependency <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Licenses.ttl#License-2014-04-virtuoso-7-pilot-16-30-ANY> ;
-  oplpro:versionText "3.108" ;
+  oplpro:versionText "3.111" ;
   schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc4_2.jar> .
 
-:virtjdbc4_2.jarSpecification
+:virtjdbc4_2_3.111.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
   wdrs:describedby source: ;
   schema:name "File Size Details -- virtjdbc4_2.jar" ;
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42DriverJARrchive#this> ;
   oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "319411"^^xsd:integer .
-
-## JDBC 4.2 SSL/TLS JAR
-
-# <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42SSLTLSDriverJARrchive#this>
-<http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42SSLTLSDriverJARrchive#this>
-  a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
-  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
-  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  wdrs:describedby source: ;
-  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-  schema:name "OpenLink Virtuoso(TM) Driver with SSL support for JDBC(TM) Version 4.2"@en ;
-  schema:description """Java JAR file that constitutes Virtuoso's JDBC 4.2 + SSL/TLS Driver. Once installed into 
-                        a Java Virtual Machine (JVM), JDBC based applications are equipped with complete access 
-                        to Virtuoso's suite of RDF related functionality.
-                     """@en ;
-  schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
-                    URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
-                 """@en ;
-  schema:dateCreated "2015-01-19T16:05:39-00:00"^^xsd:dateTime ;
-  schema:dateModified "2018-04-05T15:57:00-05:00"^^xsd:dateTime ;
-  oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this> ;
-  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
-  dcterms:identifier "virtjdbc4_2ssl.jar" ;
-  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
-  oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
-  dcterms:format "application/java-archive" ;
-  oplinst:hasFileSizeSpecification :virtjdbc4_2ssl.jarSpecification ;
-  # oplcomp:hasComponentMandatoryDependency <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Licenses.ttl#License-2014-04-virtuoso-7-pilot-16-30-ANY> ;
-  oplpro:versionText "3.108" ;
-  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/jdbc/virtjdbc4_2ssl.jar> .
-
-:virtjdbc4_2ssl.jarSpecification
-  a oplinst:FileSizeSpecification, schema:CreativeWork ;
-  wdrs:describedby source: ;
-  schema:name "File Size Details -- virtjdbc4_2.jar" ;
-  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42SSLTLSDriverJARrchive#this> ;
-  oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "312459"^^xsd:integer .
-
-
-
+  oplinst:hasMeasurementValue "319457"^^xsd:integer .
