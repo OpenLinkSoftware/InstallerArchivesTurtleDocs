@@ -188,8 +188,8 @@ schema:comment """You can download this zip archive, extract the executable, and
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-05-15T17:26:58-00.00"^^xsd:dateTime;
-schema:dateModified "2018-07-13T17:26:58-00.00"^^xsd:dateTime;
+schema:dateCreated "2018-05-15T17:26:58-00:00"^^xsd:dateTime;
+schema:dateModified "2018-07-13T17:26:58-00:00"^^xsd:dateTime;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "virtuoso-odbc-t-7.2.zip" ;
 dcterms:format "application/zip" ;
@@ -230,8 +230,8 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
                     replace an existing Virtuoso Open Source Edition (VOS) Server installation in situation where you have 
                     decided to negate building it from source code.
                  """@en ;
-  schema:dateCreated "2018-06-15T21:39:18-00.00"^^xsd:dateTime;
-  schema:dateModified "2018-06-28T21:39:18-00.00"^^xsd:dateTime;
+  schema:dateCreated "2018-06-15T21:39:18-00:00"^^xsd:dateTime;
+  schema:dateModified "2018-06-28T21:39:18-00:00"^^xsd:dateTime;
   # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
   dcterms:identifier "virtuoso-t.zip" ;
   dcterms:format "application/zip" ;
@@ -272,8 +272,8 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
                     Open Source Edition (VOS) Server installations in situation where you have 
                     decided to negate the building it from source code.
                  """@en ;
-  schema:dateCreated "2018-06-15T21:39:18-00.00"^^xsd:dateTime;
-  schema:dateModified "2018-06-15T21:39:18-00.00"^^xsd:dateTime;
+  schema:dateCreated "2018-06-15T21:39:18-00:00"^^xsd:dateTime;
+  schema:dateModified "2018-06-15T21:39:18-00:00"^^xsd:dateTime;
   # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
   dcterms:identifier "Virtuoso_OpenSource_Server_7.20.x64.exe" ;
   dcterms:format "application/x-msdownload" ;
@@ -316,8 +316,8 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2017-08-01T22:20:30-00.00"^^xsd:dateTime;
-  schema:dateModified "2018-05-10T17:26:58-00.00"^^xsd:dateTime;
+  schema:dateCreated "2017-08-01T22:20:30-00:00"^^xsd:dateTime;
+  schema:dateModified "2018-05-10T17:26:58-00:00"^^xsd:dateTime;
   oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
   dcterms:identifier "wavcz2zz.exe" ;
   dcterms:format "application/x-msdownload" ;
@@ -360,8 +360,8 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated  "2017-07-18T21:50:01-00.00"^^xsd:dateTime;
-  schema:dateModified "2018-05-10T17:26:58-00.00"^^xsd:dateTime;
+  schema:dateCreated  "2017-07-18T21:50:01-00:00"^^xsd:dateTime;
+  schema:dateModified "2018-05-10T17:26:58-00:00"^^xsd:dateTime;
   dcterms:identifier "wavpz2zz.exe" ;
   dcterms:format "application/x-msdownload" ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
@@ -404,8 +404,8 @@ schema:comment """You can download this zip archive, extract the executable, and
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-05-15T17:26:58-00.00"^^xsd:dateTime;
-schema:dateModified "2018-07-13T17:26:58-00.00"^^xsd:dateTime;
+schema:dateCreated "2018-05-15T17:26:58-00:00"^^xsd:dateTime;
+schema:dateModified "2018-07-13T17:26:58-00:00"^^xsd:dateTime;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "virtuoso-odbc-t.zip" ;
 dcterms:format "application/zip" ;
@@ -443,8 +443,8 @@ schema:comment """You can download this zip archive, extract the executable, and
                   replacement for an existing OpenLink License Manager release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
-schema:dateModified "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
+schema:dateCreated "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
+schema:dateModified "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "oplmgr-win64.zip" ;
 dcterms:format "application/zip" ;
@@ -490,8 +490,8 @@ schema:comment """You can download this Zip archive, extract the executable, and
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-10-19T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-19T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-10-19T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-19T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "virtuoso-odbc-t-30fcb64.gzip" ;
 dcterms:format "application/zip" ;
@@ -534,8 +534,8 @@ schema:comment """You can download this Zip archive, extract the shared library,
                   replacement for an existing proj4.dll plugin in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-10-19T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-19T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-10-19T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-19T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "proj4.Zip" ;
 dcterms:format "application/zip" ;
@@ -575,8 +575,8 @@ schema:comment """You can download this Zip archive, extract the shared library,
                   replacement for an existing geos.so plugin in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-10-19T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-19T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-10-19T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-19T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "geos.Zip" ;
 dcterms:format "application/zip" ;
@@ -616,8 +616,8 @@ schema:comment """You can download this Zip archive, extract the shared library,
                   replacement for an existing shapefileio.so plugin in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-10-19T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-19T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-10-19T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-19T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "shapefileio.Zip" ;
 dcterms:format "application/zip" ;
@@ -654,8 +654,8 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2018-10-19T13:47:27-00.00"^^xsd:dateTime ;
-  schema:dateModified "2018-10-19T13:47:27-00.00"^^xsd:dateTime ;
+  schema:dateCreated "2018-10-19T13:47:27-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-10-19T13:47:27-00:00"^^xsd:dateTime ;
   oplinst:hasFileSizeSpecification :wavpz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-odbc-driver#this>  ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
@@ -690,8 +690,8 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2018-10-19T13:47:27-00.00"^^xsd:dateTime ;
-  schema:dateModified "2018-10-19T13:47:27-00.00"^^xsd:dateTime ;
+  schema:dateCreated "2018-10-19T13:47:27-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-10-19T13:47:27-00:00"^^xsd:dateTime ;
   oplinst:hasFileSizeSpecification :wavcz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-odbc-driver#this>  ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;

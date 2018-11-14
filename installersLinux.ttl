@@ -157,8 +157,8 @@ schema:comment """You can download this Gzip archive, extract the executable, an
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                 """@en ;
-schema:dateCreated "2018-07-14T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-07-14T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-07-14T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-07-14T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeLinuxList#this> ;
 dcterms:identifier "virtuoso-odbc-t.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -240,8 +240,8 @@ schema:comment """You can download this Gzip archive, extract the executable, an
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-07-14T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-07-14T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-07-14T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-07-14T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeLinuxList#this> ;
 dcterms:identifier "virtuoso-odbc-t.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -321,8 +321,8 @@ schema:comment """You can download this Gzip archive, extract the executable, an
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-07-14T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-07-14T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-07-14T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-07-14T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeLinuxList#this> ;
 dcterms:identifier "virtuoso-odbc-t.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -403,8 +403,8 @@ schema:comment """You can download this Gzip archive, extract the executable, an
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-07-14T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-07-14T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-07-14T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-07-14T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeLinuxList#this> ;
 dcterms:identifier "virtuoso-odbc-t.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -638,8 +638,8 @@ schema:comment """You can download this Gzip archive, extract the executable, an
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-05-15T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-05-15T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-05-15T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-05-15T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeLinuxList#this> ;
 dcterms:identifier "virtuoso-odbc-t.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -676,8 +676,8 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2018-04-25T13:47:27-00.00"^^xsd:dateTime ;
-  schema:dateModified "2018-04-25T13:47:27-00.00"^^xsd:dateTime ;
+  schema:dateCreated "2018-04-25T13:47:27-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-04-25T13:47:27-00:00"^^xsd:dateTime ;
   oplinst:hasFileSizeSpecification :lovpz2zz81.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
@@ -751,8 +751,8 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2018-04-25T13:47:27-00.00"^^xsd:dateTime ;
-  schema:dateModified "2018-04-25T13:47:27-00.00"^^xsd:dateTime ;
+  schema:dateCreated "2018-04-25T13:47:27-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-04-25T13:47:27-00:00"^^xsd:dateTime ;
   oplinst:hasFileSizeSpecification :lovcz2zz81.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
@@ -795,8 +795,8 @@ schema:comment """You can download this Gzip archive, extract the executable, an
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-05-15T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-05-15T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-05-15T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-05-15T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeLinuxList#this> ;
 dcterms:identifier "virtuoso-odbc-t.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -834,8 +834,8 @@ schema:comment """You can download this gzip archive, extract the executable, an
                   replacement for an existing OpenLink License Manager release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
-schema:dateModified "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
+schema:dateCreated "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
+schema:dateModified "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "oplmgr-linux-x64-glibc2.3.gz" ;
 dcterms:format "application/x-gzip" ;
@@ -873,8 +873,8 @@ schema:comment """You can download this gzip archive, extract the executable, an
                   replacement for an existing OpenLink License Manager release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
-schema:dateModified "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
+schema:dateCreated "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
+schema:dateModified "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "oplmgr-linux-x64-glibc2.5.gz" ;
 dcterms:format "application/x-gzip" ;
@@ -910,8 +910,8 @@ schema:comment """You can download this gzip archive, extract the executable, an
                   replacement for an existing OpenLink License Manager release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
-schema:dateModified "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
+schema:dateCreated "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
+schema:dateModified "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "oplmgr-linux-x64-glibc2.12.gz" ;
 dcterms:format "application/x-gzip" ;
@@ -944,8 +944,8 @@ schema:comment """You can download this gzip archive, extract the executable, an
                   replacement for an existing OpenLink License Manager release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
-schema:dateModified "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
+schema:dateCreated "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
+schema:dateModified "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "oplmgr-linux-x64-glibc2.17.gz" ;
 dcterms:format "application/x-gzip" ;
@@ -988,8 +988,8 @@ schema:comment """You can download this Gzip archive, extract the executable, an
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-09-28T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-17T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-09-28T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-17T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeLinuxList#this> ;
 dcterms:identifier "virtuoso-iodbc-t-30fcb64.gzip" ;
 dcterms:format "application/gzip" ;
@@ -1032,8 +1032,8 @@ schema:comment """You can download this Gzip archive, extract the shared library
                   replacement for an existing proj4.so plugin in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-09-28T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-17T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-09-28T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-17T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeLinuxList#this> ;
 dcterms:identifier "proj4.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -1073,8 +1073,8 @@ schema:comment """You can download this Gzip archive, extract the shared library
                   replacement for an existing geos.so plugin in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-09-28T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-17T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-09-28T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-17T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeLinuxList#this> ;
 dcterms:identifier "geos.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -1114,8 +1114,8 @@ schema:comment """You can download this Gzip archive, extract the shared library
                   replacement for an existing shapefileio.so plugin in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-09-28T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-17T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-09-28T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-17T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeLinuxList#this> ;
 dcterms:identifier "shapefileio.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -1152,7 +1152,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2018-10-05T13:47:27-00.00"^^xsd:dateTime ;
+  schema:dateCreated "2018-10-05T13:47:27-00:00"^^xsd:dateTime ;
   schema:dateModified "2018-10-31T10:37:00-04:00"^^xsd:dateTime ;
  ;
   oplinst:hasFileSizeSpecification :lovpz2zz-30fcb64.tarSpecification ;
@@ -1190,7 +1190,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2018-10-05T13:47:27-00.00"^^xsd:dateTime ;
+  schema:dateCreated "2018-10-05T13:47:27-00:00"^^xsd:dateTime ;
   schema:dateModified "2018-10-31T10:37:00-04:00"^^xsd:dateTime ;
  ;
   oplinst:hasFileSizeSpecification :lovcz2zz-30fcb64.tarSpecification ;
