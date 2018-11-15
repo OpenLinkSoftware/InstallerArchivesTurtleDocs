@@ -209,8 +209,8 @@ source: a schema:CreativeWork ;
                       replacement for an existing Virtuoso Open Source Edition Server installation in situations 
                       where you prefer not to take the usual build-from-source-code Open Source approach.
                    """@en ;
-    schema:dateCreated "2018-06-20T21:19:35-00.00"^^xsd:dateTime;
-    schema:dateModified "2018-06-28T18:19:35-00.00"^^xsd:dateTime;
+    schema:dateCreated "2018-06-20T21:19:35-00:00"^^xsd:dateTime;
+    schema:dateModified "2018-06-28T18:19:35-00:00"^^xsd:dateTime;
     # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeMacOSList#this> ;
     dcterms:identifier "virtuoso-opensource-app.dmg" ;
     dcterms:format "application/x-apple-diskimage" ;
@@ -250,8 +250,8 @@ source: a schema:CreativeWork ;
                     replacement for an existing Virtuoso Open Source Edition Server installation in situations 
                     where you prefer not to take the usual build-from-source-code Open Source approach.
                  """@en ;
-  schema:dateCreated "2018-06-20T21:19:35-00.00"^^xsd:dateTime;
-  schema:dateModified "2018-06-28T18:19:35-00.00"^^xsd:dateTime;
+  schema:dateCreated "2018-06-20T21:19:35-00:00"^^xsd:dateTime;
+  schema:dateModified "2018-06-28T18:19:35-00:00"^^xsd:dateTime;
   # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeMacOSList#this> ;
   dcterms:identifier "virtuoso-opensource-mac-os-virtuoso-t.zip" ;
   dcterms:format "application/zip" ;
@@ -311,8 +311,8 @@ source: a schema:CreativeWork ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated  "2018-04-25T13:47:27-00.00"^^xsd:dateTime;
-  schema:dateModified "2018-04-25T13:47:27-00.00"^^xsd:dateTime;
+  schema:dateCreated  "2018-04-25T13:47:27-00:00"^^xsd:dateTime;
+  schema:dateModified "2018-04-25T13:47:27-00:00"^^xsd:dateTime;
   # oplinst:isInstallerArchiveOf
   #               <http://data.openlinksw.com/oplweb/product/virtuoso-macosx-odbc-driver#this>,
   #               <http://data.openlinksw.com/oplweb/product/virtuoso-jdbc-driver#this>,
@@ -360,8 +360,8 @@ schema:comment """You can download this zip archive, extract the executable, and
                   replacement for an existing Virtuoso Enterprise Edition Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-05-15T17:26:58-00.00"^^xsd:dateTime;
-schema:dateModified "2018-05-15T17:26:58-00.00"^^xsd:dateTime;
+schema:dateCreated "2018-05-15T17:26:58-00:00"^^xsd:dateTime;
+schema:dateModified "2018-05-15T17:26:58-00:00"^^xsd:dateTime;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeMacOSList#this> ;
 dcterms:identifier "virtuoso-odbc-t.zip" ;
 dcterms:format "application/zip" ;
@@ -402,8 +402,8 @@ schema:comment """You can download this .pkg archive, extract the executable (by
                   and then use it as a replacement for an existing OpenLink License Manager release in situation 
                   where you have decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
-schema:dateModified "2018-06-14T11:10:31-00.00"^^xsd:dateTime;
+schema:dateCreated "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
+schema:dateModified "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
 dcterms:identifier "oplmgr.pkg" ;
 dcterms:format "application/octet-stream" ;
@@ -448,8 +448,8 @@ schema:comment """You can download this Gzip archive, extract the executable, an
                   replacement for an existing Virtuoso Server release in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-10-05T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-17T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-10-05T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-17T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeMacOSXList#this> ;
 dcterms:identifier "virtuoso-odbc-t-30fcb64.gzip" ;
 dcterms:format "application/gzip" ;
@@ -493,8 +493,8 @@ schema:comment """You can download this Gzip archive, extract the shared library
                   replacement for an existing proj4.so plugin in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-10-05T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-17T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-10-05T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-17T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeMacOSXList#this> ;
 dcterms:identifier "proj4.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -534,8 +534,8 @@ schema:comment """You can download this Gzip archive, extract the shared library
                   replacement for an existing geos.so plugin in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-10-05T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-17T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-10-05T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-17T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeMacOSXList#this> ;
 dcterms:identifier "geos.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -575,8 +575,8 @@ schema:comment """You can download this Gzip archive, extract the shared library
                   replacement for an existing shapefileio.so plugin in situation where you have 
                   decided to negate the functionality provided by its installer program.
                """@en ;
-schema:dateCreated "2018-10-05T17:26:58-00.00"^^xsd:dateTime ;
-schema:dateModified "2018-10-17T17:26:58-00.00"^^xsd:dateTime ;
+schema:dateCreated "2018-10-05T17:26:58-00:00"^^xsd:dateTime ;
+schema:dateModified "2018-10-17T17:26:58-00:00"^^xsd:dateTime ;
 # oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeMacOSXList#this> ;
 dcterms:identifier "shapefileio.Gzip" ;
 dcterms:format "application/gzip" ;
@@ -615,7 +615,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2018-10-05T13:47:27-00.00"^^xsd:dateTime ;
+  schema:dateCreated "2018-10-05T13:47:27-00:00"^^xsd:dateTime ;
   schema:dateModified "2018-10-27T16:51:28-04:00"^^xsd:dateTime ;
  ;
   oplinst:hasFileSizeSpecification :mwvpz2zz-30fcb64.dmgSpecification ;
@@ -652,7 +652,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
-  schema:dateCreated "2018-10-19T13:47:27-00.00"^^xsd:dateTime ;
+  schema:dateCreated "2018-10-19T13:47:27-00:00"^^xsd:dateTime ;
   schema:dateModified "2018-10-23T10:37:00-04:00"^^xsd:dateTime ;
   oplinst:hasFileSizeSpecification :mwvcz2zz-30fcb64.dmgSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-macosx-odbc-driver#this>  ;
