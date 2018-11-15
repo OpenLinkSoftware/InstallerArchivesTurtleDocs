@@ -1,4 +1,3 @@
-
 ## Virtuoso JARs Installers##
 
 @prefix opldep:    <http://www.openlinksw.com/ontology/depot#> .
@@ -43,7 +42,7 @@ source: a schema:CreativeWork ;
   schema:author <http://www.openlinksw.com/#this> ;
   schema:url :this ;
   schema:dateCreated "2015-01-27T15:44:00-05:00"^^xsd:dateTime;
-  schema:dateModified "2018-11-05T12:20:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2018-11-06T03:50:00-00:00"^^xsd:dateTime ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
   dcterms:subject
@@ -393,7 +392,7 @@ source: a schema:CreativeWork ;
   oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
   oplinst:hasFileSizeSpecification :virt_rdf4j_1.6.jarSpecification ;
   oplpro:versionText "1.6" ;
-  schema:downloadUrl <http://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/rdfproviders/rdf4j/2/virt_rdf4j.jar> .
+  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/rdfproviders/rdf4j/2/virt_rdf4j.jar> .
 
 :virt_rdf4j_1.6.jarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
