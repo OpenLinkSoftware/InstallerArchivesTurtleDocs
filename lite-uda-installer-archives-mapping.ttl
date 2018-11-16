@@ -6429,8 +6429,9 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl7mzzz.dmg" ;
     schema:dateCreated "2017-12-07T00:00:00+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7mzzz.dmg> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2018 on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7mzzzdmg70MacOSX107UniversalFileSpeicification> ;
@@ -6447,6 +6448,9 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
+        oplsof:SQLServer2019,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -6457,7 +6461,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2019" ;
     oplsof:hasOperatingSystem
         <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
         <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
@@ -6551,6 +6555,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl7y3zz.dmg" ;
     schema:dateCreated "2016-06-24T12:17:29+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7y3zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -6573,7 +6578,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl7y3zz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "4336301"^^xsd:integer ;
+    oplinst:hasMeasurementValue "4916986"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl7y3zzdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
@@ -6586,6 +6591,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl7y4zz.dmg" ;
     schema:dateCreated "2016-06-24T12:17:28+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7y4zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -6608,7 +6614,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl7y4zz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "4341547"^^xsd:integer ;
+    oplinst:hasMeasurementValue "4926815"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl7y4zzdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
@@ -6621,6 +6627,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl7y5zz.dmg" ;
     schema:dateCreated "2016-06-24T12:17:28+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7y5zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -6643,7 +6650,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl7y5zz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "4359099"^^xsd:integer ;
+    oplinst:hasMeasurementValue "4942958"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl7y5zzdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
@@ -6656,6 +6663,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl7g7zz.dmg" ;
     schema:dateCreated "2016-06-24T12:17:26+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7g7zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -6680,7 +6688,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl7g7zz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "4260669"^^xsd:integer ;
+    oplinst:hasMeasurementValue "4844882"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl7g7zzdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
@@ -7446,11 +7454,12 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl7vzzz.dmg" ;
     schema:dateCreated "2016-06-24T12:17:28+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7vzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Virtuoso on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
-    oplinst:hasFileSizeSpecification <#https3mxl7vzzzdmg70MacOSX107UniversalFileSpeicification> ;
+    oplinst:hasFileSizeSpecification <#https3mxl7vzzzdmg70MacOSX107UniversalFileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseVirtuoso#this> ;
     oplpro:versionText "7.0" ;
@@ -7468,7 +7477,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl7vzzz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "7645999"^^xsd:integer ;
+    oplinst:hasMeasurementValue "8263874"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl7vzzzdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
@@ -7481,6 +7490,7 @@ source:
     dcterms:format "application/x-msdownload" ;
     dcterms:identifier "mxl7o11z.msi" ;
     schema:dateCreated "2016-06-24T12:17:27+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7o11z.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -7503,7 +7513,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl7o11z.msi on Mac OS X 10.7.x (Universal) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "112175323"^^xsd:integer ;
+    oplinst:hasMeasurementValue "112755983"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl7o11zdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
@@ -7517,6 +7527,7 @@ source:
     dcterms:format "application/x-msdownload" ;
     dcterms:identifier "mxl7o12z.dmg" ;
     schema:dateCreated "2016-06-24T12:17:27+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7o12z.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -7539,7 +7550,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl7o12z.dmg on Mac OS X 10.7.x (Universal) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "112175323"^^xsd:integer ;
+    oplinst:hasMeasurementValue "114933820"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl7o12zdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
@@ -7618,6 +7629,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl7jzzz.dmg" ;
     schema:dateCreated "2016-06-24T12:17:27+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7jzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -7639,7 +7651,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl7jzzz.dmg on Mac OS X 10.7.x (Universal) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "3124179"^^xsd:integer ;
+    oplinst:hasMeasurementValue "3594853"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl7jzzzdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
@@ -7653,6 +7665,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxjczzzz.dmg" ;
     schema:dateCreated "2016-06-24T12:17:25+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxjczzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -7675,7 +7688,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxjczzzz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "11271808"^^xsd:integer ;
+    oplinst:hasMeasurementValue "13102973"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
