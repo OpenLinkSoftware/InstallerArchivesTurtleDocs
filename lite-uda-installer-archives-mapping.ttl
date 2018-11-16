@@ -7459,7 +7459,7 @@ source:
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Virtuoso on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
-    oplinst:hasFileSizeSpecification <#https3mxl7vzzzdmg70MacOSX107UniversalFileSpecification> ;
+    oplinst:hasFileSizeSpecification <#https3mxl7vzzzdmg70MacOSX107UniversalFileSpeicification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseVirtuoso#this> ;
     oplpro:versionText "7.0" ;
