@@ -394,13 +394,12 @@ opldep:hasDepot <http://download3.openlinksw.com/#this> ;
 #oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
 # oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-schema:name "License Manager 1.3.6 (Binary) for macOS (64-bit)" ;
+schema:name "License Manager 1.3.6 Installer for macOS (64-bit)" ;
 schema:description """Installer Archive for macOS that delivers the License Manager functionality
                       required by most OpenLink Software Applications
                    """@en ;
-schema:comment """You can download this .pkg archive, extract the executable (by double-clicking on its icon), 
-                  and then use it as a replacement for an existing OpenLink License Manager release in situation 
-                  where you have decided to negate the functionality provided by its installer program.
+schema:comment """You can download this .pkg archive, and double-click on its icon
+                  to install or replace the OpenLink License Manager.
                """@en ;
 schema:dateCreated "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
 schema:dateModified "2018-06-14T11:10:31-00:00"^^xsd:dateTime;
