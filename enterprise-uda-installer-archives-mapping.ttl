@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2018-07-13T10:22:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2018-11-22T10:22:00-05:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -37,7 +37,7 @@ source: a schema:CreativeWork ;
    schema:name "OpenLink UDA Enterpise Edition Installer Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Enterpise Edition Installer Archives"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2018-07-13T10:22:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2018-11-22T10:22:00-05:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxo3zzzzdmg70MacOSX107Universal#this> ,
