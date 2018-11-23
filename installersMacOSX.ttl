@@ -662,7 +662,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.9-32#this> ;
   oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
   oplpro:versionText "8.2" ;
-  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/8.2/xuniversal-apple-macosx10.9-64/mwvcz2zz.dmg> .
+  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/8.2/universal-apple-macosx10.9-64/mwvcz2zz.dmg> .
 
 :mwvcz2zz-30fcb64.dmgSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
