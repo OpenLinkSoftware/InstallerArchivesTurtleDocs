@@ -8184,6 +8184,7 @@ source: a schema:CreativeWork ;
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxj3zzzz.dmg" ;
     schema:dateCreated "2016-09-06T17:03:18+02:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxj3zzzz.dmg> ;
     schema:name "JDBC Generic Client Installer Archive for Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -8216,7 +8217,7 @@ source: a schema:CreativeWork ;
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxj3zzzz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "11271808"^^xsd:integer ;
+    oplinst:hasMeasurementValue "13102973"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxj3zzzzdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
@@ -8228,7 +8229,7 @@ source: a schema:CreativeWork ;
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxkozzzz.dmg" ;
     schema:dateCreated "2015-06-21T14:08:01+02:00"^^xsd:dateTime ;
-    schema:dateModified "2016-03-03T18:37:25+01:00"^^xsd:dateTime ;
+    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxkozzzz.dmg> ;
     schema:name "iODBC Driver Manager Installer Archive for Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -8277,7 +8278,7 @@ source: a schema:CreativeWork ;
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxkozzzz.dmg on Mac OS X 10.7.x (Universal) and Higher (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "896180"^^xsd:integer ;
+    oplinst:hasMeasurementValue "1234944"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxkozzzzdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
