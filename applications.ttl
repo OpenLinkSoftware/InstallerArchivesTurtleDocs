@@ -675,12 +675,12 @@ sourceDAV:
   oplvad:hasVadPackage :ConductorVad ;
   wdrs:describedby source: .
 
-:CartridgesGitRepo a doap:GitRepository ;
+:ConductorGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
   doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/conductor ;
   wdrs:describedby source: .
 
-:CartridgesVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+:ConductorVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
   schema:url <http://download3.openlinksw.com/uda/vad-packages/8.2/conductor_dav.vad> ;
   schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
   schema:name "Conductor VAD" ;
@@ -734,7 +734,7 @@ sourceDAV:
 :DocumentationVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
   schema:url <http://download3.openlinksw.com/uda/vad-packages/8.2/doc_dav.vad> ;
   schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
-  schema:name "Conductor VAD" ;
+  schema:name "Documentation VAD" ;
   oplvad:hasPackageName "documentation"^^xsd:string ;
   # oplvad:hasOptionalDependency :ValVad ;
   oplvad:hasFileName "doc_dav.vad"^^xsd:string ;
