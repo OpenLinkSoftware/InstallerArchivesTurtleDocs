@@ -924,7 +924,7 @@ sourceDAV:
   doap:description """R2RML Processor Module""" ;
   schema:author <http://www.openlinksw.com/#this> ;
   doap:repository :R2RMLRepo ;
-  oplvad:hasVadPackage :OatVad ;
+  oplvad:hasVadPackage :R2RMLVad ;
   wdrs:describedby source: .
 
 :R2RMLGitRepo a doap:GitRepository ;
@@ -933,12 +933,12 @@ sourceDAV:
   wdrs:describedby source: .
 
 :R2RMLVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-  schema:url <http://download3.openlinksw.com/uda/vad-packages/8.2/r2rml_dav.vad> ;
+  schema:url <http://download3.openlinksw.com/uda/vad-packages/8.2/rdb2rdf_dav.vad> ;
   schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
   schema:name "R2RML VAD" ;
   oplvad:hasPackageName "R2RML"^^xsd:string ;
   # oplvad:hasOptionalDependency :Vad ;
-  oplvad:hasFileName "r2rml_dav.vad"^^xsd:string ;
+  oplvad:hasFileName "rdb2rdf_dav.vad"^^xsd:string ;
   oplvad:isVadPackageOf :R2RML ;
   wdrs:describedby source: .
 
