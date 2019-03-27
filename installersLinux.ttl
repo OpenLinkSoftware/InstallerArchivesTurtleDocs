@@ -554,7 +554,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
   schema:dateCreated "2015-02-24T19:51:11-00:00"^^xsd:dateTime ;
-  schema:dateModified "2016-04-19T21:39:52+02:00"^^xsd:dateTime ;
+  schema:dateModified "2019-03-27T22:10:17+02:00"^^xsd:dateTime ;
   oplinst:hasFileSizeSpecification :lovcz2zz.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
@@ -572,7 +572,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchivelovcLinux#this> ;
   schema:name "File Size Details -- lovcz2zz.tar" ;
   oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "6993920"^^xsd:integer .
+  oplinst:hasMeasurementValue "7260160"^^xsd:integer .
 
 # 8.1  Installers
 
@@ -1191,7 +1191,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
   schema:dateCreated "2018-10-05T13:47:27-00:00"^^xsd:dateTime ;
-  schema:dateModified "2018-10-31T10:37:00-04:00"^^xsd:dateTime ;
+  schema:dateModified "2019-03-27T22:11:00-04:00"^^xsd:dateTime ;
  ;
   oplinst:hasFileSizeSpecification :lovcz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
@@ -1213,6 +1213,6 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   schema:name "File Size Details -- lovcz2zz.tar" ;
   oplinst:hasMeasurementUnit "Bytes" ; 
   # oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "7413760"^^xsd:integer .
+  oplinst:hasMeasurementValue "7434240"^^xsd:integer .
 
 
