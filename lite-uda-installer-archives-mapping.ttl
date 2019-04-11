@@ -38,7 +38,7 @@ source:
    schema:name "OpenLink UDA Lite Edition (Single-Tier) Installers Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Lite Edition (Single-Tier) Installers"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2018-07-13T10:22:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-04-11T13:29:00-05:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg70MacOSX107Universal#this> ,
@@ -6663,7 +6663,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl7g7zz.dmg" ;
     schema:dateCreated "2016-06-24T12:17:26+02:00"^^xsd:dateTime ;
-    schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:dateModified "2019-04-11T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7g7zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -6676,7 +6676,7 @@ source:
         oplsof:PostgreSQL8 ,
         oplsof:PostgreSQL9 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem
         <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
         <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
@@ -6688,7 +6688,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl7g7zz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "4844882"^^xsd:integer ;
+    oplinst:hasMeasurementValue "4848045"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl7g7zzdmg70MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
