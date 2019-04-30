@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2019-04-14T10:22:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-04-30T14:22:00-05:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -7172,8 +7172,8 @@ source: a schema:CreativeWork ;
                              oplsof:PostgreSQL9  ,
                              oplsof:PostgreSQL10 ,
                              oplsof:PostgreSQL11 ;
-    oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x, "11.x" ;
+    oplsof:hasDatabaseFamily oplsof:PostgreSQL ;    
+	oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -7429,7 +7429,7 @@ source: a schema:CreativeWork ;
                              oplsof:PostgreSQL10 ,
                              oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x, "11.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -9994,7 +9994,7 @@ source: a schema:CreativeWork ;
                              oplsof:PostgreSQL10 ,
                              oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x, "11.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -10109,7 +10109,7 @@ source: a schema:CreativeWork ;
                              oplsof:PostgreSQL10 ,
                              oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", 10.x, 11.x ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x";
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc25-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
