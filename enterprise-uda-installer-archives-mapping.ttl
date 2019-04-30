@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2018-11-22T10:22:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-04-14T10:22:00-05:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -37,7 +37,7 @@ source: a schema:CreativeWork ;
    schema:name "OpenLink UDA Enterpise Edition Installer Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Enterpise Edition Installer Archives"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2018-11-22T10:22:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-04-14T10:22:00-05:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxo3zzzzdmg70MacOSX107Universal#this> ,
@@ -7149,6 +7149,45 @@ source: a schema:CreativeWork ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waadmzzzmsi70WindowsXPVista764Bitx8664#this> ;
     wdrs:describedby source: .
 
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waadg7zzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    oplinst:UDAMT70InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "ntadg7zz.msi" ;
+    schema:dateCreated "2019-04-14T22:00:40.000Z "^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/waadg7zz.msi> ;
+    schema:name "PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x Database Agent (Multi-Threaded) Installer Archive for Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x64) -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3waadg7zzmsi70Windows98XPVista7WKS2000810Server20xx64Bitx86FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7PostgreSQL#this> ;
+    oplpro:versionText "7.0" ;
+    oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
+                             oplsof:PostgreSQL8 ,
+                             oplsof:PostgreSQL9  ,
+                             oplsof:PostgreSQL10 ,
+                             oplsof:PostgreSQL11 ;
+    oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x, "11.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3ntadg7zzmsi70Windows98XPVista7WKS2000810Server20xx64Bitx86FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- waadg7zz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "1564672"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntadg7zzmsi70Windows98XPVista7WKS2000810Server20xx64Bitx86#this> ;
+    wdrs:describedby source: .
+
+
 <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waajzzzzmsi70WindowsXPVista764Bitx8664#this> 
     a oplinst:InstallerArchive ,
     schema:CreativeWork ,
@@ -7363,6 +7402,45 @@ source: a schema:CreativeWork ;
     oplinst:hasMeasurementUnit "Bytes" ;
     oplinst:hasMeasurementValue "1835008"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntadmzzzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntadg7zzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    oplinst:UDAMT70InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "ntadg7zz.msi" ;
+    schema:dateCreated "2019-04-14T22:00:40.000Z "^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntadg7zz.msi> ;
+    schema:name "PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x Database Agent (Multi-Threaded) Installer Archive for Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3ntadg7zzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7PostgreSQL#this> ;
+    oplpro:versionText "7.0" ;
+    oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
+                             oplsof:PostgreSQL8 ,
+                             oplsof:PostgreSQL9  ,
+                             oplsof:PostgreSQL10 ,
+                             oplsof:PostgreSQL11 ;
+    oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x, "11.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3ntadg7zzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- ntadg7zz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "1835008"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntadg7zzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86#this> ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntajzzzzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86#this> 
@@ -9899,8 +9977,9 @@ source: a schema:CreativeWork ;
     dcterms:identifier "pgr7_mv.taz" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T17:15:01+01:00"^^xsd:dateTime ;
+    schema:dateModified "2019-04-14T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc25-64/pgr7_mv.taz> ;
-    schema:name "PostgreSQL 7.x, 8.x, 9.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_mvtaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -9911,9 +9990,11 @@ source: a schema:CreativeWork ;
     oplpro:versionText "7.0" ;
         oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
                              oplsof:PostgreSQL8 ,
-                             oplsof:PostgreSQL9 ;
+                             oplsof:PostgreSQL9  ,
+                             oplsof:PostgreSQL10 ,
+                             oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x, "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -9923,7 +10004,7 @@ source: a schema:CreativeWork ;
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- pgr7_mv.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "2180915"^^xsd:integer ;
+    oplinst:hasMeasurementValue "2186703"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3pgr7mvtaz70GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .
 
@@ -10011,8 +10092,9 @@ source: a schema:CreativeWork ;
     dcterms:identifier "pgr7_mv.taz" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T19:27:30+02:00"^^xsd:dateTime ;
+    schema:dateModified "2019-04-14T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-linux-glibc25-32/pgr7_mv.taz> ;
-    schema:name "PostgreSQL 7.x, 8.x, 9.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "PostgreSQL 7.x, 8.x, 9.x, 10.x , 11.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_mvtaz70GenericLinuxGlibc2532Bitx86FileSpecification> ;
@@ -10021,11 +10103,13 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7PostgreSQL#this> ;
     oplpro:versionText "7.0" ;
-        oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
+    oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
                              oplsof:PostgreSQL8 ,
-                             oplsof:PostgreSQL9 ;
+                             oplsof:PostgreSQL9  ,
+                             oplsof:PostgreSQL10 ,
+                             oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", 10.x, 11.x ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc25-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -10035,7 +10119,7 @@ source: a schema:CreativeWork ;
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- pgr7_mv.taz on Generic Linux Glibc 2.5 (32 Bit) (x86) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "1849782"^^xsd:integer ;
+    oplinst:hasMeasurementValue "1855366"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3pgr7mvtaz70GenericLinuxGlibc2532Bitx86#this> ;
     wdrs:describedby source: .
 
@@ -10249,4 +10333,39 @@ source: a schema:CreativeWork ;
     oplinst:hasMeasurementUnit "Bytes" ;
     oplinst:hasMeasurementValue "1365847"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mys5mvtaz70GenericLinuxGlibc21232Bitx86#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3odbcmvtaz70GenericLinuxGlibc2564Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT70InstallerArchive> ;
+    dcterms:format "application/x-gzip" ;
+    dcterms:identifier "odbc_mv.taz" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-04-30T03:37:58+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc25-64/odbc_mv.taz> ;
+    schema:name "ODBC Data Sources Bridge Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3odbc_mvtaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7ODBCBridge#this> ;
+    oplpro:versionText "7.0" ;
+    oplsof:hasDatabaseEngine oplsof:odbc ;
+    oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
+    oplsof:hasDbmsEngineVersion "3.5.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
+    oplsof:hasOpsysVersion "Glibc 2.5" ;
+    wdrs:describedby source: .
+
+<#https3odbc_mvtaz70GenericLinuxGlibc2564Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- odbc_mv.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "2184652"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3odbcmvtaz70GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .
