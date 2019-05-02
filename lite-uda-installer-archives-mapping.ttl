@@ -5290,7 +5290,7 @@ source:
                              oplsof:PostgreSQL10 ,
                              oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x, "10.x, "11.x"" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -7939,7 +7939,7 @@ source:
                              oplsof:PostgreSQL10 ,
                              oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", 10.x, 11.x ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
