@@ -27,7 +27,7 @@
 <>
     a                   foaf:Document,
                         schema:WebPage ;
-    rdfs:label          "Virtuoso Universal Server (Enterprise Edition) AMI Description Document"@en ;
+    rdfs:label          "Virtuoso Universal Server (Closed Source) AMI Description Document"@en ;
     rdfs:comment        """This document describes the Virtuoso EBS-backed Amazon Machine Images (AMIs)
                            which are deployed via Amazon Web Services based Elastic Computing Cloud -- on 
                            an hourly or annual subscription basis, or on a Bring-Your-Own-License basis."""@en ;
@@ -50,11 +50,11 @@
     dcterms:creator     <http://kingsley.idehen.net/dataspace/person/kidehen#this> .
 
 
-## Virtuoso Universal Server (Enterprise Edition) PAGO AMI - Amazon Marketplace Page Description
+## Virtuoso Universal Server (Closed Source) PAGO AMI - Amazon Marketplace Page Description
 
 <https://aws.amazon.com/marketplace/pp/B011VMCZ8K#>
     a                   schema:WebPage ;
-    rdfs:label          "Virtuoso Universal Server (Enterprise Edition) PAGO AMI Description Document"@en ;
+    rdfs:label          "Virtuoso Universal Server (Closed Source) PAGO AMI Description Document"@en ;
     schema:about        <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ,
                         <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0d348ef43a2b61e6f#this> , # 8.3 PAGO
                         <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0175c4a749cf1741f#this> ; # 8.2 PAGO
@@ -83,13 +83,13 @@
 <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0d348ef43a2b61e6f#this>
     a                           oplami:AmazonEC2EBSBackedAMI ,
                                 oplami:CloudHostedVirtualMachine ;
-    skos:prefLabel              "Virtuoso Universal Server (Enterprise Edition) PAGO AMI 8.3.0-ami-1"@en ;
-    rdfs:label                  "Virtuoso Universal Server (Enterprise Edition) PAGO AMI 8.3.0-ami-1"@en ;
+    skos:prefLabel              "Virtuoso Universal Server (Closed Source) PAGO AMI 8.3.0-ami-1"@en ;
+    rdfs:label                  "Virtuoso Universal Server (Closed Source) PAGO AMI 8.3.0-ami-1"@en ;
     schema:mainEntityOfPage     <https://aws.amazon.com/marketplace/pp/B011VMCZ8K#> ,
                                 <http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VirtPayAsYouGoEBSBackedAMI> ;
     foaf:depiction              <https://www.openlinksw.com/DAV/www2.openlinksw.com/images/virtuoso-82-pago-ami-init.png> ;
     dcterms:description         """This AMI contains a pre-configured instance of a Virtuoso 8.3 Multi-Model RDBMS
-                                   that includes a license enabling 10 DB Sessions and 8 Logical Processors."""@en ;
+                                   that includes a license enabling 10 DB Sessions and CPU Affinity scoped to 8 Logical Processors."""@en ;
     dcterms:identifier           "Virtuoso-ami-0d348ef43a2b61e6f" ;
     oplami:ec2AMI-ID             "ami-0d348ef43a2b61e6f" ;
     oplami:ec2OwnerID            "545314153384" ;
@@ -122,13 +122,13 @@
 <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0175c4a749cf1741f#this>
     a                           oplami:AmazonEC2EBSBackedAMI ,
                                 oplami:CloudHostedVirtualMachine ;
-    skos:prefLabel              "Virtuoso Universal Server (Enterprise Edition) PAGO AMI 8.2.0-ami-2"@en ;
-    rdfs:label                  "Virtuoso Universal Server (Enterprise Edition) PAGO AMI 8.2.0-ami-2"@en ;
+    skos:prefLabel              "Virtuoso Universal Server (Closed Source) PAGO AMI 8.2.0-ami-2"@en ;
+    rdfs:label                  "Virtuoso Universal Server (Closed Source) PAGO AMI 8.2.0-ami-2"@en ;
     schema:mainEntityOfPage     <https://aws.amazon.com/marketplace/pp/B011VMCZ8K#> ,
                                 <http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VirtPayAsYouGoEBSBackedAMI> ;
     foaf:depiction              <https://www.openlinksw.com/DAV/www2.openlinksw.com/images/virtuoso-82-pago-ami-init.png> ;
     dcterms:description         """This AMI contains a pre-configured instance of a Virtuoso 8.2 Multi-Model RDBMS
-                                   that includes a license enabling 10 DB Sessions and 8 Logical Processors."""@en ;
+                                   that includes a license enabling 10 DB Sessions and CPU Affinity scoped to 8 Logical Processors."""@en ;
     dcterms:identifier           "Virtuoso-ami-0175c4a749cf1741f" ;
     oplami:ec2AMI-ID             "ami-0175c4a749cf1741f" ;
     oplami:ec2OwnerID            "545314153384" ;
@@ -156,11 +156,11 @@
                                  <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> .
 
 
-## Virtuoso Universal Server (Enterprise Edition) BYOL AMI Amazon Marketplace Page Description
+## Virtuoso Universal Server (Closed Source) BYOL AMI Amazon Marketplace Page Description
 
 <https://aws.amazon.com/marketplace/pp/B00ZWMSNOG#>
     a                   schema:WebPage ;
-    rdfs:label          "Virtuoso Universal Server (Enterprise Edition) BYOL AMI Description Document"@en ;
+    rdfs:label          "Virtuoso Universal Server (Closed Source) BYOL AMI Description Document"@en ;
     schema:about        <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ,
                         <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0c39dc72cda79a561#this> , # 8.3 BYOL
                         <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-02d19573d65a31e02#this> ; # 8.2 BYOL
@@ -189,8 +189,8 @@
 <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0c39dc72cda79a561#this>
     a                            oplami:AmazonEC2EBSBackedAMI ,
                                  oplami:CloudHostedVirtualMachine ;
-    skos:prefLabel               "Virtuoso Universal Server (Enterprise Edition) BYOL AMI 8.3.0-ami-1"@en ;
-    rdfs:label                   "Virtuoso Universal Server (Enterprise Edition) BYOL AMI 8.3.0-ami-1"@en ;
+    skos:prefLabel               "Virtuoso Universal Server (Closed Source) BYOL AMI 8.3.0-ami-1"@en ;
+    rdfs:label                   "Virtuoso Universal Server (Closed Source) BYOL AMI 8.3.0-ami-1"@en ;
     schema:mainEntityOfPage      <https://aws.amazon.com/marketplace/pp/B00ZWMSNOG#> ,
                                  <http://vos.openlinksw.com/owiki/wiki/VOS/VirtEBSBackedBYOLAMI> ;
     foaf:depiction               <https://www.openlinksw.com/DAV/www2.openlinksw.com/images/virtuoso-82-pago-ami-init.png> ;
@@ -226,8 +226,8 @@
 <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-02d19573d65a31e02#this>
     a                            oplami:AmazonEC2EBSBackedAMI ,
                                  oplami:CloudHostedVirtualMachine ;
-    skos:prefLabel               "Virtuoso Universal Server (Enterprise Edition) BYOL AMI 8.2.0-ami-1"@en ;
-    rdfs:label                   "Virtuoso Universal Server (Enterprise Edition) BYOL AMI 8.2.0-ami-1"@en ;
+    skos:prefLabel               "Virtuoso Universal Server (Closed Source) BYOL AMI 8.2.0-ami-1"@en ;
+    rdfs:label                   "Virtuoso Universal Server (Closed Source) BYOL AMI 8.2.0-ami-1"@en ;
     schema:mainEntityOfPage      <https://aws.amazon.com/marketplace/pp/B00ZWMSNOG#> ,
                                  <http://vos.openlinksw.com/owiki/wiki/VOS/VirtEBSBackedBYOLAMI> ;
     foaf:depiction               <https://www.openlinksw.com/DAV/www2.openlinksw.com/images/virtuoso-82-pago-ami-init.png> ;
