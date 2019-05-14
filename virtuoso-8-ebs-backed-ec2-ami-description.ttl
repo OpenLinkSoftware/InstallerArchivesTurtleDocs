@@ -19,35 +19,45 @@
 @prefix foaf:     <http://xmlns.com/foaf/0.1/> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
-@prefix oplprod:  <http://www.openlinksw.com/ontology/products#>
-@prefix oplami:   <http://www.openlinksw.com/ontology/oplami#>
+@prefix oplprod:  <http://www.openlinksw.com/ontology/products#> .
+@prefix oplami:   <http://www.openlinksw.com/ontology/oplami#> .
+@prefix dbpedia:  <http://dbpedia.org/resource/> .
+
+@prefix source:      <http://virtuoso.openlinksw.com/data/turtle/notes/virtuoso-82-ebs-backed-ec2-ami-description.ttl> .
+@prefix sourceDAV:   <http://www.openlinksw.com/DAV/virtuoso2.openlinksw.com/data/turtle/notes/virtuoso-82-ebs-backed-ec2-ami-description.ttl> .
+
+sourceDAV:
+   a schema:CreativeWork ;
+   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+   cc:attributionName "OpenLink Software" ;
+   cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+   schema:dateCreated "2019-05-13T20:00:00-05:00"^^xsd:dateTime ;
+   schema:datePublished "2019-05-13T20:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-05-13T20:00:00-05:00"^^xsd:dateTime ;
+   schema:name "OpenLink Virtuoso 8.x Amazon AMIs Related Information Document" ;
+   schema:comment """This document is a launch point for discovering routes to various information sources associated with the Virtuoso 8.x Amazon virtual Machine Instances (AMIs)."""^^xsd:string ;
+   owl:sameAs source: .
 
 ## Document Metadata
 
-<>
+source:
     a                   foaf:Document,
                         schema:WebPage ;
     rdfs:label          "Virtuoso Universal Server (Closed Source) AMI Description Document"@en ;
     rdfs:comment        """This document describes the Virtuoso EBS-backed Amazon Machine Images (AMIs)
                            which are deployed via Amazon Web Services based Elastic Computing Cloud -- on 
                            an hourly or annual subscription basis, or on a Bring-Your-Own-License basis."""@en ;
-    schema:dateCreated  "2018-10-29T10:20:00-05:00"^^xsd:dateTime ;
+    schema:dateCreated "2019-05-13T20:00:00-05:00"^^xsd:dateTime ;
+    schema:datePublished "2019-05-13T20:00:00-05:00"^^xsd:dateTime ;
     schema:dateModified "2019-05-13T20:00:00-05:00"^^xsd:dateTime ;
-    foaf:primaryTopic   <https://aws.amazon.com/marketplace/pp/B011VMCZ8K> , # PAGO
-                        <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0d348ef43a2b61e6f#this> ; # latest PAGO
-    dcterms:subject     <https://aws.amazon.com/marketplace/pp/B011VMCZ8K> , #PAGO
-                        <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0d348ef43a2b61e6f#this> ; # latest PAGO
-    schema:about        <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0c39dc72cda79a561#this> , # 8.3 BYOL
-                        <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-02d19573d65a31e02#this> , # 8.2 BYOL
-                        <https://aws.amazon.com/marketplace/pp/B00ZWMSNOG#> , # BYOL
+    schema:about        <https://aws.amazon.com/marketplace/pp/B00ZWMSNOG#> , # BYOL
                         <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0d348ef43a2b61e6f#this> , # 8.3 PAGO
                         <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0175c4a749cf1741f#this> , # 8.2 PAGO
                         <https://aws.amazon.com/marketplace/pp/B011VMCZ8K#> ; # PAGO
-    schema:mentions     <http://data.openlinksw.com/oplweb/product/Virtuoso-ami-0d348ef43a2b61e6f#this> , # latest PAGO
-                        dbpedia:Amazon_Web_Services ,
+    schema:mentions     dbpedia:Amazon_Web_Services ,
                         dbpedia:Amazon_Elastic_Compute_Cloud ;
     skos:related        dbpedia:Cloud_computing ;
-    dcterms:creator     <http://kingsley.idehen.net/dataspace/person/kidehen#this> .
+    dcterms:creator     <http://www.openlinksw.com/dataspace/organization/openlink#this> .
 
 
 ## Virtuoso Universal Server (Closed Source) PAGO AMI - Amazon Marketplace Page Description
@@ -72,8 +82,8 @@
                         <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#SemanticWeb>,
                         <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#RDF>,
                         <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#LinkedData>,
-                        <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL>,
-                        <http://data.openlinksw.com/oplweb/product_family/virtuoso#this>;
+                        <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL>;
+    schema:isPartOf     <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> ;
     wdrs:describedby    <> ;
     is schema:about of  <> .
 
@@ -113,8 +123,8 @@
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#SemanticWeb> ,
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#RDF> ,
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#LinkedData> ,
-                                 <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL> ,
-                                 <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> .
+                                 <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL> ;
+    schema:isPartOf     		 <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> .
 
 
 ## Virtuoso 8.2 PAGO AMI Description
@@ -153,7 +163,8 @@
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#RDF> ,
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#LinkedData> ,
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL> ,
-                                 <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> .
+                                 <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> ;
+	schema:isPartOf     		 <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> .
 
 
 ## Virtuoso Universal Server (Closed Source) BYOL AMI Amazon Marketplace Page Description
@@ -178,8 +189,8 @@
                         <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#SemanticWeb> ,
                         <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#RDF> ,
                         <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#LinkedData> ,
-                        <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL> ,
-                        <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> ;
+                        <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL> ;
+	schema:isPartOf     <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> ;
     wdrs:describedby    <> ;
     is schema:about of  <> .
 
@@ -218,8 +229,8 @@
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#SemanticWeb> ,
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#RDF> ,
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#LinkedData> ,
-                                 <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL> ,
-                                 <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> .
+                                 <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL> ;
+	schema:isPartOf     		 <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> .
 
 ## Virtuoso 8.2 BYOL AMI Description
 
@@ -255,5 +266,5 @@
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#SemanticWeb> ,
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#RDF> ,
                                  <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#LinkedData> ,
-                                 <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL> ,
-                                 <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> .
+                                 <http://www.openlinksw.com/data/turtle/general/GlossaryOfTerms.ttl#NoSQL> ;
+    schema:isPartOf     		 <http://data.openlinksw.com/oplweb/product_family/virtuoso#this> .
