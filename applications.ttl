@@ -123,7 +123,6 @@ sourceDAV:
 
 :DBpediaGitRepo a doap:GitRepository ;
   schema:name "DBpediaGitRepo Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:/closedsource/virtuoso-engine> ;
   wdrs:describedby source: .
 
 :DBpediaVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -150,7 +149,6 @@ sourceDAV:
 
 :FctGitRepo a doap:GitRepository ;
   schema:name "Facet Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:/closedsource/virtuoso/fct> ;
   wdrs:describedby source: .
 
 :FctVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -176,7 +174,6 @@ sourceDAV:
 
 :CartridgesGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/cartridges> ;
   wdrs:describedby source: .
 
 :CartridgesVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -202,7 +199,6 @@ sourceDAV:
 
 :InclusionEngineGitRepo a doap:GitRepository ;
   schema:name "Inclusion Engine Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:public/thaynes/inclusion-engine> ;
   wdrs:describedby source: .
 
 :InclusionEngineVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -255,7 +251,6 @@ sourceDAV:
 
 :OdsGitRepo a doap:GitRepository ;
   schema:name "ODS Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:/closedsource/ods-virtuoso> ;
   wdrs:describedby source: .
 
 :OdsFrameworkVad
@@ -425,7 +420,6 @@ sourceDAV:
 
 :OdsuiGitRepo a doap:GitRepository ;
   schema:name "ODS-UI Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:/closedsource/ods-virtuoso> ;
   oplvad:hasSubDirectory "framework/odsui"^^xsd:string ;
   wdrs:describedby source: .
 
@@ -453,7 +447,7 @@ sourceDAV:
 
 :OdsShopcartGitRepo a doap:GitRepository ;
   schema:name "ODS Shopcart Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/ods-shop> ;
+
   wdrs:describedby source: .
 
 :OdsShopcartVad
@@ -481,7 +475,6 @@ sourceDAV:
 
 :OplShopGitRepo a doap:GitRepository ;
   schema:name "Openlink Shop Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:public/trueg/opl-shop> ;
   wdrs:describedby source: .
 
 :OplShopVad
@@ -512,7 +505,6 @@ sourceDAV:
 
 :DomPdfGitRepo a doap:GitRepository ;
   schema:name "Dom PDF Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:public/trueg/dompdf> ;
   wdrs:describedby source: .
 
 :DomPdfVad
@@ -537,7 +529,6 @@ sourceDAV:
 
 :OdsConsoleGitRepo a doap:GitRepository ;
   schema:name "ODS Console Git Repository" ;
-  doap:location <git@github.com:opendataspaces/ods-console.git> ;
   wdrs:describedby source: .
 
 :OdsConsoleVad
@@ -562,7 +553,6 @@ sourceDAV:
 
 :OpenlinkWWWProductsGitRepo a doap:GitRepository ;
   schema:name "OpenLink WWW Products Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:Openlink/www/products> ;
   wdrs:describedby source: .
 
 :OpenlinkWWWProductsVad
@@ -589,7 +579,7 @@ sourceDAV:
 
 :OdsWebPageGitRepo a doap:GitRepository ;
   schema:name "ODS Web Page Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:public/trueg/ods-webpage> ;
+
   wdrs:describedby source: .
 
 :OdsWebPageVad
@@ -616,7 +606,6 @@ sourceDAV:
 
 :VirtuosoEngineGitRepo a doap:GitRepository ;
   schema:name "Virtuoso Engine Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/virtuoso-engine> ;
   wdrs:describedby source: .
 
 :OnlineShopSystem a oplcomp:Component ;
@@ -678,7 +667,6 @@ sourceDAV:
 
 :ConductorGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/conductor ;
   wdrs:describedby source: .
 
 :ConductorVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -703,7 +691,6 @@ sourceDAV:
 
 :DemoGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/demo ;
   wdrs:describedby source: .
 
 :DemoVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -729,7 +716,6 @@ sourceDAV:
 
 :DocumentationGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/documentation ;
   wdrs:describedby source: .
 
 :DocumentationVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -754,7 +740,6 @@ sourceDAV:
 
 :ValGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/val ;
   wdrs:describedby source: .
 
 :ValVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -779,7 +764,6 @@ sourceDAV:
 
 :CertGenGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/certgen ;
   wdrs:describedby source: .
 
 :CertGenVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -804,7 +788,6 @@ sourceDAV:
 
 :HtmlCertGenGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/htmlcertgen ;
   wdrs:describedby source: .
 
 :HtmlCertGenVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -830,7 +813,6 @@ sourceDAV:
 
 :ISparqlGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/isparql ;
   wdrs:describedby source: .
 
 :ISparqlVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -855,7 +837,6 @@ sourceDAV:
 
 :Html5PivotViewerGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/html5pivotviewer ;
   wdrs:describedby source: .
 
 :Html5PivotViewerVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -880,7 +861,6 @@ sourceDAV:
 
 :SchoolsGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/schools ;
   wdrs:describedby source: .
 
 :SchoolsVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -905,7 +885,6 @@ sourceDAV:
 
 :OatGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/oat ;
   wdrs:describedby source: .
 
 :OatVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -930,7 +909,6 @@ sourceDAV:
 
 :R2RMLGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/r2rml ;
   wdrs:describedby source: .
 
 :R2RMLVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -955,7 +933,6 @@ sourceDAV:
 
 :SparqlCxmlGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/sparqlcxml ;
   wdrs:describedby source: .
 
 :SparqlCxmlVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -980,7 +957,6 @@ sourceDAV:
 
 :SyncMLGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/syncml ;
   wdrs:describedby source: .
 
 :SyncMLVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -1005,7 +981,6 @@ sourceDAV:
 
 :CUriGitRepo a doap:GitRepository ;
   schema:name "Curi Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/curi ;
   wdrs:describedby source: .
 
 :CUriVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -1031,7 +1006,6 @@ sourceDAV:
 
 :Phpbb3GitRepo a doap:GitRepository ;
   schema:name " phpBB3 Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/phpbb3 ;
   wdrs:describedby source: .
 
 :Phpbb3Vad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -1056,7 +1030,6 @@ sourceDAV:
 
 :MediaWikiGitRepo a doap:GitRepository ;
   schema:name "MediaWiki Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/mediawiki ;
   wdrs:describedby source: .
 
 :MediaWikiVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -1081,7 +1054,6 @@ sourceDAV:
 
 :WordpressGitRepo a doap:GitRepository ;
   schema:name "Wordpress Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/wordpress ;
   wdrs:describedby source: .
 
 :WordpressVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
@@ -1106,7 +1078,6 @@ sourceDAV:
 
 :YouidGitRepo a doap:GitRepository ;
   schema:name "YouID Git Repository" ;
-  doap:location <git@devhub.openlinksw.com:closedsource/virtuoso/youid ;
   wdrs:describedby source: .
 
 :YouidVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
