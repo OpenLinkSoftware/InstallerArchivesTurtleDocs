@@ -59,8 +59,10 @@ source: a schema:CreativeWork ;
 		  <http://data.openlinksw.com/oplweb/installer/Proj4Zip82Windows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/GeosGzip82Windows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/ShapefileioZip82Windows#this> ,
-		  # <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82wavpWindows#this> ;
-		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82wavcWindows#this> ;
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82wavpWindows#this> ,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82wavcWindows#this> ,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83wavpWindows#this> ,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83wavcWindows#this> ;
   schema:about
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchiveWindows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchiveWindows#this>,
@@ -75,8 +77,9 @@ source: a schema:CreativeWork ;
 		  <http://data.openlinksw.com/oplweb/installer/GeosGzip82Windows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/ShapefileioZip82Windows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82wavcWindows#this> ,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82wavpWindows#this> ,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82wavcWindows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82wavpWindows#this> .
-  
 
 ## Virtuoso Client Connectivity Kit  Installer Archive For Windows  Description ##
 
@@ -715,3 +718,79 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   # oplinst:hasMeasurementValue "17051878"^^xsd:integer .
 
 
+# 8.3 Installers #
+
+## Virtuoso Server Installer Archive for Windows 64 bit
+
+# <http://download3.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavpz2zz.exe#this>
+<http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83wavpWindows#this>
+  a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
+  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
+  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+  oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
+  wdrs:describedby source: ;
+  schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit and Server Bundle Installer Archive for Windows 64-bit"@en ;
+  schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
+                    URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
+                 """@en ;
+  schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
+  schema:dateModified "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
+  oplinst:hasFileSizeSpecification :wavpz2zz-30fcb64.tarSpecification ;
+  # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-odbc-driver#this>  ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease83x#this> ;
+  dcterms:identifier "wavpz2zz-30fcb64.exe" ;
+  dcterms:format "application/x-msdownload" ;
+  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+  oplsof:hasOperatingSystemFamily oplsof:Windows ;
+  oplpro:versionText "8.3" ;
+  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavpz2zz.exe> .
+
+:wavpz2zz-30fcb64.exeSpecification
+  a oplinst:FileSizeSpecification, schema:CreativeWork ;
+  wdrs:describedby source: ;
+  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83wavpWindows#this> ;
+  schema:name "File Size Details -- wavpz2zz.exe" ;
+  oplinst:hasMeasurementUnit "Bytes" ;
+  oplinst:hasMeasurementValue "45871136"^^xsd:integer .
+
+
+## Virtuoso Client Installer Archive for Windows 64 bit
+
+# <http://download3.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavcz2zz.exe#this>
+<http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83wavcWindows#this>
+  a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
+  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
+  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+  oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
+  wdrs:describedby source: ;
+  schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit Installer Archive for Windows 64-bit"@en ;
+  schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
+                    URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
+                 """@en ;
+  schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
+  schema:dateModified "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
+  oplinst:hasFileSizeSpecification :wavcz2zz-30fcb64.tarSpecification ;
+  # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-odbc-driver#this>  ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease83x#this> ;
+  oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
+  dcterms:identifier "wavcz2zz-30fcb64.exe" ;
+  dcterms:format "application/x-msdownload" ;
+  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+  oplsof:hasOperatingSystemFamily oplsof:Windows ;
+  oplpro:versionText "8.3" ;
+  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavcz2zz.exe> ;
+  schema:hasPart <http://data.openlinksw.com/oplweb/installer/VirtuosoServerZip83Windows#this>,
+                 <http://data.openlinksw.com/oplweb/installer/WindowsLicenseManager#this> . 
+
+:wavcz2zz-30fcb64.exeSpecification
+  a oplinst:FileSizeSpecification, schema:CreativeWork ;
+  wdrs:describedby source: ;
+  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83wavcWindows#this> ;
+  schema:name "File Size Details -- wavcz2zz.exe" ;
+  oplinst:hasMeasurementUnit "Bytes" .
+  # oplinst:hasMeasurementUnit "Bytes" ;
+  # oplinst:hasMeasurementValue "17982224"^^xsd:integer .
