@@ -17,8 +17,8 @@
 @prefix oplinst:   <http://www.openlinksw.com/ontology/installers#> .
 @prefix sbguide:   <http://www.openlinksw.com/ontology/stepbyguide#> .
 @prefix cc:        <http://creativecommons.org/ns#> .
-@prefix source:    <http://virtuoso.openlinksw.com/data/turtle/stepbyguides/Upgrade72GuideMacOSX.ttl> .
-@prefix sourceDAV: <http://www.openlinksw.com/DAV/virtuoso2.openlinksw.com/data/turtle/stepbyguides/Upgrade72GuideMacOSX.ttl> .
+@prefix source:    <http://virtuoso.openlinksw.com/data/turtle/stepbyguides/Upgrade83GuideMacOSX.ttl> .
+@prefix sourceDAV: <http://www.openlinksw.com/DAV/virtuoso2.openlinksw.com/data/turtle/stepbyguides/Upgrade83GuideMacOSX.ttl> .
 @prefix :	         <http://virtuoso.openlinksw.com/data/turtle/stepbyguides/Upgrade72GuideMacOSX.ttl#> .
 
 sourceDAV:
