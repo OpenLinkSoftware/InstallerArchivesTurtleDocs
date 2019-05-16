@@ -114,7 +114,7 @@ source:
 		             :StartVirtuosoScreenActionItemActivity1 ,
 		             :VirtuosoAdminScreenActionItemActivity1 .
 
-<http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this>
+<http://data.openlinksw.com/oplweb/guide/Virtuoso83UpgradeWindowsList#this>
 	a sbguide:StepByGuide, schema:ItemList ;
 	oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 	wdrs:describedby source: ;
