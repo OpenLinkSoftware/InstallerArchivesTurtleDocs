@@ -164,7 +164,7 @@ source:
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/powerpc-lynxos5-32#this> ;
     owl:sameAs <http://dbpedia.org/resource/LynxOS> ;
     schema:mainEntityOfPage <http://dbpedia.org/resource/LynxOS> ;
-    schema:logo <http://newdata.es/wp-content/uploads/2016/04/lynxos-newdata-400x185.jpg> .
+    schema:logo <https://www.openlinksw.com/images/icon-lynxos.png> .
 
 <http://data.openlinksw.com/oplweb/opsys_family/MacOSClassic#this>
     a  oplsof:OpsysFamily ;
