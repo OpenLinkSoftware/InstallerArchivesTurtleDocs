@@ -1,0 +1,565 @@
+@prefix schema:      <http://schema.org/> .
+@prefix foaf:        <http://xmlns.com/foaf/0.1/> .
+@prefix oplweb:      <http://www.openlinksw.com/schemas/oplweb#> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+@prefix oplpro:      <http://www.openlinksw.com/ontology/products#> .
+@prefix xml:         <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+@prefix oplsof:      <http://www.openlinksw.com/ontology/software#> .
+@prefix wdrs:        <http://www.w3.org/2007/05/powder-s#> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix cc:          <http://creativecommons.org/ns#> .
+@prefix :            <#> .
+@prefix source:      <http://www.openlinksw.com/data/turtle/oplweb/OpsysFamilies.ttl> .
+@prefix sourceDAV:   <http://www.openlinksw.com/DAV/data/turtle/oplweb/OpsysFamilies.ttl> .
+
+sourceDAV:
+   a schema:CreativeWork ;
+   schema:name "OpenLink Software Operating System Families -- WebDAV hosted TURTLE Document"^^xsd:string ;
+   dcterms:format "text/turtle" ;
+   schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2018-08-31T12:00:00-05:00"^^xsd:dateTime ;
+   schema:author <http://www.openlinksw.com/#this> ;
+   schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+   cc:attributionName  "OpenLink Software" ;
+   owl:sameAs source: .
+
+source: 
+   a schema:CreativeWork ;
+   schema:name "OpenLink Operating System Families"^^xsd:string ;
+   schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink Operating System Families"""@en ;
+   schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2018-08-31T12:00:00-05:00"^^xsd:dateTime ;
+   schema:author <http://www.openlinksw.com/#this> ;
+   schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+   cc:attributionName  "OpenLink Software" ;
+   schema:about 
+              <http://data.openlinksw.com/oplweb/opsys_family/.NETCLR#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/AIX#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/DG-UX#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/DynixPTX#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/FreeBSD#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/HPUX#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/Irix#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/JavaVirtualMachine#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/LynxOS#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/MacOSClassic#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/MonoCLR#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/SCOOpenServer#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/UnixWare#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ,
+              
+              <http://data.openlinksw.com/oplweb/opsys_family/Firefox#this> ,
+              <http://data.openlinksw.com/oplweb/opsys_family/Ruby#this> .
+
+
+<http://data.openlinksw.com/oplweb/opsys_family/DynixPTX#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Dynix/PTX" ;
+    schema:name "DynixPTX" ;
+    oplsof:OpsysFamilyLicenseCode "DYNIX/ptx" ;
+    oplsof:OpsysFamilyName "Dynix/PTX" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/IBM#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i386-sequent-sysv4-32#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Dynix> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Dynix> ;
+    schema:logo <https://www.openlinksw.com/images/icon-dynix.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/Firefox#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Firefox" ;
+    schema:name "Firefox" ;
+    oplsof:OpsysFamilyLicenseCode "firefox" ;
+    oplsof:OpsysFamilyName "Firefox" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/MozillaFoundation#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/firefox3.0#this> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/Ruby#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Ruby" ;
+    schema:name "Ruby" ;
+    oplsof:OpsysFamilyLicenseCode "FreeBSD" ;
+    oplsof:OpsysFamilyName "Ruby" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/OpenSource#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/ruby#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Ruby_programming_language> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Ruby_programming_language> .
+
+
+<http://data.openlinksw.com/oplweb/opsys_family/DG-UX#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "DG-UX" ;
+    schema:name "DG-UX" ;
+    oplsof:OpsysFamilyLicenseCode "DG/UX" ;
+    oplsof:OpsysFamilyName "DG-UX" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/DataGeneral(EMC)#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i586-dg-dguxR4.11MU03-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-dg-dguxR4.11MU03-32-nothreads#this> ;
+    owl:sameAs <http://dbpedia.org/resource/DG_UX> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/DG_UX> ;
+    schema:logo <https://www.openlinksw.com/images/icon-digital.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Tru64 UNIX" ;
+    schema:name "Tru64 UNIX" ;
+    oplsof:OpsysFamilyLicenseCode "Digital Unix (OSF/1)" ;
+    oplsof:OpsysFamilyName "Tru64 UNIX" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/HewlettPackard#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alpha-dec-osf4.0e-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Tru64> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Tru64> ;
+    schema:logo <https://www.openlinksw.com/images/icon-tru64.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/UnixWare#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "UnixWare" ;
+    schema:name "UnixWare" ;
+    oplsof:OpsysFamilyLicenseCode "SCO UNIX" ;
+    oplsof:OpsysFamilyName "UnixWare" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/SCOGroup#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32-nothreads#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Unixware> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Unixware> ;
+    schema:logo <https://www.openlinksw.com/images/icon-unixware.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/Irix#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Irix" ;
+    schema:name "Irix" ;
+    oplsof:OpsysFamilyLicenseCode "IRIX" ;
+    oplsof:OpsysFamilyName "Irix" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/SiliconGraphics#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-n32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-o32#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Irix> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Irix> ;
+    schema:logo <https://www.openlinksw.com/images/icon-sgi.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/LynxOS#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Lynx OS" ;
+    schema:name "Lynx OS" ;
+    oplsof:OpsysFamilyLicenseCode "Lynx OS 5" ;
+    oplsof:OpsysFamilyName "Lynx OS" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/OpenSource#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/powerpc-lynxos5-32#this> ;
+    owl:sameAs <http://dbpedia.org/resource/LynxOS> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/LynxOS> ;
+    schema:logo <http://newdata.es/wp-content/uploads/2016/04/lynxos-newdata-400x185.jpg> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/MacOSClassic#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mac OS Classic" ;
+    schema:name "Mac OS Classic" ;
+    oplsof:OpsysFamilyLicenseCode "Mac OS 9" ;
+    oplsof:OpsysFamilyName "Mac OS Classic" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/AppleComputer#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/m68k-apple-macos7.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macos-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macos8.0-32#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Macintosh_Classic> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Macintosh_Classic> ;
+    schema:logo <https://www.openlinksw.com/images/icon-macos.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/SCOOpenServer#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "SCO OpenServer" ;
+    schema:name "SCO OpenServer" ;
+    oplsof:OpsysFamilyLicenseCode "SCO OpenServer" ;
+    oplsof:OpsysFamilyName "SCO OpenServer" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/SCOGroup#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i386-generic-sco3.2v5.0.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-sco3.2v5.0.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i486-generic-sco3.2v5.0.0-32#this> ;
+    owl:sameAs <http://dbpedia.org/resource/SCO_OpenServer> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/SCO_OpenServer> ;
+    schema:logo <https://www.openlinksw.com/images/icon-scoopenserver.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/.NETCLR#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel ".NET CLR" ;
+    schema:name ".NET CLR" ;
+    oplsof:OpsysFamilyLicenseCode "DotNET" ;
+    oplsof:OpsysFamilyName ".NET CLR" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/MicrosoftCorporation#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/clr-microsoft-dotnet1.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-microsoft-dotnet1.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-microsoft-dotnet2.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-microsoft-dotnet2.0-64#this> ;
+    owl:sameAs <http://dbpedia.org/resource/.NET_Framework> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/.NET_Framework> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/MonoCLR#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mono CLR" ;
+    schema:name "Mono CLR" ;
+    oplsof:OpsysFamilyLicenseCode "Mono CLR" ;
+    oplsof:OpsysFamilyName "Mono CLR" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/OpenSource#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/clr-ecma-mono1.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-ecma-mono1.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-ecma-mono2.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-ecma-mono2.0-64#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Mono_%28software%29> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Mono_%28software%29> ;
+    schema:logo <https://www.openlinksw.com/images/icon-mono.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/JavaVirtualMachine#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Java Virtual Machine" ;
+    schema:name "Java Virtual Machine" ;
+    oplsof:OpsysFamilyLicenseCode "Java Virtual Machine" ;
+    oplsof:OpsysFamilyName "Java Virtual Machine" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/SunMicrosystems#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.2-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.3-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.5-32#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Java_virtual_machine> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Java_virtual_machine> ;
+    schema:logo <https://www.openlinksw.com/images/icon-java.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/Windows#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Windows" ;
+    schema:name "Windows" ;
+    oplsof:OpsysFamilyLicenseCode "Win32" ;
+    oplsof:OpsysFamilyName "Windows" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/MicrosoftCorporation#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-winsrv-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-winsrv-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-winsrv-64#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Microsoft_Windows> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Microsoft_Windows> ;
+    schema:logo <https://www.openlinksw.com/images/icon-windows.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/FreeBSD#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "FreeBSD" ;
+    schema:name "FreeBSD" ;
+    oplsof:OpsysFamilyLicenseCode "FreeBSD" ;
+    oplsof:OpsysFamilyName "FreeBSD" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/OpenSource#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd4.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd5.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd5.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsdelf4.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-freebsd5.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-freebsd5.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-freebsd5.0-64#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Free_bsd> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Free_bsd> ;
+    schema:logo <https://www.openlinksw.com/images/icon-freebsd.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/HPUX#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "HPUX" ;
+    schema:name "HPUX" ;
+    oplsof:OpsysFamilyLicenseCode "HP/UX" ;
+    oplsof:OpsysFamilyName "HPUX" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/HewlettPackard#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/hppa1.1-hp-hpux10.20-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1.1-hp-hpux11.00-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1.1-hp-hpux11.00-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1.1-hp-hpux11.11-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2.0w-hp-hpux11.00-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2.0w-hp-hpux11.11-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.22-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-64#this> ;
+    owl:sameAs <http://dbpedia.org/resource/HP-UX> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/HP-UX> ;
+    schema:logo <https://www.openlinksw.com/images/icon-hpux.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/AIX#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "AIX" ;
+    schema:name "AIX" ;
+    oplsof:OpsysFamilyLicenseCode "AIX" ;
+    oplsof:OpsysFamilyName "AIX" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/IBM#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix4.2.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix4.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix3.2.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-64#this> ;
+    owl:sameAs <http://dbpedia.org/resource/IBM_AIX_%28operating_system%29> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/IBM_AIX_%28operating_system%29> ;
+    schema:logo <https://www.openlinksw.com/images/icon-aix.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/Solaris#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Solaris" ;
+    schema:name "Solaris" ;
+    oplsof:OpsysFamilyLicenseCode "Solaris" ;
+    oplsof:OpsysFamilyName "Solaris" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/SunMicrosystems#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i386-generic-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/opteron-sun-solaris2.8-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.5.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-64#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Solaris_%28operating_system%29> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Solaris_%28operating_system%29> ;
+    schema:logo <https://www.openlinksw.com/images/icon-solaris.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Generic Linux" ;
+    schema:name "Generic Linux" ;
+    oplsof:OpsysFamilyLicenseCode "Linux" ;
+    oplsof:OpsysFamilyName "Generic Linux" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/OpenSource#this> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc2.4-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc2.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc21-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc22-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc24-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc25-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc26-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc212-32#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-linux-gnu-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-amd-linux-glibc23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc24-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Linux> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Linux> ;
+    schema:logo <https://www.openlinksw.com/images/icon-linux.gif> .
+
+<http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this>
+    a  oplsof:OpsysFamily ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mac OS X" ;
+    schema:name "Mac OS X" ;
+    oplsof:OpsysFamilyLicenseCode "Mac OS X" ;
+    oplsof:OpsysFamilyName "Mac OS X" ;
+    oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/AppleComputer#this> ;
+    oplsof:hasOperatingSystem
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ,
+
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.8-32#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.8-64#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.8-32#this> ,
+
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.9-32#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.9-64#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.9-32#this> ,
+
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.10-32#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.10-64#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.10-32#this> ,
+
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.11-32#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.11-64#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.11-32#this> ,
+
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.12-32#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.12-64#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.12-32#this> ,
+
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.13-32#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.13-64#this> ,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.13-32#this> ,
+
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-darwin8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-darwin7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-darwin8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.2-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.3-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.6-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-darwin8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.6-64#this> ;
+    owl:sameAs <http://dbpedia.org/resource/Mac_os_x> ;
+    schema:mainEntityOfPage <http://dbpedia.org/resource/Mac_os_x> ;
+    schema:logo <https://www.openlinksw.com/images/icon-mac-universal.gif> .
+
+
+<http://en.wikipedia.org/wiki/Dynix/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/DynixPTX#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Dynix> ;
+  schema:name "Dynix" .
+
+<http://en.wikipedia.org/wiki/Ruby_programming_language/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/Ruby#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Ruby_programming_language> ;
+  schema:name "Ruby programming language" .
+
+<http://en.wikipedia.org/wiki/DG_UX/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/DG-UX#this> ;
+  schema:url <http://en.wikipedia.org/wiki/DG_UX> ;
+  schema:name "DG UX" .
+
+<http://en.wikipedia.org/wiki/Tru64/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Tru64> ;
+  schema:name "Tru64" .
+
+<http://en.wikipedia.org/wiki/Unixware/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/UnixWare#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Unixware> ;
+  schema:name "Unixware" .
+
+<http://en.wikipedia.org/wiki/Irix/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/Irix#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Irix> ;
+  schema:name "Irix" .
+
+<http://en.wikipedia.org/wiki/Macintosh_Classic/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/MacOSClassic#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Macintosh_Classic> ;
+  schema:name "Macintosh Classic" .
+
+<http://en.wikipedia.org/wiki/SCO_OpenServer/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/SCOOpenServer#this> ;
+  schema:url <http://en.wikipedia.org/wiki/SCO_OpenServer> ;
+  schema:name "SCO OpenServer" .
+
+<http://en.wikipedia.org/wiki/.NET_Framework/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/.NETCLR#this> ;
+  schema:url <http://en.wikipedia.org/wiki/NET_Framework> ;
+  schema:name ".NET Framework" .
+
+<http://en.wikipedia.org/wiki/Mono_%28software%29/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/MonoCLR#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Mono_%28software%29> ;
+  schema:name "Mono software" .
+
+<http://en.wikipedia.org/wiki/Java_virtual_machine/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/JavaVirtualMachine#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Java_virtual_machine> ;
+  schema:name "Java Virtual Machine" .
+
+<http://en.wikipedia.org/wiki/Microsoft_Windows/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Microsoft_Windows> ;
+  schema:name "Microsoft Windows" .
+
+<http://en.wikipedia.org/wiki/Free_bsd/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/FreeBSD#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Free_bsd> ;
+  schema:name "Free BSD" .
+
+<http://en.wikipedia.org/wiki/HP-UX/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/HPUX#this> ;
+  schema:url <http://en.wikipedia.org/wiki/UX> ;
+  schema:name "HP-UX" .
+
+<http://en.wikipedia.org/wiki/IBM_AIX_%28operating_system%29/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/AIX#this> ;
+  schema:url <http://en.wikipedia.org/wiki/IBM_AIX_%28operating_system%29> ;
+  schema:name "IBM AIX" .
+
+<http://en.wikipedia.org/wiki/Solaris_%28operating_system%29/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Solaris_%28operating_system%29> ;
+  schema:name "Solaris" .
+
+<http://en.wikipedia.org/wiki/Linux/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Linux> ;
+  schema:name "Linux" .
+
+<http://en.wikipedia.org/wiki/Mac_os_x/>
+    a  schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Mac_os_x> ;
+  schema:name "MAC OS X" .
