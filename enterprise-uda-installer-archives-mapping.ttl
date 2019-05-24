@@ -7281,6 +7281,11 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Progress#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7SQLServer#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Sybase#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
@@ -7536,6 +7541,11 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Progress#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7SQLServer#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Sybase#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
@@ -7667,6 +7677,11 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Progress#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7SQLServer#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Sybase#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
@@ -7714,7 +7729,17 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/LJ#this> ;
     oplinst:hasFileSizeSpecification <#https3opljdbctaz70GenericLinuxGlibc21264Bitx866464FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Sybase#this>;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:jdbc ;
     # oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
@@ -7833,6 +7858,11 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Progress#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7SQLServer#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Sybase#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
@@ -7879,7 +7909,17 @@ source: a schema:CreativeWork ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/LJ#this> ;
     oplinst:hasFileSizeSpecification <#https3opljdbctaz70GenericLinuxGlibc21764Bitx866464FileSpecification> ;
-    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Sybase#this>;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:jdbc ;
@@ -7954,12 +7994,17 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/J3#this> ;
     oplinst:hasFileSizeSpecification <#https3ntj3zzzzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Progress#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7SQLServer#this>,
-        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Sybase#this> ;
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Sybase#this>;
     oplpro:versionText "7.0" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
@@ -8050,12 +8095,17 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/J3#this> ;
     oplinst:hasFileSizeSpecification <#https3waj3zzzzmsi70WindowsXPVista764Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Progress#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7SQLServer#this>,
-        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Sybase#this> ;
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Sybase#this>;
     oplpro:versionText "7.0" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
@@ -9598,6 +9648,11 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Progress#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7SQLServer#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Sybase#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
@@ -9644,7 +9699,17 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/LJ#this> ;
     oplinst:hasFileSizeSpecification <#https3opljdbctaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Sybase#this>;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:jdbc ;
     # oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
@@ -9729,6 +9794,11 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Progress#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7SQLServer#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Sybase#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
@@ -9775,7 +9845,17 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/LJ#this> ;
     oplinst:hasFileSizeSpecification <#https3opljdbctaz70GenericLinuxGlibc2532Bitx86FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Sybase#this>;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:jdbc ;
     # oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
@@ -9860,6 +9940,11 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Progress#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7SQLServer#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Sybase#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
@@ -9906,7 +9991,17 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/LJ#this> ;
     oplinst:hasFileSizeSpecification <#https3opljdbctaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Sybase#this>;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:jdbc ;
     # oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
