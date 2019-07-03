@@ -7933,7 +7933,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleasePostgreSQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
                              oplsof:PostgreSQL8 ,
@@ -7972,7 +7972,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleasePostgreSQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
         oplsof:PostgreSQL8 ,
@@ -8009,7 +8009,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleasePostgreSQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
         oplsof:PostgreSQL8 ,
@@ -8047,7 +8047,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc2532Bitx86FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleasePostgreSQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
         oplsof:PostgreSQL8 ,
@@ -8085,7 +8085,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleasePostgreSQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
         oplsof:PostgreSQL8 ,
@@ -8122,7 +8122,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseMySQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:MySQL5 ;
     oplsof:hasDatabaseFamily oplsof:MySQL ;
@@ -8157,7 +8157,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseMySQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:MySQL5 ;
     oplsof:hasDatabaseFamily oplsof:MySQL ;
@@ -8192,7 +8192,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseMySQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:MySQL5 ;
     oplsof:hasDatabaseFamily oplsof:MySQL ;
@@ -8227,7 +8227,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3mys5_lttaz70GenericLinuxGlibc2532Bitx86FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseMySQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:MySQL5 ;
     oplsof:hasDatabaseFamily oplsof:MySQL ;
@@ -8262,7 +8262,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3mys5_lttaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseMySQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:MySQL5 ;
     oplsof:hasDatabaseFamily oplsof:MySQL ;
