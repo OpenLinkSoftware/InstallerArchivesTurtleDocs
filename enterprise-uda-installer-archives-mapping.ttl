@@ -7096,6 +7096,219 @@ source: a schema:CreativeWork ;
 
 ############## Version 7.0
 
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora120mvtaz70WindowsXPVista764Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT70InstallerArchive> ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "waado12z.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-07-25T03:38:18+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/waado12z.msi> ;
+    schema:name "Oracle 12.x Database Agent (Multi-Threaded) Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3waado12zmsiWindowsXPVista764Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7Oracle#this> ;
+    oplpro:versionText "7.0" ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseFamily oplsof:Oracle ;
+    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3waado12zmsiWindowsXPVista764Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- waadm12z.msi on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "60952576"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waado12zmsiWindowsXPVista764Bitx8664#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora110mvtaz70WindowsXPVista764Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT70InstallerArchive> ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "waado11z.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-07-25T03:38:18+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/waado11z.msi> ;
+    schema:name "Oracle 11.x Database Agent (Multi-Threaded) Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3waado11zmsiWindowsXPVista764Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7Oracle#this> ;
+    oplpro:versionText "7.0" ;
+    oplsof:hasDatabaseEngine oplsof:Oracle11 ;
+    oplsof:hasDatabaseFamily oplsof:Oracle ;
+    oplsof:hasDbmsEngineVersion "11.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3waado11zmsiWindowsXPVista764Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- waadm11z.msi on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "48689152"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waado11zmsiWindowsXPVista764Bitx8664#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora100mvtaz70WindowsXPVista764Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT70InstallerArchive> ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "waado10z.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-07-25T03:38:18+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/waado10z.msi> ;
+    schema:name "Oracle 10.x Database Agent (Multi-Threaded) Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3waado10zmsiWindowsXPVista764Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7Oracle#this> ;
+    oplpro:versionText "7.0" ;
+    oplsof:hasDatabaseEngine oplsof:Oracle10 ;
+    oplsof:hasDatabaseFamily oplsof:Oracle ;
+    oplsof:hasDbmsEngineVersion "10.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3waado10zmsiWindowsXPVista764Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- waadm10z.msi on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "34385920"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waado10zmsiWindowsXPVista764Bitx8664#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora120mvtaz70WindowsXPVista732Bitx86#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT70InstallerArchive> ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "ntado12z.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-07-25T03:38:18+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntado12z.msi> ;
+    schema:name "Oracle 12.x Database Agent (Multi-Threaded) Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3waado12zmsiWindowsXPVista732Bitx86FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7Oracle#this> ;
+    oplpro:versionText "7.0" ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseFamily oplsof:Oracle ;
+    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3waado12zmsiWindowsXPVista732Bitx86FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- waadm12z.msi on Windows XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "57602048"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waado12zmsiWindowsXPVista732Bitx86#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora110mvtaz70WindowsXPVista732Bitx86#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT70InstallerArchive> ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "ntado11z.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-07-25T03:38:18+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntado11z.msi> ;
+    schema:name "Oracle 11.x Database Agent (Multi-Threaded) Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3waado11zmsiWindowsXPVista732Bitx86FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7Oracle#this> ;
+    oplpro:versionText "7.0" ;
+    oplsof:hasDatabaseEngine oplsof:Oracle11 ;
+    oplsof:hasDatabaseFamily oplsof:Oracle ;
+    oplsof:hasDbmsEngineVersion "11.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3waado11zmsiWindowsXPVista732Bitx86FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- waadm11z.msi on Windows XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "46063616"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waado11zmsiWindowsXPVista732Bitx86#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora100mvtaz70WindowsXPVista732Bitx86#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT70InstallerArchive> ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "ntado10z.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-07-25T03:38:18+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntado10z.msi> ;
+    schema:name "Oracle 10.x Database Agent (Multi-Threaded) Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3waado11zmsiWindowsXPVista732Bitx86FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7Oracle#this> ;
+    oplpro:versionText "7.0" ;
+    oplsof:hasDatabaseEngine oplsof:Oracle10 ;
+    oplsof:hasDatabaseFamily oplsof:Oracle ;
+    oplsof:hasDbmsEngineVersion "10.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3waado10zmsiWindowsXPVista732Bitx86FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- waadm10z.msi on Windows XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "30040064"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waado10zmsiWindowsXPVista732Bitx86#this> ;
+    wdrs:describedby source: .
+
+
 <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waadmzzzmsi70WindowsXPVista764Bitx8664#this> 
     a oplinst:InstallerArchive ,
     schema:CreativeWork ,
