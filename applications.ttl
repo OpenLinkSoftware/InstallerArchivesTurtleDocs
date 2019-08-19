@@ -100,7 +100,6 @@ source: a schema:CreativeWork ;
               :Phpbb3Vad,
               :MediaWikiVad,
               :WordpressVad,
-	      :YouidVAD,
               :ConductorVAD .
 
 sourceDAV:
@@ -1067,26 +1066,3 @@ sourceDAV:
   oplvad:isVadPackageOf :Wordpress ;
   wdrs:describedby source: .
 
-### YouID 
-
-:YouID a doap:Project, schema:TechArticle ;
-  doap:name "YouID" ;
-  doap:description """YouID Identity Management""" ;
-  schema:author <http://www.openlinksw.com/#this> ;
-  doap:repository :YouidRepo ;
-  oplvad:hasVadPackage :YouidVad ;
-  wdrs:describedby source: .
-
-:YouidGitRepo a doap:GitRepository ;
-  schema:name "YouID Git Repository" ;
-  wdrs:describedby source: .
-
-:YouidVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-  schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/youid_dav.vad> ;
-  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
-  schema:name "YouID VAD" ;
-  oplvad:hasPackageName "YouID"^^xsd:string ;
-  # oplvad:hasOptionalDependency :Vad ;
-  oplvad:hasFileName "youid_dav.vad"^^xsd:string ;
-  oplvad:isVadPackageOf :Wordpress ;
-  wdrs:describedby source: .
