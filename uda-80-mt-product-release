@@ -57,7 +57,6 @@ source: a schema:CreativeWork ;
    skos:related <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7ProductsReleases.ttl> ,
                 <http://virtuoso.openlinksw.com/data/turtle/virtuoso6/2014/Virtuoso6ProductsReleases.ttl> ;
    schema:about <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8ODBCBridge#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8JDBCBridge#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8SQLServer#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8PostgreSQL#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Oracle#this> ,
@@ -390,3 +389,4 @@ schema:description """Usable with Unicode-16 compliant applications and developm
                    using the unixODBC Runtime and SDK""";
 oplben:hasBenefit <http://data.openlinksw.com/oplweb/product_benefit/SophisticatedApplicationFunctionality#this> ;
 wdrs:describedby source: . 
+
