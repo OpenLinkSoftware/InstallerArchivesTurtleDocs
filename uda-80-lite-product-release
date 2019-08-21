@@ -80,7 +80,7 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for MySQL "^^xsd:string ;
+    schema:name "JDBC Driver (Single-Tier Edition) Version 8.0 Release for MySQL "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this> ;
@@ -88,28 +88,28 @@ source: a schema:CreativeWork ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "JDBC Release for MySQL "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for MySQL "^^xsd:string ;
+    skos:prefLabel "JDBC Driver (Single-Tier Edition) Version 8.0 Release for MySQL "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+    schema:name "JDBC Driver (Single-Tier Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     schema:image <http://uda.openlinksw.com/images/jdbcodbcmt.gif> ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "JDBC Release for ODBC 3.5.x Data Sources "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+    skos:prefLabel "JDBC Driver (Single-Tier Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8Oracle#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for Oracle "^^xsd:string ;
+    schema:name "JDBC Driver (Single-Tier Edition) Version 8.0 Release for Oracle "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this> ;
@@ -117,14 +117,14 @@ source: a schema:CreativeWork ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "JDBC Release for Oracle "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for Oracle "^^xsd:string ;
+    skos:prefLabel "JDBC Driver (Single-Tier Edition) Version 8.0 Release for Oracle "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8PostgreSQL#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
+    schema:name "JDBC Driver (Single-Tier Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/tls-support#this>,
@@ -134,7 +134,7 @@ source: a schema:CreativeWork ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "JDBC Release for PostgreSQL "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
+    skos:prefLabel "JDBC Driver (Single-Tier Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
     wdrs:describedby source: .
 
 
@@ -142,7 +142,7 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
+    schema:name "JDBC Driver (Single-Tier Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
@@ -152,7 +152,7 @@ source: a schema:CreativeWork ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "JDBC Release for SQLServer "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
+    skos:prefLabel "JDBC Driver (Single-Tier Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
     wdrs:describedby source: .
 
 ## ODBC ##
@@ -161,7 +161,7 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 8.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ;
@@ -169,14 +169,14 @@ source: a schema:CreativeWork ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC Release for JDBC 4.x Data Sources "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 8.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for MySQL "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 8.0 Release for MySQL "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this> ;
@@ -184,14 +184,14 @@ source: a schema:CreativeWork ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC Release for MySQL "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for MySQL "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 8.0 Release for MySQL "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8ODBCBridge#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ;
@@ -199,14 +199,14 @@ source: a schema:CreativeWork ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC Release for ODBC 3.5.x Data Sources "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for Oracle "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 8.0 Release for Oracle "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
@@ -214,14 +214,14 @@ source: a schema:CreativeWork ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC Release for Oracle "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for Oracle "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 8.0 Release for Oracle "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/tls-support#this> ,
@@ -231,14 +231,14 @@ source: a schema:CreativeWork ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC Release for PostgreSQL "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/azure-protocol-support#this> ;
@@ -247,7 +247,7 @@ source: a schema:CreativeWork ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC Release for SQLServer "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
     wdrs:describedby source: .
 
 ## Data Access Protocol Bundles ##
@@ -256,26 +256,26 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for Oracle "^^xsd:string ;
+    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for Oracle "^^xsd:string ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ,
                        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this> ;
     schema:image <http://uda.openlinksw.com/images/jdbcoraclemt.gif> , <http://uda.openlinksw.com/images/odbcoraclemt.gif> ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for Oracle "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for Oracle "^^xsd:string ;
+    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for Oracle "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease8PostgreSQL#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
+    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
     schema:image <http://uda.openlinksw.com/images/odbcpostgresmt.gif> , <http://uda.openlinksw.com/images/jdbcpostgresmt.gif> ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for PostgreSQL "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
+    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for PostgreSQL "^^xsd:string ;
     wdrs:describedby source: .
 
 
@@ -283,56 +283,56 @@ source: a schema:CreativeWork ;
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
+    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this> ,
                        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this> ;
     schema:image <http://uda.openlinksw.com/images/odbcsqlservermt.gif> , <http://uda.openlinksw.com/images/jdbcsqlservermt.gif> ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for SQLServer "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
+    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease8Sybase#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for Sybase "^^xsd:string ;
+    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for Sybase "^^xsd:string ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this> ,
                        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this> ;
     schema:image <http://uda.openlinksw.com/images/jdbcsybasemt.gif> , <http://uda.openlinksw.com/images/odbcsybasemt.gif> ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for Sybase "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for Sybase "^^xsd:string ;
+    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for Sybase "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease8ODBCBridge#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this> ,
                        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this> ;
     schema:image <http://uda.openlinksw.com/images/jdbcodbcmt.gif> , <http://uda.openlinksw.com/images/odbcodbcmt.gif>  ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for ODBC 3.5.x Data Sources "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease8JDBCBridge#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name """ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for JDBC 4.x Data Sources """^^xsd:string ;
+    schema:name """ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for JDBC 4.x Data Sources """^^xsd:string ;
     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this> ,
                        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this> ;
     schema:image <http://uda.openlinksw.com/images/jdbc.jpg> , <http://uda.openlinksw.com/images/odbcjdbcmt.gif> ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for JDBC 4.x Data Sources "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
+    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Single-Tier Edition) Version 8.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
 ## Features Descriptions ##
