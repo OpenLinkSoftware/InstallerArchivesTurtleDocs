@@ -58,12 +58,7 @@ source: a schema:CreativeWork ;
                 <http://virtuoso.openlinksw.com/data/turtle/virtuoso6/2014/Virtuoso6ProductsReleases.ttl> ;
    schema:about <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8ODBCBridge#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8JDBCBridge#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Sybase#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Ingres#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8DB2#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8SQLServer#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Informix#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Progress#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8PostgreSQL#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Oracle#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8MySQL#this> ,
@@ -71,30 +66,21 @@ source: a schema:CreativeWork ;
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8ODBCBridge#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8MySQL#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8JDBCBridge#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Sybase#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Ingres#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8SQLServer#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Informix#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Progress#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8DB2#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8PostgreSQL#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Oracle#this> ,
 
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8SQLServer#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8DB2#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Progress#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8PostgreSQL#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Oracle#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8MySQL#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Ingres#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Sybase#this> ,
-              <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Informix#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8ODBCBridge#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8JDBCBridge#this> .
 
 
 ## UDA Multi-Tier Release 8.x ##
 
+## JDBC ##
 
 <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8MySQL#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
@@ -175,6 +161,7 @@ source: a schema:CreativeWork ;
     skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for SQLServer "^^xsd:string ;
     wdrs:describedby source: .
 
+## ODBC ##
 
 <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8JDBCBridge#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
@@ -403,6 +390,3 @@ schema:description """Usable with Unicode-16 compliant applications and developm
                    using the unixODBC Runtime and SDK""";
 oplben:hasBenefit <http://data.openlinksw.com/oplweb/product_benefit/SophisticatedApplicationFunctionality#this> ;
 wdrs:describedby source: . 
-
-
-
