@@ -17,7 +17,7 @@
 @prefix oplinst: <http://www.openlinksw.com/ontology/installers#> .
 @prefix oplpro:  <http://www.openlinksw.com/ontology/products#> .
 @prefix oplfeat: <http://www.openlinksw.com/ontology/features#> . 
-@prefix oplben:  <http://www.openlinksw.com/ontology/benefits#>
+@prefix oplben:  <http://www.openlinksw.com/ontology/benefits#> .
 @prefix :        <#> .
 @prefix source:      <http://uda.openlinksw.com/data/turtle/multi-tier/2014/UDAMTProductsReleases.ttl> .
 @prefix sourceDAV:   <http://www.openlinksw.com/DAV/uda2.openlinksw.com/data/turtle/multi-tier/2014/UDAMTProductsReleases.ttl> .
@@ -340,7 +340,7 @@ source: a schema:CreativeWork ;
     skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
-## Features Descriptions ##
+## ## Features Descriptions ##
 
 <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>
 a oplfeat:Feature ;
@@ -386,4 +386,3 @@ skos:prefLabel "Version 3.0 Wire Protocol Support" ;
 schema:description """Supports the latest 3.0 release of the PosgreSQL Wire Protocol.""";
 oplben:hasBenefit <http://data.openlinksw.com/oplweb/product_benefit/SophisticatedApplicationFunctionality#this> ;
 wdrs:describedby source: . 
-
