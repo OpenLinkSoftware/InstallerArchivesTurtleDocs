@@ -367,26 +367,23 @@ wdrs:describedby source: .
 a oplfeat:Feature ;
 schema:name "Azure Protocol Support" ;
 skos:prefLabel "Azure Support" ;
-schema:description """Usable with Unicode-16 compliant applications and development environments e.g., applications and services built 
-                   using the unixODBC Runtime and SDK""";
+schema:description """Azure protocol support with and without TLS/SSL""";
 oplben:hasBenefit <http://data.openlinksw.com/oplweb/product_benefit/EaseofIntegration#this> ;
 wdrs:describedby source: . 
 
 <http://data.openlinksw.com/oplweb/product_feature/tls-support#this>
 a oplfeat:Feature ;
-schema:name "UTF-16 Support" ;
-skos:prefLabel "Unicode-16 Support" ;
-schema:description """Usable with Unicode-16 compliant applications and development environments e.g., applications and services built 
-                   using the unixODBC Runtime and SDK""";
+schema:name "TLS Support over Wire Protocol" ;
+skos:prefLabel "TLS/SSL Support over Wire Protocol" ;
+schema:description """Support for TLS/SSL over Wire Protocol connections.""";
 oplben:hasBenefit <http://data.openlinksw.com/oplweb/product_benefit/ControlledDataAccess#this> ;
 wdrs:describedby source: . 
 
 <http://data.openlinksw.com/oplweb/product_feature/version-3-protocol-support#this> 
 a oplfeat:Feature ;
-schema:name "UTF-16 Support" ;
-skos:prefLabel "Unicode-16 Support" ;
-schema:description """Usable with Unicode-16 compliant applications and development environments e.g., applications and services built 
-                   using the unixODBC Runtime and SDK""";
+schema:name "PostgreSQL 3.0 Protocol Support" ;
+skos:prefLabel "Version 3.0 Wire Protocol Support" ;
+schema:description """Supports the latest 3.0 release of the PosgreSQL Wire Protocol.""";
 oplben:hasBenefit <http://data.openlinksw.com/oplweb/product_benefit/SophisticatedApplicationFunctionality#this> ;
 wdrs:describedby source: . 
 
