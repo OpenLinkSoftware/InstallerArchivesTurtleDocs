@@ -17,7 +17,7 @@
 @prefix oplinst: <http://www.openlinksw.com/ontology/installers#> .
 @prefix oplpro:  <http://www.openlinksw.com/ontology/products#> .
 @prefix oplfeat: <http://www.openlinksw.com/ontology/features#> . 
-@prefix oplben:  <http://www.openlinksw.com/ontology/benefits#>
+@prefix oplben:  <http://www.openlinksw.com/ontology/benefits#> .
 @prefix :        <#> .
 @prefix source:      <http://uda.openlinksw.com/data/turtle/multi-tier/2014/UDAMTProductsReleases.ttl> .
 @prefix sourceDAV:   <http://www.openlinksw.com/DAV/uda2.openlinksw.com/data/turtle/multi-tier/2014/UDAMTProductsReleases.ttl> .
