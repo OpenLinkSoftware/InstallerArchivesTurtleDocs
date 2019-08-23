@@ -1,0 +1,1757 @@
+@prefix schema:  <http://schema.org/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix odbc:    <http://www.openlinksw.com/ontology/odbc#> .
+@prefix xhv:     <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix cc:      <http://creativecommons.org/ns#> .
+@prefix rdf:	   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix wdrs:    <http://www.w3.org/2007/05/powder-s#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix gr:      <http://purl.org/goodrelations/v1#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix oplweb:  <http://www.openlinksw.com/schemas/oplweb#> .
+@prefix oplfea:  <http://www.openlinksw.com/ontology/features#> .
+@prefix oplpro:  <http://www.openlinksw.com/ontology/products#> .
+@prefix oplben:  <http://www.openlinksw.com/ontology/benefits#> .
+@prefix oplven:  <http://www.openlinksw.com/ontology/vendors#> .
+@prefix oplsof:  <http://www.openlinksw.com/ontology/software#> .
+@prefix opllic:  <http://www.openlinksw.com/ontology/licenses#> .
+@prefix oplmch:  <http://www.openlinksw.com/ontology/machines#> .
+@prefix awol:    <http://bblfish.net/work/atom-owl/2006-06-06/#> .
+@prefix :        <#> .
+@prefix source:      <http://uda.openlinksw.com/data/turtle/single-tier/2014/UDASTProducts.ttl> .
+@prefix sourceDAV:   <http://www.openlinksw.com/DAV/uda2.openlinksw.com/data/turtle/single-tier/2014/UDASTProducts.ttl> .
+
+sourceDAV:
+    a schema:CreativeWork ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+    cc:attributionName "OpenLink Software" ;
+    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
+    schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
+    schema:dateModified "2015-10-01T09:41:00-05:00"^^xsd:dateTime;
+    schema:name  """OpenLink Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers Related Information Document """ ;
+    schema:description  """Document that describes our high-performance and secure Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers.  """^^xsd:string ;
+    schema:keywords  """ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver, Data Access Middleware.  """;
+    owl:sameAs source: .
+
+<http://uda.openlinksw.com/offers/> xhv:alternate source: .
+# <.> sioc:container_of source: .
+# sioc:has_container <.> ;
+
+source: a schema:CreativeWork ;
+   schema:name  """OpenLink Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers """^^xsd:string ;
+   schema:author <http://www.openlinksw.com/#this> ;
+   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+   cc:attributionName "OpenLink Software" ;
+   cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+   schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
+   schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
+   schema:dateModified "2015-10-01T09:41:00-05:00"^^xsd:dateTime;
+   sioc:sibling <UDASTProductsReleases.ttl> ,
+                <UDASTOffersPrices.ttl> ,
+                <UDASTOffers.ttl> ,
+                <UDASTLicenses.ttl> ;
+   xhv:alternate <http://uda.openlinksw.com/offers/> ;
+   skos:related <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7Products.ttl> ,
+                <http://virtuoso.openlinksw.com/data/turtle/virtuoso6/2014/Virtuoso6Products.ttl> ;
+   schema:description  """Document that describes our high-performance and secure Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers.  """^^xsd:string ;
+   schema:keywords  """ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+  Data Access Middleware, ODBC, Windows ODBC, HTML5 ODBC, Linux ODBC, Unix ODBC, Mac OS X ODBC, Solaris ODBC, AIX ODBC, ODBC Driver, Windows ODBC
+  Driver, Mac OS X ODBC Driver, Linux ODBC Driver, Unix ODBC Driver, Solaris ODBC Driver, AIX ODBC Driver, Oracle ODBC Driver, SQL Server
+  ODBC Driver, Sybase ODBC Driver, DB2 ODBC Driver, AS400 ODBC Driver, Informix ODBC Driver, Ingres ODBC Driver, Progress ODBC Driver,
+  OpenEdge ODBC Driver, MySQL ODBC Driver, PostgreSQL ODBC Driver, Firebird ODBC Driver, ODBC and JDBC Data Sources, JDBC, Oracle JDBC
+  Driver, SQL Server JDBC Driver, Sybase JDBC Driver, DB2 JDBC Driver, AS400 JDBC Driver, Informix JDBC Driver, Ingres JDBC Driver,
+  Progress JDBC Driver, OpenEdge JDBC Driver, MySQL JDBC Driver, PostgreSQL JDBC Driver, Firebird JDBC Driver, ODBC and JDBC Data Sources,
+  SQL, Semantic Web, SemanticWeb, Linked Data, LinkedData, Linked Open Data, RDF, RDF Database, RDF Triple Store, RDF Quad Store,
+  Open Data, Smart Data, SmartData, NoSQL, NewSQL, Big Data, Virtuoso, MDM, Data Integration, Data Virtualization, Relational Database """ ;
+   schema:about
+              <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> .
+
+
+<http://data.openlinksw.com/oplweb/product/odbc-db2-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for IBM DB2 (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for IBM DB2 (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ODBC Driver for IBM DB/2 (Lite Edition) is a single component installed on a data-consuming machine -
+    	depending on the architecture in which the driver is deployed, either a client such as a desktop, a workstation
+    	or an application-server machine. No components need be installed on the database server.
+    The OpenLink Single-Tier Drivers for DB2 are a Type A class driver developed using the DB2CLI call level
+    	interface and assumes the prior installation of DB2Connect depending on your DB2 Server release.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplfea:hasFeature <http://data.openlinksw.com/oplweb/product_feature/Multithreadingsupport#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/SupportforSQLCancel()APIcallsupport#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseDB2#this> ;
+    oplsof:hasDatabaseEngine <http://www.openlinksw.com/ontology/software#db2> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#DB2> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for IBM DB2 (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """DB2, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, DB2 ODBC Driver, Windows ODBC Driver,Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, DB2 JDBC Driver, DB2 ADO.NET Provider, DB2 OLE-DB Provider,Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcdb2st.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-db2-st/> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for Informix (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for Informix (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ODBC Driver for Informix (Lite Edition) is a single component installed on a data-consuming machine
+    	- depending on the architecture in which the driver is deployed, either a client such as a desktop, a
+    	workstation or an application-server machine. No components need be installed on the database server.
+    The OpenLink Single-Tier Drivers for Informix are a Type A class of driver developed using the Informix
+    	ESQL/C call level interface and assumes the prior installation of the Informix Connect software for the
+    	target Informix Server release.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplfea:hasFeature <http://data.openlinksw.com/oplweb/product_feature/TransactionIsolationmodediscovery#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseInformix#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this>  ;
+    oplsof:hasDatabaseEngine <http://www.openlinksw.com/ontology/software#Informix10>,
+        <http://www.openlinksw.com/ontology/software#Informix11>,
+        <http://www.openlinksw.com/ontology/software#Informix73>,
+        <http://www.openlinksw.com/ontology/software#Informix9> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#Informix> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.00-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.11-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.00-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.11-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc21-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-n32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-o32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.5.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-32#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/AIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/HPUX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Irix#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for Informix (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """Informix, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, Informix ODBC Driver, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, Informix JDBC Driver, Informix ADO.NET Provider, Informix OLE-DB Provider, Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcinformixst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-informix-st/> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for Ingres (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for Ingres (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ODBC Driver for Ingres (Lite Edition) is a single component installed on a data-consuming machine -
+    	depending on the architecture in which the driver is deployed, either a client such as a desktop, a
+    	workstation or an application-server machine. No components need be installed on the database server.
+    The OpenLink Single-Tier Drivers for CA-Ingres are a Type A class driver developed using the Ingres
+    	OpenAPI call level interface and assumes the prior installation of Ingres-Net depending on your Ingres
+    	Server release.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplfea:hasFeature <http://data.openlinksw.com/oplweb/product_feature/ExposeINGRESTIDvalueinSQLSpecialColumns#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseIngres#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/ingii#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#Ingres> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux10.20-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.00-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.11-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.00-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.11-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc21-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.5.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-32#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/AIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/HPUX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/UnixWare#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for Ingres (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """Ingres, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, Ingres ODBC Driver, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, Ingres JDBC Driver, Ingres ADO.NET Provider, Ingres OLE-DB Provider, Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcingresst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-ingres-st/> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for JDBC 4.x Data Sources (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for JDBC 4.x Data Sources (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ODBC Driver for JDBC 4.x Data Sources (Lite Edition) is a single component installed on a data-consuming
+    machine - depending on the architecture in which the driver is deployed, either a client such as a desktop, a workstation or
+    an application-server machine. No components need be installed on the database server. The OpenLink Single-Tier ODBC Drivers for JDBC 4.x Data Sources are a Type B class of driver bound to the JDBC Driver Manager; hence, if you have a database you can access
+    through JDBC, with this driver you can connect to it using ODBC, bringing support for OpenLink's more advanced
+    features such as scrollable cursors for performance.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseJDBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7JDBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8JDBCBridge#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/jdbc#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#JDBCBridge> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc21-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.2-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.3-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.6-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for JDBC 4.x Data Sources (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """ODBC Driver for JDBC 4.x Data Sources, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, ODBC and JDBC Data Sources, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, ODBC and JDBC Data Sources, Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcjdbcst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-jdbc-st/> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for MySQL (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for MySQL (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ODBC Driver for MySQL (Lite Edition) is a single component installed on a data-consuming machine -
+    	depending on the architecture in which the driver is deployed, either a client such as a desktop, a
+    	workstation or an application-server machine. No components need be installed on the database server.
+    The OpenLink Single-Tier Drivers for MySQL are a Type B class of driver developed using the MySQL network
+    	(wire) protocol interface eliminating the need for the installation of any MySQL-specific client networking software.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplfea:hasFeature <http://data.openlinksw.com/oplweb/product_feature/WireProtocolBasedDriver#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseMySQL#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/mys3#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/mys4#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/mys5#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#MySQL> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux10.20-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.00-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.11-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.00-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.11-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd4.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd5.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd5.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-sco3.2v5.0.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-sequent-sysv4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i486-generic-sco3.2v5.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32-nothreads#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc21-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-linux-gnu-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-n32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-o32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.2-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.3-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.5.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.6-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/AIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/DynixPTX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/FreeBSD#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/HPUX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Irix#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/SCOOpenServer#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/UnixWare#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for MySQL (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """MySQL, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, MySQL ODBC Driver, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, MySQL JDBC Driver, MySQL ADO.NET Provider, MySQL OLE-DB Provider, Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcmysqlst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-mysql-st/> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for ODBC 3.5.x Data Sources (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for ODBC 3.5.x Data Sources (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ODBC Driver for ODBC 3.5.x Data Sources (Lite Edition) is a single component installed on a data-consuming machine -
+    	depending on the architecture in which the driver is deployed, either a client such as a desktop, a
+    	workstation or an application-server machine. No components need be installed on the database server.
+    The OpenLink Single-Tier ODBC Drivers for ODBC 3.5.x Data Sourcess are a Type B class of driver bound to the ODBC Driver Manager
+    	bringing connectivity and other features such as Scrollable Cursor support for greater performance, to any
+    	ODBC-enabled Database.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8ODBCBridge#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/odbc#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#ODBCBridge> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for ODBC 3.5.x Data Sources (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """ODBC Driver for ODBC 3.5.x Data Sources, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, ODBC ODBC Driver for ODBC 3.5.x Data Sources, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, ODBC ODBC Driver for ODBC 3.5.x Data Sources, Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcodbcst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-odbc-st/> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for Oracle (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for Oracle (Lite Edition) """^^xsd:string ;
+    schema:description  """ The Single-Tier ODBC Driver for Oracle (Lite Edition) is a single component installed on a data-consuming machine
+     	- depending on the architecture in which the driver is deployed, either a client such as a desktop, a
+     	workstation or an application-server machine. No components need be installed on the database server.
+     The OpenLink Single-Tier Drivers for Oracle are a Type-B class of driver developed using the Oracle CLI.
+     The Oracle drivers for versions 7, 8 and 9 require SQL*Net, Net-8 or Net-9 installed. For Oracle 10g and
+     	above, we use the Oracle Instant Client, which obviates the need for the RDBMS-specific comms layer.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplfea:hasFeature <http://data.openlinksw.com/oplweb/product_feature/ConnectionPooling#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/InstantClientSupport#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/RealApplicationCluster(RAC)Support#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/ReferenceCursorsSupportinStoredProcedures#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseOracle#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this>  ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/ora10#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora11#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora12#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora7#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora8#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora9#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#Oracle> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux10.20-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.00-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.11-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.00-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.11-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc21-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-linux-gnu-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.2-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.3-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.5.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.6-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/AIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/HPUX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/UnixWare#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for Oracle (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """Oracle, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver, Data Access Middleware, Oracle ODBC Driver, Windows ODBC Driver,  Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver, AIX ODBC Driver, Mac OS X ODBC Driver, Oracle JDBC Driver, Oracle ADO.NET Provider, Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcoraclest.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-oracle-st/> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for PostgreSQL (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for PostgreSQL (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ODBC Driver for PostgreSQL (Lite Edition) is a single component installed on a data-consuming machine
+    	- depending on the architecture in which the driver is deployed, either a client such as a desktop, a
+    	workstation or an application-server machine. No components need be installed on the database server.
+    The OpenLink Single-Tier Drivers for PostgreSQL are a Type-B class of driver developed using the
+    	PostgreSQL network (wire) protocol interface, thereby avoiding the need for the installation of any
+    	PostgreSQL-specific client networking software.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleasePostgreSQL#this>  ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/pos6#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pos7#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pos8#this> ,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pos9#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#PostgreSQL> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux10.20-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.00-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.11-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.00-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.11-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd4.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd5.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd5.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-sco3.2v5.0.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-sequent-sysv4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i486-generic-sco3.2v5.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32-nothreads#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc21-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-linux-gnu-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-n32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-o32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.2-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.3-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.5.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.6-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/AIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/DynixPTX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/FreeBSD#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/HPUX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Irix#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/SCOOpenServer#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/UnixWare#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for PostgreSQL (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """PostgreSQL, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, PostgreSQL ODBC Driver, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, PostgreSQL JDBC Driver, PostgreSQL ADO.NET Provider, PostgreSQL OLE-DB Provider,Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcpostgresst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-postgres-st/> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for Progress (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for Progress (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ODBC Driver for Progress (Lite Edition) is a single component installed on a data-consuming
+    	machine - depending on the architecture in which the driver is deployed, either a client such as
+    	a desktop, a workstation or an application-server machine. No components need be installed on the
+    	database server.
+    The OpenLink Single-Tier Drivers for Progress 4GL(SQL-89) are a Type-A class of driver developed
+    	using the Progress ESQL/C call-level interface; they assume the prior installation of the Progress
+    	Network Client software for the target Progress Server release.
+    The OpenLink Single-Tier Drivers for Progress SQL-92 are a Type-A class of driver developed using
+    	the Progress SQL-92 call-level interface; they assume the preinstallation of the Progress Network
+    	Client software for the target Progress Server release.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplfea:hasFeature <http://data.openlinksw.com/oplweb/product_feature/TransactionIsolationLevelsconfiguration#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseProgress#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Progress#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/pro10#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro81a#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro82a#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro82c#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro83a#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro83b#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro83c#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro90a#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro90b#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro91a#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro91b#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro91c#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro91d#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pro91e#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pros10#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pros91#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pros11#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#Progress> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.00-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.00-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.11-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc21-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/AIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/HPUX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/UnixWare#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for Progress (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """Progress, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, Progress ODBC Driver, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, Progress JDBC Driver, Progress ADO.NET Provider, Progress OLE-DB Provider,Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcprogresst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-progress-st/> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for Microsoft SQL Server (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for Microsoft SQL Server (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ODBC Driver for Microsoft SQL Server (Lite Edition) is a single component installed on a
+    	data-consuming machine - depending on the architecture in which the driver is deployed, either
+    	a client such as a desktop, a workstation or an application-server machine. No components need
+    	be installed on the database server. The OpenLink Single-Tier Drivers for Microsoft SQL Server are a Type-B class of driver developed
+    	using the Microsoft SQL Server TDS network (wire) protocol interface eliminating the need for the
+    	installation of any Microsoft SQL Server-specific client networking software.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplfea:hasFeature <http://data.openlinksw.com/oplweb/product_feature/Databasemirroringcompatibility#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/MultipleActiveResultSets-MARS#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/SSLSupport#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/SingleSign-On-includingWindowsNTLMv2#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/Snapshottransactionisolationlevel#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/WireProtocolBasedDriver#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/XMLandNativeLargeValuedatatypessupport#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/ZeroConfigbasedAuto-Discoveryofinstances#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseSQLServer#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this>,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this>;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/sql#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql6#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#SQLServer> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux10.20-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.00-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.11-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.00-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.11-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd4.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd5.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd5.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-sco3.2v5.0.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-sequent-sysv4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i486-generic-sco3.2v5.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32-nothreads#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc21-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-linux-gnu-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-n32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-o32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macos-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.2-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.3-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.5.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.6-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/AIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/DynixPTX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/FreeBSD#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/HPUX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Irix#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/MacOSClassic#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/SCOOpenServer#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/UnixWare#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for Microsoft SQL Server (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """Microsoft SQL Server, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, SQL Server ODBC Driver, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, SQL Server JDBC Driver, SQL Server ADO.NET Provider, SQL Server OLE-DB Provider, Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcsqlserverst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-sqlserver-st/> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        odbc:OpenDatabaseConnectivityDriver ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ODBC Driver for Sybase (Lite Edition) " ;
+    schema:name  """Single-Tier ODBC Driver for Sybase (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ODBC Driver for Sybase (Lite Edition) is a single component installed on a data-consuming
+    	machine - depending on the architecture in which the driver is deployed, either a client such
+    	as a desktop, a workstation or an application-server machine. No components need be installed
+    	on the database server. The OpenLink Single-Tier Drivers for Sybase are a Type B class of driver developed using the
+    	Sybase TDS network (wire) protocol interface avoiding the need for the installation of any
+    	Sybase-specific client networking software.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplfea:hasFeature <http://data.openlinksw.com/oplweb/product_feature/WireProtocolBasedDriver#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseSybase#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Sybase#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/syb10#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/syb11#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/syb12#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/syb15#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#Sybase> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux10.20-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.00-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux11.11-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.00-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/hppa2-0w-hp-hpux11.11-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd4.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd5.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-freebsd5.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-sco3.2v5.0.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-generic-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i386-sequent-sysv4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i486-generic-sco3.2v5.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i586-sco-sysv5uw7-32-nothreads#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc21-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-hp-hpux11.23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-linux-gnu-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-n32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/mips-sgi-irix6.5-o32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macos-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.2-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.3-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.2.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-ibm-aix5.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.0.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/rs6000-ibm-aix4.3.3.0-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.10-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.5.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.8-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/sparc-sun-solaris2.9-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.6-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-sun-solaris2.10-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/AIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/DynixPTX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/FreeBSD#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/HPUX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Irix#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/MacOSClassic#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/SCOOpenServer#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Solaris#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Tru64UNIX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/UnixWare#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ODBC Driver for Sybase (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """Sybase, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, Sybase ODBC Driver, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, Sybase JDBC Driver, Sybase ADO.NET Provider, Sybase OLE-DB Provider, Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/odbcsybasest.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/odbc-sybase-st/> .
+
+<http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/dotnet#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ADO.NET Provider for ODBC 3.5.x Data Sources (Lite Edition) " ;
+    schema:name  """Single-Tier ADO.NET Provider for ODBC 3.5.x Data Sources (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ADO.NET driver (Lite Edition) is installed on one data-consuming machine
+    	(a client, workstation or application-server, depending on architecture), providing
+    	connectivity to local or remote databases. The ODBC ADO.NET Providers enables connectivity to any ODBC 3.5.x Data Source by acting
+    	as a Bridge between ADO.Net and ODBC. This Provider offers ADO.NET access to existing
+    	ODBC Data Sources from an ADO.NET client environment. The OpenLink ODBC ADO.NET Providers are a Type-C class of provider.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/dotnet#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/dotnet#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionADONETReleaseODBCBridge#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/odbc#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#ODBCBridge> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/clr-ecma-mono1.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-ecma-mono2.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-microsoft-dotnet1.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-microsoft-dotnet2.0-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/.NETCLR#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ADO.NET Provider for ODBC 3.5.x Data Sources (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """ADO .NET, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, ODBC ADO.NET Provider, ODBC OLE-DB Provider,Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/dotnetodbcst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/dotnet-odbc-st/> .
+
+# awol:content <dotnet-odbc-st#content> ;
+# <dotnet-odbc-st#content>
+#   a awol:Content ;
+#   awol:src <http://uda.openlinksw.com/data/html/single-tier/awolcontent/dotnet-odbc-st.html> .
+
+<http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/dotnet#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ADO.NET Provider for Microsoft SQL Server (Lite Edition) " ;
+    schema:name  """Single-Tier ADO.NET Provider for Microsoft SQL Server (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier ADO.NET driver (Lite Edition) is installed on one data-consuming machine (a client, workstation or
+   	application-server, depending on architecture), providing connectivity to local or remote databases. The OpenLink Single-Tier .Net
+   	Provider for Microsoft SQL Server are a Type-B class of driver developed using
+   	the Microsoft SQL Server TDS network (wire) protocol interface eliminating the need for the installation of any
+   	Microsoft SQL Server-specific client networking software.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplfea:hasFeature <http://data.openlinksw.com/oplweb/product_feature/Databasemirroringcompatibility#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/ManagedADO.NETDataProvider#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/MultipleActiveResultSets-MARS#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/SSLSupport#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/SingleSign-On-includingWindowsNTLMv2#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/Snapshottransactionisolationlevel#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/XMLandNativeLargeValuedatatypessupport#this>,
+        <http://data.openlinksw.com/oplweb/product_feature/ZeroConfigbasedAuto-Discoveryofinstances#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/dotnet#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/dotnet#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/sql#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql6#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#SQLServer> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/clr-ecma-mono1.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-microsoft-dotnet1.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/.NETCLR#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ADO.NET Provider for Microsoft SQL Server (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """Microsoft SQL Server, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, SQL Server ODBC Driver, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, SQL Server JDBC Driver, SQL Server ADO.NET Provider, SQL Server OLE-DB Provider, Single-Tier, Lite.  """ ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/dotnet-sqlserver-st/> ;
+    schema:image <http://uda.openlinksw.com/images/dotnetsqlserverst.gif> .
+
+<http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/dotnet#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier ADO.NET Provider for Sybase (Lite Edition) " ;
+    schema:name  """Single-Tier ADO.NET Provider for Sybase (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier Sybase ADO.NET driver (Lite Edition) is installed on one data-consuming machine (a client,
+   	workstation or application-server, depending on architecture), providing connectivity to local or
+   	remote databases. The OpenLink Single-Tier .Net Provider for Sybase are a Type-B class of driver developed using
+   	the Sybase TDS network (wire) protocol interface eliminating the need for the installation of any
+   	Sybase specific client networking software.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplfea:hasFeature <http://data.openlinksw.com/oplweb/product_feature/ManagedADO.NETDataProvider#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/dotnet#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/dotnet#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/syb10#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/syb11#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/syb12#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/syb15#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#Sybase> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/clr-ecma-mono1.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/clr-microsoft-dotnet1.1-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/.NETCLR#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier ADO.NET Provider for Sybase (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """Sybase, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, Sybase ODBC Driver, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, Sybase JDBC Driver, Sybase ADO.NET Provider, Sybase OLE-DB Provider, Single-Tier, Lite.  """ ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/dotnet-sybase-st/> .
+
+<http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/jdbc#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier JDBC Driver for ODBC 3.5.x Data Sources (Lite Edition) " ;
+    schema:name  """Single-Tier JDBC Driver for ODBC 3.5.x Data Sources (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier JDBC Driver for ODBC 3.5.x Data Sources (Lite Edition) is a Type 1 High-Performance Driver providing transparent
+    	access to your ODBC data source via ODBC Drivers. They faciliate access to ODBC Data Sources from
+    	JDBC client environements that only support JDBC-based data access. The OpenLink Single-Tier JDBC Driver for ODBC 3.5.x Data Sources are a Type C class of driver.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/jdbc#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/jdbc#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCReleaseODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease7ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease7ODBCBridge#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/odbc#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#ODBCBridge> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.3-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/powerpc-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.4-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.5-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.6-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.5-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.6-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this>,
+        <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier JDBC Driver for ODBC 3.5.x Data Sources (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """JDBC Driver for ODBC 3.5.x Data Sources, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, ODBC and JDBC Data Sources, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, ODBC and JDBC Data Sources, Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/jdbcodbcst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/jdbc-odbc-st/> .
+
+<http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> a oplpro:Product , schema:SoftwareApplication,  schema:CreativeWork   ,
+        <http://sw.opencyc.org/concept/Mx4rvcUMxZwpEbGdrcN5Y29ycA> ;
+    schema:category <http://data.openlinksw.com/oplweb/product_category/oledb#this> ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this> ;
+    skos:prefLabel "Single-Tier OLE-DB Provider for ODBC 3.5.x Data Sources (Lite Edition) " ;
+    schema:name  """Single-Tier OLE-DB Provider for ODBC 3.5.x Data Sources (Lite Edition) """^^xsd:string ;
+    schema:description  """The OpenLink Single-Tier OLE-DB to ODBC Provider (Lite Edition) is implemented as an OLE-DB Provider for ODBC 3.5.x Data Sources, utilizing ODBC data
+    	sources for connectivity to databases, much like the Microsoft ODBC Provider. The OpenLink OLE-DB provider is a Type-C
+    	class provider bound to the ODBC Driver Manager enabling the connectivity to any ODBC 3.5.x Data Sources including the
+    	OpenLink Multi-Tier and Single-Tier or any third party ODBC driver.  """ ;
+    schema:manufacturer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+    oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/oledb#this> ;
+    schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/oledb#this> ;
+    oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionOLEDBReleaseODBCBridge#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/odbc#this> ;
+    oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#ODBCBridge> ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/Windows#this> ;
+    schema:comment "Single-Tier OLE-DB Provider for ODBC 3.5.x Data Sources (Lite Edition) " ;
+    schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
+    wdrs:describedby source: ;
+    schema:author <http://www.openlinksw.com/#this> ;
+    schema:applicationCategory schema:BusinessApplication ;
+    schema:operatingSystem "Windows, Linux, MacOSX, Unix, Solaris " ;
+    schema:applicationSuite "OpenLink ODBC, JDBC, ADO.NET, and OLE-DB Drivers Suite " ;
+    schema:keywords  """OLE-DB, ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
+Data Access Middleware, OLE-DB Provider for ODBC 3.5.x Data Sources, Windows ODBC Driver, Unix ODBC Driver, Linux ODBC Driver, Solaris ODBC Driver,
+AIX ODBC Driver, Mac OS X ODBC Driver, ODBC and JDBC Data Sources, JDBC Driver for ODBC 3.5.x Data Sources, ADO.NET Provider, JDBC Driver for ODBC 3.5.x Data Sources, OLE-DB Provider, Single-Tier, Lite.  """ ;
+    schema:image <http://uda.openlinksw.com/images/oledbodbcst.gif> ;
+    schema:mainEntityOfPage <http://uda.openlinksw.com/oledb-odbc-st/> .
+
+
+
+<https://plus.google.com/100570109519069333827> <http://schema.org/author>
+              <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ,
+              <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> .
+
+  <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-09-linux-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-09-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-09-linux-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-09-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+  <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-07-linux-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-07-macosx-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-07-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-07-linux-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-07-macosx-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-07-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-07-linux-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-07-macosx-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-07-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-anyos-odbc-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-07-linux-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-07-macosx-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-07-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-odbc-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+ 
+  <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-db2#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-db2#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-db2#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-db2#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-db2#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-db2#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-db2#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-db2#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+  <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-inf10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-inf11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-inf7#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-inf9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-inf10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-inf11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-inf7#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-inf9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-inf#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-inf10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-inf11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-inf7#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-inf9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-inf10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-inf11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-inf7#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-inf9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-inf#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> ,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-inf10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-inf11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-inf7#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-inf9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-inf10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-inf11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-inf7#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-inf9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-anyos-odbc-inf#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-inf10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-inf11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-inf7#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-inf9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-inf10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-inf11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-inf7#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-inf9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-odbc-inf#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this>.
+
+
+  <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-ing#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-ing#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-ing#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-ing#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-ing#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-ing#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-ing#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-ing#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+  <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-06-linux-jdbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-06-macosx-jdbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-06-win-jdbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-jdbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-06-linux-jdbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-06-macosx-jdbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-06-win-jdbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-jdbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+  <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-mysql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-mysql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> ,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-04-macosx-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-04-macosx-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-04-macosx-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-anyos-odbc-mysql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-04-macosx-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-04-macosx-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-04-macosx-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-mys3#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-mys4#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-mys5#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-odbc-mysql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+  ######
+  <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-10-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-10-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-10-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-10-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-odbc-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+
+  <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-ora10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-ora11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-ora12#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-ora8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-ora9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-ora10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-ora8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-ora9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-ora10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-ora11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-ora12#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-ora8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-ora9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-ora#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-ora10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-ora11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-ora12#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-ora8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-ora9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-ora10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-ora11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-ora12#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-ora8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-ora9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-ora10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-ora11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-ora12#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-ora8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-ora9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-ora#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-linux-ora10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-linux-ora11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-linux-ora12#this>,
+
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-ora10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-ora11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-ora12#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-ora8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-ora9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-anyos-odbc-ora#this>,
+
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-linux-ora10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-linux-ora11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-linux-ora12#this>,
+
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-ora10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-ora11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-ora12#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-ora8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-ora9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-odbc-ora#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+  <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-04-macosx-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-anyos-odbc-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-04-macosx-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-odbc-postgres#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+  <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-pro10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-pro11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-pro8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-pro9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-pro10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-pro11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-pro8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-pro9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-pro#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-pro10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-pro11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-pro8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-pro9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-pro10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-pro11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-pro8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-pro9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-pro#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-pro10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-pro11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-pro8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-pro9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-pro10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-pro11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-pro8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-pro9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-anyos-odbc-pro#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-pro10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-pro11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-pro8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-pro9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-pro10#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-pro11#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-pro8#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-pro9#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-odbc-pro#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+
+  <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-04-macosx-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-anyos-odbc-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-04-macosx-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-odbc-sql#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+  <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-03-linux-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-04-macosx-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-05-win-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-anyos-odbc-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-03-linux-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-04-macosx-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-05-win-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-odbc-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-03-linux-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-04-macosx-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-05-win-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-anyos-odbc-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-03-linux-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-04-macosx-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-05-win-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-odbc-syb#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+  <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> schema:offers
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-08-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-08-win-odbc#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-wks-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-svr-anyos-bundle#this>,
+          <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-12-UDA-wks-anyos-bundle#this> .
+
+  <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> schema:offers
+    <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-01-macosx-syb#this> ,
+    <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-02-win-syb#this> ,
+    <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-01-macosx-syb#this> ,
+    <http://data.openlinksw.com/oplweb/offer/Offer-2016-02-11-UDA-svr-02-win-syb#this> .
+
+  
+# Relations for the new offers:
+
+<http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-jdbc-odbc-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-jdbc-odbc-workgroup-2016-08#this> .
+
+
+<http://data.openlinksw.com/oplweb/product/odbc-db2-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-db2-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-db2-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-db2-workgroup-2016-08#this> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-inf11-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-inf9-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-inf11-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-inf11-workgroup-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-inf9-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-inf9-workgroup-2016-08#this> .
+
+
+<http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-ing-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ing-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ing-workgroup-2016-08#this> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-jdbc-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-jdbc-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-jdbc-workgroup-2016-08#this> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-mys3-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-mys4-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-mys5-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys3-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys3-workgroup-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys4-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys4-workgroup-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys5-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-mys5-workgroup-2016-08#this> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-odbc-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-odbc-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-odbc-workgroup-2016-08#this> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-ora10-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-ora11-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-ora12-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora10-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora10-workgroup-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora11-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora11-workgroup-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora12-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-ora12-workgroup-2016-08#this> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-postgres-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-postgres-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-postgres-workgroup-2016-08#this> .
+
+
+<http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-pro10-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-pro11-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-pro9-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro10-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro10-workgroup-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro11-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro11-workgroup-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro9-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-pro9-workgroup-2016-08#this> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-sql-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2016-08#this> .
+
+<http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> schema:offers <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKS-anyos-odbc-sql-personal-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-department-2016-08#this>,
+        <http://data.openlinksw.com/oplweb/offer/Offer-UDALT-WKSSVR-anyos-odbc-sql-workgroup-2016-08#this> .
+
