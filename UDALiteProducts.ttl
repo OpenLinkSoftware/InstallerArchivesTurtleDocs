@@ -928,7 +928,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, SQL Server JDBC Driver, SQL Server ADO.NE
     schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseSybase#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Sybase#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Sybase#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Sybase#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/syb10#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/syb11#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/syb12#this>,
