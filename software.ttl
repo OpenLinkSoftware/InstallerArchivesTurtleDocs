@@ -28,7 +28,7 @@
 <http://www.openlinksw.com/ontology/software#> a owl:Ontology ;
   rdfs:label """OpenLink Software Ontology"""^^xsd:string ;
   rdfs:comment """Ontology that defines entity and relation types used to describe software. Examples include
-  database engines, operating systems etc."""@en ;
+  database engines, operating systems etc. used by download system"""@en ;
   wdrs:describedby <http://www.openlinksw.com/ontology/software> ;
   dcterms:created "2014-05-18T13:00:00-05:00"^^xsd:dateTime ;
   schema:creator <http://www.openlinksw.com/#this> ;
