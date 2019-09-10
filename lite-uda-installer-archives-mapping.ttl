@@ -267,7 +267,13 @@ source:
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttpss3mys5lttaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3pgr7lttaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3ora120lttaz80GenericLinuxGlibc2564Bitx8664#this> ,
-        <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz80GenericLinuxGlibc2564Bitx8664#this> .
+        <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz80GenericLinuxGlibc2564Bitx8664#this>,
+
+	 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8mzzzdmg80MacOSX107Universal#this> ,
+	 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8o12zdmg80MacOSX107Universal#this> ,
+	 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8y5zzdmg80MacOSX107Universal#this> ,
+	 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8g7zzdmg80MacOSX107Universal#this> ,
+	 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8jzzzdmg80MacOSX107Universal#this> .
         
 
 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttp3sinf9lttazSolaris2832BitSparc#this> 
@@ -7647,7 +7653,7 @@ source:
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7jzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7jzzzdmg70MacOSX107UniversalFileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7JDBCBridge#this> ;
@@ -8288,7 +8294,7 @@ source:
 
 ######### UDA 8.0 Release ##########
 
-#### Generic Linux glibc25 x64  ####
+#### UDA 8.0 Generic Linux glibc25 x64  ####
 
 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz80GenericLinuxGlibc2564Bitx8664#this> 
     a oplinst:InstallerArchive ,
@@ -8480,4 +8486,442 @@ source:
     oplinst:hasMeasurementUnit "Bytes" ;
     oplinst:hasMeasurementValue "13439729"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3jdbclttaz80GenericLinuxGlibc21264Bitx8664#this> ;
+    wdrs:describedby source: .
+
+
+#### UDA 8.0 Windows x64  ####
+
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "wal8mzzz.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-08-26T10:50:19+05:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8mzzz.msi> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#https3wal8mzzzmsi70Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Sybase#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine
+        oplsof:SQLServer6,
+        oplsof:SQLServer7,
+        oplsof:SQLServer2000,
+        oplsof:SQLServer2005,
+        oplsof:SQLServer2008,
+        oplsof:SQLServer2008R2,
+        oplsof:SQLServer2012,
+        oplsof:SQLServer2014,
+        oplsof:Sybase10,
+        oplsof:Sybase11,
+        oplsof:Sybase12,
+        oplsof:Sybase15 ;
+    oplsof:hasDatabaseFamily oplsof:SQLServer,
+        oplsof:Sybase ;
+    oplsof:hasDbmsEngineVersion "10.x",
+        "11.x",
+        "12.x",
+        "15.x",
+        "6.x - 2014" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3wal8mzzzmsi70Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wal8mzzz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "6108170"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
+    wdrs:describedby source: .
+    
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal8o12zmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "wal8o12z.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-08-26T03:38:16+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8o12z.msi> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#https3wal8o12zmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseFamily oplsof:Oracle ;
+    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3wal8o12zmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wal8o12z.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "63337697"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitewal8o12zmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal8g7zzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-windows" ;
+    dcterms:identifier "wal8g7zz.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-08-26T17:14:47+01:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8g7zz.msi> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#https3wal8g7zzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
+                             oplsof:PostgreSQL8 ,
+                             oplsof:PostgreSQL9  ,
+                             oplsof:PostgreSQL10 ,
+                             oplsof:PostgreSQL11 ;
+    oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3wal8o12zmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wal8g7zz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "5759800"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal8g7zzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitewal8mys5msi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "wal8mys5.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-08-26T17:11:39+01:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8mys5.msi> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    opldep:hasDepot <https://s3.amazonaws.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#httpss3wal8mys5msi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:MySQL 5 ;
+    oplsof:hasDatabaseFamily oplsof:MySQL ;
+    oplsof:hasDbmsEngineVersion "5.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#httpss3wal8mys5msi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification>> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wal8mys5.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "5796639"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttpss3wal8mys5msi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitewal8jzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "wal8jzzz.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-08-26T17:11:39+01:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8jzzz.msi> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    opldep:hasDepot <https://s3.amazonaws.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#httpss3wal8jzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:JDBC ;
+    oplsof:hasDatabaseFamily oplsof:JDBC ;
+    oplsof:hasDbmsEngineVersion "8.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#httpss3wal8jzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification>> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wal8jzzz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "4502212 "^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttpss3wal8jzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
+    wdrs:describedby source: .
+
+    
+<http://data.openlinksw.com/oplweb/installer/UDASTLitewal8odbcmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "wal8odbc.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2019-08-26T17:11:39+01:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8odbc.msi> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    opldep:hasDepot <https://s3.amazonaws.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#httpss3wal8odbcmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:ODBC ;
+    oplsof:hasDatabaseFamily oplsof:ODBC ;
+    oplsof:hasDbmsEngineVersion "3.5" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#httpss3wal8odbcmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification>> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wal8odbc.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "4403889"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttpss3wal8odbcmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
+    wdrs:describedby source: .
+
+
+#### UDA 8.0 macOS  ####
+
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8mzzzdmg80MacOSX107Universal#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-apple-diskimage" ;
+    dcterms:identifier "mxl8mzzz.dmg" ;
+    schema:dateCreated "2019-09-09T00:00:00+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8mzzz.dmg> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2018 on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#https3mxl8mzzzdmg80MacOSX107UniversalFileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Sybase#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine
+        oplsof:SQLServer6,
+        oplsof:SQLServer7,
+        oplsof:SQLServer2000,
+        oplsof:SQLServer2005,
+        oplsof:SQLServer2008,
+        oplsof:SQLServer2008R2,
+        oplsof:SQLServer2012,
+        oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
+        oplsof:SQLServer2019,
+        oplsof:Sybase10,
+        oplsof:Sybase11,
+        oplsof:Sybase12,
+        oplsof:Sybase15 ;
+    oplsof:hasDatabaseFamily oplsof:SQLServer,
+        oplsof:Sybase ;
+    oplsof:hasDbmsEngineVersion "10.x",
+        "11.x",
+        "12.x",
+        "15.x",
+        "6.x - 2019" ;
+    oplsof:hasOperatingSystem
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+    oplsof:hasOpsysVersion "10.7.x" ;
+    wdrs:describedby source: .
+
+<#https3mxl8mzzzdmg80MacOSX107UniversalFileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- mxl8mzzz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "5692817"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8mzzzdmg80MacOSX107Universal#this> ;
+    wdrs:describedby source: .
+
+    
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8o12zdmg80MacOSX107Universal#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "mxl8o12z.dmg" ;
+    schema:dateCreated "2019-09-09T12:17:27+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8o12z.dmg> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#https3mxl8o12zdmg80MacOSX107UniversalFileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseFamily oplsof:Oracle ;
+    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+    oplsof:hasOpsysVersion "10.7.x" ;
+    wdrs:describedby source: .
+
+
+<#https3mxl8o12zdmg80MacOSX107UniversalFileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- mxl8o12z.dmg on Mac OS X 10.7.x (Universal) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "115020858"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8o12zdmg80MacOSX107Universal#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8y5zzdmg80MacOSX107Universal#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-apple-diskimage" ;
+    dcterms:identifier "mxl8y5zz.dmg" ;
+    schema:dateCreated "2019-09-09T12:17:28+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8y5zz.dmg> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#https3mxl8y5zzdmg80MacOSX107UniversalFileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:MySQL5 ;
+    oplsof:hasDatabaseFamily oplsof:MySQL ;
+    oplsof:hasDbmsEngineVersion "5.x" ;
+    oplsof:hasOperatingSystem
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+    oplsof:hasOpsysVersion "10.7.x" ;
+    wdrs:describedby source: .
+
+<#https3mxl8y5zzdmg80MacOSX107UniversalFileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- mxl8y5zz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "5719383 "^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8y5zzdmg80MacOSX107Universal#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8g7zzdmg80MacOSX107Universal#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-apple-diskimage" ;
+    dcterms:identifier "mxl8g7zz.dmg" ;
+    schema:dateCreated "2019-09-09T12:17:26+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8g7zz.dmg> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#https3mxl8g7zzdmg80MacOSX107UniversalFileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
+        oplsof:PostgreSQL8 ,
+        oplsof:PostgreSQL9 ,
+        oplsof:PostgreSQL10 ,
+        oplsof:PostgreSQL11 ;
+    oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
+    oplsof:hasOperatingSystem
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+    oplsof:hasOpsysVersion "10.7.x" ;
+    wdrs:describedby source: .
+
+<#https3mxl8g7zzdmg80MacOSX107UniversalFileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- mxl8g7zz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "5731017"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8g7zzdmg80MacOSX107Universal#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8jzzzdmg80MacOSX107Universal#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-apple-diskimage" ;
+    dcterms:identifier "mxl8jzzz.dmg" ;
+    schema:dateCreated "2019-09-09T12:17:27+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl7jzzz.dmg> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#https3mxl8jzzzdmg80MacOSX107UniversalFileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8JDBCBridge#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:jdbc ;
+    oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
+    oplsof:hasDbmsEngineVersion "3" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+    oplsof:hasOpsysVersion "10.7.x" ;
+    wdrs:describedby source: .
+
+<#https3mxl8jzzzdmg80MacOSX107UniversalFileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- mxl8jzzz.dmg on Mac OS X 10.7.x (Universal) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "3677577"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8jzzzdmg80MacOSX107Universal#this> ;
     wdrs:describedby source: .

@@ -299,7 +299,12 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3odbc_admintaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3oplrqbtaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3opljdbctaz80GenericLinuxGlibc2564Bitx8664#this> ,
-        <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3oplodbctaz80GenericLinuxGlibc2564Bitx8664#this> .
+        <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3oplodbctaz80GenericLinuxGlibc2564Bitx8664#this> ,
+
+	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wao3zzzzmsi80WindowsXPVista764Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waj3zzzzmsi80WindowsXPVista764Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxo3zzzzdmg80MacOSX107Universal#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxj3zzzzdmg80MacOSX107Universal#this> .
 
 
 ############## Version 6.3
@@ -10773,17 +10778,17 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/LR#this> ;
     oplinst:hasFileSizeSpecification <#https3oplrqbtaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerRBrokerInstaller#this> ;
-    oplinst:isInstallerArchiveOf # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8DB2#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Informix#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Ingres#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8JDBCBridge#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8MySQL#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8ODBCBridge#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Oracle#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8PostgreSQL#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Progress#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8SQLServer#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Sybase#this>,
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Sybase#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8DB2#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Informix#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Ingres#this>,
@@ -10918,7 +10923,7 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3ora120_mvtazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
-    oplinst:isInstallerArchiveOf # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Oracle#this>,
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Oracle#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Oracle#this> ;
     oplpro:versionText "8.0" ;
@@ -10953,8 +10958,8 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_mvtaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
-    oplinst:isInstallerArchiveOf # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8SQLServer#this>,
-        # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Sybase#this>,
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Sybase#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8SQLServer#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Sybase#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8SQLServer#this>,
@@ -11008,7 +11013,7 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_mvtaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
-    oplinst:isInstallerArchiveOf # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8PostgreSQL#this>,
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8PostgreSQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8PostgreSQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8PostgreSQL#this> ;
     oplpro:versionText "8.0" ;
@@ -11047,7 +11052,7 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3mys5_mvtaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
-    oplinst:isInstallerArchiveOf # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8MySQL#this>,
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8MySQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8MySQL#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8MySQL#this> ;
     oplpro:versionText "8.0" ;
@@ -11082,7 +11087,7 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3odbc_mvtaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
-    oplinst:isInstallerArchiveOf # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8ODBCBridge#this>,
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8ODBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8ODBCBridge#this> ;
     oplpro:versionText "8.0" ;
@@ -11117,7 +11122,7 @@ source: a schema:CreativeWork ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3jdbc_svtaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
-    oplinst:isInstallerArchiveOf # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8JDBCBridge#this>,
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8JDBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8JDBCBridge#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8JDBCBridge#this> ;
     oplpro:versionText "8.0" ;
@@ -11137,3 +11142,178 @@ source: a schema:CreativeWork ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3jdbcsvtaz80GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .    
     
+
+### UDA 8.0 Windows x86_64 ###
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wao3zzzzmsi80WindowsXPVista764Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT80InstallerArchive> ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "wao3zzzz.msi" ;
+    schema:dateCreated "2019-08-219T16:50:10+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wao3zzzz.msi> ;
+    schema:name "ODBC Generic Client Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/O3#this> ;
+    oplinst:hasFileSizeSpecification <#https3wao3zzzzmsi80WindowsXPVista764Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Sybase#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3wao3zzzzmsi80WindowsXPVista764Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wao3zzzz.msi on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "2846720"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wao3zzzzmsi80WindowsXPVista764Bitx8664#this> ;
+    wdrs:describedby source: . 
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waj3zzzzmsi80WindowsXPVista764Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT80InstallerArchive> ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "waj3zzzz.msi" ;
+    schema:dateCreated "2019-08-29T16:50:07+02:00"^^xsd:dateTime ;
+  #  schema:dateModified "2016-03-27T04:39:01+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/waj3zzzz.msi> ;
+    schema:name "JDBC Generic Client Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/J3#this> ;
+    oplinst:hasFileSizeSpecification <#https3waj3zzzzmsi80WindowsXPVista764Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8JDBCBridge#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Sybase#this>;
+    oplpro:versionText "8.0" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3waj3zzzzmsi80WindowsXPVista764Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- waj3zzzz.msi on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "2892200"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waj3zzzzmsi80WindowsXPVista764Bitx8664#this> ;
+    wdrs:describedby source: .
+
+
+### UDA 8.0 macOS installers ###
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxo3zzzzdmg80MacOSX107Universal#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT80InstallerArchive> ;
+    dcterms:format "application/x-apple-diskimage" ;
+    dcterms:identifier "mxo3zzzz.dmg" ;
+    schema:dateCreated "2019-08-29T12:18:32+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxo3zzzz.dmg> ;
+    schema:name "Generic ODBC Client Driver Installer Archive for Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/KO#this> ;
+    oplinst:hasFileSizeSpecification <#https3mxo3zzzzdmg80MacOSX107x64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Sybase#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:odbc ;
+    # oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
+    oplsof:hasDbmsEngineVersion oplsof:DBEngineVersionAny ;
+    oplsof:hasOperatingSystem
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+    oplsof:hasOpsysVersion "10.7.x" ;
+    wdrs:describedby source: .
+
+<#https3mxo3zzzzdmg80MacOSX107x64Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- mxo3zzzz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "5195505"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxo3zzzzdmg80MacOSX107Universal#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxj3zzzzdmg80MacOSX107Universal#this>
+    a oplinst:InstallerArchive ,
+      schema:CreativeWork ,
+      <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+      <http://www.openlinksw.com/ontology/installers#UDAMT80InstallerArchive> ;
+    dcterms:format "application/x-apple-diskimage" ;
+    dcterms:identifier "mxj3zzzz.dmg" ;
+    schema:dateCreated "2019-08-29T17:03:18+02:00"^^xsd:dateTime ;
+   # schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxj3zzzz.dmg> ;
+    schema:name "JDBC Generic Client Installer Archive for Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/J3#this> ;
+    oplinst:hasFileSizeSpecification <#https3mxj3zzzzdmg80MacOSX107x64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8JDBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Sybase#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:jdbc ;
+    # oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
+    oplsof:hasDbmsEngineVersion oplsof:DBEngineVersionAny ;
+    oplsof:hasOperatingSystem
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+    oplsof:hasOpsysVersion "10.7.x" ;
+    wdrs:describedby source: .
+
+<#https3mxj3zzzzdmg80MacOSX107x64Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- mxj3zzzz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "13231233"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxj3zzzzdmg80MacOSX107Universal#this> ;
+    wdrs:describedby source: .
+
