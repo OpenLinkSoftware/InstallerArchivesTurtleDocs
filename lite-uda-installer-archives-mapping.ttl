@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2019-05-13T00:00:00+00:00"^^xsd:dateTime ;
+   schema:dateModified "2019-09-10T00:00:00+00:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
@@ -38,7 +38,7 @@ source:
    schema:name "OpenLink UDA Lite Edition (Single-Tier) Installers Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Lite Edition (Single-Tier) Installers"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2019-05-13T00:00:00+00:00"^^xsd:dateTime ;
+   schema:dateModified "2019-09-10T00:00:00+00:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg70MacOSX107Universal#this> ,
@@ -6681,7 +6681,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl7g7zz.dmg" ;
     schema:dateCreated "2016-06-24T12:17:26+02:00"^^xsd:dateTime ;
-    schema:dateModified "2019-05-13T00:00:00+00:00"^^xsd:dateTime ;
+    schema:dateModified "2019-09-10T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7g7zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -8634,15 +8634,15 @@ source:
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
     oplpro:versionText "8.0" ;
-    oplsof:hasDatabaseEngine oplsof:MySQL 5 ;
+    oplsof:hasDatabaseEngine oplsof:MySQL5 ;
     oplsof:hasDatabaseFamily oplsof:MySQL ;
     oplsof:hasDbmsEngineVersion "5.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
-    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server20xx" ;
     wdrs:describedby source: .
 
-<#httpss3wal8mys5msi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification>> 
+<#httpss3wal8mys5msi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification>
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- wal8mys5.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
@@ -8676,7 +8676,7 @@ source:
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
     wdrs:describedby source: .
 
-<#httpss3wal8jzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification>> 
+<#httpss3wal8jzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification>
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- wal8jzzz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
@@ -8711,7 +8711,7 @@ source:
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
     wdrs:describedby source: .
 
-<#httpss3wal8odbcmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification>> 
+<#httpss3wal8odbcmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification>
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- wal8odbc.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
