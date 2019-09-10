@@ -22,7 +22,7 @@ sourceDAV:
    schema:name "OpenLink Software Database Engines -- WebDAV hosted TURTLE Document"^^xsd:string ;
    dcterms:format "text/turtle" ;
    schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2015-09-14T13:38:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-09-10T13:38:00-05:00"^^xsd:dateTime ;
    schema:author <http://www.openlinksw.com/#this> ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    cc:attributionName  "OpenLink Software" ;
@@ -32,7 +32,7 @@ source: a schema:CreativeWork ;
    schema:name "OpenLink Database Engines"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink Database Engines"""@en ;
    schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2015-09-14T13:38:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-09-10T13:38:00-05:00"^^xsd:dateTime ;
    schema:author <http://www.openlinksw.com/#this> ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    cc:attributionName  "OpenLink Software" ;
@@ -67,6 +67,8 @@ source: a schema:CreativeWork ;
               <http://data.openlinksw.com/oplweb/dbms_engine/pos7#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/pos8#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/pos9#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/pos10#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/pos11#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/pro10#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/pro62f#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/pro73c#this> ,
@@ -3173,6 +3175,76 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
     oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/PostgreSQL#this> .
 
+<http://data.openlinksw.com/oplweb/dbms_engine/pos10#this> a oplsof:DbmsEngine ;
+    wdrs:describedby source: ;
+    skos:altLabel "PostgreSQL 10.x" ;
+    schema:name "PostgreSQL 10.x Database Engine" ;
+    oplsof:DbmsEngineDownwardCompatible "0"^^xsd:string ;
+    oplsof:DbmsEngineOldArchiveCode "g8" ;
+    oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
+    oplsof:hasDbmsEngineVersion "10.x" ;
+    oplcomp:hasComponent 
+        <http://data.openlinksw.com/oplweb/component/ia64-intel-win-64-pos10-dbagent-svr_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/ia64-intel-win-64-pos10-dbagent-svr_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/ia64-intel-win-64-pos10-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/ia64-intel-win-64-pos10-odbclt-clnt-only_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx10.5-64-pos10-odbcexp-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx10.5-64-pos10-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx10.5-64-pos10-odbclt-clnt-only_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx10.6-64-pos10-odbcexp-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx10.6-64-pos10-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx10.6-64-pos10-odbclt-clnt-only_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-linux-glibc25-64-pos10-dbagent-svr_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-linux-glibc25-64-pos10-dbagent-svr_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-linux-glibc25-64-pos10-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-linux-glibc25-64-pos10-odbclt-clnt-only_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-win-64-pos10-dbagent-svr_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-win-64-pos10-dbagent-svr_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-win-64-pos10-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-win-64-pos10-odbclt-clnt-only_sv#this> ;
+    oplpro:hasProduct # <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        # <http://data.openlinksw.com/oplweb/product/odbc-postgres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
+    oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/PostgreSQL#this> .
+
+
+    <http://data.openlinksw.com/oplweb/dbms_engine/pos11#this> a oplsof:DbmsEngine ;
+    wdrs:describedby source: ;
+    skos:altLabel "PostgreSQL 11.x" ;
+    schema:name "PostgreSQL 11.x Database Engine" ;
+    oplsof:DbmsEngineDownwardCompatible "0"^^xsd:string ;
+    oplsof:DbmsEngineOldArchiveCode "g8" ;
+    oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
+    oplsof:hasDbmsEngineVersion "11.x" ;
+    oplcomp:hasComponent 
+        <http://data.openlinksw.com/oplweb/component/ia64-intel-win-64-pos11-dbagent-svr_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/ia64-intel-win-64-pos11-dbagent-svr_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/ia64-intel-win-64-pos11-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/ia64-intel-win-64-pos11-odbclt-clnt-only_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx11.5-64-pos11-odbcexp-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx11.5-64-pos11-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx11.5-64-pos11-odbclt-clnt-only_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx11.6-64-pos11-odbcexp-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx11.6-64-pos11-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macosx11.6-64-pos11-odbclt-clnt-only_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-linux-glibc25-64-pos11-dbagent-svr_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-linux-glibc25-64-pos11-dbagent-svr_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-linux-glibc25-64-pos11-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-linux-glibc25-64-pos11-odbclt-clnt-only_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-win-64-pos11-dbagent-svr_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-win-64-pos11-dbagent-svr_sv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-win-64-pos11-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/x86_64-generic-win-64-pos11-odbclt-clnt-only_sv#this> ;
+    oplpro:hasProduct # <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        # <http://data.openlinksw.com/oplweb/product/odbc-postgres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
+    oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/PostgreSQL#this> .
+
+   
 <http://data.openlinksw.com/oplweb/dbms_engine/pro10#this> a oplsof:DbmsEngine ;
     wdrs:describedby source: ;
     skos:altLabel "Progress 10.0A" ;
