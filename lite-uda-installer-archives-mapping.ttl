@@ -7979,7 +7979,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/pgr7_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -7987,10 +7987,12 @@ source:
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
-        oplsof:PostgreSQL8 ,
-        oplsof:PostgreSQL9 ;
+                             oplsof:PostgreSQL8 ,
+                             oplsof:PostgreSQL9  ,
+                             oplsof:PostgreSQL10 ,
+                             oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.12" ;
@@ -8016,7 +8018,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/pgr7_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
@@ -8024,10 +8026,12 @@ source:
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ;
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
-        oplsof:PostgreSQL8 ,
-        oplsof:PostgreSQL9 ;
+                             oplsof:PostgreSQL8 ,
+                             oplsof:PostgreSQL9 ,
+                             oplsof:PostgreSQL10 ,
+                             oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.17" ;
@@ -8092,7 +8096,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T19:27:17+02:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-linux-glibc212-32/pgr7_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
@@ -8101,9 +8105,11 @@ source:
     oplpro:versionText "7.0" ;
     oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
         oplsof:PostgreSQL8 ,
-        oplsof:PostgreSQL9 ;
+        oplsof:PostgreSQL9 ,
+        oplsof:PostgreSQL10 ,
+        oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc212-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.12" ;
