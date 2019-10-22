@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2019-09-10T00:00:00+00:00"^^xsd:dateTime ;
+   schema:dateModified "2019-09-19T12:35:00-05:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
@@ -38,7 +38,7 @@ source:
    schema:name "OpenLink UDA Lite Edition (Single-Tier) Installers Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Lite Edition (Single-Tier) Installers"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2019-09-10T00:00:00+00:00"^^xsd:dateTime ;
+   schema:dateModified "2019-09-19T12:35:00-05:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg70MacOSX107Universal#this> ,
@@ -5909,7 +5909,7 @@ source:
     dcterms:identifier "ntl7mzzz.msi" ;
     schema:dateCreated "2017-12-08T14:39:00+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7mzzz.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7mzzzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5926,6 +5926,8 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -5936,7 +5938,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -5995,7 +5997,7 @@ source:
     dcterms:identifier "wal7mzzz.msi" ;
     schema:dateCreated "2017-12-08T14:39:03+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7mzzz.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7mzzzmsi70WindowsXPVista764Bitx8664FileSpecification> ;
@@ -6012,6 +6014,8 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -6022,7 +6026,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
@@ -6081,7 +6085,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:46:27+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/sql_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -6098,6 +6102,8 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -6108,7 +6114,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.12" ;
@@ -6133,7 +6139,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:51:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/sql_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
@@ -6150,6 +6156,8 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -6160,7 +6168,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.17" ;
@@ -6449,7 +6457,7 @@ source:
     schema:dateCreated "2017-12-07T00:00:00+02:00"^^xsd:dateTime ;
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7mzzz.dmg> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2018 on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7mzzzdmg70MacOSX107UniversalFileSpecification> ;
@@ -6468,7 +6476,6 @@ source:
         oplsof:SQLServer2014,
         oplsof:SQLServer2016,
         oplsof:SQLServer2017,
-        oplsof:SQLServer2019,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -6479,7 +6486,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2019" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem
         <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
         <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
@@ -7726,7 +7733,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:50:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc25-64/sql_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -7743,6 +7750,8 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -7753,7 +7762,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -7778,7 +7787,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:54:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i386-generic-linux-glibc25-32/sql_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Generic Linux Glibc 2.5 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.5 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc2532Bitx86FileSpecification> ;
@@ -7795,6 +7804,8 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -7805,7 +7816,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc25-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -7830,7 +7841,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:53:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i386-generic-linux-glibc212-32/sql_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
@@ -7847,6 +7858,8 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -7857,7 +7870,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i86-generic-linux-glibc212-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.12" ;
@@ -7884,7 +7897,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:53:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i386-generic-linux-glibc212-32/sql_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
@@ -7901,6 +7914,8 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -7911,7 +7926,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i86-generic-linux-glibc212-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.12" ;
@@ -8307,7 +8322,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2019-08-18T10:50:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/sql_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -8324,6 +8339,8 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -8334,7 +8351,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -8503,7 +8520,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2019-08-26T10:50:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8mzzz.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3wal8mzzzmsi70Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -8520,6 +8537,8 @@ source:
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -8530,7 +8549,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -8733,7 +8752,7 @@ source:
     dcterms:identifier "mxl8mzzz.dmg" ;
     schema:dateCreated "2019-09-09T00:00:00+02:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8mzzz.dmg> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2018 on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl8mzzzdmg80MacOSX107UniversalFileSpecification> ;
@@ -8752,7 +8771,6 @@ source:
         oplsof:SQLServer2014,
         oplsof:SQLServer2016,
         oplsof:SQLServer2017,
-        oplsof:SQLServer2019,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -8763,7 +8781,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2019" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem
         <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
         <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;

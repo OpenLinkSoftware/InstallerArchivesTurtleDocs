@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2019-09-17T14:22:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-09-19T12:35:00-05:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -37,7 +37,7 @@ source: a schema:CreativeWork ;
    schema:name "OpenLink UDA Enterpise Edition Installer Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Enterpise Edition Installer Archives"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2019-07-25T10:22:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-09-19T12:35:00-05:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxo3zzzzdmg70MacOSX107Universal#this> ,
@@ -7341,7 +7341,7 @@ source: a schema:CreativeWork ;
     dcterms:identifier "waadmzzz.msi" ;
     schema:dateCreated "2017-12-08T22:00:05.000Z"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/waadmzzz.msi> ;
-    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 Database Agent Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
+    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3waadmzzzmsi70WindowsXPVista764Bitx8664FileSpecification> ;
@@ -7361,6 +7361,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2008R2 ,
         oplsof:SQLServer2012 ,
         oplsof:SQLServer2014 ,
+        oplsof:SQLServer2016 ,
+        oplsof:SQLServer2017 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -7371,7 +7373,7 @@ source: a schema:CreativeWork ;
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
@@ -7601,7 +7603,7 @@ source: a schema:CreativeWork ;
     dcterms:identifier "ntadmzzz.msi" ;
     schema:dateCreated "2017-12-08T22:00:40.000Z "^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntadmzzz.msi> ;
-    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 Database Agent Installer Archive for Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) -- Amazon S3 HTTP Depot" ;
+    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent Installer Archive for Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3ntadmzzzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7621,6 +7623,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2008R2 ,
         oplsof:SQLServer2012 ,
         oplsof:SQLServer2014 ,
+        oplsof:SQLServer2016 ,
+        oplsof:SQLServer2017 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -7631,7 +7635,7 @@ source: a schema:CreativeWork ;
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -8367,7 +8371,7 @@ source: a schema:CreativeWork ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:46:28+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/sql_mv.taz> ;
-    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_mvtaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -8388,6 +8392,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016 ,
+        oplsof:SQLServer2017 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -8398,7 +8404,7 @@ source: a schema:CreativeWork ;
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.12" ;
@@ -8424,7 +8430,7 @@ source: a schema:CreativeWork ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:51:20+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/sql_mv.taz> ;
-    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_mvtaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
@@ -8445,6 +8451,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016 ,
+        oplsof:SQLServer2017 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -8455,7 +8463,7 @@ source: a schema:CreativeWork ;
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.17" ;
@@ -9497,7 +9505,7 @@ source: a schema:CreativeWork ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:50:20+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc25-64/sql_mv.taz> ;
-    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_mvtaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -9518,6 +9526,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016 ,
+        oplsof:SQLServer2017 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -9528,7 +9538,7 @@ source: a schema:CreativeWork ;
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -9553,7 +9563,7 @@ source: a schema:CreativeWork ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:54:20+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i386-generic-linux-glibc25-32/sql_mv.taz> ;
-    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_mvtaz70GenericLinuxGlibc2532Bitx86FileSpecification> ;
@@ -9574,6 +9584,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016 ,
+        oplsof:SQLServer2017 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -9584,7 +9596,7 @@ source: a schema:CreativeWork ;
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc25-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -9609,7 +9621,7 @@ source: a schema:CreativeWork ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2017-12-07T10:53:20+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i386-generic-linux-glibc212-32/sql_mv.taz> ;
-    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_mvtaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
@@ -9630,6 +9642,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016 ,
+        oplsof:SQLServer2017 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -9640,7 +9654,7 @@ source: a schema:CreativeWork ;
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i86-generic-linux-glibc212-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.12" ;
@@ -10960,7 +10974,7 @@ source: a schema:CreativeWork ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2019-08-18T10:50:20+05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/sql_mv.taz> ;
-    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_mvtaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -10981,6 +10995,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2008R2,
         oplsof:SQLServer2012,
         oplsof:SQLServer2014,
+        oplsof:SQLServer2016 ,
+        oplsof:SQLServer2017 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -10991,7 +11007,7 @@ source: a schema:CreativeWork ;
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2014" ;
+        "6.x - 2017" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -11241,7 +11257,7 @@ source: a schema:CreativeWork ;
     dcterms:identifier "waadmzzz.msi" ;
     schema:dateCreated "2019-09-16T22:00:05.000Z"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/waadmzzz.msi> ;
-    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2014 Database Agent Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
+    schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3waadmzzzmsi80WindowsXPVista764Bitx8664FileSpecification> ;
@@ -11261,6 +11277,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2008R2 ,
         oplsof:SQLServer2012 ,
         oplsof:SQLServer2014 ,
+        oplsof:SQLServer2016 ,
+        oplsof:SQLServer2017 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
