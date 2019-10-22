@@ -7112,7 +7112,7 @@ source: a schema:CreativeWork ;
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- odbc_admin.taz on Solaris 2.8 (32 Bit) (Sparc) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "7166841 bytes"^^xsd:integer ;
+    oplinst:hasMeasurementValue "7166841"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://download3.openlinksw.com/uda/components/6.3/sparc-sun-solaris2.8-32/odbc_admin.taz> ;
     wdrs:describedby source: .
 
@@ -10363,7 +10363,7 @@ source: a schema:CreativeWork ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T17:15:01+01:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/pgr7_mv.taz> ;
-    schema:name "PostgreSQL 7.x, 8.x, 9.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_mvtaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -10374,9 +10374,11 @@ source: a schema:CreativeWork ;
     oplpro:versionText "7.0" ;
         oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
                              oplsof:PostgreSQL8 ,
-                             oplsof:PostgreSQL9 ;
+                             oplsof:PostgreSQL9  ,
+                             oplsof:PostgreSQL10 ,
+                             oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.12" ;
@@ -10400,7 +10402,7 @@ source: a schema:CreativeWork ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T17:15:01+01:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/pgr7_mv.taz> ;
-    schema:name "PostgreSQL 7.x, 8.x, 9.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_mvtaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
@@ -10411,9 +10413,11 @@ source: a schema:CreativeWork ;
     oplpro:versionText "7.0" ;
         oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
                              oplsof:PostgreSQL8 ,
-                             oplsof:PostgreSQL9 ;
+                             oplsof:PostgreSQL9  ,
+                             oplsof:PostgreSQL10 ,
+                             oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x";
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.17" ;
@@ -10478,7 +10482,7 @@ source: a schema:CreativeWork ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T19:27:30+02:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-linux-glibc212-32/pgr7_mv.taz> ;
-    schema:name "PostgreSQL 7.x, 8.x, 9.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_mvtaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
@@ -10489,9 +10493,11 @@ source: a schema:CreativeWork ;
     oplpro:versionText "7.0" ;
         oplsof:hasDatabaseEngine oplsof:PostgreSQL7,
                              oplsof:PostgreSQL8 ,
-                             oplsof:PostgreSQL9 ;
+                             oplsof:PostgreSQL9  ,
+                             oplsof:PostgreSQL10 ,
+                             oplsof:PostgreSQL11 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
-    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x" ;
+    oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc212-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.12" ;
@@ -11175,7 +11181,7 @@ source: a schema:CreativeWork ;
     <http://www.openlinksw.com/ontology/installers#UDAMT80InstallerArchive> ;
     dcterms:format "application/x-msdownload" ;
     dcterms:identifier "wao3zzzz.msi" ;
-    schema:dateCreated "2019-08-219T16:50:10+02:00"^^xsd:dateTime ;
+    schema:dateCreated "2019-08-29T16:50:10+02:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wao3zzzz.msi> ;
     schema:name "ODBC Generic Client Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
