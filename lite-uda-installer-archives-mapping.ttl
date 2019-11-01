@@ -5289,7 +5289,7 @@ source:
     schema:dateCreated "2015-11-20T03:00:05+01:00"^^xsd:dateTime ;
     schema:dateModified "2019-04-14T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7g7zz.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7g7zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5604,7 +5604,7 @@ source:
     schema:dateCreated "2015-11-20T03:11:08+01:00"^^xsd:dateTime ;
     schema:dateModified "2019-04-14T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7g7zz.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, 12.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7g7zzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -6692,7 +6692,7 @@ source:
     schema:dateCreated "2016-06-24T12:17:26+02:00"^^xsd:dateTime ;
     schema:dateModified "2019-09-10T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7g7zz.dmg> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, 12.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7g7zzdmg70MacOSX107UniversalFileSpecification> ;
@@ -7958,7 +7958,7 @@ source:
     schema:dateCreated "2018-06-01T17:14:47+01:00"^^xsd:dateTime ;
     schema:dateModified "2019-04-14T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc25-64/pgr7_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -7998,7 +7998,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/pgr7_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -8038,7 +8038,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/pgr7_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
@@ -8079,7 +8079,7 @@ source:
     schema:dateCreated "2018-06-01T19:27:17+02:00"^^xsd:dateTime ;
     schema:dateModified "2019-04-14T10:22:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-linux-glibc25-32/pgr7_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x , 11.x, 12.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc2532Bitx86FileSpecification> ;
@@ -8118,7 +8118,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2018-06-01T19:27:17+02:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/7.0/i686-generic-linux-glibc212-32/pgr7_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, 12.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
@@ -8424,7 +8424,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2019-08-18T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/pgr7_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -8623,7 +8623,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2019-08-26T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8g7zz.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3wal8g7zzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -8896,7 +8896,7 @@ source:
     dcterms:identifier "mxl8g7zz.dmg" ;
     schema:dateCreated "2019-09-09T12:17:26+02:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8g7zz.dmg> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, 12.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl8g7zzdmg80MacOSX107UniversalFileSpecification> ;
