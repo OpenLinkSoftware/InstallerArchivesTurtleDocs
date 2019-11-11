@@ -161,6 +161,7 @@
       oplsof:PostgreSQL9                ,
       oplsof:PostgreSQL10               ,
       oplsof:PostgreSQL11               ,
+      oplsof:PostgreSQL12               ,
       oplsof:db2                        ,
       oplsof:db26                       ,
       oplsof:db27                       ,
@@ -348,6 +349,7 @@
       oplsof:PostgreSQL9                ,
       oplsof:PostgreSQL10               ,
       oplsof:PostgreSQL11               ,
+      oplsof:PostgreSQL12               ,
       oplsof:db2                        ,
       oplsof:db26                       ,
       oplsof:db27                       ,
@@ -576,6 +578,7 @@
       oplsof:PostgreSQL9                ,
       oplsof:PostgreSQL10               ,
       oplsof:PostgreSQL11               ,
+      oplsof:PostgreSQL12               ,
       oplsof:db2                        ,
       oplsof:db26                       ,
       oplsof:db27                       ,
@@ -1980,6 +1983,13 @@ oplsof:PostgreSQL11 a oplsof:DbmsEngine ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """PostgreSQL 11.x Database Engine""" ;
   rdfs:label "PostgreSQL 11.x Database Engine"^^xsd:string .
+
+oplsof:PostgreSQL12 a oplsof:DbmsEngine ;
+  oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
+  oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
+  rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
+  schema:name """PostgreSQL 12.x Database Engine""" ;
+  rdfs:label "PostgreSQL 12.x Database Engine"^^xsd:string .
 
 oplsof:db2 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
