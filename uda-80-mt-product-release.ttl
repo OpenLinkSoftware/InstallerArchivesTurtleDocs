@@ -312,6 +312,20 @@ source: a schema:CreativeWork ;
     skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for Sybase "^^xsd:string ;
     wdrs:describedby source: .
 
+<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8MySQL#this> a oplpro:ProductRelease  ,
+        schema:CreativeWork ,
+        schema:SoftwareApplication ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for MySQL "^^xsd:string ;
+    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this> ,
+                       <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this> ;
+    schema:image <http://uda.openlinksw.com/images/jdbcmysqlmt.gif> , <http://uda.openlinksw.com/images/odbcmysqlmt.gif> ;
+    schema:version "8.0"^^xsd:decimal ;
+    oplpro:versionText "8.x"^^xsd:string ;
+    skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for MySQL "^^xsd:string ;
+    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 8.0 Release for MySQL "^^xsd:string ;
+    wdrs:describedby source: .
+
 <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8ODBCBridge#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
         schema:SoftwareApplication ;
