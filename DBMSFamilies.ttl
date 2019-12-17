@@ -60,7 +60,7 @@ source: a schema:CreativeWork ;
     oplsof:DbmsFamilyName "ACCESS" ;
     oplsof:DbmsFamilyVendor <http://data.openlinksw.com/oplweb/vendor/MicrosoftCorporation#this> ;
     owl:sameAs <http://dbpedia.org/resource/Microsoft_Access> ;
-    schema:logo <http://static1.squarespace.com/static/5159f37ee4b0c7150a112bbc/t/55004cefe4b0e4e14745deb3/1426083056847/MSAccess+2013+Logo> .
+    schema:logo <https://uda.openlinksw.com/images/msaccess-logo-200.png> .
 
 # <http://data.openlinksw.com/oplweb/dbms_family/ADO.NetBridge#this> a oplsof:DbmsFamily ;
 #     wdrs:describedby source: ;
@@ -85,7 +85,7 @@ source: a schema:CreativeWork ;
     #     <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
     #     <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this> ;
     owl:sameAs <http://dbpedia.org/resource/IBM_DB2>  ;
-    schema:logo <https://d117h1jjiq768j.cloudfront.net/images/default-source/Products/datadirect/data-sources/ibm-db2/ibm_db2.png> .
+    schema:logo <https://uda.openlinksw.com/images/imbdb2-logo-200.png> .
 
 <http://data.openlinksw.com/oplweb/dbms_family/FileMaker#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -94,7 +94,7 @@ source: a schema:CreativeWork ;
     oplsof:DbmsFamilyName "FileMaker" ;
     oplsof:DbmsFamilyVendor <http://data.openlinksw.com/oplweb/vendor/AppleComputer#this> ;
     owl:sameAs <http://dbpedia.org/resource/FileMaker> ;
-    schema:logo <https://www.computech-it.co.uk/wp-content/uploads/2014/10/filemaker_logo.png> .
+    schema:logo <https://uda.openlinksw.com/images/filemaker-logo-200.png> .
 
 <http://data.openlinksw.com/oplweb/dbms_family/Firebird#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -104,7 +104,7 @@ source: a schema:CreativeWork ;
     oplsof:DbmsFamilyVendor <http://data.openlinksw.com/oplweb/vendor/BorlandSoftwareCorp.#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/frb#this> ;
     # oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/odbc-frbird-ee#this> ;
-    schema:logo <https://www.totaljs.com/exports/firebird-logo.png> ;
+    schema:logo <https://uda.openlinksw.com/images/firebird-logo-200.png> ;
     owl:sameAs <http://dbpedia.org/resource/Firebird_%28database_server%29>  .
 
 <http://data.openlinksw.com/oplweb/dbms_family/FoxPRO#this> a oplsof:DbmsFamily ;
@@ -113,7 +113,7 @@ source: a schema:CreativeWork ;
     skos:altLabel "Visual Fox Pro" ;
     oplsof:DbmsFamilyName "FoxPRO" ;
     oplsof:DbmsFamilyVendor <http://data.openlinksw.com/oplweb/vendor/MicrosoftCorporation#this> ;
-    schema:logo <https://upload.wikimedia.org/wikipedia/de/1/16/Logo_Microsoft_Visual_FoxPro.png> ;
+    schema:logo <https://uda.openlinksw.com/images/visualfoxpro-logo-200.png> ;
     owl:sameAs <http://dbpedia.org/resource/Visual_FoxPro>  .
 
 <http://data.openlinksw.com/oplweb/dbms_family/Informix#this> a oplsof:DbmsFamily ;
@@ -137,7 +137,7 @@ source: a schema:CreativeWork ;
     owl:sameAs <http://dbpedia.org/resource/Informix> ;
     owl:sameAs oplsof:Informix ;
 	skos:related <https://www-356.ibm.com/partnerworld/wps/bplocator/> ;
-    schema:logo <https://d117h1jjiq768j.cloudfront.net/images/default-source/Products/datadirect/data-sources/ibm_informix/ibm_informix.png>  .
+    schema:logo <https://uda.openlinksw.com/images/ibminformix-logo-200.png>  .
 
 <http://data.openlinksw.com/oplweb/dbms_family/Ingres#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -156,7 +156,7 @@ source: a schema:CreativeWork ;
     #     <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> ;
     owl:sameAs <http://dbpedia.org/resource/Ingres> ;
 	skos:related <https://www.actian.com/partners/> ;
-    schema:logo <https://upload.wikimedia.org/wikipedia/commons/5/59/Ingres_Logo.svg> .
+    schema:logo <https://uda.openlinksw.com/images/ingres-logo-200.png> .
 
 <http://data.openlinksw.com/oplweb/dbms_family/JDBCBridge#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -170,7 +170,7 @@ source: a schema:CreativeWork ;
     #     <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
     #     <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this> ;
     owl:sameAs <http://dbpedia.org/resource/JDBC> ;
-    schema:logo <http://media-cache-ec0.pinimg.com/originals/75/11/a8/7511a81c2e4ec244473cc514d997bd0a.jpg> .
+    schema:logo <https://uda.openlinksw.com/images/jdbcbridge-logo-200.png> .
 
 <http://data.openlinksw.com/oplweb/dbms_family/MySQL#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -187,7 +187,7 @@ source: a schema:CreativeWork ;
     #     <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
     #     <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
     owl:sameAs <http://dbpedia.org/resource/MySQL> ;
-    schema:logo <https://upload.wikimedia.org/wikipedia/en/6/62/MySQL.svg> .
+    schema:logo <https://uda.openlinksw.com/images/mysql-logo-200.png> .
 
 <http://data.openlinksw.com/oplweb/dbms_family/PrestoDB#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -197,7 +197,7 @@ source: a schema:CreativeWork ;
     oplsof:DbmsFamilyVendor <http://data.openlinksw.com/oplweb/vendor/Facebook#this> ;
     # oplpro:hasProduct  <http://data.openlinksw.com/oplweb/product/odbc-presto-ee#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/presto#this> ;
-    schema:logo <https://prestodb.io/static/presto-og.png> .
+    schema:logo <https://uda.openlinksw.com/images/presto-logo-200.png> .
 
 <http://data.openlinksw.com/oplweb/dbms_family/ODBCBridge#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -217,7 +217,7 @@ source: a schema:CreativeWork ;
     #     <http://data.openlinksw.com/oplweb/product/xmla-odbc-st#this> ;
     owl:sameAs <http://dbpedia.org/resource/ODBC> ;
     skos:altLabel "ODBC" ;
-    schema:logo <http://media-cache-ec0.pinimg.com/originals/ef/b2/7e/efb27e54ef098c18a93aa8a074d5817d.jpg> .
+    schema:logo <https://uda.openlinksw.com/images/odbcbridge-logo-200.png> .
 
 # <http://data.openlinksw.com/oplweb/dbms_family/OLEDBBridge#this> a oplsof:DbmsFamily ;
 #     wdrs:describedby source: ;
@@ -253,7 +253,7 @@ source: a schema:CreativeWork ;
     #    <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-ent#this>,
     #    <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-psnl#this>,
     #    <http://data.openlinksw.com/oplweb/product/virtuoso-uim-xmldb-psnl#this> ;
-     schema:logo <https://upload.wikimedia.org/wikipedia/commons/3/3f/Virtuoso-logo-sm.png> .
+     schema:logo <https://uda.openlinksw.com/images/virtousu-logo-200.png> .
 
 <http://data.openlinksw.com/oplweb/dbms_family/Oracle#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -275,7 +275,7 @@ source: a schema:CreativeWork ;
     #     <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
     owl:sameAs <http://dbpedia.org/resource/Oracle_database> ;
 	skos:related <https://solutions.oracle.com/scwar/scr/Partners/index.html> ;
-    schema:logo <http://core1.staticworld.net/images/article/2013/04/oracle-logo-100033308-gallery.png> .
+    schema:logo <https://uda.openlinksw.com/images/oracle-logo-200.png> .
 
 <http://data.openlinksw.com/oplweb/dbms_family/PostgreSQL#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -292,7 +292,7 @@ source: a schema:CreativeWork ;
     #     <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
     #     <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
     owl:sameAs <http://dbpedia.org/resource/PostgreSQL> ;
-    schema:logo <https://upload.wikimedia.org/wikipedia/commons/2/2e/Pg_logo.png> .
+    schema:logo <https://uda.openlinksw.com/images/postgressql-logo-200.png> .
 
 <http://data.openlinksw.com/oplweb/dbms_family/Progress#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -329,7 +329,7 @@ source: a schema:CreativeWork ;
     #     <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this> ;
     owl:sameAs <http://dbpedia.org/resource/Progress_4GL> ;
 	skos:related <https://www.progress.com/partners/partner-directory> ;
-    schema:logo <http://4.bp.blogspot.com/-zN60IUf7hig/ULrOw3VJnOI/AAAAAAAAHIg/CQmwJ6evN7k/s1600/ProgressSoftwareLogo.jpg> .
+    schema:logo <https://uda.openlinksw.com/images/progress-logo-200.png> .
 
 <http://data.openlinksw.com/oplweb/dbms_family/SQLServer#this> a oplsof:DbmsFamily ;
     wdrs:describedby source: ;
@@ -353,7 +353,7 @@ source: a schema:CreativeWork ;
     #     <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-ee#this>,
     #     <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
     #     <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this> ;
-    schema:logo <https://upload.wikimedia.org/wikipedia/de/8/8c/Microsoft_SQL_Server_Logo.svg>;
+    schema:logo <https://uda.openlinksw.com/images/mssqlserver-logo-200.png>;
     owl:sameAs <http://dbpedia.org/resource/Microsoft_SQL_Server>  .
 
 <http://data.openlinksw.com/oplweb/dbms_family/Sybase#this> a oplsof:DbmsFamily ;
@@ -373,7 +373,7 @@ source: a schema:CreativeWork ;
     #     <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
     #     <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
     owl:sameAs <http://dbpedia.org/resource/Sybase> ;
-    schema:logo <https://upload.wikimedia.org/wikipedia/commons/4/4c/Sybase-SAP_FINAL_logo.png> .
+    schema:logo <https://uda.openlinksw.com/images/sybase-logo-200.png> .
 
 
 
