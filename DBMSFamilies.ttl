@@ -21,7 +21,7 @@ sourceDAV:
    schema:name "OpenLink Software DBMS Families -- WebDAV hosted TURTLE Document"^^xsd:string ;
    dcterms:format "text/turtle" ;
    schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2019-12-11T13:38:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-12-18T10:38:00-05:00"^^xsd:dateTime ;
    schema:author <http://www.openlinksw.com/#this> ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    cc:attributionName  "OpenLink Software" ;
@@ -31,7 +31,7 @@ source: a schema:CreativeWork ;
    schema:name "OpenLink DBMS Families"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink DBMS Families"""@en ;
    schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2019-12-11T13:38:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2019-12-18T10:38:00-05:00"^^xsd:dateTime ;
    schema:author <http://www.openlinksw.com/#this> ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    cc:attributionName  "OpenLink Software" ;
