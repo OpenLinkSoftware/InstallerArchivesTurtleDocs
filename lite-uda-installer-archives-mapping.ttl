@@ -8703,9 +8703,9 @@ source:
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
     oplpro:versionText "8.0" ;
-    oplsof:hasDatabaseEngine oplsof:JDBC ;
-    oplsof:hasDatabaseFamily oplsof:JDBC ;
-    oplsof:hasDbmsEngineVersion "8.x" ;
+    oplsof:hasDatabaseEngine oplsof:jdbc ;
+    oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
+    oplsof:hasDbmsEngineVersion "4.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
