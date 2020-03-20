@@ -8701,7 +8701,7 @@ source:
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal8jzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8JDBCBridge#this> ;
     oplpro:versionText "8.0" ;
     oplsof:hasDatabaseEngine oplsof:jdbc ;
     oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
