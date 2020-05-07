@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2020-03-20T12:35:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2020-05-07T12:35:00-05:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
@@ -38,7 +38,7 @@ source:
    schema:name "OpenLink UDA Lite Edition (Single-Tier) Installers Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Lite Edition (Single-Tier) Installers"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2020-03-20T12:35:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2020-05-07T12:35:00-05:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg70MacOSX107Universal#this> ,
@@ -269,11 +269,12 @@ source:
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3ora120lttaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz80GenericLinuxGlibc2564Bitx8664#this>,
 
-	 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8mzzzdmg80MacOSX107Universal#this> ,
-	 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8o12zdmg80MacOSX107Universal#this> ,
-	 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8y5zzdmg80MacOSX107Universal#this> ,
-	 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8g7zzdmg80MacOSX107Universal#this> ,
-	 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8jzzzdmg80MacOSX107Universal#this> .
+        <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg80MacOSX107Universal#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8mzzzdmg80MacOSX107Universal#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8o12zdmg80MacOSX107Universal#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8y5zzdmg80MacOSX107Universal#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8g7zzdmg80MacOSX107Universal#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8jzzzdmg80MacOSX107Universal#this> .
         
 
 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttp3sinf9lttazSolaris2832BitSparc#this> 
@@ -8959,4 +8960,41 @@ source:
     oplinst:hasMeasurementUnit "Bytes" ;
     oplinst:hasMeasurementValue "3677577"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8jzzzdmg80MacOSX107Universal#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg80MacOSX107Universal#this>
+    a oplinst:InstallerArchive ,
+      schema:CreativeWork ,
+      oplinst:UDASTInstallerArchive ,
+      oplinst:UDASTLiteInstallerArchive ,
+      oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-apple-diskimage" ;
+    dcterms:identifier "mxjczzzz.dmg" ;
+    schema:dateCreated "2020-05-07T12:14:24+02:00"^^xsd:dateTime ;
+    schema:dateModified "2020-05-07T12:14:24+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxjczzzz.dmg> ;
+    schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/JC#this> ;
+    oplinst:hasFileSizeSpecification <#https3mxjczzzzdmg80MacOSX107x64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:odbc ;
+    oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
+    oplsof:hasDbmsEngineVersion oplsof:DBEngineVersionAny ;
+    oplsof:hasOperatingSystem
+        <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
+        <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+    oplsof:hasOpsysVersion "10.7.x" ;
+    wdrs:describedby source: .
+
+<#https3mxjczzzzdmg80MacOSX107x64Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- mxjczzzz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "14049968"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg80MacOSX107Universal#this> ;
     wdrs:describedby source: .
