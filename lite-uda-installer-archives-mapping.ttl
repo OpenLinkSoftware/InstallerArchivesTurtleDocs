@@ -269,6 +269,14 @@ source:
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3ora120lttaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz80GenericLinuxGlibc2564Bitx8664#this>,
 
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal8o12zmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal8g7zzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitewal8mys5msi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitewal8jzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitewal8odbcmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wajczzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
+
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg80MacOSX107Universal#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8mzzzdmg80MacOSX107Universal#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8o12zdmg80MacOSX107Universal#this> ,
@@ -8753,6 +8761,40 @@ source:
     oplinst:hasMeasurementUnit "Bytes" ;
     oplinst:hasMeasurementValue "4403889"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttpss3wal8odbcmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wajczzzzmsi80WindowsXPVista764Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "wajczzzz.msi" ;
+    schema:dateCreated "2020-05-14T17:28:47+01:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wajczzzz.msi> ;
+    schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
+    oplinst:hasFileSizeSpecification <#https3wajczzzzmsi80WindowsXPVista764Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:odbc ;
+    oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
+    oplsof:hasDbmsEngineVersion "3.5.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3wajczzzzmsi80WindowsXPVista764Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wajczzzz.msi on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "966656"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wajczzzzmsi80WindowsXPVista764Bitx8664#this> ;
     wdrs:describedby source: .
 
 
