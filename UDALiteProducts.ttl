@@ -1203,7 +1203,7 @@ AIX ODBC Driver, Mac OS X ODBC Driver, Sybase JDBC Driver, Sybase ADO.NET Provid
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCReleaseODBCBridge#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease7ODBCBridge#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease7ODBCBridge#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/odbc#this> ;
     oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#ODBCBridge> ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
