@@ -8747,8 +8747,8 @@ source:
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8ODBCBridge#this> ;
     oplpro:versionText "8.0" ;
-    oplsof:hasDatabaseEngine oplsof:ODBC ;
-    oplsof:hasDatabaseFamily oplsof:ODBC ;
+    oplsof:hasDatabaseEngine oplsof:odbc ;
+    oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
     oplsof:hasDbmsEngineVersion "3.5" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
