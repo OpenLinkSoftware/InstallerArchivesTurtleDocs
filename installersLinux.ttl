@@ -1240,7 +1240,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
   schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
-  schema:dateModified "2019-05-26T15:00:00-04:00"^^xsd:dateTime ;
+  schema:dateModified "2020-09-10T15:00:00-04:00"^^xsd:dateTime ;
  ;
   oplinst:hasFileSizeSpecification :lovpz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
@@ -1258,7 +1258,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this> ;
   schema:name "File Size Details -- lovpz2zz.tar" ;
   oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "59279360"^^xsd:integer .
+  oplinst:hasMeasurementValue "52643840"^^xsd:integer .
 
 
 ## Virtuoso Client Installer Archive for glibc25 x86_64
@@ -1278,7 +1278,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
   schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
-  schema:dateModified "2019-05-26T15:00:00-04:00"^^xsd:dateTime ;
+  schema:dateModified "2020-09-10T15:00:00-04:00"^^xsd:dateTime ;
  ;
   oplinst:hasFileSizeSpecification :lovcz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
@@ -1300,4 +1300,4 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   schema:name "File Size Details -- lovcz2zz.tar" ;
   oplinst:hasMeasurementUnit "Bytes" ; 
   # oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "7434240"^^xsd:integer .
+  oplinst:hasMeasurementValue "5713920"^^xsd:integer .
