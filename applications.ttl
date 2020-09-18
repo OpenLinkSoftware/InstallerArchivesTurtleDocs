@@ -839,7 +839,7 @@ sourceDAV:
   wdrs:describedby source: .
 
 :SchoolsVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-  schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/schools_dav.vad> ;
+  schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/schools_db_dav.vad> ;
   schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
   schema:name "Schools VAD" ;
   oplvad:hasPackageName "Schools"^^xsd:string ;
