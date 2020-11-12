@@ -268,6 +268,7 @@ source:
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3pgr7lttaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3ora120lttaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz80GenericLinuxGlibc2564Bitx8664#this>,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3opljdbctaz80GenericLinuxGlibc2564Bitx8664#this>,
 
 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal8o12zmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
@@ -8527,6 +8528,40 @@ source:
     oplinst:hasMeasurementUnit "Bytes" ;
     oplinst:hasMeasurementValue "13439729"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3jdbclttaz80GenericLinuxGlibc21264Bitx8664#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3opljdbctaz80GenericLinuxGlibc2564Bitx8664#this>
+    a oplinst:InstallerArchive ,
+      schema:CreativeWork ,
+      oplinst:UDASTInstallerArchive ,
+      oplinst:UDASTLiteInstallerArchive ,
+      oplinst:UDASTLite80InstallerArchive ;
+    dcterms:format "application/x-gzip" ;
+    dcterms:identifier "opljdbc.taz" ;
+    schema:dateCreated "2020-11-12T12:14:24+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/opljdbc.taz> ;
+    schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/JC#this> ;
+    oplinst:hasFileSizeSpecification <#https3opljdbctaz80GenericLinuxGlibc21264Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:odbc ;
+    oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
+    oplsof:hasDbmsEngineVersion oplsof:DBEngineVersionAny ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
+    oplsof:hasOpsysVersion "Glibc 2.5" ;
+    wdrs:describedby source: .
+
+<#https3opljdbctaz80GenericLinuxGlibc2564Bitx8664FileSpecification>
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- opljdbc.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "6910174"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3opljdbctaz80GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .
 
 
