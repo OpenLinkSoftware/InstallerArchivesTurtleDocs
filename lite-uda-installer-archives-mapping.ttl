@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2020-05-07T12:35:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2020-10-31T12:35:00-05:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
@@ -38,7 +38,7 @@ source:
    schema:name "OpenLink UDA Lite Edition (Single-Tier) Installers Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Lite Edition (Single-Tier) Installers"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2020-05-07T12:35:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2020-10-31T12:35:00-05:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg70MacOSX107Universal#this> ,
@@ -8979,6 +8979,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl8jzzz.dmg" ;
     schema:dateCreated "2019-09-09T12:17:27+02:00"^^xsd:dateTime ;
+    schema:dateModified "2020-10-31T12:14:24+02:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8jzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -9000,7 +9001,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl8jzzz.dmg on Mac OS X 10.7.x (Universal) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "3677577"^^xsd:integer ;
+    oplinst:hasMeasurementValue "4532127"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8jzzzdmg80MacOSX107Universal#this> ;
     wdrs:describedby source: .
 
