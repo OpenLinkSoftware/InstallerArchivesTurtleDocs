@@ -300,6 +300,7 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3oplrqbtaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3opljdbctaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3oplodbctaz80GenericLinuxGlibc2564Bitx8664#this> ,
+ 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3jdbcdemotaz80GenericLinuxGlibc2564Bitx8664#this> ,
 
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wao3zzzzmsi80WindowsXPVista764Bitx8664#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waj3zzzzmsi80WindowsXPVista764Bitx8664#this> ,
@@ -11178,6 +11179,54 @@ source: a schema:CreativeWork ;
     oplinst:hasMeasurementValue "6606623"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3jdbcsvtaz80GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .    
+
+# Can be used for both UDA ST and MT
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3jdbcdemotaz80GenericLinuxGlibc2564Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    oplinst:UDASTInstallerArchive ,
+    oplinst:UDASTLiteInstallerArchive ,
+    oplinst:UDASTLite80InstallerArchive ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT70InstallerArchive> ;
+    dcterms:format "application/x-gzip" ;
+    dcterms:identifier "jdbcdemo.taz" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2020-11-14T03:37:43+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/jdbcdemo.taz> ;
+    schema:name "JDBC Sample Programs Installer Archive on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/J3#this> ;
+    oplinst:hasFileSizeSpecification <#https3jdbcdemotazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8DB2#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Informix#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Ingres#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8JDBCBridge#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8MySQL#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8ODBCBridge#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Oracle#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8PostgreSQL#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Progress#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8SQLServer#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Sybase#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:jdbc ;
+    oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
+    oplsof:hasDbmsEngineVersion oplsof:DBEngineVersionAny ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
+    oplsof:hasOpsysVersion "Glibc 2.5" ;
+    wdrs:describedby source: .
+
+<#https3jdbcdemotazGenericLinuxGlibc2564Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- jdbcdemo.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "4487992"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3jdbcdemotaz80GenericLinuxGlibc2564Bitx8664#this> ;
+    wdrs:describedby source: .
     
 
 ### UDA 8.0 Windows x86_64 ###
