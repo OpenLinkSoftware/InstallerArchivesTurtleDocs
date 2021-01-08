@@ -103,6 +103,7 @@ source: a schema:CreativeWork ;
     schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 8.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
+    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this> ;
     schema:image <http://uda.openlinksw.com/images/jdbcodbcmt.gif> ;
     schema:version "8.0"^^xsd:decimal ;
     oplpro:versionText "8.x"^^xsd:string ;
