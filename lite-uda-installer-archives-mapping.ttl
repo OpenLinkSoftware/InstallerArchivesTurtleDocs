@@ -8433,6 +8433,7 @@ source:
     dcterms:identifier "pgr7_lt.taz" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2019-08-18T17:14:47+01:00"^^xsd:dateTime ;
+    schema:dateModified "2021-01-20T22:14:24+02:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -8458,7 +8459,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- pgr7_lt.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "6025955"^^xsd:integer ;
+    oplinst:hasMeasurementValue "6039828"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3pgr7lttaz80GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .
 
@@ -8973,6 +8974,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl8g7zz.dmg" ;
     schema:dateCreated "2019-09-09T12:17:26+02:00"^^xsd:dateTime ;
+    schema:dateModified "2021-01-20T22:14:24+02:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8g7zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -9000,7 +9002,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- mxl8g7zz.dmg on Mac OS X 10.7.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "5731017"^^xsd:integer ;
+    oplinst:hasMeasurementValue "6915602"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8g7zzdmg80MacOSX107Universal#this> ;
     wdrs:describedby source: .
 

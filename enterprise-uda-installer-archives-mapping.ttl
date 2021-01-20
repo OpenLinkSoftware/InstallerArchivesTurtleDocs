@@ -11044,6 +11044,7 @@ source: a schema:CreativeWork ;
     dcterms:identifier "pgr7_mv.taz" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2019-08-18T17:15:01+01:00"^^xsd:dateTime ;
+    schema:dateModified "2021-01-20T22:14:24+02:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/pgr7_mv.taz> ;
     schema:name "PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -11071,7 +11072,7 @@ source: a schema:CreativeWork ;
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- pgr7_mv.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "2378619"^^xsd:integer ;
+    oplinst:hasMeasurementValue "2388729"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3pgr7mvtaz80GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .
 
