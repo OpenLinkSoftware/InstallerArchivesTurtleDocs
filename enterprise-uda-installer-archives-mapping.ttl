@@ -11253,8 +11253,7 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Informix#this> ;
     oplpro:versionText "8.0" ;
     oplsof:hasDatabaseEngine oplsof:Informix11 ;
-    oplsof:hasDatabaseFamily oplsof:Informix
-        oplsof:Sybase ;
+    oplsof:hasDatabaseFamily oplsof:Informix ;
     oplsof:hasDbmsEngineVersion "11.x" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
