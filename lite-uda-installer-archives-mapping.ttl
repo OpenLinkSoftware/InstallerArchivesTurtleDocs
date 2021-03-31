@@ -9123,8 +9123,8 @@ source:
       oplinst:UDASTLite80InstallerArchive ;
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxjczzzz.dmg" ;
-    schema:dateCreated "2021-03-31T12:14:24+02:00"^^xsd:dateTime ;
-    schema:dateModified "2021-03-31T12:14:24+02:00"^^xsd:dateTime ;
+    schema:dateCreated "2021-03-31T12:00:00-05:00"^^xsd:dateTime ;
+    schema:dateModified "2021-03-31T12:00:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxjczzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
