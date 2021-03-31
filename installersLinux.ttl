@@ -1235,7 +1235,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
-  schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit and Server Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  schema:name "Virtuoso 8.3 Enterprise Edition Server, Client Connectivity Kit and Server Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -1273,7 +1273,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   # schema:name "Virtuoso 8.3 ODBC Driver Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
-  schema:name "Virtuoso 8.3 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;

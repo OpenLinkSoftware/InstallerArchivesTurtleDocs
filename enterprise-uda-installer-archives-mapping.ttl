@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2021-01-20T12:14:24+02:00"^^xsd:dateTime ;
+   schema:dateModified "2021-03-31T12:14:24+02:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -37,7 +37,7 @@ source: a schema:CreativeWork ;
    schema:name "OpenLink UDA Enterpise Edition Installer Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Enterpise Edition Installer Archives"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2021-01-20T12:14:24+02:00"^^xsd:dateTime ;
+   schema:dateModified "2021-03-31T12:14:24+02:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxo3zzzzdmg70MacOSX107Universal#this> ,
@@ -301,6 +301,8 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3opljdbctaz80GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3oplodbctaz80GenericLinuxGlibc2564Bitx8664#this> ,
  	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3jdbcdemotaz80GenericLinuxGlibc2564Bitx8664#this> ,
+        <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3inf11mvtaz80GenericLinuxGlibc2564Bitx8664#this> ,
+
 
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wao3zzzzmsi80WindowsXPVista764Bitx8664#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waj3zzzzmsi80WindowsXPVista764Bitx8664#this> ,
@@ -11228,6 +11230,44 @@ source: a schema:CreativeWork ;
     oplinst:hasMeasurementValue "4487992"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3jdbcdemotaz80GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3inf11mvtaz80GenericLinuxGlibc2564Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+       schema:CreativeWork ,
+       <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+       <http://www.openlinksw.com/ontology/installers#UDAMT80InstallerArchive> ;
+    dcterms:format "application/x-gzip" ;
+    dcterms:identifier "inf11_mv.taz" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2021-02-21T10:50:20+05:00"^^xsd:dateTime ;
+    schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/inf11_mv.taz> ;
+    schema:name "Informix Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3inf11_mvtaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Informix#this> ;
+    oplpro:versionText "8.0" ;
+    oplsof:hasDatabaseEngine oplsof:Informix11 ;
+    oplsof:hasDatabaseFamily oplsof:Informix ;
+    oplsof:hasDbmsEngineVersion "11.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
+    oplsof:hasOpsysVersion "Glibc 2.5" ;
+    wdrs:describedby source: .
+
+<#https3inf11_mvtaz80GenericLinuxGlibc2564Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- inf11_mv.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "2748937"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3inf11mvtaz80GenericLinuxGlibc2564Bitx8664#this> ;
+    wdrs:describedby source: .
+
     
 
 ### UDA 8.0 Windows x86_64 ###
