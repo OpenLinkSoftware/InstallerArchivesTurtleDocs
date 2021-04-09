@@ -7,7 +7,7 @@
 @prefix gr:      <http://purl.org/goodrelations/v1#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix owl:     <http://www.w3.org/2002/0/owl#> .
 @prefix wdrs:    <http://www.w3.org/2007/05/powder-s#> .
 @prefix foaf:    <http://xmlns.com/foaf/0.1/> .
 @prefix siocs:   <http://rdfs.org/sioc/services#> .
@@ -64,7 +64,7 @@ source: a schema:CreativeWork ;
               <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Sybase#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ,
-
+              <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Informix#this> ,
               <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease8ODBCBridge#this> .
 
 
@@ -147,6 +147,21 @@ source: a schema:CreativeWork ;
     oplpro:versionText "8.x"^^xsd:string ;
     skos:altLabel "ODBC Release for Oracle "^^xsd:string ;
     skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 8.0 Release for Oracle "^^xsd:string ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Informix#this> a oplpro:ProductRelease  ,
+        schema:CreativeWork ,
+        schema:SoftwareApplication ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 8.0 Release for Informix "^^xsd:string ;
+    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
+    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
+    schema:image <http://uda.openlinksw.com/images/odbcinformixst.gif> ;
+    schema:version "8.0"^^xsd:decimal ;
+    oplpro:versionText "8.x"^^xsd:string ;
+    skos:altLabel "ODBC Release for Informix "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 8.0 Release for Informix "^^xsd:string ;
     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> a oplpro:ProductRelease  ,
