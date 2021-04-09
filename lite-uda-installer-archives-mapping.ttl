@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2020-11-12T12:14:24+02:00"^^xsd:dateTime ;
+   schema:dateModified "2021-02-21T12:14:24+02:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
@@ -38,7 +38,7 @@ source:
    schema:name "OpenLink UDA Lite Edition (Single-Tier) Installers Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Lite Edition (Single-Tier) Installers"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2020-11-12T12:14:24+02:00"^^xsd:dateTime ;
+   schema:dateModified "2021-02-21T12:14:24+02:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg70MacOSX107Universal#this> ,
