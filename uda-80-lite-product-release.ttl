@@ -38,7 +38,8 @@ sourceDAV:
 <.> sioc:container_of source: .
 
 source: a schema:CreativeWork ;
-   schema:name "OpenLink UDA Multi-Tier 8.0 Releases "^^xsd:string  ;
+   # schema:name "OpenLink UDA Multi-Tier 8.0 Releases "^^xsd:string  ;
+   schema:name "OpenLink UDA Single-Tier 8.0 Releases "^^xsd:string  ;
    schema:comment   """This document describes OpenLink UDA (ODBC, JDBC, ADO.NET, OLE-DB, and XMLA) product family products releases.  """^^xsd:string  ;
    schema:author <http://www.openlinksw.com/#this>  ;
    xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
