@@ -51,7 +51,7 @@ source: a schema:CreativeWork ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
    schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-   schema:dateModified "2020-05-29T09:41:00-05:00"^^xsd:dateTime;
+   schema:dateModified "2021-04-09T13:53:00+00:00"^^xsd:dateTime;
    sioc:sibling <UDASTProductsReleases.ttl> ,
                 <UDASTOffersPrices.ttl> ,
                 <UDASTOffers.ttl> ,

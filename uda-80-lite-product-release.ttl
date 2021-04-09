@@ -46,7 +46,7 @@ source: a schema:CreativeWork ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
    schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-   schema:dateModified "2019-08-18T09:41:00-05:00"^^xsd:dateTime;
+   schema:dateModified "2021-04-09T13:53:00+00:00"^^xsd:dateTime;
    sioc:has_container <.> ;
    sioc:sibling <UDAMTProducts.ttl> ,
                 <UDAMTOffersPrices.ttl> ,
