@@ -33,7 +33,7 @@ sourceDAV:
     cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
     schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
     schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-    schema:dateModified "2020-05-29T09:41:00-05:00"^^xsd:dateTime;
+    schema:dateModified "2021-04-09T13:53:00+00:00"^^xsd:dateTime;
     schema:name  """OpenLink Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers Related Information Document """ ;
     schema:description  """Document that describes our high-performance and secure Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers.  """^^xsd:string ;
     schema:keywords  """ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver, Data Access Middleware.  """;
@@ -51,7 +51,7 @@ source: a schema:CreativeWork ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
    schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-   schema:dateModified "2020-05-29T09:41:00-05:00"^^xsd:dateTime;
+   schema:dateModified "2021-04-09T13:53:00+00:00"^^xsd:dateTime;
    sioc:sibling <UDASTProductsReleases.ttl> ,
                 <UDASTOffersPrices.ttl> ,
                 <UDASTOffers.ttl> ,
@@ -147,7 +147,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, DB2 JDBC Driver, DB2 ADO.NET Provider, DB
     schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseInformix#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this>  ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this>  ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Informix#this>  ;
     oplsof:hasDatabaseEngine <http://www.openlinksw.com/ontology/software#Informix10>,
         <http://www.openlinksw.com/ontology/software#Informix11>,
         <http://www.openlinksw.com/ontology/software#Informix73>,

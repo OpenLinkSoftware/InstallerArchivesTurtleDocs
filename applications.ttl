@@ -26,7 +26,7 @@
 source: a schema:CreativeWork ;
   schema:comment """Description of OpenLink Software Applications and VAD Packages."""^^xsd:string ;
   schema:dateCreated  "2014-07-03T15:44:00-05:00"^^xsd:dateTime ;
-  schema:dateModified "2019-06-12T09:20:00-05:00"^^xsd:dateTime ;
+  schema:dateModified "2021-04-09T10:00:00-05:00"^^xsd:dateTime ;
   schema:author <http://www.openlinksw.com/#this> ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
@@ -82,12 +82,10 @@ source: a schema:CreativeWork ;
               :OnlineShopHistory,
 	      :OdsWikiVad,
 	      :OdsDiscussionVad,
-	      :OdsEcrmVad,
 	      :OdsGalleryVad,
 	      :OdsPollsVad,
               :DocumentationVad,
               :ValVad,
-              :HtmlCertGen,
               :ISparqlVad,
               :Html5PivotViewer,
               :SchoolsVad,
@@ -369,17 +367,6 @@ sourceDAV:
   oplvad:hasPackageName "Discussion"^^xsd:string ;
   oplvad:hasMandatoryDependency :OdsFrameworkVad ;
   oplvad:hasFileName "ods_discussion_dav.vad"^^xsd:string ;
-  oplvad:isVadPackageOf :Ods ;
-  wdrs:describedby source: .
-
-:OdsEcrmVad
-  a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-  schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_ecrm_dav.vad> ;
-  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
-  schema:name "ODS ECRM VAD" ;
-  oplvad:hasPackageName "ECRM"^^xsd:string ;
-  oplvad:hasMandatoryDependency :OdsFrameworkVad ;
-  oplvad:hasFileName "ods_ecrm_dav.vad"^^xsd:string ;
   oplvad:isVadPackageOf :Ods ;
   wdrs:describedby source: .
 
@@ -750,31 +737,6 @@ sourceDAV:
   oplvad:hasFileName "val_dav.vad"^^xsd:string ;
   oplvad:isVadPackageOf :Val ;
   wdrs:describedby source: .
-
-### HTML CertGen
-
-:HtmlCertGen a doap:Project, schema:TechArticle ;
-  doap:name "HtmlCertGen" ;
-  doap:description """HTML Certificate Generator""" ;
-  schema:author <http://www.openlinksw.com/#this> ;
-  doap:repository :HtmlCertGenGitRepo ;
-  oplvad:hasVadPackage :HtmlCertGenVad ;
-  wdrs:describedby source: .
-
-:HtmlCertGenGitRepo a doap:GitRepository ;
-  schema:name "Curi Git Repository" ;
-  wdrs:describedby source: .
-
-:HtmlCertGenVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-  schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/htmlcertgen_dav.vad> ;
-  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
-  schema:name "HtmlCertGen VAD" ;
-  oplvad:hasPackageName "HtmlCertGen"^^xsd:string ;
-  # oplvad:hasOptionalDependency :Vad ;
-  oplvad:hasFileName "htmlcertgen_dav.vad"^^xsd:string ;
-  oplvad:isVadPackageOf :HtmlCertGen ;
-  wdrs:describedby source: .
-
 
 ### ISPARQL
 

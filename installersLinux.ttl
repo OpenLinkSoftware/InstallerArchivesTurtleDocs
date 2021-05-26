@@ -42,7 +42,7 @@ source: a schema:CreativeWork ;
   schema:author <http://www.openlinksw.com/#this> ;
   schema:url :this ;
   schema:dateCreated  "2015-01-27T15:44:00-05:00"^^xsd:dateTime;
-  schema:dateModified "2021-03-31T12:00:00-04:00"^^xsd:dateTime ;
+  schema:dateModified "2021-05-26T10:00:00-05:00"^^xsd:dateTime ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
   dcterms:subject
@@ -61,16 +61,16 @@ source: a schema:CreativeWork ;
                         <http://data.openlinksw.com/oplweb/installer/LinuxGlibc25LicenseManager#this> ,
                         <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip72LinuxGlibc25#this>,
                         <http://data.openlinksw.com/oplweb/installer/LinuxGlibc23LicenseManager#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82lovcLinux#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82lovpLinux#this>,
-			<http://data.openlinksw.com/oplweb/installer/ShapefileioGzip82LinuxGlibc25#this>,
-			<http://data.openlinksw.com/oplweb/installer/GeosGzip82LinuxGlibc25#this>,
-			<http://data.openlinksw.com/oplweb/installer/Proj4Gzip82LinuxGlibc25#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip82LinuxGlibc25#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82lovcLinux#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82lovpLinux#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83lovcLinux#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this> ;
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82lovcLinux#this>,
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82lovpLinux#this>,
+                        <http://data.openlinksw.com/oplweb/installer/ShapefileioGzip82LinuxGlibc25#this>,
+                        <http://data.openlinksw.com/oplweb/installer/GeosGzip82LinuxGlibc25#this>,
+                        <http://data.openlinksw.com/oplweb/installer/Proj4Gzip82LinuxGlibc25#this>,
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip82LinuxGlibc25#this>,
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82lovcLinux#this>,
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82lovpLinux#this>,
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83lovcLinux#this>,
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this> ;
   schema:about
                       <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchivelqvpLinux#this> ,
                       <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchivelrvpLinux#this> ,
@@ -87,14 +87,14 @@ source: a schema:CreativeWork ;
                         <http://data.openlinksw.com/oplweb/installer/LinuxGlibc25LicenseManager#this> ,
                         <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip72LinuxGlibc25#this>,
                         <http://data.openlinksw.com/oplweb/installer/LinuxGlibc23LicenseManager#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82lovcLinux#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82lovpLinux#this>,
-			<http://data.openlinksw.com/oplweb/installer/ShapefileioGzip82LinuxGlibc25#this>,
-			<http://data.openlinksw.com/oplweb/installer/GeosGzip82LinuxGlibc25#this>,
-			<http://data.openlinksw.com/oplweb/installer/Proj4Gzip82LinuxGlibc25#this> ,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip82LinuxGlibc25#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83lovcLinux#this>,
-			<http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this> .
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82lovcLinux#this>,
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82lovpLinux#this>,
+                        <http://data.openlinksw.com/oplweb/installer/ShapefileioGzip82LinuxGlibc25#this>,
+                        <http://data.openlinksw.com/oplweb/installer/GeosGzip82LinuxGlibc25#this>,
+                        <http://data.openlinksw.com/oplweb/installer/Proj4Gzip82LinuxGlibc25#this> ,
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip82LinuxGlibc25#this>,
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83lovcLinux#this>,
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this> .
                         
 
 
@@ -1160,7 +1160,6 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
                  """@en ;
   schema:dateCreated "2018-10-05T13:47:27-00:00"^^xsd:dateTime ;
   schema:dateModified "2018-10-31T10:37:00-04:00"^^xsd:dateTime ;
- ;
   oplinst:hasFileSizeSpecification :lovpz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
@@ -1198,7 +1197,6 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
                  """@en ;
   schema:dateCreated "2018-10-05T13:47:27-00:00"^^xsd:dateTime ;
   schema:dateModified "2019-03-27T22:11:00-04:00"^^xsd:dateTime ;
- ;
   oplinst:hasFileSizeSpecification :lovcz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
@@ -1241,7 +1239,6 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
                  """@en ;
   schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
   schema:dateModified "2020-09-10T15:00:00-04:00"^^xsd:dateTime ;
- ;
   oplinst:hasFileSizeSpecification :lovpz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease83x#this> ;
@@ -1278,8 +1275,8 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
   schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
-  schema:dateModified "2020-09-10T15:00:00-04:00"^^xsd:dateTime ;
- ;
+  schema:dateModified "2021-02-17T15:12:03-04:00"^^xsd:dateTime ;
+
   oplinst:hasFileSizeSpecification :lovcz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease83x#this> ;
@@ -1300,4 +1297,4 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   schema:name "File Size Details -- lovcz2zz.tar" ;
   oplinst:hasMeasurementUnit "Bytes" ; 
   # oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "5713920"^^xsd:integer .
+  oplinst:hasMeasurementValue "5928960"^^xsd:integer .
