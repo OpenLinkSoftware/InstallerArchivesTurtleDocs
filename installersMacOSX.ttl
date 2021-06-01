@@ -43,7 +43,7 @@ source: a schema:CreativeWork ;
   schema:author <http://www.openlinksw.com/#this> ;
   schema:url :this ;
   schema:dateCreated "2015-01-27T15:44:00-05:00"^^xsd:dateTime;
-  schema:dateModified "2021-05-28T11:46:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2021-05-29T11:46:00-00:00"^^xsd:dateTime ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
   dcterms:subject
@@ -62,7 +62,11 @@ source: a schema:CreativeWork ;
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82mwvcMacOSX#this>,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82mwvpMacOSX#this>,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83mwvcMacOSX#this>,
-		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83mwvpMacOSX#this> ;
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83mwvpMacOSX#this>,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83m1vcMacOSX#this>,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83m1vpMacOSX#this> ;
+
+
   schema:about
           <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchiveMacOSX#this>,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchiveMacOSX#this>,
@@ -79,7 +83,9 @@ source: a schema:CreativeWork ;
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82mwvcMacOSX#this>,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82mwvpMacOSX#this>,
 	   	  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83mwvcMacOSX#this>,
-		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83mwvpMacOSX#this> .
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83mwvpMacOSX#this>,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83m1vcMacOSX#this>,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83m1vpMacOSX#this> .
 
 
 ## Mac OS X 10.6 Universal Installers
@@ -676,9 +682,9 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplinst:hasMeasurementValue "6920176"^^xsd:integer .
 
 
-## Virtuoso 8.3 Enterprise Edition Server Installer Archive for Mac OS X 64 Bit ##
+## Virtuoso 8.3 Enterprise Edition Server Installer Archive for Mac OS X 10 64 Bit ##
 
-# <http://download3.openlinksw.com/uda/virtuoso/8.3/universal-apple-macosx10.9-64/lovpz2zz.tar#this>
+# <http://download3.openlinksw.com/uda/virtuoso/8.3/universal-apple-macosx10.9-64/mwvpz2zz.dmg#this>
 # <http://data.openlinksw.com/oplweb/installer/Virtuoso82ClientInstallerArchive83lovpMacOSX#this>
 # <http://download3.openlinksw.com/uda/virtuoso/8.3/universal-apple-macosx10.9-64/mwvcz2zz.dmg#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83mwvpMacOSX#this>
@@ -715,7 +721,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplinst:hasMeasurementValue "65307344"^^xsd:integer .
 
 
-## Virtuoso 8.3 Client Installer Archive for Mac OS X 64 Bit ##
+## Virtuoso 8.3 Client Installer Archive for Mac OS X 10 64 Bit ##
 
 # <http://download3.openlinksw.com/uda/virtuoso/8.3/universal-apple-macosx10.9-64/mwvcz2zz.dmg#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83mwvcMacOSX#this>
@@ -749,3 +755,79 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   schema:name "File Size Details -- mwvcz2zz.dmg" ;
   oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "7891219"^^xsd:integer .
+
+
+## Virtuoso 8.3 Enterprise Edition Server Installer Archive for macOS 11 64 Bit ##
+
+# <http://download3.openlinksw.com/uda/virtuoso/8.3/universal-apple-macos11-64/m1vpz2zz.dmg#this>
+# <http://data.openlinksw.com/oplweb/installer/Virtuoso83ClientInstallerArchive83lovpMacOSX#this>
+# <http://download3.openlinksw.com/uda/virtuoso/8.3/universal-apple-macos11-64/m1vpz2zz.dmg#this>
+<http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83m1vpMacOSX#this>
+  a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
+  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
+  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+  oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
+  wdrs:describedby source: ;
+  schema:name "Virtuoso 8.3 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS 11 64 Bit "@en ;
+  schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
+                    URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
+                 """@en ;
+  schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
+  schema:dateModified "2021-05-29T15:00:28-04:00"^^xsd:dateTime ;
+ ;
+  oplinst:hasFileSizeSpecification :m1vpz2zz-30fcb64.dmgSpecification ;
+  # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-macosx-odbc-driver#this>  ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease83x#this> ;
+  dcterms:identifier "m1vpz2zz-30fcb64.dmg" ;
+  dcterms:format "application/x-dmg" ;
+  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ;
+  oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+  oplpro:versionText "8.3" ;
+  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/8.3/universal-apple-macos11-64/m1vpz2zz.dmg> .
+
+:m1vpz2zz-30fcb64.dmgSpecification
+  a oplinst:FileSizeSpecification, schema:CreativeWork ;
+  wdrs:describedby source: ;
+  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83mwvpMacOSX#this> ;
+  schema:name "File Size Details -- m1vpz2zz.dmg" ;
+  oplinst:hasMeasurementUnit "Bytes" ;
+  oplinst:hasMeasurementValue "65307344"^^xsd:integer .
+
+
+## Virtuoso 8.3 Client Installer Archive for Mac OS X 10 64 Bit ##
+
+# <http://download3.openlinksw.com/uda/virtuoso/8.3/universal-apple-macos11-64/m1vcz2zz.dmg#this>
+<http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83m1vcMacOSX#this>
+  a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
+  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
+  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+  oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
+  wdrs:describedby source: ;
+  schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS 11 64 Bit"@en ;
+  schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
+                    URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
+                 """@en ;
+  schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
+  schema:dateModified "2021-05-29T11:46:00-00:00"^^xsd:dateTime ;
+  oplinst:hasFileSizeSpecification :m1vcz2zz-30fcb64.dmgSpecification ;
+  # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-macosx-odbc-driver#this>  ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease83x#this> ;
+  dcterms:identifier "m1vcz2zz-30fcb64.dmg" ;
+  dcterms:format "application/x-dmg" ;
+  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ;
+  oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+  oplpro:versionText "8.3" ;
+  schema:downloadUrl <http://download3.openlinksw.com/uda/virtuoso/8.3/universal-apple-macos11-64/m1vcz2zz.dmg> .
+
+:m1vcz2zz-30fcb64.dmgSpecification
+  a oplinst:FileSizeSpecification, schema:CreativeWork ;
+  wdrs:describedby source: ;
+  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83mwvpMacOSX#this> ;
+  schema:name "File Size Details -- m1vcz2zz.dmg" ;
+  oplinst:hasMeasurementUnit "Bytes" ;
+  oplinst:hasMeasurementValue "7891219"^^xsd:integer .
+

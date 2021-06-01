@@ -21,7 +21,7 @@ sourceDAV:
    schema:name "OpenLink Software Operating System Families -- WebDAV hosted TURTLE Document"^^xsd:string ;
    dcterms:format "text/turtle" ;
    schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2018-08-31T12:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2021-06-01T20:46:00-00:00"^^xsd:dateTime ;
    schema:author <http://www.openlinksw.com/#this> ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    cc:attributionName  "OpenLink Software" ;
@@ -386,6 +386,8 @@ source:
     oplsof:OpsysFamilyName "Mac OS X" ;
     oplsof:OpsysFamilyVendor <http://data.openlinksw.com/oplweb/vendor/AppleComputer#this> ;
     oplsof:hasOperatingSystem
+	<http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ,
+	
         <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this> ,
         <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ,
 
