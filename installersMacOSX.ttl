@@ -809,7 +809,8 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS 11 64 Bit"@en ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
-                    URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
+                    URL property. Otherwise, click on the hyperlink that anchors the text following 'About:'.
+
                  """@en ;
   schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
   schema:dateModified "2021-05-29T11:46:00-00:00"^^xsd:dateTime ;
@@ -830,4 +831,3 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   schema:name "File Size Details -- m1vcz2zz.dmg" ;
   oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "7891219"^^xsd:integer .
-
