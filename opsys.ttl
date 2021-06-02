@@ -22,7 +22,7 @@ sourceDAV:
    schema:name "OpenLink Software Operating Systems -- WebDAV hosted TURTLE Document"^^xsd:string ;
    dcterms:format "text/turtle" ;
    schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2017-12-18T17:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2021-06-02T17:00:00-05:00"^^xsd:dateTime ;
    schema:author <http://www.openlinksw.com/#this> ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    cc:attributionName  "OpenLink Software" ;
@@ -33,7 +33,7 @@ source:
    schema:name "OpenLink Operating Systems"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink Operating Systems"""@en ;
    schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2017-12-18T17:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2021f-06-02T17:00:00-05:00"^^xsd:dateTime ;
    schema:author <http://www.openlinksw.com/#this> ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    cc:attributionName  "OpenLink Software" ;
@@ -182,8 +182,8 @@ source:
               <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.12-32#this> ,
               <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.13-32#this> ,
               <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.13-64#this> ,
-              <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.13-32#this> .
-
+              <http://data.openlinksw.com/oplweb/opsys/universal-apple-macosx10.13-32#this> ,
+	      <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> .
 
 <http://data.openlinksw.com/oplweb/opsys/alpha-dec-osf4.0e-64#this>
     a  <http://umbel.org/umbel/sc/OperatingSystem>,
@@ -11076,6 +11076,31 @@ source:
     oplsof:OperatingSystemVersion "Mac OS X High Sierra 10.13.x" ;
 #    oplcomp:hasComponent <http://data.openlinksw.com/oplweb/component/universal-apple-macosx10.13-32-db2-odbcexp-clnt-only_mv#this> ;
 #    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this> ;
+    oplsof:hasOperatingSystemType <http://data.openlinksw.com/oplweb/opsys_type/wrkst#this> .
+
+
+<http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64>
+    a  <http://umbel.org/umbel/sc/OperatingSystem>,
+        oplsof:OperatingSystem ;
+    wdrs:describedby source: ;
+    skos:prefLabel "macOS 11 Big Sur (64 Bit)" ;
+    schema:name "universal-apple-macos11-64" ;
+    oplsof:OperatingSystemCommercialName "macOS 11.x Big Sur (64 Bit)" ;
+    oplsof:OpsysDownwardCompatible "0"^^xsd:boolean ;
+    oplsof:OperatingSystemEmulationMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplsof:OperatingSystemLicenseCode "Mac OS X" ;
+    oplmch:hasProcessor 
+		<http://data.openlinksw.com/oplweb/processor/x86_64/2#this> ,
+		<http://data.openlinksw.com/oplweb/processor/M1/2#this> ;
+    oplsof:OperatingSystemSupported "1"^^xsd:boolean ;
+    oplsof:OperatingSystemUpwardCompatible "1"^^xsd:boolean ;
+    oplsof:OperatingSystemVersion "11.x" ;
+    oplcomp:hasComponent
+        <http://data.openlinksw.com/oplweb/component/universal-apple-macos11-64-presto-odbcexp-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/universal-apple-macos11-64-presto-odbclt-clnt-only_mv#this>,
+        <http://data.openlinksw.com/oplweb/component/universal-apple-macos11-64-presto-odbclt-clnt-only_sv#this> ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/odbc-presto-ee#this> ;
     oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this> ;
     oplsof:hasOperatingSystemType <http://data.openlinksw.com/oplweb/opsys_type/wrkst#this> .
 
