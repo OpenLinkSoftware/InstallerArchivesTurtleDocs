@@ -649,7 +649,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
-  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.2 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS 64 Bit"@en ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
@@ -724,7 +724,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
-  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS 64 Bit"@en ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the

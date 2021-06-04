@@ -1188,7 +1188,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
-  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   # schema:name "Virtuoso 8.2 ODBC Driver Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
   schema:name "Virtuoso 8.2 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
@@ -1267,7 +1267,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
   opldep:hasDepot <http://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
-  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   # schema:name "Virtuoso 8.3 ODBC Driver Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
   schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
