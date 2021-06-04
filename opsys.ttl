@@ -11227,7 +11227,7 @@ source:
     oplsof:hasOperatingSystemType <http://data.openlinksw.com/oplweb/opsys_type/wrkst#this> .
 
 
-<http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64>
+<http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this>
     a  <http://umbel.org/umbel/sc/OperatingSystem>,
         oplsof:OperatingSystem ;
     wdrs:describedby source: ;
