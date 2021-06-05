@@ -425,7 +425,7 @@ source:
 
 	<http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macos11-64#this> ,
 	<http://data.openlinksw.com/oplweb/opsys/arm64-apple-macos11-64#this> ,
-	<http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64> ,
+	<http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ,
 
         <http://data.openlinksw.com/oplweb/opsys/i686-apple-darwin8-32#this>,
         <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
