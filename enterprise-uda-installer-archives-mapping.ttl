@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2021-06-04T11:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2021-06-06T11:46:00-00:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -37,7 +37,7 @@ source: a schema:CreativeWork ;
    schema:name "OpenLink UDA Enterpise Edition Installer Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Enterpise Edition Installer Archives"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2021-06-04T11:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2021-06-06T11:46:00-00:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxo3zzzzdmg70MacOSX107Universal#this> ,
@@ -11659,11 +11659,11 @@ source: a schema:CreativeWork ;
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxo3zzzz.dmg" ;
     schema:dateCreated "2019-08-29T12:18:32+02:00"^^xsd:dateTime ;
-    schema:dateModified "2021-05-28T20:46:00-00:00"^^xsd:dateTime ;
+    schema:dateModified "2021-06-06T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxo3zzzz.dmg> ;
     schema:name "Generic ODBC Client Driver Installer Archive for Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/KO#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/O3#this> ;
     oplinst:hasFileSizeSpecification <#https3mxo3zzzzdmg80MacOSX107x64Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8DB2#this>,
@@ -11753,11 +11753,11 @@ source: a schema:CreativeWork ;
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "m1o3zzzz.dmg" ;
     schema:dateCreated "2021-05-29T20:46:00-00:00"^^xsd:dateTime ;
-    # schema:dateModified "2021-05-28T20:46:00-00:00"^^xsd:dateTime ;
+    schema:dateModified "2021-06-06T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macos11-64/m1o3zzzz.dmg> ;
     schema:name "Generic ODBC Client Driver Installer Archive for macOS 11.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
-    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/KO#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/O3#this> ;
     oplinst:hasFileSizeSpecification <#https3m1o3zzzzdmg80MacOS11x64Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8DB2#this>,
@@ -11776,7 +11776,7 @@ source: a schema:CreativeWork ;
     # oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
     oplsof:hasDbmsEngineVersion oplsof:DBEngineVersionAny ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ;
-    oplsof:hasOperatingSystemFamily oplsof:MacOS ;
+    oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
     oplsof:hasOpsysVersion "11.x" ;
     wdrs:describedby source: .
 
