@@ -3760,9 +3760,9 @@ source:
     a  <http://umbel.org/umbel/sc/OperatingSystem>,
         oplsof:OperatingSystem ;
     wdrs:describedby source: ;
-    skos:prefLabel "Java Virtual Machine 1.1 (32 Bit)" ;
-    schema:name "jvm-sun-java1.1-32" ;
-    oplsof:OperatingSystemCommercialName "Java Virtual Machine 1.1 (32 Bit)" ;
+    skos:prefLabel "Java Virtual Machine (Generic)" ;
+    schema:name "jvm-sun-java-generic" ;
+    oplsof:OperatingSystemCommercialName "Java Virtual Machine (Generic)" ;
     oplsof:OpsysDownwardCompatible "0"^^xsd:boolean ;
     oplsof:OperatingSystemEmulationMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
     oplsof:OperatingSystemLicenseCode "Java Virtual Machine" ;
