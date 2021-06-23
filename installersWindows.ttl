@@ -43,7 +43,7 @@ source: a schema:CreativeWork ;
   schema:author <http://www.openlinksw.com/#this> ;
   schema:url :this ;
   schema:dateCreated  "2015-01-27T15:44:00-05:00"^^xsd:dateTime;
-  schema:dateModified "2021-06-14T10:37:00-04:00"^^xsd:dateTime ;
+  schema:dateModified "2021-06-23T10:37:00-04:00"^^xsd:dateTime ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
   dcterms:subject
@@ -62,7 +62,8 @@ source: a schema:CreativeWork ;
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82wavpWindows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82wavcWindows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83wavpWindows#this> ,
-		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83wavcWindows#this> ;
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83wavcWindows#this> ,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72wavpWindows#this> ;
   schema:about
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchiveWindows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchiveWindows#this>,
@@ -81,7 +82,8 @@ source: a schema:CreativeWork ;
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82wavcWindows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82wavpWindows#this> ,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83wavpWindows#this> ,
-		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83wavcWindows#this>.
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83wavcWindows#this> ,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72wavpWindows#this> .
 
 ## Virtuoso Client Connectivity Kit  Installer Archive For Windows  Description ##
 
@@ -795,3 +797,38 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   schema:name "File Size Details -- wavcz2zz.exe" ;
   oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "6074344"^^xsd:integer .
+
+
+## Virtuoso 7.2 Open Source Server Installer Archive for Windows 64 bit
+
+# <https://github.com/openlink/virtuoso-opensource/releases/download/v7.2.6.1/Virtuoso_OpenSource_Server_7.2.x64.exe>
+<http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72wavpWindows#this>
+  a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
+  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
+  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+  oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VOS#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
+  wdrs:describedby source: ;
+  schema:name "Virtuoso 7.2 Open Source Edition Server and Client Connectivity Kit Bundle Installer Archive for Windows 64-bit"@en ;
+  schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
+                    URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
+                 """@en ;
+  schema:dateCreated "2021-06-23T13:47:27-00:00"^^xsd:dateTime ;
+  # schema:dateModified "2021-06-14T15:00:00-04:00"^^xsd:dateTime ;
+  oplinst:hasFileSizeSpecification :Virtuoso_OpenSource_Server_7.2.x64-30fcb64.tarSpecification ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
+  dcterms:identifier "Virtuoso_OpenSource_Server_7.2.x64-30fcb64.exe" ;
+  dcterms:format "application/x-msdownload" ;
+  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+  oplsof:hasOperatingSystemFamily oplsof:Windows ;
+  oplpro:versionText "7.2" ;
+  schema:downloadUrl <https://github.com/openlink/virtuoso-opensource/releases/download/v7.2.6.1/Virtuoso_OpenSource_Server_7.2.x64.exe> .
+
+:Virtuoso_OpenSource_Server_7.2.x64-30fcb64.tarSpecification
+  a oplinst:FileSizeSpecification, schema:CreativeWork ;
+  wdrs:describedby source: ;
+  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72wavpWindows#this> ;
+  schema:name "File Size Details -- Virtuoso_OpenSource_Server_7.2.x64.exe" ;
+  oplinst:hasMeasurementUnit "Bytes" ;
+  oplinst:hasMeasurementValue "131581520"^^xsd:integer .
