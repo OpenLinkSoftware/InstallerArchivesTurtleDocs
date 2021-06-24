@@ -42,7 +42,7 @@ source: a schema:CreativeWork ;
   schema:author <http://www.openlinksw.com/#this> ;
   schema:url :this ;
   schema:dateCreated  "2015-01-27T15:44:00-05:00"^^xsd:dateTime;
-  schema:dateModified "2021-06-14T10:00:00-05:00"^^xsd:dateTime ;
+  schema:dateModified "2021-06-23T10:00:00-05:00"^^xsd:dateTime ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
   dcterms:subject
@@ -70,7 +70,8 @@ source: a schema:CreativeWork ;
                         <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82lovcLinux#this>,
                         <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82lovpLinux#this>,
                         <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83lovcLinux#this>,
-                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this> ;
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this>,
+			<http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72lovpLinux#this> ;
   schema:about
                       <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchivelqvpLinux#this> ,
                       <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchivelrvpLinux#this> ,
@@ -94,7 +95,8 @@ source: a schema:CreativeWork ;
                         <http://data.openlinksw.com/oplweb/installer/Proj4Gzip82LinuxGlibc25#this> ,
                         <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip82LinuxGlibc25#this>,
                         <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83lovcLinux#this>,
-                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this> .
+                        <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this>,
+			<http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72lovpLinux#this> .
                         
 
 
@@ -1298,3 +1300,39 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplinst:hasMeasurementUnit "Bytes" ; 
   # oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "6359040"^^xsd:integer .
+
+
+
+## Virtuoso 7.2 Open Source Server Installer Archive for glibc25 x86_64
+
+# <https://github.com/openlink/virtuoso-opensource/releases/download/v7.2.6.1/virtuoso-opensource.x86_64-generic_glibc25-linux-gnu.tar.gz>
+<http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72lovpLinux#this>
+  a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
+  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
+  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+  oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VOS#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
+  wdrs:describedby source: ;
+  schema:name "Virtuoso 7.2 Open Source Edition Server and Client Connectivity Kit Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
+                    URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
+                 """@en ;
+  schema:dateCreated "2021-06-23T13:47:27-00:00"^^xsd:dateTime ;
+  # schema:dateModified "2021-06-14T15:00:00-04:00"^^xsd:dateTime ;
+  oplinst:hasFileSizeSpecification :virtuoso-opensource.x86_64-generic_glibc25-linux-gnu-30fcb64.tarSpecification ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
+  dcterms:identifier "virtuoso-opensource.x86_64-generic_glibc25-linux-gnu-30fcb64.tar" ;
+  dcterms:format "application/x-tar" ;
+  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
+  oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
+  oplpro:versionText "7.2" ;
+  schema:downloadUrl <https://github.com/openlink/virtuoso-opensource/releases/download/v7.2.6.1/virtuoso-opensource.x86_64-generic_glibc25-linux-gnu.tar.gz> .
+
+:virtuoso-opensource.x86_64-generic_glibc25-linux-gnu-30fcb64.tarSpecification
+  a oplinst:FileSizeSpecification, schema:CreativeWork ;
+  wdrs:describedby source: ;
+  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosOpenSourceClientServerInstallerArchive72lovpLinux#this> ;
+  schema:name "File Size Details -- virtuoso-opensource.x86_64-generic_glibc25-linux-gnu.tar.gz" ;
+  oplinst:hasMeasurementUnit "Bytes" ;
+  oplinst:hasMeasurementValue "132655853"^^xsd:integer .

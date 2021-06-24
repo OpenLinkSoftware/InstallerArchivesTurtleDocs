@@ -43,7 +43,7 @@ source: a schema:CreativeWork ;
   schema:author <http://www.openlinksw.com/#this> ;
   schema:url :this ;
   schema:dateCreated "2015-01-27T15:44:00-05:00"^^xsd:dateTime;
-  schema:dateModified "2021-06-14T11:46:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2021-06-23T11:46:00-00:00"^^xsd:dateTime ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
   dcterms:subject
@@ -64,8 +64,8 @@ source: a schema:CreativeWork ;
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83mwvcMacOSX#this>,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83mwvpMacOSX#this>,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83m1vcMacOSX#this>,
-		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83m1vpMacOSX#this> ;
-
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83m1vpMacOSX#this> ,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72mwvpmacOS#this> ;
 
   schema:about
           <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchiveMacOSX#this>,
@@ -85,8 +85,8 @@ source: a schema:CreativeWork ;
 	   	  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83mwvcMacOSX#this>,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83mwvpMacOSX#this>,
 		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83m1vcMacOSX#this>,
-		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83m1vpMacOSX#this> .
-
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83m1vpMacOSX#this> ,
+		  <http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72mwvpmacOS#this> .
 
 ## Mac OS X 10.6 Universal Installers
 
@@ -831,3 +831,37 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "9852991"^^xsd:integer .
 
+
+## Virtuoso 7.2 Open Source Server Installer Archive for macOS 10+
+
+# <https://github.com/openlink/virtuoso-opensource/releases/download/v7.2.6.1/Virtuoso_Open_Source_for_macOS.dmg>
+<http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72mwvpmacOS#this>
+  a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
+  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
+  opldep:hasDepot <http://download3.openlinksw.com/#this> ;
+  oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VOS#this> ;
+  oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
+  wdrs:describedby source: ;
+  schema:name "Virtuoso 7.2 Open Source Edition Server and Client Connectivity Kit Bundle Installer Archive for macOS"@en ;
+  schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
+                    URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
+                 """@en ;
+  schema:dateCreated "2021-06-23T13:47:27-00:00"^^xsd:dateTime ;
+  # schema:dateModified "2021-06-14T15:00:00-04:00"^^xsd:dateTime ;
+  oplinst:hasFileSizeSpecification :Virtuoso_Open_Source_for_macOS-30fcb64.tarSpecification ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
+  dcterms:identifier "Virtuoso_Open_Source_for_macOS-30fcb64.dmg" ;
+  dcterms:format "application/x-dmg" ;
+  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos-64#this> ;
+  oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
+  oplpro:versionText "7.2" ;
+  schema:downloadUrl <https://github.com/openlink/virtuoso-opensource/releases/download/v7.2.6.1/Virtuoso_Open_Source_for_macOS.dmg> .
+
+:Virtuoso_Open_Source_for_macOS-30fcb64.tarSpecification
+  a oplinst:FileSizeSpecification, schema:CreativeWork ;
+  wdrs:describedby source: ;
+  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoOpenSourceClientServerInstallerArchive72mwvpmacOS#this> ;
+  schema:name "File Size Details -- Virtuoso_Open_Source_for_macOS.dmg" ;
+  oplinst:hasMeasurementUnit "Bytes" ;
+  oplinst:hasMeasurementValue "49001552"^^xsd:integer .
