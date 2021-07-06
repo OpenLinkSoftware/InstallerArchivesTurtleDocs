@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2021-06-06T11:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2021-07-05T11:46:00-00:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -11659,7 +11659,7 @@ source: a schema:CreativeWork ;
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxo3zzzz.dmg" ;
     schema:dateCreated "2019-08-29T12:18:32+02:00"^^xsd:dateTime ;
-    schema:dateModified "2021-06-06T20:46:00-00:00"^^xsd:dateTime ;
+    schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxo3zzzz.dmg> ;
     schema:name "Generic ODBC Client Driver Installer Archive for Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
@@ -11705,7 +11705,7 @@ source: a schema:CreativeWork ;
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxj3zzzz.dmg" ;
     schema:dateCreated "2019-08-29T17:03:18+02:00"^^xsd:dateTime ;
-    schema:dateModified "2021-05-28T20:46:00-00:00"^^xsd:dateTime ;
+    schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <http://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxj3zzzz.dmg> ;
     schema:name "JDBC Generic Client Installer Archive for Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <http://download3.openlinksw.com/#this> ;
