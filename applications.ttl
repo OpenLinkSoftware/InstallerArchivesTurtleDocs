@@ -1027,3 +1027,27 @@ sourceDAV:
   oplvad:isVadPackageOf :Spasqlqb ;
   wdrs:describedby source: .
 
+### SPASQLQB VAD
+
+:Spasqlqb a doap:Project, schema:TechArticle ;
+  doap:name "Spasqlqb" ;
+  doap:description """SPASQL Query Builder""" ;
+  schema:author <http://www.openlinksw.com/#this> ;
+  doap:repository :SpasqlqbRepo ;
+  oplvad:hasVadPackage :SpasqlqbVad ;
+  wdrs:describedby source: .
+
+:SpasqlqbGitRepo a doap:GitRepository ;
+  schema:name "Spasqlqb Git Repository" ;
+  wdrs:describedby source: .
+
+:SpasqlqbVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+  schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/spasqlqb_dav.vad> ;
+  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
+  schema:name "Spasqlqb VAD" ;
+  oplvad:hasPackageName "Spasqlqb"^^xsd:string ;
+  # oplvad:hasOptionalDependency :Vad ;
+  oplvad:hasFileName "spasqlqb_dav.vad"^^xsd:string ;
+  oplvad:isVadPackageOf :Spasqlqb ;
+  wdrs:describedby source: .
+
