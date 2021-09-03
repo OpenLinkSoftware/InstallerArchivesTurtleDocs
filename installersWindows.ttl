@@ -87,12 +87,12 @@ source: a schema:CreativeWork ;
 
 ## Virtuoso Client Connectivity Kit  Installer Archive For Windows  Description ##
 
-# <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/wavcz2zz.msi#this>
+# <https://download3.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/wavcz2zz.msi#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchiveWindows#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -113,7 +113,7 @@ source: a schema:CreativeWork ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:Windows ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/wavcz2zz.msi> ;
+  schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/wavcz2zz.msi> ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-client-connectivity#this> ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
   oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -129,12 +129,12 @@ source: a schema:CreativeWork ;
 
 ## Virtuoso Client & Server Installer Archive For Windows Description ##
 
-# <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/wavpz2zz.msi#this>
+# <https://download3.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/wavpz2zz.msi#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchiveWindows#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -157,7 +157,7 @@ source: a schema:CreativeWork ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:Windows ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/wavpz2zz.msi> ;
+  schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/wavpz2zz.msi> ;
   #oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-client-connectivity#this> ,
   #                             <http://data.openlinksw.com/oplweb/product/column-store-cl#this> ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
@@ -182,7 +182,7 @@ source: a schema:CreativeWork ;
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 #oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -203,7 +203,7 @@ dcterms:format "application/zip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:Windows ;
 oplpro:versionText "7.2" ;
-schema:downloadUrl <https://s3proxy.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-win-64/virtuoso-t.zip> ;
+schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-win-64/virtuoso-t.zip> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -220,11 +220,11 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
 
 ## Virtuoso Server Open Source Edition Installer Archive
 
-<https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/virtuoso-t#this>
+<https://download3.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/virtuoso-t#this>
   a oplinst:InstallerArchive, foaf:Document, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   #oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -245,7 +245,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:Windows ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/virtuoso-t.zip> ;
+  schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/virtuoso-t.zip> ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-client-connectivity#this> ;
   oplinst:isInstallerArchiveOf  <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this>  ;
   # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -254,7 +254,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
  :virtuoso-t.zipSpecification
   a oplinst:FileSizeSpecification ;
   wdrs:describedby source: ;
-  oplinst:isFileSizeSpecificationOf <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/virtuoso-t#this> ;
+  oplinst:isFileSizeSpecificationOf <https://download3.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-win-64/virtuoso-t#this> ;
   schema:name "File Size Details -- virtuoso-t.zip" ;
   oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "4648369"^^xsd:integer .
@@ -267,7 +267,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
   a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   #oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -306,12 +306,12 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
 
 ## Virtuoso Client Connectivity Kit  Installer Archive For Windows  Description ##
 
-# <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-win-64/wavcz2zz.exe#this>
+# <https://download3.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-win-64/wavcz2zz.exe#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive81Windows#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -331,7 +331,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:Windows ;
   oplpro:versionText "8.1" ;
-  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-win-64/wavcz2zz.exe> ;
+  schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-win-64/wavcz2zz.exe> ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-client-connectivity#this> ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
   oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -347,12 +347,12 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
 
 ## Virtuoso Client & Server Installer Archive For Windows Description ##
 
-# <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-win-64/wavpz2zz.exe#this>
+# <https://download3.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-win-64/wavpz2zz.exe#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive81Windows#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -374,7 +374,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:Windows ;
   oplpro:versionText "8.1" ;
-  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-win-64/wavpz2zz.exe> ;
+  schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-win-64/wavpz2zz.exe> ;
   #oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-client-connectivity#this> ,
   #                             <http://data.openlinksw.com/oplweb/product/column-store-cl#this> ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
@@ -398,7 +398,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
 wdrs:describedby source: ;
@@ -419,7 +419,7 @@ dcterms:format "application/zip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:Windows ;
 oplpro:versionText "8.1" ;
-schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-win-64/virtuoso-odbc-t.zip> ;
+schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-win-64/virtuoso-odbc-t.zip> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -438,7 +438,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
 
 <http://data.openlinksw.com/oplweb/installer/WindowsLicenseManager#this>
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
-opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -458,7 +458,7 @@ dcterms:format "application/zip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:Windows ;
 oplpro:versionText "1.3.6" ;
-schema:downloadUrl <https://s3proxy.openlinksw.com.s3.amazonaws.com/uda/components/misc/oplmgr-win64.zip> ;
+schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/components/misc/oplmgr-win64.zip> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-client-connectivity#this> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease8x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -483,7 +483,7 @@ oplinst:hasMeasurementValue "346102"^^xsd:integer .
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
 wdrs:describedby source: ;
@@ -505,7 +505,7 @@ dcterms:format "application/zip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:Windows ;
 oplpro:versionText "8.2" ;
-schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/virtuoso-odbc-t.zip> ;
+schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/virtuoso-odbc-t.zip> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Windows-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -528,7 +528,7 @@ oplinst:hasMeasurementValue "6113249"^^xsd:integer .
 a oplinst:PluginLibraryFile, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -549,7 +549,7 @@ dcterms:format "application/zip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:Windows ;
 oplpro:versionText "8.2" ;
-schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/proj4.zip> ;
+schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/proj4.zip> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Windows-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -569,7 +569,7 @@ oplinst:hasMeasurementValue "500784"^^xsd:integer .
 a oplinst:PluginLibraryFile, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -590,7 +590,7 @@ dcterms:format "application/zip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:Windows ;
 oplpro:versionText "8.2" ;
-schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/geos.zip> ;
+schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/geos.zip> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Windows-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -610,7 +610,7 @@ oplinst:hasMeasurementValue "519438"^^xsd:integer .
 a oplinst:PluginLibraryFile, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -631,7 +631,7 @@ dcterms:format "application/zip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:Windows ;
 oplpro:versionText "8.2" ;
-schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/shapefileio.zip> ;
+schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/shapefileio.zip> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Windows-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -648,12 +648,12 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
 
 ## Virtuoso Server Installer Archive for Windows 64 bit
 
-# <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/wavpz2zz.exe#this>
+# <https://download3.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/wavpz2zz.exe#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82wavpWindows#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -671,7 +671,7 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:Windows ;
   oplpro:versionText "8.2" ;
-  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/wavpz2zz.exe> .
+  schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/wavpz2zz.exe> .
 
 :wavpz2zz-30fcb64.exeSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
@@ -684,12 +684,12 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
 
 ## Virtuoso Client Installer Archive for Windows 64 bit
 
-# <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/wavcz2zz.exe#this>
+# <https://download3.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/wavcz2zz.exe#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82wavcWindows#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -708,7 +708,7 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:Windows ;
   oplpro:versionText "8.2" ;
-  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/wavcz2zz.exe> ;
+  schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-win-64/wavcz2zz.exe> ;
   schema:hasPart <http://data.openlinksw.com/oplweb/installer/VirtuosoServerZip82Windows#this>,
                  <http://data.openlinksw.com/oplweb/installer/WindowsLicenseManager#this> . 
 
@@ -726,12 +726,12 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
 
 ## Virtuoso Server Installer Archive for Windows 64 bit
 
-# <https://s3proxy.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavpz2zz.exe#this>
+# <https://download3.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavpz2zz.exe#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83wavpWindows#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -749,7 +749,7 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:Windows ;
   oplpro:versionText "8.3" ;
-  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavpz2zz.exe> .
+  schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavpz2zz.exe> .
 
 :wavpz2zz-30fcb64.exeSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
@@ -762,12 +762,12 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
 
 ## Virtuoso Client Installer Archive for Windows 64 bit
 
-# <https://s3proxy.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavcz2zz.exe#this>
+# <https://download3.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavcz2zz.exe#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83wavcWindows#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -786,7 +786,7 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:Windows ;
   oplpro:versionText "8.3" ;
-  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavcz2zz.exe> ;
+  schema:downloadUrl <https://download3.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-win-64/wavcz2zz.exe> ;
   schema:hasPart <http://data.openlinksw.com/oplweb/installer/VirtuosoServerZip83Windows#this>,
                  <http://data.openlinksw.com/oplweb/installer/WindowsLicenseManager#this> . 
 
@@ -806,7 +806,7 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
-  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VOS#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
