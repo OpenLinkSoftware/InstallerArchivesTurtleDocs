@@ -107,12 +107,12 @@ source: a schema:CreativeWork ;
 
 # glibc2.12 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc212-64/lqvpz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc212-64/lqvpz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchivelqvpLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -132,7 +132,7 @@ source: a schema:CreativeWork ;
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc212-64/lqvpz2zz.tar> ;
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc212-64/lqvpz2zz.tar> ;
   schema:hasPart <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip72LinuxGlibc212#this>,
                  <http://data.openlinksw.com/oplweb/installer/Linuxglibc212LicenseManager#this> .
 
@@ -151,7 +151,7 @@ source: a schema:CreativeWork ;
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -173,7 +173,7 @@ dcterms:format "application/gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "7.2" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc212-64/virtuoso-iodbc-t.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc212-64/virtuoso-iodbc-t.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Linux-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -190,12 +190,12 @@ oplinst:hasMeasurementValue "6607026"^^xsd:integer .
 
 # glibc2.17 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc217-64/lrvpz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc217-64/lrvpz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchivelrvpLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -215,7 +215,7 @@ oplinst:hasMeasurementValue "6607026"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc217-64/lrvpz2zz.tar> ;
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc217-64/lrvpz2zz.tar> ;
   schema:hasPart <http://data.openlinksw.com/oplweb/installer/Linuxglibc217LicenseManager#this> . 
 
 :lrvpz2zz.tarSpecification
@@ -234,7 +234,7 @@ oplinst:hasMeasurementValue "6607026"^^xsd:integer .
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -256,7 +256,7 @@ dcterms:format "application/gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "7.2" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc217-64/virtuoso-iodbc-t.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc217-64/virtuoso-iodbc-t.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Linux-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -273,12 +273,12 @@ oplinst:hasMeasurementValue "6916930"^^xsd:integer .
 
 # glibc2.3 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc23-64/lnvpz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc23-64/lnvpz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchivelnvpLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -298,7 +298,7 @@ oplinst:hasMeasurementValue "6916930"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc23-64/lnvpz2zz.tar> ;
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc23-64/lnvpz2zz.tar> ;
   schema:hasPart <http://data.openlinksw.com/oplweb/installer/LinuxGlibc23LicenseManager#this> . 
 
 :lnvpz2zz.tarSpecification
@@ -315,7 +315,7 @@ oplinst:hasMeasurementValue "6916930"^^xsd:integer .
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -337,7 +337,7 @@ dcterms:format "application/gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "7.2" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc23-64/virtuoso-iodbc-t.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc23-64/virtuoso-iodbc-t.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Linux-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -353,13 +353,13 @@ oplinst:hasMeasurementValue "4854027"^^xsd:integer .
 
 ## glibc25 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc25-64/lovpz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc25-64/lovpz2zz.tar#this>
 
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchivelovpLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -378,7 +378,7 @@ oplinst:hasMeasurementValue "4854027"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc25-64/lovpz2zz.tar> ;
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc25-64/lovpz2zz.tar> ;
   schema:hasPart <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip72LinuxGlibc25#this>, 
                  <http://data.openlinksw.com/oplweb/installer/LinuxGlibc25LicenseManager#this> .
 
@@ -397,7 +397,7 @@ oplinst:hasMeasurementValue "4854027"^^xsd:integer .
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -419,7 +419,7 @@ dcterms:format "application/gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "7.2" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc25-64/virtuoso-iodbc-t.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc25-64/virtuoso-iodbc-t.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Linux-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease72x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -438,12 +438,12 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
 
 # glibc212 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc212-64/lqvcz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc212-64/lqvcz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchivelqvcLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -462,7 +462,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc212-64/lqvcz2zz.tar> .
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc212-64/lqvcz2zz.tar> .
 
 :lqvcz2zz.tarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
@@ -476,12 +476,12 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
 
 # glibc217 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc217-64/lrvcz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc217-64/lrvcz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchivelrvcLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -500,7 +500,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc217-64/lrvcz2zz.tar> .
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc217-64/lrvcz2zz.tar> .
 
 :lrvcz2zz.tarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
@@ -512,12 +512,12 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
 
 ## glibc23 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc23-64/lnvcz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc23-64/lnvcz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchivelnvcLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -536,7 +536,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc23-64/lnvcz2zz.tar> .
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc23-64/lnvcz2zz.tar> .
 
 :lnvcz2zz.tarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
@@ -548,12 +548,12 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
 
 ## glibc25 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc25-64/lovcz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc25-64/lovcz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchivelovcLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -572,7 +572,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "7.2" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc25-64/lovcz2zz.tar> .
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/7.2/x86_64-generic-linux-glibc25-64/lovcz2zz.tar> .
 
 :lovcz2zz.tarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
@@ -589,12 +589,12 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
 # glibc212 x86_64
 
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc212-64/lqvpz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc212-64/lqvpz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive81lqvpLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -612,7 +612,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "8.1" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc212-64/lqvpz2zz.tar> ;
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc212-64/lqvpz2zz.tar> ;
   schema:hasPart <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip81LinuxGlibc212#this> ,
                  <http://data.openlinksw.com/oplweb/installer/Linuxglibc212LicenseManager#this> .
 
@@ -632,7 +632,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -654,7 +654,7 @@ dcterms:format "application/gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "8.1" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc212-64/virtuoso-iodbc-t.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc212-64/virtuoso-iodbc-t.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Linux-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease8x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -671,12 +671,12 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
 
 ## glibc25 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc25-64/lovpz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc25-64/lovpz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive81lovpLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -694,7 +694,7 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "8.1" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc25-64/lovpz2zz.tar> .
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc25-64/lovpz2zz.tar> .
 
 :lovpz2zz81.tarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
@@ -708,12 +708,12 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
 
 # glibc212 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc212-64/lqvcz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc212-64/lqvcz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive81lqvcLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -733,7 +733,7 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "8.1" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc212-64/lqvcz2zz.tar> .
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc212-64/lqvcz2zz.tar> .
 
 :lqvcz2zz81.tarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
@@ -746,12 +746,12 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
 
 ## glibc25 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc25-64/lovcz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc25-64/lovcz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive81lovcLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -770,7 +770,7 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "8.1" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc25-64/lovcz2zz.tar> ;
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc25-64/lovcz2zz.tar> ;
   schema:hasPart <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip81LinuxGlibc25#this>,
                  <http://data.openlinksw.com/oplweb/installer/LinuxGlibc25LicenseManager#this> . 
 
@@ -789,7 +789,7 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 #oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -811,7 +811,7 @@ dcterms:format "application/gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "8.1" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc25-64/virtuoso-iodbc-t.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.1/x86_64-generic-linux-glibc25-64/virtuoso-iodbc-t.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Linux-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease81x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -830,7 +830,7 @@ oplinst:hasMeasurementValue "6593876"^^xsd:integer .
 
 <http://data.openlinksw.com/oplweb/installer/LinuxGlibc23LicenseManager#this>
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -850,7 +850,7 @@ dcterms:format "application/x-gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "1.3.6" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/components/misc/oplmgr-linux-x64-glibc2.3.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/components/misc/oplmgr-linux-x64-glibc2.3.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-client-connectivity#this> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease8x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -869,7 +869,7 @@ oplinst:hasMeasurementValue "688249"^^xsd:integer .
 
 <http://data.openlinksw.com/oplweb/installer/LinuxGlibc25LicenseManager#this>
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -889,7 +889,7 @@ dcterms:format "application/x-gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "1.3.6" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/components/misc/oplmgr-linux-x64-glibc2.5.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/components/misc/oplmgr-linux-x64-glibc2.5.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-windows-client-connectivity#this> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease8x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -908,7 +908,7 @@ oplinst:hasMeasurementValue "922123"^^xsd:integer .
 
 <http://data.openlinksw.com/oplweb/installer/Linuxglibc212LicenseManager#this>
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 schema:name "License Manager 1.3.6 (Binary) for Linux (64-bit glibc 2.12 x86_64)"@en ;
 schema:description """Gzip archive that contains the executable file that delivers the License Manager functionality
@@ -926,7 +926,7 @@ dcterms:format "application/x-gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "1.3.6" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/components/misc/oplmgr-linux-x64-glibc2.12.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/components/misc/oplmgr-linux-x64-glibc2.12.gz> ;
 oplinst:hasFileSizeSpecification :oplmgr-linux-x64-glibc2.12.gzSpecification .
 
 :oplmgr-linux-x64-glibc2.12.gzSpecification
@@ -942,7 +942,7 @@ oplinst:hasMeasurementValue "488336"^^xsd:integer .
 
 <http://data.openlinksw.com/oplweb/installer/Linuxglibc217LicenseManager#this>
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 schema:name "License Manager 1.3.6 (Binary) for Linux (64-bit glibc 2.17 x86_64)"@en ;
 schema:description """Gzip archive that contains the executable file that delivers the License Manager functionality
@@ -960,7 +960,7 @@ dcterms:format "application/x-gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "1.3.6" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/components/misc/oplmgr-linux-x64-glibc2.17.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/components/misc/oplmgr-linux-x64-glibc2.17.gz> ;
 oplinst:hasFileSizeSpecification :oplmgr-linux-x64-glibc2.17.gzSpecification .
 
 :oplmgr-linux-x64-glibc2.17.gzSpecification
@@ -982,7 +982,7 @@ oplinst:hasMeasurementValue "498638"^^xsd:integer .
 a oplinst:ExecutableArchive, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
 wdrs:describedby source: ;
@@ -1004,7 +1004,7 @@ dcterms:format "application/gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "8.2" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/virtuoso-iodbc-t.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/virtuoso-iodbc-t.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Linux-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -1027,7 +1027,7 @@ oplinst:hasMeasurementValue "21097321"^^xsd:integer .
 a oplinst:PluginLibraryFile, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -1048,7 +1048,7 @@ dcterms:format "application/gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "8.2" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/proj4.so.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/proj4.so.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Linux-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -1068,7 +1068,7 @@ oplinst:hasMeasurementValue "624439"^^xsd:integer .
 a oplinst:PluginLibraryFile, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -1089,7 +1089,7 @@ dcterms:format "application/gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "8.2" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/geos.so.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/geos.so.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Linux-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -1109,7 +1109,7 @@ oplinst:hasMeasurementValue "959609"^^xsd:integer .
 a oplinst:PluginLibraryFile, foaf:Document, schema:CreativeWork ;
 oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
 # oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
 # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
@@ -1130,7 +1130,7 @@ dcterms:format "application/gzip" ;
 oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
 oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
 oplpro:versionText "8.2" ;
-schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/shapefileio.so.gz> ;
+schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/shapefileio.so.gz> ;
 # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-Linux-client-connectivity#this> ;
 oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease82x#this> ;
 # oplcomp:hasComponentOptionalDependency <http://data.openlinksw.com/oplweb/license/License-2016-02-LOD-personal-client-access-basic-sql#this> ;
@@ -1147,12 +1147,12 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
 
 ## Virtuoso Server Installer Archive for glibc25 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/lovpz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/lovpz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive82lovpLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -1170,7 +1170,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "8.2" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/lovpz2zz.tar> .
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/lovpz2zz.tar> .
 
 :lovpz2zz-30fcb64.tarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
@@ -1183,12 +1183,12 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
 
 ## Virtuoso Client Installer Archive for glibc25 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/lovcz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/lovcz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive82lovcLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -1208,7 +1208,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "8.2" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/lovcz2zz.tar> ;
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.2/x86_64-generic-linux-glibc25-64/lovcz2zz.tar> ;
   schema:hasPart <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip81LinuxGlibc25#this>,
                  <http://data.openlinksw.com/oplweb/installer/LinuxGlibc25LicenseManager#this> . 
 
@@ -1226,12 +1226,12 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
 
 ## Virtuoso Server Installer Archive for glibc25 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.3/x86_64-generic-linux-glibc25-64/lovpz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-linux-glibc25-64/lovpz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VP#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
@@ -1249,7 +1249,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "8.3" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.3/x86_64-generic-linux-glibc25-64/lovpz2zz.tar> .
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-linux-glibc25-64/lovpz2zz.tar> .
 
 :lovpz2zz-30fcb64.tarSpecification
   a oplinst:FileSizeSpecification, schema:CreativeWork ;
@@ -1262,12 +1262,12 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
 
 ## Virtuoso Client Installer Archive for glibc25 x86_64
 
-# <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.3/x86_64-generic-linux-glibc25-64/lovcz2zz.tar#this>
+# <https://s3proxy.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-linux-glibc25-64/lovcz2zz.tar#this>
 <http://data.openlinksw.com/oplweb/installer/VirtuosoClientInstallerArchive83lovcLinux#this>
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VC#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
@@ -1288,7 +1288,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
   oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
   oplpro:versionText "8.3" ;
-  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/8.3/x86_64-generic-linux-glibc25-64/lovcz2zz.tar> ;
+  schema:downloadUrl <https://s3proxy.openlinksw.com/uda/virtuoso/8.3/x86_64-generic-linux-glibc25-64/lovcz2zz.tar> ;
   schema:hasPart <http://data.openlinksw.com/oplweb/installer/VirtuosoServerGzip83LinuxGlibc25#this>,
                  <http://data.openlinksw.com/oplweb/installer/LinuxGlibc25LicenseManager#this> . 
 
@@ -1310,7 +1310,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   a oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
-  opldep:hasDepot <https://download3.openlinksw.com.s3.amazonaws.com/#this> ;
+  opldep:hasDepot <https://s3proxy.openlinksw.com/#this> ;
   oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/VOS#this> ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
