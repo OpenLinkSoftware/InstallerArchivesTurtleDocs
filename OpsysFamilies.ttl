@@ -259,6 +259,8 @@ source:
         <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this>,
         <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-winsrv-64#this> ;
     owl:sameAs <http://dbpedia.org/resource/Microsoft_Windows> ;
+    schema:sameAs <https://uda.openlinksw.com/drivers/lite/?osfamily=http://data.openlinksw.com/oplweb/opsys_family/Windows#this>,
+                  <https://uda.openlinksw.com/drivers/lite/windows>.
     schema:mainEntityOfPage <http://dbpedia.org/resource/Microsoft_Windows> ;
     schema:logo <https://www.openlinksw.com/images/icon-windows.gif> .
 
@@ -374,6 +376,8 @@ source:
         <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ,
         <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
     owl:sameAs <http://dbpedia.org/resource/Linux> ;
+    schema:sameAs <https://uda.openlinksw.com/drivers/lite/?osfamily=http://data.openlinksw.com/oplweb/opsys_family/GenericLinux#this>,
+                  <https://uda.openlinksw.com/drivers/lite/Linux>.
     schema:mainEntityOfPage <http://dbpedia.org/resource/Linux> ;
     schema:logo <https://www.openlinksw.com/images/icon-linux.gif> .
 
@@ -448,6 +452,8 @@ source:
         <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.5-64#this>,
         <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.6-64#this> ;
     owl:sameAs <http://dbpedia.org/resource/Mac_os_x> ;
+    schema:sameAs <https://uda.openlinksw.com/drivers/lite/?osfamily=http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this>,
+                  <https://uda.openlinksw.com/drivers/lite/mac>.
     schema:mainEntityOfPage <http://dbpedia.org/resource/Mac_os_x> ;
     schema:logo <https://www.openlinksw.com/images/icon-mac-universal.gif> .
 
