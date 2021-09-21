@@ -1,0 +1,245 @@
+@prefix schema:      <http://schema.org/> .
+@prefix oplmch:      <http://www.openlinksw.com/ontology/machines#> .
+@prefix oplsof:      <http://www.openlinksw.com/ontology/software#> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix foaf:        <http://xmlns.com/foaf/0.1/> .
+@prefix oplweb:      <http://www.openlinksw.com/schemas/oplweb#> .
+@prefix oplven:      <http://www.openlinksw.com/ontology/vendors#> .
+@prefix oplpro:      <http://www.openlinksw.com/ontology/products#> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml:         <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+@prefix gr:          <http://purl.org/goodrelations/v1#> .
+@prefix wdrs:        <http://www.w3.org/2007/05/powder-s#> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc:          <http://creativecommons.org/ns#> .
+@prefix :            <#> .
+@prefix source:      <http://www.openlinksw.com/data/turtle/oplweb/ProcessorFamilies.ttl> .
+@prefix sourceDAV:   <http://www.openlinksw.com/DAV/data/turtle/oplweb/ProcessorFamilies.ttl> .
+
+sourceDAV:
+   a schema:CreativeWork ;
+   schema:name "OpenLink Software Processor Families -- WebDAV hosted TURTLE Document"^^xsd:string ;
+   dcterms:format "text/turtle" ;
+   schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2021-09-21T13:38:00-05:00"^^xsd:dateTime ;
+   schema:author <http://www.openlinksw.com/#this> ;
+   schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+   cc:attributionName  "OpenLink Software" ;
+   owl:sameAs source: .
+
+source: a schema:CreativeWork ;
+   schema:name "OpenLink Processor Families"^^xsd:string ;
+   schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink Processor Families"""@en ;
+   schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2021-09-21T13:38:00-05:00"^^xsd:dateTime ;
+   schema:author <http://www.openlinksw.com/#this> ;
+   schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+   cc:attributionName  "OpenLink Software" ;
+   schema:about <http://data.openlinksw.com/oplweb/processor_family/.NETCLR#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/Alpha#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/HPRISC#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/Itanium#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/JavaVirtualMachine#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/MIPs#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/MonoCLR#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/OpenLink#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/PowerPC#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/Risc6000#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/Sparc#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/Universal#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/WebPlatform#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/x86#this>  ,
+              <http://data.openlinksw.com/oplweb/processor_family/x86_64#this> ,
+              <http://data.openlinksw.com/oplweb/processor_family/aarch64#this> . 
+
+<http://data.openlinksw.com/oplweb/processor_family/.NETCLR#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name ".NET CLR" ;
+    schema:description "OS Agnostic  Virtualization Layer" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/MicrosoftCorporation#this> ;
+    is schema:about of <http://en.wikipedia.org/wiki/.Net_Framework/> ;
+    skos:altLabel "OS Agnostic Virtualization Layer" .
+
+<http://data.openlinksw.com/oplweb/processor_family/Alpha#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "Alpha" ;
+    schema:description "DEC_Alpha" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/HewlettPackard#this> ;
+    skos:altLabel "DEC Alpha" .
+
+<http://data.openlinksw.com/oplweb/processor_family/HPRISC#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "HP RISC" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/HewlettPackard#this> .
+
+<http://data.openlinksw.com/oplweb/processor_family/Itanium#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "Itanium" ;
+    schema:description "IA-64" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/IntelCorporation#this> ;
+    skos:altLabel "IA-64" .
+
+<http://data.openlinksw.com/oplweb/processor_family/JavaVirtualMachine#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "Java Virtual Machine" ;
+    schema:description "OS Agnostic Virtualization Layer" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/SunMicrosystems#this> ;
+    is schema:about of <http://en.wikipedia.org/wiki/Java_virtual_machine/> ;
+    skos:altLabel "OS Agnostic Virtualization Layer" .
+
+<http://data.openlinksw.com/oplweb/processor_family/MIPs#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "MIPs" ;
+    schema:description "MIPS_architecture" ;
+    oplmch:hasProcessor <http://data.openlinksw.com/oplweb/processor/mips/2#this>,
+        <http://data.openlinksw.com/oplweb/processor/mips/4#this>,
+        <http://data.openlinksw.com/oplweb/processor/mips/5#this> ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/SiliconGraphics#this> ;
+    owl:sameAs <http://dbpedia.org/resource/MIPS_Technologies>,
+        <http://virtuoso.openlinksw.com:8889/about/id/entity/http/data.openlinksw.com/oplweb/processor_family/MIPs> ;
+    skos:altLabel "MIPS architecture" ;
+    wdrs:describedby <http://virtuoso.openlinksw.com:8889/about/id/entity/http/data.openlinksw.com/oplweb/processor_family/MIPs> ;
+    schema:mainEntityOfPage <http://en.wikipedia.org/wiki/MIPS_Technologies> .
+
+<http://data.openlinksw.com/oplweb/processor_family/MonoCLR#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "Mono CLR" ;
+    schema:description "Processor Agnostic Virtualization Layer" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/OpenSource#this> ;
+    is schema:about of <http://en.wikipedia.org/wiki/Mono_%28software%29/> ;
+    skos:altLabel "Processor Agnostic Virtualization Layer" .
+
+<http://data.openlinksw.com/oplweb/processor_family/OpenLink#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "OpenLink" ;
+    schema:description "http://www.openlinksw.com/" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/OpenLinkSoftware#this> ;
+    skos:altLabel "http://www.openlinksw.com/" .
+
+<http://data.openlinksw.com/oplweb/processor_family/PowerPC#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "PowerPC" ;
+    schema:description "PowerPC_family" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/IBM#this> ;
+    skos:altLabel "PowerPC family" .
+
+<http://data.openlinksw.com/oplweb/processor_family/Risc6000#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "Risc 6000" ;
+    schema:description "Risc 6000" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/IBM#this> ;
+    skos:altLabel "Risc 6000" .
+
+<http://data.openlinksw.com/oplweb/processor_family/Sparc#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "Sparc" ;
+    schema:description "Sparc" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/SunMicrosystems#this> ;
+    skos:altLabel "Sparc" .
+
+<http://data.openlinksw.com/oplweb/processor_family/Universal#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "Universal" ;
+    schema:description "Apple Universal Binary" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/AppleComputer#this> ;
+    skos:altLabel "Apple Universal Binary" .
+
+<http://data.openlinksw.com/oplweb/processor_family/WebPlatform#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "Web Platform" ;
+    schema:description "Web User Agent Platform" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/MozillaFoundation#this> ;
+    skos:altLabel "Web User Agent Platform" .
+
+<http://data.openlinksw.com/oplweb/processor_family/x86#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "x86" ;
+    schema:description "Intel_Pentium" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/IntelCorporation#this> ;
+    skos:altLabel "Intel Pentium" .
+
+<http://data.openlinksw.com/oplweb/processor_family/x86_64#this> a oplmch:ProcessorFamily ;
+    wdrs:describedby source: ;
+    schema:name "x86_64" ;
+    schema:description "EM64T" ;
+    oplven:hasVendor <http://data.openlinksw.com/oplweb/vendor/AdvancedMicroDevices(AMD)#this> ;
+    skos:altLabel "EM64T" .
+
+<http://en.wikipedia.org/wiki/Alpha_processor/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/Alpha#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Alpha_processor> ;
+  schema:name "Alpha processor" .
+
+<http://en.wikipedia.org/wiki/PA-RISC_family/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/HPRISC#this>;
+  schema:url <http://en.wikipedia.org/wiki/PA-RISC_family> ;
+  schema:name "PA-RISC family" .
+
+<http://en.wikipedia.org/wiki/Itanium/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/Itanium#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Itanium> ;
+  schema:name "Itanium" .
+
+<http://en.wikipedia.org/wiki/MIPS_Technologies/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/MIPs#this> ;
+  schema:url <http://en.wikipedia.org/wiki/MIPS_Technologies> ;
+  schema:name "MIPS Technologies" .
+
+<http://en.wikipedia.org/wiki/OpenLink_Software/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/OpenLink#this> ;
+  schema:url <http://en.wikipedia.org/wiki/OpenLink_Software> ;
+  schema:name "OpenLink Software" .
+
+<http://en.wikipedia.org/wiki/Powerpc/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/PowerPC#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Powerpc> ;
+  schema:name "Powerpc" .
+
+<http://en.wikipedia.org/wiki/RISC_6000/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/Risc6000#this> ;
+  schema:url <http://en.wikipedia.org/wiki/RISC_6000> ;
+  schema:name "RISC 6000" .
+
+<http://en.wikipedia.org/wiki/Sparc/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/Sparc#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Sparc> ;
+  schema:name "Sparc" .
+
+<http://en.wikipedia.org/wiki/Virtuoso_Universal_Server/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/Universal#this> ;
+  schema:url <http://en.wikipedia.org/wiki/Virtuoso_Universal_Server> ;
+  schema:name "Virtuoso Universal Server" .
+
+<http://en.wikipedia.org/wiki/X86_architecture/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/x86#this> ;
+  schema:url <http://en.wikipedia.org/wiki/X86_architecture> ;
+  schema:name "X86 architecture" .
+
+<http://en.wikipedia.org/wiki/X86_64/> a schema:WebPage;
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/x86_64#this> ;
+  schema:url <http://en.wikipedia.org/wiki/X86_64> ;
+  schema:name "X86 64" .
+
+<https://en.wikipedia.org/wiki/Apple_M1/>
+  wdrs:describedby source: ;
+  schema:about <http://data.openlinksw.com/oplweb/processor_family/aarch64#this> ;
+  schema:url <https://en.wikipedia.org/wiki/Apple_M1> ;
+  schema:name "Apple M1" .
+
+
+

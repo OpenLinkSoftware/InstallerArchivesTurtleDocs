@@ -1,0 +1,1583 @@
+@prefix schema:      <http://schema.org/> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix oplpro:      <http://www.openlinksw.com/ontology/products#> .
+@prefix oplmch:      <http://www.openlinksw.com/ontology/machines#> .
+@prefix opl:         <http://www.openlinksw.com/schema/attribution#> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdrs:        <http://www.w3.org/2007/05/powder-s#> .
+@prefix xml:         <http://www.w3.org/XML/1998/namespace> .
+@prefix wdrs:        <http://www.w3.org/2007/05/powder-s#> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:        <http://xmlns.com/foaf/0.1/> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc:          <http://creativecommons.org/ns#> .
+@prefix :            <#> .
+@prefix source:      <http://www.openlinksw.com/data/turtle/oplweb/Processors.ttl> .
+@prefix sourceDAV:   <http://www.openlinksw.com/DAV/data/turtle/oplweb/Processors.ttl> .
+
+sourceDAV:
+   a schema:CreativeWork ;
+   schema:name "OpenLink Software Processors -- WebDAV hosted TURTLE Document"^^xsd:string ;
+   dcterms:format "text/turtle" ;
+   schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2021-09-21T13:38:00-05:00"^^xsd:dateTime ;
+   schema:author <http://www.openlinksw.com/#this> ;
+   schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+   cc:attributionName  "OpenLink Software" ;
+   owl:sameAs source: .
+
+source: a schema:CreativeWork ;
+   schema:name "OpenLink Processors"^^xsd:string ;
+   schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2021-09-21T13:38:00-05:00"^^xsd:dateTime ;
+   schema:author <http://www.openlinksw.com/#this> ;
+   schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
+   cc:attributionName  "OpenLink Software" ;
+   schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink Processors"""@en ;
+   schema:about <http://data.openlinksw.com/oplweb/processor/alphaev6/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/athlon64/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/dotnet1.0/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/dotnet1.1/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/dotnet2.0/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/dotnet2.0/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/gecko/3#this> ,
+              <http://data.openlinksw.com/oplweb/processor/hppa1.1/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/hppa1.1/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/hppa2.0w/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/i386/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/i486/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/i586/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/i686/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/ia64/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/jvm1.1/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/jvm1.2/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/jvm1.3/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/jvm1.4/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/jvm1.5/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/m68k/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/mips/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/mips/4#this> ,
+              <http://data.openlinksw.com/oplweb/processor/mips/5#this> ,
+              <http://data.openlinksw.com/oplweb/processor/mono1.0/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/mono1.1/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/mono1.2/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/mono2.0/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/mono2.0/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/openlink/3#this> ,
+              <http://data.openlinksw.com/oplweb/processor/opteron64/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/powerpc/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/powerpc/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/rs6000/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/rs6000/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/ruby/3#this> ,
+              <http://data.openlinksw.com/oplweb/processor/sparc/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/sparc64/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/universal/1#this> ,
+              <http://data.openlinksw.com/oplweb/processor/x86_64/2#this> ,
+              <http://data.openlinksw.com/oplweb/processor/aarch64/2#this> .
+
+
+<http://data.openlinksw.com/oplweb/processor/alphaev6/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "DEC Alpha" ;
+    schema:description "DEC Alpha" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    schema:name "alphaev6" ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-bench#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/Alpha#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/athlon64/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "AMD Athlon 64" ;
+    schema:name "athlon64/2" ;
+    schema:description "AMD Athlon 64" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/AMD64#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/dotnet1.0/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel ".NET CLR 1.0" ;
+    schema:name "dotnet1.0/1" ;
+    schema:description ".NET CLR 1.0" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "1.0" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/.NETCLR#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/dotnet1.1/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel ".NET CLR 1.1" ;
+    schema:name "dotnet1.1/1" ;
+    schema:description ".NET CLR 1.1" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "1.1" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/.NETCLR#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/dotnet2.0/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel ".NET CLR 2.0 (32 Bit)" ;
+    schema:name "dotnet2.0/1" ;
+    schema:description ".NET CLR 2.0 (32 Bit)" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "2.0" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/.NETCLR#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/dotnet2.0/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel ".NET CLR 2.0 (64bit)" ;
+    schema:name "dotnet2.0/2" ;
+    schema:description ".NET CLR 2.0 (64bit)" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "2.0" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/.NETCLR#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/gecko/3#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Gecko Engine" ;
+    schema:name "gecko/3" ;
+    schema:description "Gecko Engine" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32_64Bit#this> ;
+    oplmch:hasProcessorVersion "3.0" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/util-dataexplorer-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/WebPlatform#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/hppa1.1/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "HP PA-RISC" ;
+    schema:name "hppa1.1/1" ;
+    schema:description "HP PA-RISC" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/HPRISC#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/hppa1.1/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "64 Bit PA Risc 1.1" ;
+    schema:name "hppa1.1/2" ;
+    schema:description "64 Bit PA Risc 1.1" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/HPRISC#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/hppa2.0w/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "HP 64 Bit PA-RISC" ;
+    schema:name "hppa2.0w/2" ;
+    schema:description "HP 64 Bit PA-RISC" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/HPRISC#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/i386/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Intel 80386 Processor" ;
+    schema:name "i386/1" ;
+    schema:description "Intel 80386 Processor" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/x86#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/i486/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Intel 80486 Processor" ;
+    schema:name "i486/1" ;
+    schema:description "Intel 80486 Processor" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/x86#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/i586/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Intel Pentium" ;
+    schema:name "i586/1" ;
+    schema:description "Intel Pentium" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "4.0" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-frbird-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-wrk#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-nntp-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-rdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-unisvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vappsvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-xmldb-psnl#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/x86#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/i686/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Intel Xeon Processor" ;
+    schema:name "i686/1" ;
+    schema:description "Intel Xeon Processor" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-bench#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-frbird-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-scan#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-wrk#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-nntp-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-rdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-unisvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vappsvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-xmldb-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/xmla-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/xmla-oledb-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/x86#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/ia64/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Intel Itanium" ;
+    schema:name "ia64/2" ;
+    schema:description "Intel Itanium" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-bench#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/Itanium#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/jvm1.1/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "JVM 1.1" ;
+    schema:name "jvm1.1/1" ;
+    schema:description "JVM 1.1" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "1.1" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/JavaVirtualMachine#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/jvm1.2/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "JVM 1.2" ;
+    schema:name "jvm1.2/1" ;
+    schema:description "JVM 1.2" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "1.2" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/JavaVirtualMachine#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/jvm1.3/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "JVM 1.3" ;
+    schema:name "jvm1.3/1" ;
+    schema:description "JVM 1.3" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "1.3" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/JavaVirtualMachine#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/jvm1.4/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "JVM 1.4" ;
+    schema:name "jvm1.4/1" ;
+    schema:description "JVM 1.4" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "1.4" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/JavaVirtualMachine#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/jvm1.5/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "JVM 1.5" ;
+    schema:name "jvm1.5/1" ;
+    schema:description "JVM 1.5" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "1.5" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/JavaVirtualMachine#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/m68k/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Motoroal 68K" ;
+    schema:name "m68k/1" ;
+    schema:description "Motoroal 68K" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/Motorola68000#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/mips/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "64 Bit Mips" ;
+    schema:name "mips/2" ;
+    schema:description "64 Bit Mips" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/MIPs#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/mips/4#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mips n32" ;
+    schema:name "mips/4" ;
+    schema:description "Mips n32" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/n32#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/MIPs#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/mips/5#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mips O32 Processor" ;
+    schema:name "mips/5" ;
+    schema:description "Mips O32 Processor" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/o32#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/MIPs#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/mono1.0/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mono ECMA-CLI 1.0" ;
+    schema:name "mono1.0/1" ;
+    schema:description "Mono ECMA-CLI 1.0" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "1.0" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/MonoCLR#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/mono1.1/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mono ECMA-CLI 1.1" ;
+    schema:name "mono1.1/1" ;
+    schema:description "Mono ECMA-CLI 1.1" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "1.1" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/MonoCLR#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/mono1.2/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mono ECMA-CLI 1.2" ;
+    schema:name "mono1.2/1" ;
+    schema:description "Mono ECMA-CLI 1.2" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "1.2" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/MonoCLR#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/mono2.0/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mono ECMA-CLI 2.0" ;
+    schema:name "mono2.0/1" ;
+    schema:description "Mono ECMA-CLI 2.0" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "2.0" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/MonoCLR#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/mono2.0/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mono ECMA-CLI 2.0" ;
+    schema:name "mono2.0/2" ;
+    schema:description "Mono ECMA-CLI 2.0" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "2.0" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/MonoCLR#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/openlink/3#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "OpenLink Platform 4.5" ;
+    schema:name "openlink/3" ;
+    schema:description "OpenLink Platform 4.5" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32_64Bit#this> ;
+    oplmch:hasProcessorVersion "4.5" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dca-address-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-address-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-blog-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-bookmark-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-bookmark-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-bpel-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-bpel-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-briefcase-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-briefcase-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-calendar-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-calendar-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-conductor-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-conductor-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-crm-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-demo-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-discussion-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-doc-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-drupal-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-feeds-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-feeds-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-gallery-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-isparql-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-mail-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-mail-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-mediawiki-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-oat-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-ods-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-phbb-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-polls-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-polls-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-rdfmap-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-rdfmap-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-syncml-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-tutorial-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-tutorial-fs#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-wiki-dav#this>,
+        <http://data.openlinksw.com/oplweb/product/dca-wordpress-fs#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/OpenLink#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/opteron64/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "AMD Opteron 64" ;
+    schema:name "opteron64/2" ;
+    schema:description "AMD Opteron 64" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/AMD64#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/powerpc/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "PowerPC Processor" ;
+    schema:name "powerpc/1" ;
+    schema:description "PowerPC Processor" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-bench#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-frbird-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-wrk#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-nntp-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-rdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-unisvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vappsvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-xmldb-psnl#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/PowerPC#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/powerpc/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "64 Bit PowerPC" ;
+    schema:name "powerpc/2" ;
+    schema:description "64 Bit PowerPC" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-frbird-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-wrk#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-nntp-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-rdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-unisvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vappsvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-xmldb-psnl#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/PowerPC#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/rs6000/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "32 Bit RS6000" ;
+    schema:name "rs6000/1" ;
+    schema:description "32 Bit RS6000" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/Risc6000#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/rs6000/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "64 Bit S/390 processor" ;
+    schema:name "rs6000/2" ;
+    schema:description "64 Bit S/390 processor" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/Risc6000#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/ruby/3#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Ruby" ;
+    schema:name "ruby/3" ;
+    schema:description "Ruby" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32_64Bit#this> ;
+    oplmch:hasProcessorVersion "1.x" ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/Ruby#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/sparc/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "32 Bit Sun Sparc" ;
+    schema:name "sparc/1" ;
+    schema:description "32 Bit Sun Sparc" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-bench#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-wrk#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/Sparc#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/sparc64/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "64 Bit Sun Sparc" ;
+    schema:name "sparc64/2" ;
+    schema:description "64 Bit Sun Sparc" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-nntp-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-rdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-unisvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vappsvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-xmldb-psnl#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/Sparc#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/universal/1#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Mac Universal" ;
+    schema:name "universal/1" ;
+    schema:description "Mac Universal" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/32Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-bench#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-frbird-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-wrk#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-nntp-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-rdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-unisvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vappsvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-xmldb-psnl#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/Universal#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/x86_64/2#this> a oplmch:Processor ;
+    wdrs:describedby source: ;
+    skos:altLabel "Generic x86_64" ;
+    schema:name "x86_64/2" ;
+    schema:description "Generic x86_64" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/dotnet-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-adm#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-bench#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-frbird-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/oledb-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-wrk#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-host-myblog-std#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-host-myecrm-std#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-host-myfeeds-std#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-host-mymail-std#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-host-mynews-std#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-host-myopl-std#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-host-myxd-std#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-nntp-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-nntp-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-rdbms-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-rdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-unisvr-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-unisvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vappsvr-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vappsvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-xmldb-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-xmldb-psnl#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/x86_64#this> ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/processor/aarch64/2#this>
+wdrs:describedby source: ;
+    owl:sameAs <http://data.openlinksw.com/oplweb/processor/arm64/2#this> ;
+    skos:altLabel "M1 Processor" ;
+    schema:name "Apple M1 Processor" ;
+    schema:description "Apple's Arm-based M1 Processor" ;
+    oplmch:ProcessorMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplmch:hasProcessorVersion "xx" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
+        <data.openlinksw.com/oplweb/product/iodbc-sdk#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-db2-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-demo#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-ingres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-jdbc-bridge-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-odbc-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-progress-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-prxy-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sqlserver-st#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-sybase-st#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-connect-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-nntp-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-nntp-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-rdbms-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-rdbms-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-unisvr-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-unisvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vappsvr-ent#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vappsvr-psnl#this>,
+        <http://data.openlinksw.com/oplweb/product/virtuoso-uim-vdbms-ent#this> ;
+    oplmch:hasProcessorFamily <http://data.openlinksw.com/oplweb/processor_family/aarch64#this> ;
+    wdrs:describedby source: .
