@@ -7529,8 +7529,8 @@ source:
         oplinst:UDASTInstallerArchive ,
         oplinst:UDASTLiteInstallerArchive ,
         oplinst:UDASTLite70InstallerArchive ;
-    dcterms:format "application/x-msdownload" ;
-    dcterms:identifier "mxl7o11z.msi" ;
+    dcterms:format "application/x-apple-diskimage" ;
+    dcterms:identifier "mxl7o11z.dmg" ;
     schema:dateCreated "2016-06-24T12:17:27-05:00"^^xsd:dateTime ;
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7o11z.dmg> ;
@@ -7566,7 +7566,7 @@ source:
         oplinst:UDASTInstallerArchive ,
         oplinst:UDASTLiteInstallerArchive ,
         oplinst:UDASTLite70InstallerArchive ;
-    dcterms:format "application/x-msdownload" ;
+    dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl7o12z.dmg" ;
     schema:dateCreated "2016-06-24T12:17:27-05:00"^^xsd:dateTime ;
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
@@ -8972,7 +8972,7 @@ source:
         oplinst:UDASTInstallerArchive ,
         oplinst:UDASTLiteInstallerArchive ,
         oplinst:UDASTLite80InstallerArchive ;
-    dcterms:format "application/x-msdownload" ;
+    dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "mxl8o12z.dmg" ;
     schema:dateCreated "2019-09-09T12:17:27-05:00"^^xsd:dateTime ;
     schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
