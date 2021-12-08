@@ -11231,9 +11231,9 @@ source:
     a  <http://umbel.org/umbel/sc/OperatingSystem>,
         oplsof:OperatingSystem ;
     wdrs:describedby source: ;
-    skos:prefLabel "macOS 11 Big Sur (64 Bit)" ;
+    skos:prefLabel "macOS 11 Big Sur (64 Bit) (universal)" ;
     schema:name "universal-apple-macos11-64" ;
-    oplsof:OperatingSystemCommercialName "macOS 11.x Big Sur (64 Bit)" ;
+    oplsof:OperatingSystemCommercialName "macOS 11.x Big Sur (64 Bit) (universal)" ;
     oplsof:OpsysDownwardCompatible "0"^^xsd:boolean ;
     oplsof:OperatingSystemEmulationMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
     oplsof:OperatingSystemLicenseCode "Mac OS X" ;
@@ -11247,6 +11247,52 @@ source:
 #        <http://data.openlinksw.com/oplweb/component/universal-apple-macos11-64-presto-odbcexp-clnt-only_mv#this>,
 #        <http://data.openlinksw.com/oplweb/component/universal-apple-macos11-64-presto-odbclt-clnt-only_mv#this>,
 #        <http://data.openlinksw.com/oplweb/component/universal-apple-macos11-64-presto-odbclt-clnt-only_sv#this> ;
+#    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/odbc-presto-ee#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this> ;
+    oplsof:hasOperatingSystemType <http://data.openlinksw.com/oplweb/opsys_type/wrkst#this> .
+
+<http://data.openlinksw.com/oplweb/opsys/universal-apple-macos12-64#this>
+    a  <http://umbel.org/umbel/sc/OperatingSystem>,
+        oplsof:OperatingSystem ;
+    wdrs:describedby source: ;
+    skos:prefLabel "macOS 12 Monterey (64 Bit) (universal)" ;
+    schema:name "universal-apple-macos12-64" ;
+    oplsof:OperatingSystemCommercialName "macOS 12.x Monterey (64 Bit) (universal)" ;
+    oplsof:OpsysDownwardCompatible "0"^^xsd:boolean ;
+    oplsof:OperatingSystemEmulationMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplsof:OperatingSystemLicenseCode "Mac OS X" ;
+    oplmch:hasProcessor 
+		<http://data.openlinksw.com/oplweb/processor/x86_64/2#this> ,
+		<http://data.openlinksw.com/oplweb/processor/arm64/2#this> ;
+    oplsof:OperatingSystemSupported "1"^^xsd:boolean ;
+    oplsof:OperatingSystemUpwardCompatible "1"^^xsd:boolean ;
+    oplsof:OperatingSystemVersion "12.x" ;
+#    oplcomp:hasComponent
+#        <http://data.openlinksw.com/oplweb/component/universal-apple-macos11-64-presto-odbcexp-clnt-only_mv#this>,
+#        <http://data.openlinksw.com/oplweb/component/universal-apple-macos11-64-presto-odbclt-clnt-only_mv#this>,
+#        <http://data.openlinksw.com/oplweb/component/universal-apple-macos11-64-presto-odbclt-clnt-only_sv#this> ;
+#    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/odbc-presto-ee#this> ;
+    oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this> ;
+    oplsof:hasOperatingSystemType <http://data.openlinksw.com/oplweb/opsys_type/wrkst#this> .
+
+<http://data.openlinksw.com/oplweb/opsys/arm64-apple-macos12-64#this>
+    a  <http://umbel.org/umbel/sc/OperatingSystem>,
+        oplsof:OperatingSystem ;
+    wdrs:describedby source: ;
+    skos:prefLabel "macOS 12.x Monterey (64 Bit) (arm64)" ;
+    schema:name "arm64-apple-macos12-64" ;
+    oplsof:OperatingSystemCommercialName "macOS 12.x Monterey (64 Bit) (arm64)" ;
+    oplsof:OpsysDownwardCompatible "0"^^xsd:boolean ;
+    oplsof:OperatingSystemEmulationMode <http://data.openlinksw.com/oplweb/processor_mode/64Bit#this> ;
+    oplsof:OperatingSystemLicenseCode "Mac OS X" ;
+    oplmch:hasProcessor <http://data.openlinksw.com/oplweb/processor/arm64/2#this> ;
+    oplsof:OperatingSystemSupported "1"^^xsd:boolean ;
+    oplsof:OperatingSystemUpwardCompatible "1"^^xsd:boolean ;
+    oplsof:OperatingSystemVersion "12.x" ;
+#    oplcomp:hasComponent
+#        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macos11-64-presto-odbcexp-clnt-only_mv#this>,
+#        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macos11-64-presto-odbclt-clnt-only_mv#this>,
+#        <http://data.openlinksw.com/oplweb/component/x86_64-apple-macos11-64-presto-odbclt-clnt-only_sv#this> ;
 #    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/odbc-presto-ee#this> ;
     oplsof:hasOperatingSystemFamily <http://data.openlinksw.com/oplweb/opsys_family/MacOSX#this> ;
     oplsof:hasOperatingSystemType <http://data.openlinksw.com/oplweb/opsys_type/wrkst#this> .
