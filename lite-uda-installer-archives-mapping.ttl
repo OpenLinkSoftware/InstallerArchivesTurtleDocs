@@ -9200,7 +9200,7 @@ source:
         "12.x",
         "15.x",
         "6.x - 2017" ;
-    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
     oplsof:hasOpsysVersion "11.x" ;
     wdrs:describedby source: .
@@ -9235,7 +9235,7 @@ source:
     oplsof:hasDatabaseEngine oplsof:MySQL5 ;
     oplsof:hasDatabaseFamily oplsof:MySQL ;
     oplsof:hasDbmsEngineVersion "5.x" ;
-    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
     oplsof:hasOpsysVersion "11.x" ;
     wdrs:describedby source: .
@@ -9270,7 +9270,7 @@ source:
     oplsof:hasDatabaseEngine oplsof:MySQL5 ;
     oplsof:hasDatabaseFamily oplsof:MySQL ;
     oplsof:hasDbmsEngineVersion "5.x" ;
-    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
     oplsof:hasOpsysVersion "11.x" ;
     wdrs:describedby source: .
@@ -9310,7 +9310,7 @@ source:
         oplsof:PostgreSQL12 ;
     oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
     oplsof:hasDbmsEngineVersion "7.x", "8.x", "9.x", "10.x", "11.x", "12.x" ;
-    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
     oplsof:hasOpsysVersion "11.x" ;
     wdrs:describedby source: .
@@ -9345,7 +9345,7 @@ source:
     oplsof:hasDatabaseEngine oplsof:jdbc ;
     oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
     oplsof:hasDbmsEngineVersion "3" ;
-    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
     oplsof:hasOpsysVersion "11.x" ;
     wdrs:describedby source: .
@@ -9380,7 +9380,7 @@ source:
     oplsof:hasDatabaseEngine oplsof:odbc ;
     oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
     oplsof:hasDbmsEngineVersion oplsof:DBEngineVersionAny ;
-    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
     oplsof:hasOpsysVersion "11.x" ;
     wdrs:describedby source: .
@@ -9392,6 +9392,3 @@ source:
     oplinst:hasMeasurementValue "6315858"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3m1jczzzzdmg80macOS11Universal#this> ;
     wdrs:describedby source: .
-
-
-    
