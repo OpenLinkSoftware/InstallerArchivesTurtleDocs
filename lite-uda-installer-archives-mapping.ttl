@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2021-09-01T20:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2022-03-09T20:46:00-00:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
@@ -38,7 +38,7 @@ source:
    schema:name "OpenLink UDA Lite Edition (Single-Tier) Installers Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Lite Edition (Single-Tier) Installers"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2021-09-01T20:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2022-03-09T20:46:00-00:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg70MacOSX107Universal#this> ,
@@ -8776,6 +8776,7 @@ source:
     dcterms:identifier "wal8jzzz.msi" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2019-08-26T17:11:39+01:00"^^xsd:dateTime ;
+    schema:dateModified "2022-03-09T17:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
@@ -8796,7 +8797,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- wal8jzzz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "4502212 "^^xsd:integer ;
+    oplinst:hasMeasurementValue "5410816"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttpss3wal8jzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
     wdrs:describedby source: .
 
