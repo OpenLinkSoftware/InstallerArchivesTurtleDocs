@@ -351,7 +351,9 @@ AIX ODBC Driver, Mac OS X ODBC Driver, DB2 JDBC Driver, DB2 ADO.NET Provider, Mu
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease6Informix#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease6Informix#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease7Informix#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Informix#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Informix#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Informix#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Informix#this> ;
     schema:comment "Multi-Tier ODBC Driver for Informix " ;
     schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
         <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
@@ -2610,7 +2612,9 @@ AIX ODBC Driver, Mac OS X ODBC Driver, DB2 JDBC Driver, DB2 ADO.NET Provider, Mu
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease6Informix#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease6Informix#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7Informix#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Informix#this>  ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Informix#this>  ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Informix#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Informix#this>  ;
     schema:comment "Multi-Tier JDBC Driver for Informix " ;
     schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
         <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
