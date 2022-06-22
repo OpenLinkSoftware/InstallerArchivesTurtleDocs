@@ -43,7 +43,7 @@ source: a schema:CreativeWork ;
   schema:author <http://www.openlinksw.com/#this> ;
   schema:url :this ;
   schema:dateCreated "2015-01-27T15:44:00-05:00"^^xsd:dateTime;
-  schema:dateModified "2022-05-18T12:20:00-00:00"^^xsd:dateTime ;
+  schema:dateModified "2022-06-22T12:20:00-00:00"^^xsd:dateTime ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
   dcterms:subject
@@ -59,6 +59,7 @@ source: a schema:CreativeWork ;
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame28ProviderJARArchive#this>  ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame40ProviderJARArchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeRDF4J2ProviderJARArchive#this> ,
+          <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeRDF4J4viderJARArchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC4DriverJARrchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41DriverJARrchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42DriverJARrchive#this> ,
@@ -76,6 +77,7 @@ source: a schema:CreativeWork ;
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame28ProviderJARArchive#this>  ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeSesame40ProviderJARArchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeRDF4J2ProviderJARArchive#this> ,
+          <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeRDF4J4ProviderJARArchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC4DriverJARrchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC41DriverJARrchive#this> ,
           <http://data.openlinksw.com/oplweb/installer/VirtuosoJDBC42DriverJARrchive#this> ,
@@ -520,6 +522,41 @@ source: a schema:CreativeWork ;
   oplinst:hasMeasurementUnit "Bytes" ;
   oplinst:hasMeasurementValue "71050"^^xsd:integer .
 
+## RDF4J 4 JARs
+
+<http://data.openlinksw.com/oplweb/installer/VirtuosoNativeRDF4J4ProviderJARArchive#this>
+  a oplinst:ProgramFile, oplinst:InstallerArchive, oplinst:VirtuosoInstallerArchive, schema:CreativeWork ;
+  oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
+  oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt83#this> ;
+  wdrs:describedby source: ;
+  opldep:hasDepot <https://download3.openlinksw.com/#this> ;
+  schema:name "OpenLink Virtuoso(TM) Provider for RDF4J(TM) Version 2+"@en ;
+  schema:description """Java JAR file that constitutes Virtuoso's RDF4J 4+ Native Provider. Once installed into
+                        a Java Virtual Machine (JVM), RDF4J 4+ based applications are equipped with complete
+                        access to Virtuoso's suite of RDF related functionality.
+                     """@en ;
+  schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
+                    URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
+                 """@en ;
+  schema:dateCreated "2022-06-22T20:00:00-00:00"^^xsd:dateTime ;
+#  schema:dateModified "2022-06-22T20:00:00-00:00"^^xsd:dateTime ;
+  oplinst:isProgramFileOf <http://data.openlinksw.com/oplweb/product/virtuoso-rdf4j4-provider#this> ;
+  oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease83x#this> ;
+  dcterms:identifier "virt_rdf4j_4_1.14.jar" ;
+  dcterms:format "application/java-archive" ;
+  oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/jvm-sun-java1.1-32#this> ;
+  oplsof:hasOperatingSystemFamily oplsof:JavaVirtualMachine ;
+  oplinst:hasFileSizeSpecification :virt_rdf4j_4_1.14.jarSpecification ;
+  oplpro:versionText "1.14" ;
+  schema:downloadUrl <https://download3.openlinksw.com.s3.amazonaws.com/uda/virtuoso/rdfproviders/rdf4j/4/virt_rdf4j_4.jar> .
+
+:virt_rdf4j_4_1.14.jarSpecification
+  a oplinst:FileSizeSpecification, schema:CreativeWork ;
+  wdrs:describedby source: ;
+  oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoNativeRDF4J4ProviderJARArchive#this> ;
+  schema:name "File Size Details -- virt_rdf4j_4.jar" ;
+  oplinst:hasMeasurementUnit "Bytes" ;
+  oplinst:hasMeasurementValue "68003"^^xsd:integer .
 
 
 ## JDBC 4.0 JAR
