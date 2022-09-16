@@ -26,7 +26,7 @@
 source: a schema:CreativeWork ;
   schema:comment """Description of OpenLink Software Applications and VAD Packages."""^^xsd:string ;
   schema:dateCreated  "2014-07-03T15:44:00-05:00"^^xsd:dateTime ;
-  schema:dateModified "2022-03-16T10:00:00-05:00"^^xsd:dateTime ;
+  schema:dateModified "2022-08-24T09:35:44+01:00"^^xsd:dateTime ;
   schema:author <http://www.openlinksw.com/#this> ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
@@ -97,7 +97,22 @@ source: a schema:CreativeWork ;
               :Phpbb3Vad,
               :MediaWikiVad,
               :WordpressVad,
-              :ConductorVAD .
+              :ConductorVAD,
+              :SupportSystem,
+              :SupportSystemGitRepo,
+              :SupportSystemVad,
+              :LicenseGenerator,
+              :LicenseGeneratorGitRepo,
+              :LicenseGeneratorVad,
+              :OdsProfile,
+              :OdsProfileGotRepo,
+              :OdsProfileVAD,
+              :OplSkins,
+              :OplSkinsGitRepo,
+              :OplSkinsVad,
+              :Log4Virtuoso,
+              :Log4VirtuosoGitRepo,
+              :Log4VirtuosoVad .
 
 sourceDAV:
   a schema:CreativeWork ;
@@ -202,7 +217,10 @@ sourceDAV:
   schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
   schema:name "Inclusion Engine VAD" ;
   oplvad:hasPackageName "inclusion-engine"^^xsd:string ;
-  oplvad:hasMandatoryDependency :OdsuiVad ;
+  oplvad:hasOptionalDependency :OdsuiVad ;
+  oplvad:hasOptionalDependency :VALVad ;
+  oplvad:hasOptionalDependency :CUriVad ;
+  oplvad:hasOptionalDependency :CartridgesVad ;
   oplvad:hasFileName "inclusion-engine_dav.vad"^^xsd:string ;
   oplvad:isVadPackageOf :InclusionEngine ;
   wdrs:describedby source: .
@@ -1049,5 +1067,134 @@ sourceDAV:
   # oplvad:hasOptionalDependency :Vad ;
   oplvad:hasFileName "spasqlqb_dav.vad"^^xsd:string ;
   oplvad:isVadPackageOf :Spasqlqb ;
+  wdrs:describedby source: .
+
+### Support System
+
+:SupportSystem a doap:Project, schema:TechArticle ;
+  doap:name "Support System" ;
+  doap:description """Support Case Management Application.""" ;
+  schema:author <http://www.openlinksw.com/#this> ;
+  doap:repository :SupportSystemGitRepo ;
+  oplvad:hasVadPackage :SupportSystemVad ;
+  wdrs:describedby source: .
+
+:SupportSystemGitRepo a doap:GitRepository ;
+  schema:name "Support System Git Repository" ;
+  wdrs:describedby source: .
+
+:SupportSystemVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+  # schema:url <https://devhub.openlinksw.com/pub/OpenLink/VAD/support_system_dav.vad> ;
+  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
+  schema:name "Support System VAD" ;
+  oplvad:hasPackageName "support_system"^^xsd:string ;
+  oplvad:hasMandatoryDependency :OdsuiVad ;
+  oplvad:hasMandatoryDependency :VALVad ;
+  oplvad:hasMandatoryDependency :InclusiontEngineVad ;
+  oplvad:hasFileName "support_system_dav.vad"^^xsd:string ;
+  oplvad:isVadPackageOf :SupportSystem ;
+  wdrs:describedby source: .
+
+### License Generator
+
+:LicenseGenerator a doap:Project, schema:TechArticle ;
+  doap:name "License Generator" ;
+  doap:description """Evaluation License Generator and Download Application.""" ;
+  schema:author <http://www.openlinksw.com/#this> ;
+  doap:repository :LicenseGeneratorGitRepo ;
+  oplvad:hasVadPackage :LicenseGeneratorVad ;
+  wdrs:describedby source: .
+
+:LicenseGeneratorGitRepo a doap:GitRepository ;
+  schema:name "License Generator Git Repository" ;
+  wdrs:describedby source: .
+
+:LicenseGeneratorVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
+  schema:name "License Generator Engine VAD" ;
+  oplvad:hasPackageName "license_generator"^^xsd:string ;
+  oplvad:hasMandatoryDependency :OdsuiVad ;
+  oplvad:hasMandatoryDependency :VALVad ;
+  oplvad:hasMandatoryDependency :InclusiontEngineVad ;
+  oplvad:hasMandatoryDependency :Log4VirtuosoVad ;
+  oplvad:hasFileName "license_generator_dav.vad"^^xsd:string ;
+  oplvad:isVadPackageOf :LicenseGenerator ;
+  wdrs:describedby source: .
+
+### ODS-Profile
+
+:OdsProfile a doap:Project, schema:TechArticle ;
+  doap:name "ODS Profile" ;
+  doap:description """ODS Profile provides a profile management web interface for ODS user accounts.""" ;
+  schema:author <http://www.openlinksw.com/#this> ;
+  doap:repository :OdsProfileGitRepo ;
+  oplvad:hasVadPackage :OdsProfileVad ;
+  wdrs:describedby source: .
+
+:OdsProfileGitRepo a doap:GitRepository ;
+  schema:name "ODS Profile Git Repository" ;
+  wdrs:describedby source: .
+
+:OdsProfileVad
+  # schema:url <https://devhub.openlinksw.com/pub/OpenLink/VAD/ods_profile_dav.vad> ;
+  a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
+  schema:name "ODS Profile VAD" ;
+  oplvad:hasPackageName "ods-profie"^^xsd:string ;
+  oplvad:hasFileName "ods_profile_dav.vad"^^xsd:string ;
+  oplvad:hasMandatoryDependency :OdsuiVad ;
+  oplvad:isVadPackageOf :OdsProfile ;
+  wdrs:describedby source: .
+
+### OPL-Skins
+
+:OplSkins a doap:Project, schema:TechArticle ;
+  doap:name "OpenLink Skins" ;
+  doap:description """OpenLink Skins Repository.""" ;
+  schema:author <http://www.openlinksw.com/#this> ;
+  doap:repository :OplSkinsGitRepo ;
+  oplvad:hasVadPackage :OplSkinsVad ;
+  wdrs:describedby source: .
+
+:OplSkinsGitRepo a doap:GitRepository ;
+  schema:name "OpenLink Skins Git Repository" ;
+  wdrs:describedby source: .
+
+:OplSkinsVad
+  # schema:url <https://devhub.openlinksw.com/pub/OpenLink/VAD/opl-skins_dav.vad> ;
+  a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
+  schema:name "OpenLink Skins VAD" ;
+  oplvad:hasPackageName "opl-skins"^^xsd:string ;
+  oplvad:hasFileName "opl-skins_dav.vad"^^xsd:string ;
+  oplvad:hasMandatoryDependency :InclusiontEngineVad ;
+  oplvad:hasMandatoryDependency :OdsuiVad ;
+  oplvad:hasMandatoryDependency :OdsProfileVad ;
+  oplvad:isVadPackageOf :OplSkins ;
+  wdrs:describedby source: .
+
+
+### Log4Virtuoso
+
+:Log4Virtuoso a doap:Project, schema:TechArticle ;
+  doap:name "Log4Virtuoso" ;
+  doap:description """Virtuoso logging and error handling system.""" ;
+  schema:author <http://www.openlinksw.com/#this> ;
+  doap:repository :Log4VirtusooGitRepo ;
+  oplvad:hasVadPackage :Log4VirtuosoVad ;
+  wdrs:describedby source: .
+
+:Log4VirtusooGitRepo a doap:GitRepository ;
+  schema:name "Log4Virtuoso Git Repository" ;
+  wdrs:describedby source: .
+
+:Log4VirtusoVad
+  # schema:url <https://devhub.openlinksw.com/pub/OpenLink/VAD/log4virtuoso_dav.vad> ;
+  a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
+  schema:name "Log4Virtuoso VAD" ;
+  oplvad:hasPackageName "Log4Virtuoso"^^xsd:string ;
+  oplvad:hasFileName "log4virtuoso_dav.vad"^^xsd:string ;
+  oplvad:isVadPackageOf :Log4Virtuoso ;
   wdrs:describedby source: .
 
