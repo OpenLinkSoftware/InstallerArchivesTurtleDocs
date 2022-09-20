@@ -33,7 +33,7 @@ sourceDAV:
     cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
     schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
     schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-    schema:dateModified "2021-04-09T13:53:00+00:00"^^xsd:dateTime;
+    schema:dateModified "2022-09-20T13:53:00+00:00"^^xsd:dateTime;
     schema:name  """OpenLink Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers Related Information Document """ ;
     schema:description  """Document that describes our high-performance and secure Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers.  """^^xsd:string ;
     schema:keywords  """ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver, Data Access Middleware.  """;
@@ -223,7 +223,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, Informix JDBC Driver, Informix ADO.NET Pr
     oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
     schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
-    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseIngres#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseIngres#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Ingres#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/ingii#this> ;
     oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#Ingres> ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
