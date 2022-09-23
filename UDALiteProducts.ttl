@@ -106,7 +106,8 @@ source: a schema:CreativeWork ;
     oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
     schema:applicationSubCategory <http://data.openlinksw.com/oplweb/product_category/odbc#this> ;
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
-    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseDB2#this> ;
+    oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseDB2#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7DB2#this> ;
     oplsof:hasDatabaseEngine <http://www.openlinksw.com/ontology/software#db2> ;
     oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#DB2> ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
