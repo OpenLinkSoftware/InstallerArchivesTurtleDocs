@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2022-10-13T11:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2022-10-14T11:46:00-00:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -11381,15 +11381,14 @@ source: a schema:CreativeWork ;
     oplinst:UDAMT80InstallerArchive ;
     dcterms:format "application/x-msdownload" ;
     dcterms:identifier "waadizzz.msi" ;
-    schema:dateCreated "2022-10-13T22:00:05.000Z"^^xsd:dateTime ;
+    schema:dateCreated "2022-10-14T22:00:05.000Z"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/waadizzz.msi> ;
     schema:name "Informix 11.x, 10.x, 9.x Database Agent Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3waadizzzmsi80WindowsXPVista764Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTInformixDBInstaller#this> ;
-    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8SQLServer#this>,
-        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Informix#this>,
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Informix#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Informix#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Informix#this> ,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Informix#this> ;
@@ -11397,8 +11396,7 @@ source: a schema:CreativeWork ;
     oplsof:hasDatabaseEngine oplsof:Informix11,
         oplsof:Informix10 ,
         oplsof:Informix9 ;
-    oplsof:hasDatabaseFamily oplsof:SQLServer,
-        oplsof:Informix ;
+    oplsof:hasDatabaseFamily oplsof:Informix ;
     oplsof:hasDbmsEngineVersion "11.x",
         "10.x",
         "9.x" ;
