@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2022-10-14T11:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2022-10-18T11:46:00-00:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -11387,7 +11387,7 @@ source: a schema:CreativeWork ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
     oplinst:hasFileSizeSpecification <#https3waadizzzmsi80WindowsXPVista764Bitx8664FileSpecification> ;
-    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTInformixDBInstaller#this> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease8Informix#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Informix#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease8Informix#this> ,
