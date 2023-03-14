@@ -143,6 +143,7 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntajzzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntaozzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntbrzzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ,
+        <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntdnzzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntj3zzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3nto3zzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wiadg7zzmsiWindowsXPVista764BitItanium#this> ,
@@ -186,6 +187,7 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waajzzzzmsiWindowsXPVista764Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waaozzzzmsiWindowsXPVista764Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wabrzzzzmsiWindowsXPVista764Bitx8664#this> ,
+        <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wadnzzzzmsiWindowsXPVista764Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waj3zzzzmsiWindowsXPVista764Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wao3zzzzmsiWindowsXPVista764Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttpss3db2mvtazGenericLinuxGlibc2332Bitx86#this> ,
@@ -1570,6 +1572,36 @@ source: a schema:CreativeWork ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
     wdrs:describedby source: .
 
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntdnzzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this>
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    oplinst:UDAMT63InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "ntdnzzzz.msi" ;
+    schema:dateCreated "2023-03-10T11:44:00+00:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntdnzzzz.msi> ;
+    schema:name "ADONET Generic Client Installer Archive for Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) -- Amazon S3 HTTPS Depot" ;
+    opldep:hasDepot <https://download3.openlinksw.com/#this> ;
+    oplinst:hasFileSizeSpecification <#https3ntdnzzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6JDBCBridge#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6Sybase#this>;
+    oplpro:versionText "6.3" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
 <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntj3zzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> 
     a oplinst:InstallerArchive ,
     schema:CreativeWork ,
@@ -2702,6 +2734,36 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease6Progress#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease6SQLServer#this>,
         <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease6Sybase#this> ;
+    oplpro:versionText "6.3" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wadnzzzzmsiWindowsXPVista764Bitx8664#this>
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    oplinst:UDAMT63InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "wadnzzzz.msi" ;
+    schema:dateCreated "2023-03-10T12:31:00+00:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wadnzzzz.msi> ;
+    schema:name "ADONET Generic Client Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
+    opldep:hasDepot <https://download3.openlinksw.com/#this> ;
+    oplinst:hasFileSizeSpecification <#https3wadnzzzzmsiWindowsXPVista764Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTGenericClientInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6JDBCBridge#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6DB2#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6Informix#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6Ingres#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6MySQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6ODBCBridge#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6PostgreSQL#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6Progress#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease6Sybase#this>;
     oplpro:versionText "6.3" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
@@ -5853,6 +5915,14 @@ source: a schema:CreativeWork ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntbrzzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ;
     wdrs:describedby source: .
 
+<#https3ntdnzzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification>
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- ntdnzzzz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "331264"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ntdnzzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ;
+    wdrs:describedby source: .
+
 <#https3ntj3zzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> 
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- ntj3zzzz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
@@ -6123,6 +6193,14 @@ source: a schema:CreativeWork ;
     oplinst:hasMeasurementUnit "Bytes" ;
     oplinst:hasMeasurementValue "2980864"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wabrzzzzmsiWindowsXPVista764Bitx8664#this> ;
+    wdrs:describedby source: .
+
+<#https3wadnzzzzmsiWindowsXPVista764Bitx8664FileSpecification>
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wadnzzzz.msi on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "331264"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wadnzzzzmsiWindowsXPVista764Bitx8664#this> ;
     wdrs:describedby source: .
 
 <#https3waj3zzzzmsiWindowsXPVista764Bitx8664FileSpecification> 
