@@ -41,6 +41,8 @@ source:
    schema:dateModified "2022-03-09T20:46:00-00:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
+        <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3ntl6nodbmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ,
+
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxjczzzzdmg70MacOSX107Universal#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal7d2zzmsi70WindowsXPVista764Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal7c10zmsi70WindowsXPVista764Bitx8664#this> ,
@@ -287,6 +289,38 @@ source:
 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8g7zzdmg80MacOSX107Universal#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3mxl8jzzzdmg80MacOSX107Universal#this> .
         
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3ntl6nodbmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this>
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "ntl6nodb.msi" ;
+    schema:dateCreated "2023-03-10T11:11:00-00:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.1/i686-generic-win-32/ntl6nodb.msi> ;
+    schema:name "Lite Edition (Single-Tier) ADO.Net Driver Installer Archive for ODBC 3.5.x Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    opldep:hasDepot <https://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
+    oplinst:hasFileSizeSpecification <#https3ntl6nodbmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionADONETReleaseODBCBridge#this> ;
+    oplpro:versionText "6.1" ;
+    oplsof:hasDatabaseEngine oplsof:odbc ;
+    oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
+    oplsof:hasDbmsEngineVersion "3.5.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3ntl6nodbmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification>
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- ntl6nodb.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "700928"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3ntl6nodbmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ;
+    wdrs:describedby source: .
+
 
 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttp3sinf9lttazSolaris2832BitSparc#this> 
     a oplinst:InstallerArchive ,
