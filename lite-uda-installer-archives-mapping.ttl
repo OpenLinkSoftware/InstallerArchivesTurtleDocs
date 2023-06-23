@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2023-06-21T09:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2023-06-23T09:46:00-00:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
@@ -9442,11 +9442,11 @@ source:
         schema:CreativeWork ,
         oplinst:UDASTInstallerArchive ,
         oplinst:UDASTLiteInstallerArchive ,
-        oplinst:UDASTLite80InstallerArchive ;
+        oplinst:UDASTLite90InstallerArchive ;
     dcterms:format "application/x-gzip" ;
     dcterms:identifier "sql_lt.taz" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
-    schema:dateCreated "2023-06-21T10:50:19+05:00"^^xsd:dateTime ;
+    schema:dateCreated "2023-06-23T10:50:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
@@ -9497,11 +9497,11 @@ source:
         schema:CreativeWork ,
         oplinst:UDASTInstallerArchive ,
         oplinst:UDASTLiteInstallerArchive ,
-        oplinst:UDASTLite80InstallerArchive ;
+        oplinst:UDASTLite90InstallerArchive ;
     dcterms:format "application/x-gzip" ;
     dcterms:identifier "jdbc_lt.taz" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
-    schema:dateCreated "2023-06-21T03:37:34-05:00"^^xsd:dateTime ;
+    schema:dateCreated "2023-06-23T03:37:34-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/jdbc_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
