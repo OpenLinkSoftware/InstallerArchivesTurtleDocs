@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2023-06-30T09:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2023-07-14T09:46:00-00:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
@@ -291,10 +291,12 @@ source:
 
 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3jdbclttaz90GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz90GenericLinuxGlibc2564Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3inf11lttaz90GenericLinuxGlibc2564Bitx8664#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3m1l9mzzzdmg90macS11Universal#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3m1l9jzzzdmg90macS11Universal#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz90Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
-	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal9jzzzmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> .
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal9jzzzmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal9i11zmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> .
         
 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3ntl6nodbmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this>
     a oplinst:InstallerArchive ,
@@ -9530,6 +9532,40 @@ source:
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3jdbclttaz90GenericLinuxGlibc21264Bitx8664#this> ;
     wdrs:describedby source: .
 
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3inf11lttaz90GenericLinuxGlibc2564Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite90InstallerArchive ;
+    dcterms:format "application/x-gzip" ;
+    dcterms:identifier "inf11_lt.taz" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2023-07-14T17:11:39+01:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/inf11_lt.taz> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    opldep:hasDepot <https://s3.amazonaws.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
+    oplinst:hasFileSizeSpecification <#httpss3inf11_lttaz90GenericLinuxGlibc2564Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Informix#this> ;
+    oplpro:versionText "9.0" ;
+    oplsof:hasDatabaseEngine oplsof:Informix11 ;
+    oplsof:hasDatabaseFamily oplsof:Informix ;
+    oplsof:hasDbmsEngineVersion "11.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
+    oplsof:hasOpsysVersion "Glibc 2.5" ;
+    wdrs:describedby source: .
+
+<#httpss3inf11_lttaz90GenericLinuxGlibc2564Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- inf11_lt.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "5068241"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttpss3inf11lttaz90GenericLinuxGlibc2564Bitx8664#this> ;
+    wdrs:describedby source: .
+
 
 #### UDA 9.0 macOS 11.x (M1)  ####
 
@@ -9712,5 +9748,40 @@ source:
     oplinst:hasMeasurementUnit "Bytes" ;
     oplinst:hasMeasurementValue "5726208"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal9jzzzmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
+    wdrs:describedby source: .
+
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal9i11zmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite90InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "wal9i11z.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2023-07-14T17:11:39+01:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/wal9i11z.msi> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    opldep:hasDepot <https://s3.amazonaws.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
+    oplinst:hasFileSizeSpecification <#https3wal9i11zmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Informix#this> ;
+    oplpro:versionText "9.0" ;
+    oplsof:hasDatabaseEngine oplsof:Informix11 ;
+    oplsof:hasDatabaseFamily oplsof:Informix ;
+    oplsof:hasDbmsEngineVersion "11.x" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server20xx" ;
+    wdrs:describedby source: .
+
+<#httpss3wal9i11zmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification>
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wal9i11z.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "5656576"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal9i11zmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
     wdrs:describedby source: .
 
