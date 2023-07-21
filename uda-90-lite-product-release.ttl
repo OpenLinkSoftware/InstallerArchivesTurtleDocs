@@ -29,7 +29,7 @@ sourceDAV:
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
    schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-   schema:dateModified "2023-06-23T13:53:00+00:00"^^xsd:dateTime;
+   schema:dateModified "2023-07-21T13:53:00+00:00"^^xsd:dateTime;
    schema:name "UDA Single-Tier 9.0 Releases Related Information Document " ;
    schema:comment   """This document is a launch point for discovering routes to various information sources associated with UDA Single-Tier Releases.  """^^xsd:string ;
    owl:sameAs source: .
@@ -112,6 +112,21 @@ source: a schema:CreativeWork ;
     oplpro:versionText "9.x"^^xsd:string ;
     skos:altLabel "ODBC Release for Sybase "^^xsd:string ;
     skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Sybase "^^xsd:string ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Informix#this> a oplpro:ProductRelease  ,
+        schema:CreativeWork ,
+        schema:SoftwareApplication ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Informix "^^xsd:string ;
+    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
+    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-informix-st#this> ;
+    schema:image <http://uda.openlinksw.com/images/odbcinformixst.gif> ;
+    schema:version "9.0"^^xsd:decimal ;
+    oplpro:versionText "9.x"^^xsd:string ;
+    skos:altLabel "ODBC Release for Informix "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Informix "^^xsd:string ;
     wdrs:describedby source: .
 
 
