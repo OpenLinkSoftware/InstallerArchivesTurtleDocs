@@ -150,7 +150,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, DB2 JDBC Driver, DB2 ADO.NET Provider, DB
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseInformix#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Informix#this>  ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Informix#this>  ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Informix#this>  ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Informix#this>  ;
     oplsof:hasDatabaseEngine <http://www.openlinksw.com/ontology/software#Informix10>,
         <http://www.openlinksw.com/ontology/software#Informix11>,
         <http://www.openlinksw.com/ontology/software#Informix73>,

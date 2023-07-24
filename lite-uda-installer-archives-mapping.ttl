@@ -9720,7 +9720,7 @@ source:
         schema:CreativeWork ,
         oplinst:UDASTInstallerArchive ,
         oplinst:UDASTLiteInstallerArchive ,
-        oplinst:UDASTLite80InstallerArchive ;
+        oplinst:UDASTLite90InstallerArchive ;
     dcterms:format "application/x-msdownload" ;
     dcterms:identifier "wal9jzzz.msi" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
