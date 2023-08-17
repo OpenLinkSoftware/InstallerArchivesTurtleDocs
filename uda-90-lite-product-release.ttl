@@ -130,6 +130,53 @@ source: a schema:CreativeWork ;
     skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Informix "^^xsd:string ;
     wdrs:describedby source: .
 
+<http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Oracle#this> a oplpro:ProductRelease  ,
+        schema:CreativeWork ,
+        schema:SoftwareApplication ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Oracle "^^xsd:string ;
+    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
+    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    schema:image <http://uda.openlinksw.com/images/odbcoraclest.gif> ;
+    schema:version "9.0"^^xsd:decimal ;
+    oplpro:versionText "9.x"^^xsd:string ;
+    skos:altLabel "ODBC Release for Oracle "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for Oracle "^^xsd:string ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9PostgreSQL#this> a oplpro:ProductRelease  ,
+        schema:CreativeWork ,
+        schema:SoftwareApplication ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
+    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
+                       <http://data.openlinksw.com/oplweb/product_feature/tls-support#this> ,
+                       <http://data.openlinksw.com/oplweb/product_feature/version-3-protocol-support#this> ;
+    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
+    schema:image <http://uda.openlinksw.com/images/odbcpostgresst.gif> ;
+    schema:version "9.0"^^xsd:decimal ;
+    oplpro:versionText "9.x"^^xsd:string ;
+    skos:altLabel "ODBC Release for PostgreSQL "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9MySQL#this> a oplpro:ProductRelease  ,
+        schema:CreativeWork ,
+        schema:SoftwareApplication ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+    schema:name "ODBC Driver (Single-Tier Edition) Version 9.0 Release for MySQL "^^xsd:string ;
+    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
+    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-mysql-st#this> ;
+    schema:image <http://uda.openlinksw.com/images/odbcmysqlst.gif> ;
+    schema:version "9.0"^^xsd:decimal ;
+    oplpro:versionText "9.x"^^xsd:string ;
+    skos:altLabel "ODBC Release for MySQL "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Single-Tier Edition) Version 9.0 Release for MySQL "^^xsd:string ;
+    wdrs:describedby source: .
+
 
 ## Data Access Protocol Bundles ##
 
