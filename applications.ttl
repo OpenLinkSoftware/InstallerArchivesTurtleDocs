@@ -26,7 +26,7 @@
 source: a schema:CreativeWork ;
   schema:comment """Description of OpenLink Software Applications and VAD Packages."""^^xsd:string ;
   schema:dateCreated  "2014-07-03T15:44:00-05:00"^^xsd:dateTime ;
-  schema:dateModified "2022-08-24T09:35:44+01:00"^^xsd:dateTime ;
+  schema:dateModified "2023-10-05T17:35:44+01:00"^^xsd:dateTime ;
   schema:author <http://www.openlinksw.com/#this> ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
@@ -112,7 +112,8 @@ source: a schema:CreativeWork ;
               :OplSkinsVad,
               :Log4Virtuoso,
               :Log4VirtuosoGitRepo,
-              :Log4VirtuosoVad .
+              :Log4VirtuosoVad,
+	      :PersonalAssitantVad .
 
 sourceDAV:
   a schema:CreativeWork ;
@@ -122,6 +123,31 @@ sourceDAV:
   cc:attributionName "OpenLink Software" ;
   cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
   owl:sameAs source: .
+
+### Personal Assistant
+
+:PA a doap:Project, schema:TechArticle ;
+  doap:name "Personal Assistant" ;
+  doap:description """The Personal Assistant is ChatGPT based application that demonstrates loose coupling with Knowledge Graphs.""" ;
+  schema:author <http://www.openlinksw.com/#this> ;
+  doap:maintainer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+  doap:repository :PAGitRepo ;
+  oplvad:hasVadPackage :PAVad ;
+  wdrs:describedby source: .
+
+:PAGitRepo a doap:GitRepository ;
+  schema:name "Personal Assistant Git Repository" ;
+  wdrs:describedby source: .
+
+:PAVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+  schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/personal_assistant_dav.vad> ;
+  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
+  schema:name "Personal Assistant VAD" ;
+  schema:comment "Personal Assistant VAD" ;
+  oplvad:hasPackageName "personal_assistant"^^xsd:string ;
+  oplvad:hasFileName "personal_assistant_dav.vad"^^xsd:string ;
+  oplvad:isVadPackageOf :PA ;
+  wdrs:describedby source: .
 
 #DBpedia
 
