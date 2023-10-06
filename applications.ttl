@@ -26,7 +26,7 @@
 source: a schema:CreativeWork ;
   schema:comment """Description of OpenLink Software Applications and VAD Packages."""^^xsd:string ;
   schema:dateCreated  "2014-07-03T15:44:00-05:00"^^xsd:dateTime ;
-  schema:dateModified "2022-08-24T09:35:44+01:00"^^xsd:dateTime ;
+  schema:dateModified "2023-10-05T17:35:44+01:00"^^xsd:dateTime ;
   schema:author <http://www.openlinksw.com/#this> ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
@@ -112,7 +112,8 @@ source: a schema:CreativeWork ;
               :OplSkinsVad,
               :Log4Virtuoso,
               :Log4VirtuosoGitRepo,
-              :Log4VirtuosoVad .
+              :Log4VirtuosoVad,
+	      :PersonalAssitantVad .
 
 sourceDAV:
   a schema:CreativeWork ;
@@ -123,9 +124,34 @@ sourceDAV:
   cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
   owl:sameAs source: .
 
+### Personal Assistant
+
+:PA a doap:Project, schema:SoftwareApplication ;
+  doap:name "Personal Assistant" ;
+  doap:description """The Personal Assistant is ChatGPT based application that demonstrates loose coupling with Knowledge Graphs.""" ;
+  schema:author <http://www.openlinksw.com/#this> ;
+  doap:maintainer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+  doap:repository :PAGitRepo ;
+  oplvad:hasVadPackage :PAVad ;
+  wdrs:describedby source: .
+
+:PAGitRepo a doap:GitRepository ;
+  schema:name "Personal Assistant Git Repository" ;
+  wdrs:describedby source: .
+
+:PAVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+  schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/personal_assistant_dav.vad> ;
+  schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
+  schema:name "Personal Assistant VAD" ;
+  schema:comment "Personal Assistant VAD" ;
+  oplvad:hasPackageName "personal_assistant"^^xsd:string ;
+  oplvad:hasFileName "personal_assistant_dav.vad"^^xsd:string ;
+  oplvad:isVadPackageOf :PA ;
+  wdrs:describedby source: .
+
 #DBpedia
 
-:DBpedia a doap:Project, schema:TechArticle ;
+:DBpedia a doap:Project, schema:SoftwareApplication ;
   doap:name "DBpedia" ;
   schema:author <http://www.openlinksw.com/#this> ;
   doap:maintainer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
@@ -150,7 +176,7 @@ sourceDAV:
 
 ### Faceted Browser
 
-:Fct a doap:Project, schema:TechArticle ;
+:Fct a doap:Project, schema:SoftwareApplication ;
   doap:name "Faceted Browser" ;
   doap:description """The Virtuoso Faceted Browser service is a general purpose RDF data query facility for faceted browsing over entity relationship types.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -176,7 +202,7 @@ sourceDAV:
 
 ### Cartridges
 
-:Cartridges a doap:Project, schema:TechArticle ;
+:Cartridges a doap:Project, schema:SoftwareApplication ;
   doap:name "Linked Data Cartridges" ;
   doap:description """The Sponger Linked Data Cartridges which allow to convert data from all types of source into RDF data.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -201,7 +227,7 @@ sourceDAV:
 
 ### Inclusion-Engine
 
-:InclusionEngine a doap:Project, schema:TechArticle ;
+:InclusionEngine a doap:Project, schema:SoftwareApplication ;
   doap:name "Inclusion Engine" ;
   doap:description """The Inclusion Engine which powers the OpenLink web pages.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -228,7 +254,7 @@ sourceDAV:
 
 ### ODS
 
-:Ods a doap:Project, schema:TechArticle ;
+:Ods a doap:Project, schema:SoftwareApplication ;
   doap:name "OpenLink Data Spaces (ODS)" ;
   doap:shortdesc """OpenLink Data Spaces describes a suite of web-enabled distributed collaborative applications
     that provide social-networking, file-sharing, content aggregation and publishing etc. across one or more
@@ -413,7 +439,7 @@ sourceDAV:
 
 ### ODS-UI.vsp
 
-:Odsui a doap:Project, schema:TechArticle ;
+:Odsui a doap:Project, schema:SoftwareApplication ;
   doap:name "ODS-UI" ;
   doap:description """ODS-UI.vsp provides simple vsp includes and dialogs which allow to authenticate via
     ODS. Any ODS-powered application can use these to add authentication.""" ;
@@ -440,7 +466,7 @@ sourceDAV:
 
 ### ODS Shopcart
 
-:OdsShopcart a doap:Project, schema:TechArticle ;
+:OdsShopcart a doap:Project, schema:SoftwareApplication ;
   doap:name "ODS Shopcart" ;
   doap:description """The ODS Shopcart application provides an API for shopcart management which allows
     a user to add GoodRelations items to a shopcart, remove them, etc..""" ;
@@ -468,7 +494,7 @@ sourceDAV:
 
 ### OPL Shop
 
-:OplShop a doap:Project, schema:TechArticle ;
+:OplShop a doap:Project, schema:SoftwareApplication ;
   doap:name "Openlink Shop" ;
   doap:description """The OpenLink Shop System provides a UI and procedures to manage offers, purchases, quotes, etc..""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -498,7 +524,7 @@ sourceDAV:
 
 ### DomPDF
 
-:DomPdf a doap:Project, schema:TechArticle ;
+:DomPdf a doap:Project, schema:SoftwareApplication ;
   doap:name "Dom PDF" ;
   doap:description """The Dom PDF application is a fork of the open-source PHP PDF generator by the same name.""" ;
   schema:mentions <https://github.com/dompdf/dompdf> ;
@@ -523,7 +549,7 @@ sourceDAV:
 
 ### ODS-Console
 
-:OdsConsole a doap:Project, schema:TechArticle ;
+:OdsConsole a doap:Project, schema:SoftwareApplication ;
   doap:name "ODS Console" ;
   doap:description """The ODS Console is a simple UI for the ODS HTTP API which allows to execute any of the ODS API methods.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -547,7 +573,7 @@ sourceDAV:
 
 ### Openlink-WWW-Products
 
-:OpenlinkWWWProducts a doap:Project, schema:TechArticle ;
+:OpenlinkWWWProducts a doap:Project, schema:SoftwareApplication ;
   doap:name "OpenLink WWW Products" ;
   doap:description """The OpenLink WWW Products application provides vsp pages to show offer details including metadata.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -572,7 +598,7 @@ sourceDAV:
 
 ### ODS Web Page
 
-:OdsWebPage a doap:Project, schema:TechArticle ;
+:OdsWebPage a doap:Project, schema:SoftwareApplication ;
   doap:name "ODS Web Page" ;
   doap:description """The ODS Community Web Page contains documentation and simple profile management.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -600,7 +626,7 @@ sourceDAV:
 
 ### Virtuoso Engine
 
-:VirtuosoEngine a doap:Project, schema:TechArticle ;
+:VirtuosoEngine a doap:Project, schema:SoftwareApplication ;
   doap:name "Virtuoso Engine" ;
   doap:description "The Virtuoso Engine Project consists of the Virtuoso Universal Server, Documentation and several sub-components." ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -661,7 +687,7 @@ sourceDAV:
 
 ### Conductor
 
-:Conductor a doap:Project, schema:TechArticle ;
+:Conductor a doap:Project, schema:SoftwareApplication ;
   doap:name "Conductor" ;
   doap:description """The Virtuoso Conductor Administration Interface""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -685,7 +711,7 @@ sourceDAV:
 
 ### Demo Database
 
-:Demo a doap:Project, schema:TechArticle ;
+:Demo a doap:Project, schema:SoftwareApplication ;
   doap:name "Demo Database" ;
   doap:description """The Virtuoso Northwind Demonstration Database""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -710,7 +736,7 @@ sourceDAV:
 
 ### Documentation
 
-:Documentation a doap:Project, schema:TechArticle ;
+:Documentation a doap:Project, schema:SoftwareApplication ;
   doap:name "Documentation" ;
   doap:description """The Virtuoso Documentation""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -734,7 +760,7 @@ sourceDAV:
 
 ### VAL
 
-:VAL a doap:Project, schema:TechArticle ;
+:VAL a doap:Project, schema:SoftwareApplication ;
   doap:name "VAL" ;
   doap:description """The Virtuoso Authentication Layer""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -758,7 +784,7 @@ sourceDAV:
 
 ### ISPARQL
 
-:ISparql a doap:Project, schema:TechArticle ;
+:ISparql a doap:Project, schema:SoftwareApplication ;
   doap:name "ISparql" ;
   doap:description """Interactive SPARQL Query Builder""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -782,7 +808,7 @@ sourceDAV:
 
 ### HTML5 PivotViewer
 
-:Html5PivotViewer a doap:Project, schema:TechArticle ;
+:Html5PivotViewer a doap:Project, schema:SoftwareApplication ;
   doap:name "Html5PivotViewer" ;
   doap:description """HTML5 PivotViewer Bridge""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -806,7 +832,7 @@ sourceDAV:
 
 ### Schools Database
 
-:Schools a doap:Project, schema:TechArticle ;
+:Schools a doap:Project, schema:SoftwareApplication ;
   doap:name "SchoolsDatabase" ;
   doap:description """Schools Database""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -830,7 +856,7 @@ sourceDAV:
 
 ### OAT Applications
 
-:Oat a doap:Project, schema:TechArticle ;
+:Oat a doap:Project, schema:SoftwareApplication ;
   doap:name "Oat" ;
   doap:description """OAT Applications""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -854,7 +880,7 @@ sourceDAV:
 
 ### R2RML
 
-:R2RML a doap:Project, schema:TechArticle ;
+:R2RML a doap:Project, schema:SoftwareApplication ;
   doap:name "R2RML" ;
   doap:description """R2RML Processor Module""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -878,7 +904,7 @@ sourceDAV:
 
 ### SPARQL to CXML Bridge
 
-:SparqlCxml a doap:Project, schema:TechArticle ;
+:SparqlCxml a doap:Project, schema:SoftwareApplication ;
   doap:name "SparqlCxml" ;
   doap:description """SPARQL to CXML Bridge""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -902,7 +928,7 @@ sourceDAV:
 
 ### SyncML Handler
 
-:SyncML a doap:Project, schema:TechArticle ;
+:SyncML a doap:Project, schema:SoftwareApplication ;
   doap:name "SyncML" ;
   doap:description """SyncML Handler""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -926,7 +952,7 @@ sourceDAV:
 
 ### URL Shortener
 
-:CUri a doap:Project, schema:TechArticle ;
+:CUri a doap:Project, schema:SoftwareApplication ;
   doap:name "CUri" ;
   doap:description """URL Shortener""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -951,7 +977,7 @@ sourceDAV:
 
 ### phpBB3 Hosting & Deployment
 
-:Phpbb3 a doap:Project, schema:TechArticle ;
+:Phpbb3 a doap:Project, schema:SoftwareApplication ;
   doap:name "Phpbb3" ;
   doap:description """phpBB3 Hosting & Deployment""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -975,7 +1001,7 @@ sourceDAV:
 
 ### MediaWiki Hosting & Deployment
 
-:MediaWiki a doap:Project, schema:TechArticle ;
+:MediaWiki a doap:Project, schema:SoftwareApplication ;
   doap:name "MediaWiki" ;
   doap:description """MediaWiki Hosting & Deployment""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -999,7 +1025,7 @@ sourceDAV:
 
 ### Wordpress Hosting & Deployment
 
-:Wordpress a doap:Project, schema:TechArticle ;
+:Wordpress a doap:Project, schema:SoftwareApplication ;
   doap:name "Wordpress" ;
   doap:description """Wordpress Hosting & Deployment""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -1023,7 +1049,7 @@ sourceDAV:
 
 ### SPASQLQB VAD
 
-:Spasqlqb a doap:Project, schema:TechArticle ;
+:Spasqlqb a doap:Project, schema:SoftwareApplication ;
   doap:name "Spasqlqb" ;
   doap:description """SPASQL Query Builder""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -1047,7 +1073,7 @@ sourceDAV:
 
 ### SPASQLQB VAD
 
-:Spasqlqb a doap:Project, schema:TechArticle ;
+:Spasqlqb a doap:Project, schema:SoftwareApplication ;
   doap:name "Spasqlqb" ;
   doap:description """SPASQL Query Builder""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -1071,7 +1097,7 @@ sourceDAV:
 
 ### Support System
 
-:SupportSystem a doap:Project, schema:TechArticle ;
+:SupportSystem a doap:Project, schema:SoftwareApplication ;
   doap:name "Support System" ;
   doap:description """Support Case Management Application.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -1097,7 +1123,7 @@ sourceDAV:
 
 ### License Generator
 
-:LicenseGenerator a doap:Project, schema:TechArticle ;
+:LicenseGenerator a doap:Project, schema:SoftwareApplication ;
   doap:name "License Generator" ;
   doap:description """Evaluation License Generator and Download Application.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -1123,7 +1149,7 @@ sourceDAV:
 
 ### ODS-Profile
 
-:OdsProfile a doap:Project, schema:TechArticle ;
+:OdsProfile a doap:Project, schema:SoftwareApplication ;
   doap:name "ODS Profile" ;
   doap:description """ODS Profile provides a profile management web interface for ODS user accounts.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -1148,7 +1174,7 @@ sourceDAV:
 
 ### OPL-Skins
 
-:OplSkins a doap:Project, schema:TechArticle ;
+:OplSkins a doap:Project, schema:SoftwareApplication ;
   doap:name "OpenLink Skins" ;
   doap:description """OpenLink Skins Repository.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
@@ -1176,7 +1202,7 @@ sourceDAV:
 
 ### Log4Virtuoso
 
-:Log4Virtuoso a doap:Project, schema:TechArticle ;
+:Log4Virtuoso a doap:Project, schema:SoftwareApplication ;
   doap:name "Log4Virtuoso" ;
   doap:description """Virtuoso logging and error handling system.""" ;
   schema:author <http://www.openlinksw.com/#this> ;
