@@ -142,7 +142,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :PAVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/personal_assistant_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/personal_assistant_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Personal Assistant VAD" ;
 	schema:comment "Personal Assistant VAD" ;
@@ -166,7 +166,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :DBpediaVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/dbpedia_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/dbpedia_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "DBpedia VAD" ;
 	schema:comment "DBpedia VAD" ;
@@ -192,7 +192,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :FctVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/fct_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/fct_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Faceted Browser VAD" ;
 	schema:comment "Faceted Browser VAD" ;
@@ -217,7 +217,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :CartridgesVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/cartridges_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/cartridges_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Linked Data Cartridges VAD" ;
 	oplvad:hasPackageName "cartridges"^^xsd:string ;
@@ -298,7 +298,7 @@ sourceDAV:
 
 :OdsFrameworkVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_framework_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_framework_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Framework VAD" ;
 	oplvad:hasPackageName "Framework"^^xsd:string ;
@@ -308,7 +308,7 @@ sourceDAV:
 
 :OdsBookmarkVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_bookmark_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_bookmark_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Bookmark VAD" ;
 	oplvad:hasPackageName "Bookmarks"^^xsd:string ;
@@ -319,7 +319,7 @@ sourceDAV:
 
 :OdsAddressbookVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_addressbook_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_addressbook_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Addressbook VAD" ;
 	oplvad:hasPackageName "AddressBook"^^xsd:string ;
@@ -330,7 +330,7 @@ sourceDAV:
 
 :OdsBriefcaseVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_briefcase_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_briefcase_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Briefcase VAD" ;
 	oplvad:hasPackageName "Briefcase"^^xsd:string ;
@@ -341,7 +341,7 @@ sourceDAV:
 
 :OdsFeedmanagerVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_feedmanager_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_feedmanager_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Feedmanager VAD" ;
 	oplvad:hasPackageName "Feed Manager"^^xsd:string ;
@@ -352,7 +352,7 @@ sourceDAV:
 
 :OdsBlogVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_blog_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_blog_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Weblog VAD" ;
 	oplvad:hasPackageName "Weblog"^^xsd:string ;
@@ -363,7 +363,7 @@ sourceDAV:
 
 :OdsCalendarVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_calendar_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_calendar_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Calendar VAD" ;
 	oplvad:hasPackageName "Calendar"^^xsd:string ;
@@ -374,7 +374,7 @@ sourceDAV:
 
 :OdsWebmailVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_webmail_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_webmail_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Webmail VAD" ;
 	oplvad:hasPackageName "Mail"^^xsd:string ;
@@ -396,7 +396,7 @@ sourceDAV:
 
 :OdsWikiVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_wiki_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_wiki_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Wiki VAD" ;
 	oplvad:hasPackageName "Wiki"^^xsd:string ;
@@ -407,7 +407,7 @@ sourceDAV:
 
 :OdsDiscussionVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_discussion_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_discussion_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Discussion VAD" ;
 	oplvad:hasPackageName "Discussion"^^xsd:string ;
@@ -418,7 +418,7 @@ sourceDAV:
 
 :OdsGalleryVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_gallery_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_gallery_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Gallery VAD" ;
 	oplvad:hasPackageName "Gallery"^^xsd:string ;
@@ -429,7 +429,7 @@ sourceDAV:
 
 :OdsPollsVad
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/ods_polls_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/ods_polls_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ODS Polls VAD" ;
 	oplvad:hasPackageName "Polls"^^xsd:string ;
@@ -701,7 +701,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :ConductorVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/conductor_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/conductor_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Conductor VAD" ;
 	oplvad:hasPackageName "conductor"^^xsd:string ;
@@ -725,7 +725,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :DemoVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/demo_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/demo_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Demo Database VAD" ;
 	oplvad:hasPackageName "demo"^^xsd:string ;
@@ -750,7 +750,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :DocumentationVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/doc_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/doc_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Documentation VAD" ;
 	oplvad:hasPackageName "documentation"^^xsd:string ;
@@ -774,7 +774,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :ValVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/val_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/val_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "VAL VAD" ;
 	oplvad:hasPackageName "val"^^xsd:string ;
@@ -798,7 +798,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :ISparqlVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/isparql_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/isparql_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "ISparql VAD" ;
 	oplvad:hasPackageName "ISparql"^^xsd:string ;
@@ -822,7 +822,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :Html5PivotViewerVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/fct_pivot_bridge_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/fct_pivot_bridge_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Html5PivotViewer VAD" ;
 	oplvad:hasPackageName "Html5PivotViewer"^^xsd:string ;
@@ -846,7 +846,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :SchoolsVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/schools_db_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/schools_db_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Schools VAD" ;
 	oplvad:hasPackageName "Schools"^^xsd:string ;
@@ -870,7 +870,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :OatVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/oat_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/oat_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Oat VAD" ;
 	oplvad:hasPackageName "Oat"^^xsd:string ;
@@ -894,7 +894,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :R2RMLVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/rdb2rdf_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/rdb2rdf_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "R2RML VAD" ;
 	oplvad:hasPackageName "R2RML"^^xsd:string ;
@@ -918,7 +918,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :SparqlCxmlVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/sparql_cxml_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/sparql_cxml_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "SparqlCxml VAD" ;
 	oplvad:hasPackageName "SparqlCxml"^^xsd:string ;
@@ -942,7 +942,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :SyncMLVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/syncml_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/syncml_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "SyncML VAD" ;
 	oplvad:hasPackageName "SyncML"^^xsd:string ;
@@ -966,7 +966,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :CUriVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.1/c_uri_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.1/c_uri_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "CUri VAD" ;
 	oplvad:hasPackageName "CUri"^^xsd:string ;
@@ -991,7 +991,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :Phpbb3Vad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/phpBB3_fs.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/phpBB3_fs.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Phpbb3 VAD" ;
 	oplvad:hasPackageName "Phpbb3"^^xsd:string ;
@@ -1015,7 +1015,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :MediaWikiVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/mediawiki_fs.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/mediawiki_fs.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "MediaWiki VAD" ;
 	oplvad:hasPackageName "MediaWiki"^^xsd:string ;
@@ -1039,7 +1039,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :WordpressVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/wordpress_fs.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/wordpress_fs.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Wordpress VAD" ;
 	oplvad:hasPackageName "Wordpress"^^xsd:string ;
@@ -1063,7 +1063,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :SpasqlqbVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/spasqlqb_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/spasqlqb_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Spasqlqb VAD" ;
 	oplvad:hasPackageName "Spasqlqb"^^xsd:string ;
@@ -1087,7 +1087,7 @@ sourceDAV:
 	wdrs:describedby source: .
 
 :SpasqlqbVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
-	schema:url <http://download3.openlinksw.com/uda/vad-packages/8.3/spasqlqb_dav.vad> ;
+	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/spasqlqb_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Spasqlqb VAD" ;
 	oplvad:hasPackageName "Spasqlqb"^^xsd:string ;
