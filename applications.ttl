@@ -26,7 +26,7 @@
 source: a schema:CreativeWork ;
 	schema:comment """Description of OpenLink Software Applications and VAD Packages."""^^xsd:string ;
 	schema:dateCreated  "2014-07-03T15:44:00-05:00"^^xsd:dateTime ;
-	schema:dateModified "2023-10-11T13:35:00-04:00"^^xsd:dateTime ;
+	schema:dateModified "2023-11-14T13:03:00-00:00"^^xsd:dateTime ;
 	schema:author <http://www.openlinksw.com/#this> ;
 	xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
 	cc:attributionName "OpenLink Software" ;
