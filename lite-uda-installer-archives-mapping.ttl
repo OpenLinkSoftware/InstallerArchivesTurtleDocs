@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2023-07-14T09:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2024-04-29T13:52:00+01:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
@@ -1628,7 +1628,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2012-07-11T19:26:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/ora100_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x, 19c, 21c on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ora100_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -1636,10 +1636,10 @@ source:
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseOracle#this> ;
     oplpro:versionText "6.3" ;
     oplsof:hasDatabaseEngine oplsof:Oracle10,
-        oplsof:Oracle11, oplsof:Oracle12 ;
+        oplsof:Oracle11, oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
     oplsof:hasDbmsEngineVersion "10.x",
-        "11.x", "12.x" ;
+        "11.x", "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.3" ;
@@ -1656,7 +1656,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2012-07-11T19:00:25-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/ora100_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x, 19c, 21c on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ora100_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -1664,10 +1664,10 @@ source:
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseOracle#this> ;
     oplpro:versionText "6.3" ;
     oplsof:hasDatabaseEngine oplsof:Oracle10,
-        oplsof:Oracle11, oplsof:Oracle12 ;
+        oplsof:Oracle11, oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
     oplsof:hasDbmsEngineVersion "10.x",
-        "11.x", "12.x" ;
+        "11.x", "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.3" ;
@@ -2378,7 +2378,7 @@ source:
     dcterms:identifier "wil6o10z.msi" ;
     schema:dateCreated "2012-07-11T19:13:50-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6o10z.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x, 19c, 21c on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wil6o10zmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2386,10 +2386,10 @@ source:
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseOracle#this> ;
     oplpro:versionText "6.3" ;
     oplsof:hasDatabaseEngine oplsof:Oracle10,
-        oplsof:Oracle11, oplsof:Oracle12 ;
+        oplsof:Oracle11, oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
     oplsof:hasDbmsEngineVersion "10.x",
-        "11.x", "12.x" ;
+        "11.x", "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
@@ -3463,7 +3463,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2012-07-11T19:26:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/ora100_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x, 19c, 21c on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ora100_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -3471,10 +3471,10 @@ source:
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseOracle#this> ;
     oplpro:versionText "6.3" ;
     oplsof:hasDatabaseEngine oplsof:Oracle10,
-        oplsof:Oracle11, oplsof:Oracle12 ;
+        oplsof:Oracle11, oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
     oplsof:hasDbmsEngineVersion "10.x",
-        "11.x", "12.x" ;
+        "11.x", "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-linux-glibc23-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.3" ;
@@ -3491,7 +3491,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2012-07-11T19:00:25-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/ora100_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x, 19c, 21c on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ora100_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -3499,10 +3499,10 @@ source:
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseOracle#this> ;
     oplpro:versionText "6.3" ;
     oplsof:hasDatabaseEngine oplsof:Oracle10,
-        oplsof:Oracle11, oplsof:Oracle12 ;
+        oplsof:Oracle11, oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
     oplsof:hasDbmsEngineVersion "10.x",
-        "11.x", "12.x" ;
+        "11.x", "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc23-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.3" ;
@@ -4213,7 +4213,7 @@ source:
     dcterms:identifier "wil6o10z.msi" ;
     schema:dateCreated "2012-07-11T19:13:50-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6o10z.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12.x, 19c, 21c on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wil6o10zmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -4221,10 +4221,10 @@ source:
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseOracle#this> ;
     oplpro:versionText "6.3" ;
     oplsof:hasDatabaseEngine oplsof:Oracle10,
-        oplsof:Oracle11, oplsof:Oracle12 ;
+        oplsof:Oracle11, oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
     oplsof:hasDbmsEngineVersion "10.x",
-        "11.x", "12.x" ;
+        "11.x", "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/ia64-intel-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
@@ -6257,16 +6257,16 @@ source:
     dcterms:identifier "ntl7o12z.msi" ;
     schema:dateCreated "2016-07-27T05:04:10-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7o12z.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x, 19c, 21c on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7o12zmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     oplpro:versionText "7.0" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12.x";
+    oplsof:hasDbmsEngineVersion "12.x", "19c", "21c";
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -6422,16 +6422,16 @@ source:
     dcterms:identifier "wal7o12z.msi" ;
     schema:dateCreated "2016-07-27T05:00:53-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7o12z.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- OpenLink Download Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x, 19c, 21c on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- OpenLink Download Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7o12zmsi70WindowsXPVista764Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     oplpro:versionText "7.0" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasDbmsEngineVersion "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
@@ -6579,16 +6579,16 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2015-07-29T03:38:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/ora120_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x, 19c, 21c on Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ora120_lttazGenericLinuxGlibc21264Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     oplpro:versionText "7.0" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasDbmsEngineVersion "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.12" ;
@@ -6613,16 +6613,16 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2015-07-29T03:36:09-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/ora120_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x, 19c, 21c on Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ora120_lttazGenericLinuxGlibc21764Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     oplpro:versionText "7.0" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasDbmsEngineVersion "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc217-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.17" ;
@@ -7348,16 +7348,16 @@ source:
     dcterms:identifier "ntl6o11z.msi" ;
     schema:dateCreated "2016-05-27T21:02:39-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6o11z.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x, 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x, 12.x, 19c, 21c on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6o11zmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseOracle#this> ;
     oplpro:versionText "6.3" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle11, oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle11, oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "11.x", "12.x";
+    oplsof:hasDbmsEngineVersion "11.x", "12.x", "19c", "21c";
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -7381,16 +7381,16 @@ source:
     dcterms:identifier "ntl6o11z.msi" ;
     schema:dateCreated "2016-05-27T21:02:39-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6o11z.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x, 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x, 12.x, 19c, 21c on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6o11zmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseOracle#this> ;
     oplpro:versionText "6.3" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle11, oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle11, oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "11.x", "12.x" ;
+    oplsof:hasDbmsEngineVersion "11.x", "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -7622,16 +7622,16 @@ source:
     schema:dateCreated "2016-06-24T12:17:27-05:00"^^xsd:dateTime ;
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7o12z.dmg> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x, 19c, 21c on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7o12zdmg70MacOSX107UniversalFileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ;
     oplpro:versionText "7.0" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasDbmsEngineVersion "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
         <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
@@ -8453,16 +8453,16 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2019-08-18T03:38:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/ora120_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x, 19c, 21c on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3ora120_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ;
     oplpro:versionText "8.0" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasDbmsEngineVersion "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -8721,16 +8721,16 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2019-08-26T03:38:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8o12z.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x, 19c, 21c on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3wal8o12zmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ;
     oplpro:versionText "8.0" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasDbmsEngineVersion "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -9029,16 +9029,16 @@ source:
     schema:dateCreated "2019-09-09T12:17:27-05:00"^^xsd:dateTime ;
     schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8o12z.dmg> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x, 19c, 21c on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl8o12zdmg80MacOSX107UniversalFileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ;
     oplpro:versionText "8.0" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasDbmsEngineVersion "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.7-32#this>,
         <http://data.openlinksw.com/oplweb/opsys/x86_64-apple-macosx10.7-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
@@ -9586,16 +9586,16 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2023-08-16T03:38:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/ora120_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x, 19c, 21c on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3ora120_lttaz90GenericLinuxGlibc2564Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Oracle#this> ;
     oplpro:versionText "9.0" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasDbmsEngineVersion "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -9989,16 +9989,16 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2023-08-16T03:38:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/wal9o12z.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12.x, 19c, 21c on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3wal8o12zmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
     oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
     oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Oracle#this> ;
     oplpro:versionText "9.0" ;
-    oplsof:hasDatabaseEngine oplsof:Oracle12 ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21 ;
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasDbmsEngineVersion "12.x", "19c", "21c" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;

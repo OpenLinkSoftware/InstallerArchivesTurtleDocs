@@ -22,7 +22,7 @@ sourceDAV:
    schema:name "OpenLink Software Database Engines -- WebDAV hosted TURTLE Document"^^xsd:string ;
    dcterms:format "text/turtle" ;
    schema:dateCreated "2013-01-01T13:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2019-09-19T00:00:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2024-04-29T00:00:00-05:00"^^xsd:dateTime ;
    schema:author <http://www.openlinksw.com/#this> ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    cc:attributionName  "OpenLink Software" ;
@@ -59,6 +59,8 @@ source: a schema:CreativeWork ;
               <http://data.openlinksw.com/oplweb/dbms_engine/ora10#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ora11#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ora12#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/ora19#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/ora21#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ora7#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ora8#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ora9#this> ,
@@ -1959,6 +1961,36 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
     oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/Oracle#this> .
 
+<http://data.openlinksw.com/oplweb/dbms_engine/ora19#this> a oplsof:DbmsEngine ;
+    wdrs:describedby source: ;
+    skos:altLabel "Oracle 19c" ;
+    schema:name "Oracle 19c Database Engine" ;
+    oplsof:DbmsEngineDownwardCompatible "1"^^xsd:string ;
+    oplsof:DbmsEngineOldArchiveCode "o19" ;
+    oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
+    oplsof:hasDbmsEngineVersion "19c" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/Oracle#this> .
+
+<http://data.openlinksw.com/oplweb/dbms_engine/ora21#this> a oplsof:DbmsEngine ;
+    wdrs:describedby source: ;
+    skos:altLabel "Oracle 21c" ;
+    schema:name "Oracle 21c Database Engine" ;
+    oplsof:DbmsEngineDownwardCompatible "1"^^xsd:string ;
+    oplsof:DbmsEngineOldArchiveCode "o21" ;
+    oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
+    oplsof:hasDbmsEngineVersion "21c" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/Oracle#this> .
+
 <http://data.openlinksw.com/oplweb/dbms_engine/ora7#this> a oplsof:DbmsEngine ;
     wdrs:describedby source: ;
     skos:altLabel "Oracle 7.x" ;
@@ -2375,6 +2407,7 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/component/x86_64-generic-win-64-ora91-odbcexp-clnt-only_mv#this> ;
     oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this> ;
     oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/Oracle#this> .
+
 
 <http://data.openlinksw.com/oplweb/dbms_engine/pos6#this> a oplsof:DbmsEngine ;
     wdrs:describedby source: ;
