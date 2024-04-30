@@ -32,7 +32,7 @@
   wdrs:describedby <http://www.openlinksw.com/ontology/software> ;
   dcterms:created "2014-05-18T13:00:00-05:00"^^xsd:dateTime ;
   schema:creator <http://www.openlinksw.com/#this> ;
-  dcterms:modified "2019-09-10T13:38:00-05:00"^^xsd:dateTime ;
+  dcterms:modified "2024-04-29T13:53:00+01:00"^^xsd:dateTime ;
   owl:versionInfo "1.2.4"^^xsd:string ;
   owl:imports <http://www.openlinksw.com/ontology/licenses#> ,
               <http://www.openlinksw.com/ontology/odbc#> ;
@@ -154,6 +154,8 @@
       oplsof:Oracle10                   ,
       oplsof:Oracle11                   ,
       oplsof:Oracle12                   ,
+      oplsof:Oracle19                   ,
+      oplsof:Oracle21                   ,
       oplsof:frb                        ,
       oplsof:PostgreSQL6                ,
       oplsof:PostgreSQL7                ,
@@ -342,6 +344,8 @@
       oplsof:Oracle10                   ,
       oplsof:Oracle11                   ,
       oplsof:Oracle12                   ,
+      oplsof:Oracle19                   ,
+      oplsof:Oracle21                   ,
       oplsof:frb                        ,
       oplsof:PostgreSQL6                ,
       oplsof:PostgreSQL7                ,
@@ -571,6 +575,8 @@
       oplsof:Oracle10                   ,
       oplsof:Oracle11                   ,
       oplsof:Oracle12                   ,
+      oplsof:Oracle19                   ,
+      oplsof:Oracle21                   ,
       oplsof:frb                        ,
       oplsof:PostgreSQL6                ,
       oplsof:PostgreSQL7                ,
@@ -1722,7 +1728,7 @@ oplsof:Sybase a oplsof:DbmsFamily ;
   rdfs:label "Sybase Database Family"^^xsd:string .
 
 oplsof:Informix a oplsof:DbmsFamily ;
-  # owl:sameAs <http://data.openlinksw.com/oplweb/dbms_family/Informix#this> ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_family/Informix#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Informix Database Family""" ;
   rdfs:label "Informix Database Family"^^xsd:string .
@@ -1927,6 +1933,22 @@ oplsof:Oracle12 a oplsof:DbmsEngine ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 12.x Database Engine""" ;
   rdfs:label "Oracle 12.x Database Engine"^^xsd:string .
+
+oplsof:Oracle19 a oplsof:DbmsEngine ;
+  oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
+  oplsof:hasDatabaseFamily oplsof:Oracle ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora19#this> ;
+  rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
+  schema:name """Oracle 19c Database Engine""" ;
+  rdfs:label "Oracle 19c Database Engine"^^xsd:string .
+
+oplsof:Oracle21 a oplsof:DbmsEngine ;
+  oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
+  oplsof:hasDatabaseFamily oplsof:Oracle ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora21#this> ;
+  rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
+  schema:name """Oracle 21c Database Engine""" ;
+  rdfs:label "Oracle 21c Database Engine"^^xsd:string .
 
 oplsof:frb a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;

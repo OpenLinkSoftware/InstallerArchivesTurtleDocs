@@ -33,7 +33,7 @@ sourceDAV:
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
    schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-   schema:dateModified "2019-06-18T08:58:00-05:00"^^xsd:dateTime ;
+   schema:dateModified "2024-04-29T13:51:00+01:00"^^xsd:dateTime ;
    schema:name "OpenLink Multi-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers Related Information Document " ;
    schema:description   """Document that describes our high-performance and secure Multi-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers.  """^^xsd:string ;
    schema:keywords   """ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver,
@@ -935,6 +935,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, ODBC Driver to ODBC 3.5.x Data Sources, M
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/ora10#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora11#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora12#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora19#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora21#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora7#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora8#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora9#this> ;
@@ -2030,6 +2032,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, ODBC ADO.NET Provider, Multi-Tier, Enterp
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/ora10#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora11#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora12#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora19#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora21#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora7#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora8#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora9#this> ;
@@ -3198,6 +3202,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, JDBC Driver for ODBC 3.5.x Data Sources D
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/ora10#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora11#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora12#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora19#this>,
+        <http://data.openlinksw.com/oplweb/dbms_engine/ora21#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora7#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora8#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora9#this> ;
