@@ -1931,8 +1931,8 @@ oplsof:Oracle12 a oplsof:DbmsEngine ;
   oplsof:hasDatabaseFamily oplsof:Oracle ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora12#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
-  schema:name """Oracle 12.x Database Engine""" ;
-  rdfs:label "Oracle 12.x Database Engine"^^xsd:string .
+  schema:name """Oracle 12c Database Engine""" ;
+  rdfs:label "Oracle 12c Database Engine"^^xsd:string .
 
 oplsof:Oracle19 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;

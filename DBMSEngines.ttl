@@ -1948,12 +1948,12 @@ source: a schema:CreativeWork ;
 
 <http://data.openlinksw.com/oplweb/dbms_engine/ora12#this> a oplsof:DbmsEngine ;
     wdrs:describedby source: ;
-    skos:altLabel "Oracle 12.x" ;
-    schema:name "Oracle 12.x Database Engine" ;
+    skos:altLabel "Oracle 12c" ;
+    schema:name "Oracle 12c Database Engine" ;
     oplsof:DbmsEngineDownwardCompatible "1"^^xsd:string ;
     oplsof:DbmsEngineOldArchiveCode "o12" ;
     oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
-    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplsof:hasDbmsEngineVersion "12c" ;
     oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
         <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
         <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
