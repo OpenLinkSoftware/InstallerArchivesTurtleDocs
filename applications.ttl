@@ -130,7 +130,7 @@ sourceDAV:
 
 :PA a doap:Project, schema:SoftwareApplication ;
 	doap:name "Personal Assistant" ;
-	doap:description """The Personal Assistant is a ChatGPT-based application that offers conversational product-related self-help and support via loose coupling with Knowledge Graphs — a concept also known as Retrieval Augmented Generation (RAG).""" ;
+	doap:description """This VAD comprises the client (Personal Assistant) and server components of the OpenLink AI Layer (OPAL). Post installation, it equips your Virtuoso instance with a powerful middleware layer for loosely coupled interactions across Large Language Models (LLMs) and Data Spaces (databases, knowledge bases, graphs, and file systems).""" ;
 	schema:author <http://www.openlinksw.com/#this> ;
 	doap:maintainer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	doap:repository :PAGitRepo ;
