@@ -33,7 +33,7 @@ sourceDAV:
     cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
     schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
     schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-    schema:dateModified "2024-04-29T13:50:00+01:00"^^xsd:dateTime;
+    schema:dateModified "2024-07-26T13:50:00+01:00"^^xsd:dateTime;
     schema:name  """OpenLink Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers Related Information Document """ ;
     schema:description  """Document that describes our high-performance and secure Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers.  """^^xsd:string ;
     schema:keywords  """ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver, Data Access Middleware.  """;
@@ -358,7 +358,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, ODBC and JDBC Data Sources, Single-Tier, 
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseMySQL#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7MySQL#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8MySQL#this> ,
+		      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9MySQL#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/mys3#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/mys4#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/mys5#this> ;
@@ -517,7 +518,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, ODBC ODBC Driver for ODBC 3.5.x Data Sour
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseOracle#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Oracle#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this>  ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Oracle#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Oracle#this>  ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/ora10#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora11#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/ora12#this>,
@@ -616,7 +618,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, ODBC ODBC Driver for ODBC 3.5.x Data Sour
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleasePostgreSQL#this>  ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7PostgreSQL#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8PostgreSQL#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9PostgreSQL#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/pos6#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/pos7#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/pos8#this> ,
