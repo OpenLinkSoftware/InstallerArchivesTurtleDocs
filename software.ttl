@@ -1769,13 +1769,15 @@ oplsof:JDBCBridge a oplsof:DbmsFamily ;
 oplsof:DBEngineAny a oplsof:DbmsEngine ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Any Database Engine""" ;
-  rdfs:label "Any Database Engine"^^xsd:string .
+  rdfs:label "Any Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "Any"^^xsd:string .
 
 oplsof:DBEngineVersionAny a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Any Database Engine Version""" ;
-  rdfs:label "Any Database Engine Version"^^xsd:string .
+  rdfs:label "Any Database Engine Version"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "Any"^^xsd:string .
 
 oplsof:Ingres2 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1783,29 +1785,32 @@ oplsof:Ingres2 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ing20#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Ingres 2.x Database Engine""" ;
-  rdfs:label "Ingres 2.x Database Engine"^^xsd:string .
+  rdfs:label "Ingres 2.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "2.x"^^xsd:string .
 
 oplsof:Virtuoso63 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Virtuoso 6.3 Database Engine""" ;
-  rdfs:label "Virtuoso 6.3 Database Engine"^^xsd:string .
+  rdfs:label "Virtuoso 6.3 Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "6.3"^^xsd:string .
 
 oplsof:Virtuoso70 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Virtuoso 7.0 Database Engine""" ;
-  rdfs:label "Virtuoso 7.0 Database Engine"^^xsd:string .
+  rdfs:label "Virtuoso 7.0 Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.0"^^xsd:string .
 
 oplsof:Virtuoso80 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:OpenLinkVirtuoso ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Virtuoso 8.0 Database Engine""" ;
-  rdfs:label "Virtuoso 8.0 Database Engine"^^xsd:string .
-
+  rdfs:label "Virtuoso 8.0 Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.0"^^xsd:string .
 
 oplsof:Ingres3 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1813,7 +1818,8 @@ oplsof:Ingres3 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ing3#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Ingres 3.x Database Engine""" ;
-  rdfs:label "Ingres 3.x Database Engine"^^xsd:string .
+  rdfs:label "Ingres 3.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "3.x"^^xsd:string .
 
 oplsof:Ingres64 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1821,7 +1827,8 @@ oplsof:Ingres64 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ing64#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Ingres 6.4.x Database Engine""" ;
-  rdfs:label "Ingres 6.4.x Database Engine"^^xsd:string .
+  rdfs:label "Ingres 6.4.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "6.4.x"^^xsd:string .
 
 oplsof:Ingres6 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1829,7 +1836,8 @@ oplsof:Ingres6 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ing6#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Ingres 6.x Database Engine""" ;
-  rdfs:label "Ingres 6.x Database Engine"^^xsd:string .
+  rdfs:label "Ingres 6.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "6.x"^^xsd:string .
 
 oplsof:Ingres8 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1837,7 +1845,8 @@ oplsof:Ingres8 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ing8#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Ingres 8.x Database Engine""" ;
-  rdfs:label "Ingres 8.x Database Engine"^^xsd:string .
+  rdfs:label "Ingres 8.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.x"^^xsd:string .
 
 oplsof:Ingres9 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1845,14 +1854,16 @@ oplsof:Ingres9 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ing9#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Ingres 9.x Database Engine""" ;
-  rdfs:label "Ingres 9.x Database Engine"^^xsd:string .
+  rdfs:label "Ingres 9.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.x"^^xsd:string .
 
 oplsof:Ingres10 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:Ingres ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Ingres 10 Database Engine""" ;
-  rdfs:label "Ingres 10 Database Engine"^^xsd:string .
+  rdfs:label "Ingres 10 Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10"^^xsd:string .
 
 oplsof:Ingresii a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1860,7 +1871,8 @@ oplsof:Ingresii a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ingii#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Ingres II Database Engine""" ;
-  rdfs:label "Ingres II Database Engine"^^xsd:string .
+  rdfs:label "Ingres II Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "II"^^xsd:string .
 
 oplsof:Presto01 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1868,7 +1880,8 @@ oplsof:Presto01 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/presto#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """PrestoDB 0.1xx Database Engine""" ;
-  rdfs:label "PrestoDB 0.1xx Database Engine"^^xsd:string .
+  rdfs:label "PrestoDB 0.1xx Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "0.1xx"^^xsd:string .
 
 oplsof:Oracle7 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1876,7 +1889,8 @@ oplsof:Oracle7 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora7#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 7.x Database Engine""" ;
-  rdfs:label "Oracle 7.x Database Engine"^^xsd:string .
+  rdfs:label "Oracle 7.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.x"^^xsd:string .
 
 oplsof:Oracle8 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1884,7 +1898,8 @@ oplsof:Oracle8 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora8#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 8.x Database Engine""" ;
-  rdfs:label "Oracle 8.x Database Engine"^^xsd:string .
+  rdfs:label "Oracle 8.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.x"^^xsd:string .
 
 oplsof:Oracle9 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1892,7 +1907,8 @@ oplsof:Oracle9 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora9#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 9.x Database Engine""" ;
-  rdfs:label "Oracle 9.x Database Engine"^^xsd:string .
+  rdfs:label "Oracle 9.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.x"^^xsd:string .
 
 oplsof:Oracle91 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1900,7 +1916,8 @@ oplsof:Oracle91 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora91#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 9.1 Database Engine""" ;
-  rdfs:label "Oracle 9.1 Database Engine"^^xsd:string .
+  rdfs:label "Oracle 9.1 Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.1"^^xsd:string .
 
 oplsof:Oracle10 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1908,7 +1925,8 @@ oplsof:Oracle10 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora10#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 10.x Database Engine""" ;
-  rdfs:label "Oracle 10.x Database Engine"^^xsd:string .
+  rdfs:label "Oracle 10.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10.x"^^xsd:string .
 
 oplsof:Oracle10i a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1916,7 +1934,8 @@ oplsof:Oracle10i a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora10#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 10.i Database Engine""" ;
-  rdfs:label "Oracle 10.i Database Engine"^^xsd:string .
+  rdfs:label "Oracle 10.i Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10.i"^^xsd:string .
 
 oplsof:Oracle11 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1924,7 +1943,8 @@ oplsof:Oracle11 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora11#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 11.x Database Engine""" ;
-  rdfs:label "Oracle 11.x Database Engine"^^xsd:string .
+  rdfs:label "Oracle 11.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "11.x"^^xsd:string .
 
 oplsof:Oracle12 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1932,7 +1952,8 @@ oplsof:Oracle12 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora12#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 12c Database Engine""" ;
-  rdfs:label "Oracle 12c Database Engine"^^xsd:string .
+  rdfs:label "Oracle 12c Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "12c"^^xsd:string .
 
 oplsof:Oracle19 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1940,7 +1961,8 @@ oplsof:Oracle19 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora19#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 19c Database Engine""" ;
-  rdfs:label "Oracle 19c Database Engine"^^xsd:string .
+  rdfs:label "Oracle 19c Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "19c"^^xsd:string .
 
 oplsof:Oracle21 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1948,7 +1970,8 @@ oplsof:Oracle21 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora21#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Oracle 21c Database Engine""" ;
-  rdfs:label "Oracle 21c Database Engine"^^xsd:string .
+  rdfs:label "Oracle 21c Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "21c"^^xsd:string .
 
 oplsof:frb a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1956,7 +1979,8 @@ oplsof:frb a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/frb#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Firebird Database Engine""" ;
-  rdfs:label "Firebird Database Engine"^^xsd:string .
+  rdfs:label "Firebird Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "Unknown"^^xsd:string .
 
 oplsof:PostgreSQL6 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1964,7 +1988,8 @@ oplsof:PostgreSQL6 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pos6#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """PostgreSQL 6.x Database Engine""" ;
-  rdfs:label "PostgreSQL 6.x Database Engine"^^xsd:string .
+  rdfs:label "PostgreSQL 6.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "6.x"^^xsd:string .
 
 oplsof:PostgreSQL7 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1972,7 +1997,8 @@ oplsof:PostgreSQL7 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pos7#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """PostgreSQL 7.x Database Engine""" ;
-  rdfs:label "PostgreSQL 7.x Database Engine"^^xsd:string .
+  rdfs:label "PostgreSQL 7.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.x"^^xsd:string .
 
 oplsof:PostgreSQL8 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1980,7 +2006,8 @@ oplsof:PostgreSQL8 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pos8#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """PostgreSQL 8.x Database Engine""" ;
-  rdfs:label "PostgreSQL 8.x Database Engine"^^xsd:string .
+  rdfs:label "PostgreSQL 8.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.x"^^xsd:string .
 
 oplsof:PostgreSQL9 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1988,7 +2015,8 @@ oplsof:PostgreSQL9 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pos9#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """PostgreSQL 9.x Database Engine""" ;
-  rdfs:label "PostgreSQL 9.x Database Engine"^^xsd:string .
+  rdfs:label "PostgreSQL 9.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.x"^^xsd:string .
 
 oplsof:PostgreSQL10 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -1996,7 +2024,8 @@ oplsof:PostgreSQL10 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pos10#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """PostgreSQL 10.x Database Engine""" ;
-  rdfs:label "PostgreSQL 10.x Database Engine"^^xsd:string .
+  rdfs:label "PostgreSQL 10.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10.x"^^xsd:string .
 
 oplsof:PostgreSQL11 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2004,14 +2033,16 @@ oplsof:PostgreSQL11 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pos11#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """PostgreSQL 11.x Database Engine""" ;
-  rdfs:label "PostgreSQL 11.x Database Engine"^^xsd:string .
+  rdfs:label "PostgreSQL 11.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "11.x"^^xsd:string .
 
 oplsof:PostgreSQL12 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """PostgreSQL 12.x Database Engine""" ;
-  rdfs:label "PostgreSQL 12.x Database Engine"^^xsd:string .
+  rdfs:label "PostgreSQL 12.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "12.x"^^xsd:string .
 
 oplsof:db2 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2019,8 +2050,8 @@ oplsof:db2 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/db2#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """DB2 Database Engine""" ;
-  rdfs:label "DB2 Database Engine"^^xsd:string .
-
+  rdfs:label "DB2 Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "Unknown"^^xsd:string .
 
 oplsof:db26 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2028,7 +2059,8 @@ oplsof:db26 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/db2#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """DB2 6.x Database Engine""" ;
-  rdfs:label "DB2 6.x Database Engine"^^xsd:string .
+  rdfs:label "DB2 6.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "6.x"^^xsd:string .
 
 oplsof:db27 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2036,7 +2068,8 @@ oplsof:db27 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/db2#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """DB2 7.x Database Engine""" ;
-  rdfs:label "DB2 7.x Database Engine"^^xsd:string .
+  rdfs:label "DB2 7.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.x"^^xsd:string .
 
 oplsof:db28 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2044,7 +2077,8 @@ oplsof:db28 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/db2#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """DB2 8.x Database Engine""" ;
-  rdfs:label "DB2 8.x Database Engine"^^xsd:string .
+  rdfs:label "DB2 8.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.x"^^xsd:string .
 
 oplsof:db29 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2052,7 +2086,8 @@ oplsof:db29 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/db2#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """DB2 9.x Database Engine""" ;
-  rdfs:label "DB2 9.x Database Engine"^^xsd:string .
+  rdfs:label "DB2 9.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.x"^^xsd:string .
 
 oplsof:db210 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2060,7 +2095,8 @@ oplsof:db210 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/db2#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """DB2 10.x Database Engine""" ;
-  rdfs:label "DB2 10.x Database Engine"^^xsd:string .
+  rdfs:label "DB2 10.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10.x"^^xsd:string .
 
 oplsof:db211 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2068,7 +2104,8 @@ oplsof:db211 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/db2#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """DB2 11.x Database Engine""" ;
-  rdfs:label "DB2 11.x Database Engine"^^xsd:string .
+  rdfs:label "DB2 11.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "11.x"^^xsd:string .
 
 oplsof:SQLServer6 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2076,7 +2113,8 @@ oplsof:SQLServer6 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql6#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 6.x Database Engine""" ;
-  rdfs:label "Microsoft SQL Server 6.x Database Engine"^^xsd:string .
+  rdfs:label "Microsoft SQL Server 6.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "6.x"^^xsd:string .
 
 oplsof:SQLServer7 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2084,7 +2122,8 @@ oplsof:SQLServer7 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 7.x Database Engine""" ;
-  rdfs:label "Microsoft SQL Server 7.x Database Engine"^^xsd:string .
+  rdfs:label "Microsoft SQL Server 7.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.x"^^xsd:string .
 
 oplsof:SQLServer2008 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2092,7 +2131,8 @@ oplsof:SQLServer2008 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2008 (v10.00.x) Database Engine""" ;
-  rdfs:label "Microsoft SQL Server 2008 (v10.00.x) Database Engine"^^xsd:string .
+  rdfs:label "Microsoft SQL Server 2008 (v10.00.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10.00.x"^^xsd:string .
 
 oplsof:SQLServer2008R2 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2100,35 +2140,40 @@ oplsof:SQLServer2008R2 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2008 R2 (v10.50.x) Database Engine""" ;
-  rdfs:label "Microsoft SQL Server 2008 R2 (v10.50.x) Database Engine"^^xsd:string .
+  rdfs:label "Microsoft SQL Server 2008 R2 (v10.50.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10.50.x"^^xsd:string .
 
 oplsof:SQLServer2012 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:SQLServer ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2012 (v11.00.x) Database Engine""" ;
-  rdfs:label "Microsoft SQL Server 2012 (v11.00.x) Database Engine"^^xsd:string .
+  rdfs:label "Microsoft SQL Server 2012 (v11.00.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "11.00.x"^^xsd:string .
 
 oplsof:SQLServer2014 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:SQLServer ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2014 (v12.00.x) Database Engine""" ;
-  rdfs:label "Microsoft SQL Server 2014 (v12.00.x) Database Engine"^^xsd:string .
+  rdfs:label "Microsoft SQL Server 2014 (v12.00.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "12.00.x"^^xsd:string .
 
 oplsof:SQLServer2000 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:SQLServer ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2000 (v8.00.x) Database Engine""" ;
-  rdfs:label "Microsoft SQL Server 2000 (v8.00.x) Database Engine"^^xsd:string .
+  rdfs:label "Microsoft SQL Server 2000 (v8.00.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.00.x"^^xsd:string .
 
 oplsof:SQLServer2005 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:SQLServer ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2005 (v9.00.x) Database Engine""" ;
-  rdfs:label "Microsoft SQL Server 2005 (v9.00.x) Database Engine"^^xsd:string .
+  rdfs:label "Microsoft SQL Server 2005 (v9.00.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.00.x"^^xsd:string .
 
 oplsof:MySQL3 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2136,7 +2181,8 @@ oplsof:MySQL3 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/mys3#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """MySQL 3.x Database Engine""" ;
-  rdfs:label "MySQL 3.x Database Engine"^^xsd:string .
+  rdfs:label "MySQL 3.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "3.x"^^xsd:string .
 
 oplsof:MySQL4 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2144,7 +2190,8 @@ oplsof:MySQL4 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/mys4#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """MySQL 4.x Database Engine""" ;
-  rdfs:label "MySQL 4.x Database Engine"^^xsd:string .
+  rdfs:label "MySQL 4.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "4.x"^^xsd:string .
 
 oplsof:MySQL5 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2152,7 +2199,8 @@ oplsof:MySQL5 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/mys5#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """MySQL 5.x Database Engine""" ;
-  rdfs:label "MySQL 5.x Database Engine"^^xsd:string .
+  rdfs:label "MySQL 5.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "5.x"^^xsd:string .
 
 oplsof:Sybase10 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2160,7 +2208,8 @@ oplsof:Sybase10 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/syb10#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Sybase 10.x Database Engine""" ;
-  rdfs:label "Sybase 10.x Database Engine"^^xsd:string .
+  rdfs:label "Sybase 10.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10.x"^^xsd:string .
 
 oplsof:Sybase11 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2168,7 +2217,8 @@ oplsof:Sybase11 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/syb11#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Sybase 11.x Database Engine""" ;
-  rdfs:label "Sybase 11.x Database Engine"^^xsd:string .
+  rdfs:label "Sybase 11.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "11.x"^^xsd:string .
 
 oplsof:Sybase12 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2176,7 +2226,8 @@ oplsof:Sybase12 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/syb12#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Sybase 12.x Database Engine""" ;
-  rdfs:label "Sybase 12.x Database Engine"^^xsd:string .
+  rdfs:label "Sybase 12.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "12.x"^^xsd:string .
 
 oplsof:Sybase15 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2184,7 +2235,8 @@ oplsof:Sybase15 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/syb15#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Sybase 15.x Database Engine""" ;
-  rdfs:label "Sybase 15.x Database Engine"^^xsd:string .
+  rdfs:label "Sybase 15.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "15.x"^^xsd:string .
 
 oplsof:Informix7 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2192,7 +2244,8 @@ oplsof:Informix7 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/inf7#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Informix 7.x Database Engine""" ;
-  rdfs:label "Informix 7.x Database Engine"^^xsd:string .
+  rdfs:label "Informix 7.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.x"^^xsd:string .
 
 oplsof:Informix5 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2200,7 +2253,8 @@ oplsof:Informix5 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/inf5#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Informix 5.x Database Engine""" ;
-  rdfs:label "Informix 5.x Database Engine"^^xsd:string .
+  rdfs:label "Informix 5.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "5.x"^^xsd:string .
 
 oplsof:Informix71 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2208,7 +2262,8 @@ oplsof:Informix71 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/inf71#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Informix 7.1 Database Engine""" ;
-  rdfs:label "Informix 7.1 Database Engine"^^xsd:string .
+  rdfs:label "Informix 7.1 Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.1"^^xsd:string .
 
 oplsof:Informix72 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2216,7 +2271,8 @@ oplsof:Informix72 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/inf72#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Informix 7.2 Database Engine""" ;
-  rdfs:label "Informix 7.2 Database Engine"^^xsd:string .
+  rdfs:label "Informix 7.2 Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.2"^^xsd:string .
 
 oplsof:Informix73 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2224,7 +2280,8 @@ oplsof:Informix73 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/inf73#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Informix 7.3 Database Engine""" ;
-  rdfs:label "Informix 7.3 Database Engine"^^xsd:string .
+  rdfs:label "Informix 7.3 Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.3"^^xsd:string .
 
 oplsof:Informix9 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2232,7 +2289,8 @@ oplsof:Informix9 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/inf9#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Informix 9.x Database Engine""" ;
-  rdfs:label "Informix 9.x Database Engine"^^xsd:string .
+  rdfs:label "Informix 9.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.x"^^xsd:string .
 
 oplsof:Informix10 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2240,7 +2298,8 @@ oplsof:Informix10 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/inf10#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Informix 10.x Database Engine""" ;
-  rdfs:label "Informix 10.x Database Engine"^^xsd:string .
+  rdfs:label "Informix 10.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10.x"^^xsd:string .
 
 oplsof:Informix11 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2248,7 +2307,8 @@ oplsof:Informix11 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/inf11#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Informix 11.x Database Engine""" ;
-  rdfs:label "Informix 11.x Database Engine"^^xsd:string .
+  rdfs:label "Informix 11.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "11.x"^^xsd:string .
 
 oplsof:Progress7 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2256,7 +2316,8 @@ oplsof:Progress7 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro7#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 7.x Database Engine""" ;
-  rdfs:label "Progress 7.x Database Engine"^^xsd:string .
+  rdfs:label "Progress 7.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.x"^^xsd:string .
 
 oplsof:Progress73c a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2264,7 +2325,8 @@ oplsof:Progress73c a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro73c#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 7.3C Database Engine""" ;
-  rdfs:label "Progress 7.3C Database Engine"^^xsd:string .
+  rdfs:label "Progress 7.3C Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.3C"^^xsd:string .
 
 oplsof:Progress73d a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2272,7 +2334,8 @@ oplsof:Progress73d a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro73d#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 7.3D Database Engine""" ;
-  rdfs:label "Progress 7.3D Database Engine"^^xsd:string .
+  rdfs:label "Progress 7.3D Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.3D"^^xsd:string .
 
 oplsof:Progress73e a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2280,7 +2343,8 @@ oplsof:Progress73e a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro73e#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 7.3E Database Engine""" ;
-  rdfs:label "Progress 7.3E Database Engine"^^xsd:string .
+  rdfs:label "Progress 7.3E Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "7.3E"^^xsd:string .
 
 oplsof:Progress8 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2288,7 +2352,8 @@ oplsof:Progress8 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro8#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 8.x Database Engine""" ;
-  rdfs:label "Progress 8.x Database Engine"^^xsd:string .
+  rdfs:label "Progress 8.x Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.x"^^xsd:string .
 
 oplsof:Progress81a a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2296,7 +2361,8 @@ oplsof:Progress81a a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro81a#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 8.1A Database Engine""" ;
-  rdfs:label "Progress 8.1A Database Engine"^^xsd:string .
+  rdfs:label "Progress 8.1A Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.1A"^^xsd:string .
 
 oplsof:Progress82a a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2304,7 +2370,8 @@ oplsof:Progress82a a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro82a#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 8.2A Database Engine""" ;
-  rdfs:label "Progress 8.2A Database Engine"^^xsd:string .
+  rdfs:label "Progress 8.2A Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.2A"^^xsd:string .
 
 oplsof:Progress82c a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2312,7 +2379,8 @@ oplsof:Progress82c a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro82c#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 8.2C Database Engine""" ;
-  rdfs:label "Progress 8.2C Database Engine"^^xsd:string .
+  rdfs:label "Progress 8.2C Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.2C"^^xsd:string .
 
 oplsof:Progress83a a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2320,7 +2388,8 @@ oplsof:Progress83a a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro83a#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 8.3A Database Engine""" ;
-  rdfs:label "Progress 8.3A Database Engine"^^xsd:string .
+  rdfs:label "Progress 8.3A Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.3A"^^xsd:string .
 
 oplsof:Progress83b a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2328,7 +2397,8 @@ oplsof:Progress83b a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro83b#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 8.3B Database Engine""" ;
-  rdfs:label "Progress 8.3B Database Engine"^^xsd:string .
+  rdfs:label "Progress 8.3B Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.3B"^^xsd:string .
 
 oplsof:Progress83c a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2336,7 +2406,8 @@ oplsof:Progress83c a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro83c#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress 8.3C Database Engine""" ;
-  rdfs:label "Progress 8.3C Database Engine"^^xsd:string .
+  rdfs:label "Progress 8.3C Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "8.3C"^^xsd:string .
 
 oplsof:Progress9 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2344,7 +2415,8 @@ oplsof:Progress9 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro9#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 9.x Database Engine""" ;
-  rdfs:label """Progress OpenEdge 9.x Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 9.x Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.x"^^xsd:string .
 
 oplsof:Progress90a a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2352,7 +2424,8 @@ oplsof:Progress90a a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro90a#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 9.0.a (SQL-89) Database Engine""" ;
-  rdfs:label """Progress OpenEdge 9.0.a (SQL-89) Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 9.0.a (SQL-89) Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.0.a"^^xsd:string .
 
 oplsof:Progress90b a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2360,7 +2433,8 @@ oplsof:Progress90b a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro90b#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 9.0.b (SQL-89) Database Engine""" ;
-  rdfs:label """Progress OpenEdge 9.0.b (SQL-89) Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 9.0.b (SQL-89) Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.0.b"^^xsd:string .
 
 oplsof:Progress91 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2368,7 +2442,8 @@ oplsof:Progress91 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pros91#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 9.1.x (SQL-92) Database Engine""" ;
-  rdfs:label """Progress OpenEdge 9.1.x (SQL-92) Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 9.1.x (SQL-92) Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.1"^^xsd:string .
 
 oplsof:Progress91a a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2376,7 +2451,8 @@ oplsof:Progress91a a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro91a#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 9.1.a (SQL-89) Database Engine""" ;
-  rdfs:label """Progress OpenEdge 9.1.a (SQL-89) Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 9.1.a (SQL-89) Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.1.a"^^xsd:string .
 
 oplsof:Progress91b a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2384,7 +2460,8 @@ oplsof:Progress91b a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro91b#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 9.1.b (SQL-89) Database Engine""" ;
-  rdfs:label """Progress OpenEdge 9.1.b (SQL-89) Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 9.1.b (SQL-89) Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.1.b"^^xsd:string .
 
 oplsof:Progress91c a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2392,7 +2469,8 @@ oplsof:Progress91c a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro91c#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 9.1.c (SQL-89) Database Engine""" ;
-  rdfs:label """Progress OpenEdge 9.1.c (SQL-89) Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 9.1.c (SQL-89) Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.1.c"^^xsd:string .
 
 oplsof:Progress91d a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2400,7 +2478,8 @@ oplsof:Progress91d a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro91d#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 9.1.d (SQL-89) Database Engine""" ;
-  rdfs:label """Progress OpenEdge 9.1.d (SQL-89) Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 9.1.d (SQL-89) Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.1.d"^^xsd:string .
 
 oplsof:Progress91e a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2408,7 +2487,8 @@ oplsof:Progress91e a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro91e#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 9.1.e (SQL-89) Database Engine""" ;
-  rdfs:label """Progress OpenEdge 9.1.e (SQL-89) Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 9.1.e (SQL-89) Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "9.1.e"^^xsd:string .
 
 oplsof:Progress10 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2416,7 +2496,8 @@ oplsof:Progress10 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro10#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 10.x Database Engine""" ;
-  rdfs:label """Progress OpenEdge 10.x Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 10.x Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10.x"^^xsd:string .
 
 oplsof:Progress10A a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2424,7 +2505,8 @@ oplsof:Progress10A a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pro10#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 10.x A Database Engine""" ;
-  rdfs:label """Progress OpenEdge 10.x A Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 10.x A Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "10.x A"^^xsd:string .
 
 oplsof:Progress11 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2432,7 +2514,8 @@ oplsof:Progress11 a oplsof:DbmsEngine ;
   owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pros11#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Progress OpenEdge 11 Database Engine""" ;
-  rdfs:label """Progress OpenEdge 11 Database Engine"""^^xsd:string .
+  rdfs:label """Progress OpenEdge 11 Database Engine"""^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "11"^^xsd:string .
 
 oplsof:odbc a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2440,7 +2523,8 @@ oplsof:odbc a oplsof:DbmsEngine ;
   oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """ODBC 3.5.x Drivers and Higher""" ;
-  rdfs:label "ODBC 3.5.x Drivers and Higher"^^xsd:string .
+  rdfs:label "ODBC 3.5.x Drivers and Higher"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "3.5.x"^^xsd:string .
 
 oplsof:jdbc a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
@@ -2448,7 +2532,8 @@ oplsof:jdbc a oplsof:DbmsEngine ;
   oplsof:hasDatabaseFamily oplsof:JDBCBridge ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """JDBC 4.x Drivers and Higher""" ;
-  rdfs:label "JDBC 4.x Drivers and Higher"^^xsd:string .
+  rdfs:label "JDBC 4.x Drivers and Higher"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "4.x"^^xsd:string .
 
 oplsof:DataAccessODBC a oplsof:DataAccessProtocol ;
   schema:name """ODBC Data Access Mechanism (Protocol)""" ;
