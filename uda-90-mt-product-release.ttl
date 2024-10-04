@@ -29,7 +29,7 @@ sourceDAV:
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
    schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-   schema:dateModified "2024-10-03T10:41:00-05:00"^^xsd:dateTime;
+   schema:dateModified "2024-10-04T09:41:00-05:00"^^xsd:dateTime;
    schema:name "UDA Multi-Tier 9.0 Releases Related Information Document " ;
    schema:comment   """This document is a launch point for discovering routes to various information sources associated with UDA Multi-Tier Releases.  """^^xsd:string ;
    owl:sameAs source: .
@@ -57,129 +57,127 @@ source: a schema:CreativeWork ;
    skos:related <http://virtuoso.openlinksw.com/data/turtle/virtuoso7/2014/Virtuoso7ProductsReleases.ttl> ,
                 <http://virtuoso.openlinksw.com/data/turtle/virtuoso6/2014/Virtuoso6ProductsReleases.ttl> ;
    schema:about 
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9ODBCBridge#this> , -->
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9SQLServer#this> , -->
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9PostgreSQL#this> , -->
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9Oracle#this> , -->
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9MySQL#this> , -->
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9Informix#this> , -->
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9ODBCBridge#this> ,
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9SQLServer#this> ,
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9PostgreSQL#this> ,
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9Oracle#this> ,
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9MySQL#this> ,
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9Informix#this> ,
 
    <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9ODBCBridge#this> ,
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9MySQL#this> , -->
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9MySQL#this> ,
    <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9JDBCBridge#this> ,
    <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9SQLServer#this> ,
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9PostgreSQL#this> , -->
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Oracle#this> , -->
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Informix#this> , -->
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9PostgreSQL#this> ,
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Oracle#this> ,
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Informix#this> ,
 
    <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9SQLServer#this> ,
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9PostgreSQL#this> , -->
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Oracle#this> , -->
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9MySQL#this> , -->
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9PostgreSQL#this> ,
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Oracle#this> ,
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9MySQL#this> ,
    <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9ODBCBridge#this> ,
    <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9JDBCBridge#this> ,
-   <!-- <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Informix#this> . -->
+   # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Informix#this> .
 
 
 ## UDA Multi-Tier Release 9.x ##
 
 ## JDBC ##
 
-<!--
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9MySQL#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
-    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/jdbcmysqlmt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "JDBC Release for MySQL "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
-    wdrs:describedby source: .
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9MySQL#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
+#     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/jdbcmysqlmt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "JDBC Release for MySQL "^^xsd:string ;
+#     skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
+#     wdrs:describedby source: .
 
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9ODBCBridge#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
-    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/jdbcodbcmt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "JDBC Release for ODBC 3.5.x Data Sources "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
-    wdrs:describedby source: .
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9ODBCBridge#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+#     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-odbc-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/jdbcodbcmt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "JDBC Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+#     skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
+#     wdrs:describedby source: .
 
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9Oracle#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
-    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/jdbcoraclemt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "JDBC Release for Oracle "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
-    wdrs:describedby source: .
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9Oracle#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
+#     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/jdbcoraclemt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "JDBC Release for Oracle "^^xsd:string ;
+#     skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
+#     wdrs:describedby source: .
 
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9PostgreSQL#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
-    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/tls-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/version-3-protocol-support#this> ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/jdbcpostgresmt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "JDBC Release for PostgreSQL "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
-    wdrs:describedby source: .
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9PostgreSQL#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
+#     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/tls-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/version-3-protocol-support#this> ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/jdbcpostgresmt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "JDBC Release for PostgreSQL "^^xsd:string ;
+#     skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
+#     wdrs:describedby source: .
 
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9SQLServer#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for SQLServer "^^xsd:string ;
-    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/azure-protocol-support#this> ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/jdbcsqlservermt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "JDBC Release for SQLServer "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for SQLServer "^^xsd:string ;
-    wdrs:describedby source: .
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9SQLServer#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for SQLServer "^^xsd:string ;
+#     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/azure-protocol-support#this> ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-sqlserver-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/jdbcsqlservermt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "JDBC Release for SQLServer "^^xsd:string ;
+#     skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for SQLServer "^^xsd:string ;
+#     wdrs:describedby source: .
 
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9Informix#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
-    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/azure-protocol-support#this> ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/jdbcinformixmt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "JDBC Release for Informix "^^xsd:string ;
-    skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
-    wdrs:describedby source: .
--->
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9Informix#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
+#     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/azure-protocol-support#this> ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/jdbcinformixmt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "JDBC Release for Informix "^^xsd:string ;
+#     skos:prefLabel "JDBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
+#     wdrs:describedby source: .
 
 ## ODBC ##
 
@@ -198,22 +196,20 @@ source: a schema:CreativeWork ;
     skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
-<!--
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9MySQL#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
-    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/odbcmysqlmt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC Release for MySQL "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
-    wdrs:describedby source: .
--->
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9MySQL#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
+#     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/odbcmysqlmt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "ODBC Release for MySQL "^^xsd:string ;
+#     skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
+#     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9ODBCBridge#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
@@ -230,39 +226,37 @@ source: a schema:CreativeWork ;
     skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for ODBC 3.5.x Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
-<!--
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Oracle#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
-    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/odbcoraclemt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC Release for Oracle "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
-    wdrs:describedby source: .
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Oracle#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
+#     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this> ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/odbcoraclemt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "ODBC Release for Oracle "^^xsd:string ;
+#     skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
+#     wdrs:describedby source: .
 
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9PostgreSQL#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
-    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/tls-support#this> ,
-                       <http://data.openlinksw.com/oplweb/product_feature/version-3-protocol-support#this> ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/odbcpostgresmt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC Release for PostgreSQL "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
-    wdrs:describedby source: .
--->
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9PostgreSQL#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
+#     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/tls-support#this> ,
+#                        <http://data.openlinksw.com/oplweb/product_feature/version-3-protocol-support#this> ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/odbcpostgresmt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "ODBC Release for PostgreSQL "^^xsd:string ;
+#     skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
+#     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9SQLServer#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
@@ -280,53 +274,49 @@ source: a schema:CreativeWork ;
     skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for SQLServer "^^xsd:string ;
     wdrs:describedby source: .
 
-<!--
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Informix#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
-    oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
-                       <http://data.openlinksw.com/oplweb/product_feature/azure-protocol-support#this> ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/odbcinformixmt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC Release for Informix "^^xsd:string ;
-    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
-    wdrs:describedby source: .
--->
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Informix#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
+#     oplfeat:hasFeature <http://data.openlinksw.com/oplweb/product_feature/utf-16-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/ucs-4-support#this>,
+#                        <http://data.openlinksw.com/oplweb/product_feature/azure-protocol-support#this> ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/odbcinformixmt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "ODBC Release for Informix "^^xsd:string ;
+#     skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
+#     wdrs:describedby source: .
 
 ## Data Access Protocol Bundles ##
 
-<!--
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Oracle#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ,
-                       <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/jdbcoraclemt.gif> , <http://uda.openlinksw.com/images/odbcoraclemt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for Oracle "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
-    wdrs:describedby source: .
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Oracle#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this> ,
+#                        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/jdbcoraclemt.gif> , <http://uda.openlinksw.com/images/odbcoraclemt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for Oracle "^^xsd:string ;
+#     skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for Oracle "^^xsd:string ;
+#     wdrs:describedby source: .
 
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9PostgreSQL#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
-    schema:image <http://uda.openlinksw.com/images/odbcpostgresmt.gif> , <http://uda.openlinksw.com/images/jdbcpostgresmt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for PostgreSQL "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
-    wdrs:describedby source: .
--->
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9PostgreSQL#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
+#     schema:image <http://uda.openlinksw.com/images/odbcpostgresmt.gif> , <http://uda.openlinksw.com/images/jdbcpostgresmt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for PostgreSQL "^^xsd:string ;
+#     skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for PostgreSQL "^^xsd:string ;
+#     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9SQLServer#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
@@ -356,21 +346,19 @@ source: a schema:CreativeWork ;
     skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for Sybase "^^xsd:string ;
     wdrs:describedby source: .
 
-<!--
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9MySQL#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this> ,
-                       <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/jdbcmysqlmt.gif> , <http://uda.openlinksw.com/images/odbcmysqlmt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for MySQL "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
-    wdrs:describedby source: .
--->
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9MySQL#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-mysql-mt#this> ,
+#                        <http://data.openlinksw.com/oplweb/product/jdbc-mysql-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/jdbcmysqlmt.gif> , <http://uda.openlinksw.com/images/odbcmysqlmt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for MySQL "^^xsd:string ;
+#     skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for MySQL "^^xsd:string ;
+#     wdrs:describedby source: .
 
 <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9ODBCBridge#this> a oplpro:ProductRelease  ,
         schema:CreativeWork ,
@@ -400,21 +388,19 @@ source: a schema:CreativeWork ;
     skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for JDBC 4.x Data Sources "^^xsd:string ;
     wdrs:describedby source: .
 
-<!--
-<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Informix#this> a oplpro:ProductRelease  ,
-        schema:CreativeWork ,
-        schema:SoftwareApplication ;
-    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
-    schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
-    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ,
-                       <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this> ;
-    schema:image <http://uda.openlinksw.com/images/jdbcinformixmt.gif> , <http://uda.openlinksw.com/images/odbcinformixmt.gif> ;
-    schema:version "9.0"^^xsd:decimal ;
-    oplpro:versionText "9.x"^^xsd:string ;
-    skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for Informix "^^xsd:string ;
-    skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
-    wdrs:describedby source: .
--->
+# <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Informix#this> a oplpro:ProductRelease  ,
+#         schema:CreativeWork ,
+#         schema:SoftwareApplication ;
+#     oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+#     schema:name "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
+#     oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-informix-mt#this> ,
+#                        <http://data.openlinksw.com/oplweb/product/jdbc-informix-mt#this> ;
+#     schema:image <http://uda.openlinksw.com/images/jdbcinformixmt.gif> , <http://uda.openlinksw.com/images/odbcinformixmt.gif> ;
+#     schema:version "9.0"^^xsd:decimal ;
+#     oplpro:versionText "9.x"^^xsd:string ;
+#     skos:altLabel "ODBC, JDBC Connectivity Mechanism (Protocol) Release for Informix "^^xsd:string ;
+#     skos:prefLabel "ODBC, JDBC Connectivity Mechanism (Protocol) (Multi-Tier Enterprise Edition) Version 9.0 Release for Informix "^^xsd:string ;
+#     wdrs:describedby source: .
 
 ## ## Features Descriptions ##
 
@@ -462,4 +448,3 @@ skos:prefLabel "Version 3.0 Wire Protocol Support" ;
 schema:description """Supports the latest 3.0 release of the PosgreSQL Wire Protocol.""";
 oplben:hasBenefit <http://data.openlinksw.com/oplweb/product_benefit/SophisticatedApplicationFunctionality#this> ;
 wdrs:describedby source: . 
-
