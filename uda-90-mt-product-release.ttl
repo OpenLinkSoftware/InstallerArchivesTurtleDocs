@@ -46,7 +46,7 @@ source: a schema:CreativeWork ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
    schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-   schema:dateModified "2024-10-03T09:41:00-05:00"^^xsd:dateTime;
+   schema:dateModified "2024-10-04T09:41:00-05:00"^^xsd:dateTime;
    sioc:has_container <.> ;
    sioc:sibling <UDAMTProducts.ttl> ,
                 <UDAMTOffersPrices.ttl> ,
@@ -77,7 +77,7 @@ source: a schema:CreativeWork ;
    # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Oracle#this> ,
    # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9MySQL#this> ,
    <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9ODBCBridge#this> ,
-   <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9JDBCBridge#this> ,
+   <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9JDBCBridge#this> .
    # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Informix#this> .
 
 
