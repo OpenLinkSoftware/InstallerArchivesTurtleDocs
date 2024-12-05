@@ -109,13 +109,13 @@ source: a schema:CreativeWork ;
 			:OdsProfileVAD,
 			:OplSkins,
 			:OplSkinsGitRepo,
-			:OpalMetalSkinVAD,
+			:OpalSkinVAD,
 			:Log4Virtuoso,
 			:Log4VirtuosoGitRepo,
 			:Log4VirtuosoVad,
 			:PA ,
 			:PAVad , ## @TallTed changed from :PersonalAssitantVad which also included a typo
-			:PAMetalVad ,
+			:PAVad ,
 			:PAGitRepo .
 
 sourceDAV:
@@ -135,7 +135,7 @@ sourceDAV:
 	schema:author <http://www.openlinksw.com/#this> ;
 	doap:maintainer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	doap:repository :PAGitRepo ;
-	oplvad:hasVadPackage :PAVad, PAMetalVad ;
+	oplvad:hasVadPackage :PAVad, PAVad ;
 	wdrs:describedby source: .
 
 :PAGitRepo a doap:GitRepository ;
@@ -152,12 +152,12 @@ sourceDAV:
 	oplvad:isVadPackageOf :PA ;
 	wdrs:describedby source: .
 
-:PAMetalVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+:PAVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
 	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/opal_assistant_skin_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
-	schema:name "Personal Assistant Metal VAD" ;
-	schema:comment "Personal Assistant Metal VAD" ;
-	oplvad:hasPackageName "personal_assistant_metal"^^xsd:string ;
+	schema:name "Personal Assistant  VAD" ;
+	schema:comment "Personal Assistant  VAD" ;
+	oplvad:hasPackageName "personal_assistant_"^^xsd:string ;
 	oplvad:hasFileName "opal_assistant_skin_dav.vad"^^xsd:string ;
 	oplvad:isVadPackageOf :PA ;
 	wdrs:describedby source: .
