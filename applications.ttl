@@ -109,7 +109,7 @@ source: a schema:CreativeWork ;
 			:OdsProfileVAD,
 			:OplSkins,
 			:OplSkinsGitRepo,
-			:OplSkinsVad,
+			:OpalMetalSkinVAD,
 			:Log4Virtuoso,
 			:Log4VirtuosoGitRepo,
 			:Log4VirtuosoVad,
@@ -1186,29 +1186,29 @@ sourceDAV:
 
 ### OPL-Skins
 
-:OplSkins a doap:Project, schema:SoftwareApplication ;
-	doap:name "OpenLink Skins" ;
-	doap:description """OpenLink Skins Repository.""" ;
+:OpalSkins a doap:Project, schema:SoftwareApplication ;
+	doap:name "Personal Assistant Interface Skins for the OpenLink AI Layer (OPAL)" ;
+	doap:description """Collections of interfaces (skins) for interacting with the OpenLink AI Layer (OPAL).""" ;
 	schema:author <http://www.openlinksw.com/#this> ;
-	doap:repository :OplSkinsGitRepo ;
-	oplvad:hasVadPackage :OplSkinsVad ;
+	doap:repository :OpalSkinsGitRepo ;
+	oplvad:hasVadPackage :OpalSkinsVAD ;
 	wdrs:describedby source: .
 
-:OplSkinsGitRepo a doap:GitRepository ;
-	schema:name "OpenLink Skins Git Repository" ;
+:OpalSkinsGitRepo a doap:GitRepository ;
+	schema:name "OpenLink AI Layer (OPAL) Skins Git Repository" ;
 	wdrs:describedby source: .
 
-:OplSkinsVad
+:OpalSkinsVAD
 	# schema:url <https://devhub.openlinksw.com/pub/OpenLink/VAD/opl-skins_dav.vad> ;
 	a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "OpenLink Skins VAD" ;
-	oplvad:hasPackageName "opl-skins"^^xsd:string ;
+	oplvad:hasPackageName "opal-skins"^^xsd:string ;
 	oplvad:hasFileName "opl-skins_dav.vad"^^xsd:string ;
 	oplvad:hasMandatoryDependency :InclusionEngineVad ;
 	oplvad:hasMandatoryDependency :OdsuiVad ;
 	oplvad:hasMandatoryDependency :OdsProfileVad ;
-	oplvad:isVadPackageOf :OplSkins ;
+	oplvad:isVadPackageOf :OpalSkins ;
 	wdrs:describedby source: .
 
 
