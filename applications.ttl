@@ -157,7 +157,7 @@ sourceDAV:
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
 	schema:name "Personal Assistant  VAD" ;
 	schema:comment "Personal Assistant  VAD" ;
-	oplvad:hasPackageName "personal_assistant_"^^xsd:string ;
+	oplvad:hasPackageName "personal_assistant"^^xsd:string ;
 	oplvad:hasFileName "opal_assistant_skin_dav.vad"^^xsd:string ;
 	oplvad:isVadPackageOf :PA ;
 	wdrs:describedby source: .
