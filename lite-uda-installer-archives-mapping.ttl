@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2024-04-29T13:52:00+01:00"^^xsd:dateTime ;
+   schema:dateModified "2025-01-27T13:52:00+01:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
@@ -38,7 +38,7 @@ source:
    schema:name "OpenLink UDA Lite Edition (Single-Tier) Installers Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Lite Edition (Single-Tier) Installers"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2023-08-16T09:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2025-01-27T09:46:00-00:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3ntl6nodbmsiWindows98XPVista7WKS2000810Server20xx32Bitx86#this> ,
@@ -9461,8 +9461,9 @@ source:
     dcterms:identifier "sql_lt.taz" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2023-06-23T10:50:19+05:00"^^xsd:dateTime ;
+    schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/sql_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2022 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz90GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -9481,6 +9482,8 @@ source:
         oplsof:SQLServer2014,
         oplsof:SQLServer2016,
         oplsof:SQLServer2017,
+        oplsof:SQLServer2019,
+        oplsof:SQLServer2022,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -9491,7 +9494,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2017" ;
+        "6.x - 2022" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
@@ -9501,7 +9504,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- sql_lt.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "6620536"^^xsd:integer ;
+    oplinst:hasMeasurementValue "11567564"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz90GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .
 
@@ -9516,6 +9519,7 @@ source:
     dcterms:identifier "jdbc_lt.taz" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2023-06-23T03:37:34-05:00"^^xsd:dateTime ;
+    schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/jdbc_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
@@ -9536,7 +9540,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- jdbc_lt.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "13529863"^^xsd:integer ;
+    oplinst:hasMeasurementValue "27780184"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3jdbclttaz90GenericLinuxGlibc21264Bitx8664#this> ;
     wdrs:describedby source: .
 
@@ -9695,9 +9699,9 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "m1l9mzzz.dmg" ;
     schema:dateCreated "2023-06-30T00:00:00-05:00"^^xsd:dateTime ;
-;    schema:dateModified "2023-06-30T20:46:00-00:00"^^xsd:dateTime ;
+    schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/universal-apple-macos11-64/m1l9mzzz.dmg> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2022 on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3m1l9mzzzdmg90macOS11UniversalFileSpecification> ;
@@ -9716,6 +9720,8 @@ source:
         oplsof:SQLServer2014,
         oplsof:SQLServer2016,
         oplsof:SQLServer2017,
+        oplsof:SQLServer2019,
+        oplsof:SQLServer2022,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -9726,7 +9732,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2017" ;
+        "6.x - 2022" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/universal-apple-macos11-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:MacOSX ;
     oplsof:hasOpsysVersion "11.x" ;
@@ -9736,7 +9742,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- m1l9mzzz.dmg on macOS 11.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "11711646"^^xsd:integer ;
+    oplinst:hasMeasurementValue "13229412"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3m1l9mzzzdmg90macOS11Universal#this> ;
     wdrs:describedby source: .
 
@@ -9750,7 +9756,7 @@ source:
     dcterms:format "application/x-apple-diskimage" ;
     dcterms:identifier "m1l9jzzz.dmg" ;
     schema:dateCreated "2023-06-30T00:00:00-05:00"^^xsd:dateTime ;
-;    schema:dateModified "2023-06-30T20:46:00-00:00"^^xsd:dateTime ;
+    schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/universal-apple-macos11-64/m1l9jzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on macOS 11.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
@@ -9771,7 +9777,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- m1l9jzzz.dmg on macOS 11.x (Universal) (with location Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "10378485"^^xsd:integer ;
+    oplinst:hasMeasurementValue "11828773"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3m1l9jzzzdmg90macOS11Universal#this> ;
     wdrs:describedby source: .
 
@@ -9861,9 +9867,10 @@ source:
     dcterms:format "application/x-msdownload" ;
     dcterms:identifier "wal9mzzz.msi" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
-    schema:dateCreated "2023-06-30T10:50:19+05:00"^^xsd:dateTime ;
+    schema:dateCreated "2024-06-30T10:50:19+05:00"^^xsd:dateTime ;
+    schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/wal9mzzz.msi> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2022 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3wal9mzzzmsi70Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -9882,6 +9889,8 @@ source:
         oplsof:SQLServer2014,
         oplsof:SQLServer2016,
         oplsof:SQLServer2017,
+        oplsof:SQLServer2019,
+        oplsof:SQLServer2022,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -9892,7 +9901,7 @@ source:
         "11.x",
         "12.x",
         "15.x",
-        "6.x - 2017" ;
+        "6.x - 2022" ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:Windows ;
     oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
@@ -9902,7 +9911,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- wal9mzzz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "8732672"^^xsd:integer ;
+    oplinst:hasMeasurementValue "8720384"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz90Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
     wdrs:describedby source: .
 
@@ -9917,7 +9926,7 @@ source:
     dcterms:identifier "wal9jzzz.msi" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2023-06-30T17:11:39+01:00"^^xsd:dateTime ;
-   ; schema:dateModified "2022-03-09T17:00:00+00:00"^^xsd:dateTime ;
+    schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/wal9jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
@@ -9938,7 +9947,7 @@ source:
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- wal9jzzz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTPS Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "5726208"^^xsd:integer ;
+    oplinst:hasMeasurementValue "5685248"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal9jzzzmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
     wdrs:describedby source: .
 

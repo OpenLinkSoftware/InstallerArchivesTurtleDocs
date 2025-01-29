@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2024-10-21T13:52:00+01:00"^^xsd:dateTime ;
+   schema:dateModified "2025-01-27T13:52:00+01:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -37,7 +37,7 @@ source: a schema:CreativeWork ;
    schema:name "OpenLink UDA Enterpise Edition Installer Archives Description Document"^^xsd:string ;
    schema:comment """This is a turtle document that uses Linked Data oriented content to describe OpenLink UDA Enterpise Edition Installer Archives"""@en ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2024-10-03T09:46:00-00:00"^^xsd:dateTime ;
+   schema:dateModified "2025-01-27T09:46:00-00:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:about
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3mxo3zzzzdmg70MacOSX107Universal#this> ,
@@ -12059,7 +12059,7 @@ source: a schema:CreativeWork ;
     dcterms:format "application/x-msdownload" ;
     dcterms:identifier "waadmzzz.msi" ;
     schema:dateCreated "2019-09-16T22:00:05.000Z"^^xsd:dateTime ;
-    schema:dateModified "2024-10-03T20:46:00-00:00"^^xsd:dateTime ;
+    schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/waadmzzz.msi> ;
     schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
@@ -12085,6 +12085,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2014 ,
         oplsof:SQLServer2016 ,
         oplsof:SQLServer2017 ,
+        oplsof:SQLServer2019 ,
+        oplsof:SQLServer2022 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -12105,7 +12107,7 @@ source: a schema:CreativeWork ;
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- waadmzzz.msi on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "3809280"^^xsd:integer ;
+    oplinst:hasMeasurementValue "3796992"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waadmzzzmsi90WindowsXPVista764Bitx8664#this> ;
     wdrs:describedby source: .
 
@@ -12117,7 +12119,7 @@ source: a schema:CreativeWork ;
     dcterms:format "application/x-msdownload" ;
     dcterms:identifier "waajzzzz.msi" ;
     schema:dateCreated "2019-09-16T16:50:07+02:00"^^xsd:dateTime ;
-    schema:dateModified "2024-10-03T20:46:00-00:00"^^xsd:dateTime ;
+    schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/waajzzzz.msi> ;
     schema:name "JDBC Data Sources Bridge Agent Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
@@ -12141,7 +12143,7 @@ source: a schema:CreativeWork ;
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- waajzzzz.msi on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "7200768"^^xsd:integer ;
+    oplinst:hasMeasurementValue "7163904"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waajzzzzmsi90WindowsXPVista764Bitx8664#this> ;
     wdrs:describedby source: .
 
@@ -12486,6 +12488,7 @@ source: a schema:CreativeWork ;
     dcterms:identifier "sql_mv.taz" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:dateCreated "2024-10-21T10:49:06+05:00"^^xsd:dateTime ;
+    schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/sql_mv.taz> ;
     schema:name "Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
@@ -12512,6 +12515,8 @@ source: a schema:CreativeWork ;
         oplsof:SQLServer2014,
         oplsof:SQLServer2016 ,
         oplsof:SQLServer2017 ,
+        oplsof:SQLServer2019 ,
+        oplsof:SQLServer2022 ,
         oplsof:Sybase10,
         oplsof:Sybase11,
         oplsof:Sybase12,
@@ -12532,7 +12537,7 @@ source: a schema:CreativeWork ;
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- sql_mv.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "2603471"^^xsd:integer ;
+    oplinst:hasMeasurementValue "2622799"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3sqlmvtaz90GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .
 
@@ -12580,7 +12585,8 @@ source: a schema:CreativeWork ;
     dcterms:format "application/x-gzip" ;
     dcterms:identifier "jdbc_sv.taz" ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
-    schema:dateCreated "2024-10-21T10:49:06+05:00"^^xsd:dateTime ;
+    schema:dateCreated "2025-10-21T10:49:06+05:00"^^xsd:dateTime ;
+    schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/jdbc_sv.taz> ;
     schema:name "JDBC Data Sources Bridge Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
@@ -12604,7 +12610,7 @@ source: a schema:CreativeWork ;
     a oplinst:FileSizeSpecification, schema:CreativeWork ;
     schema:name "File Size Details -- jdbc_sv.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
     oplinst:hasMeasurementUnit "Bytes" ;
-    oplinst:hasMeasurementValue "6606623"^^xsd:integer ;
+    oplinst:hasMeasurementValue "7516179"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3jdbcsvtaz90GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .    
 
