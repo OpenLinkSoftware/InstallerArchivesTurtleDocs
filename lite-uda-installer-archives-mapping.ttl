@@ -316,6 +316,7 @@ source:
     schema:dateCreated "2023-03-10T11:11:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.1/i686-generic-win-32/ntl6nodb.msi> ;
     schema:name "Lite Edition (Single-Tier) ADO.Net Driver Installer Archive for ODBC 3.5.x Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ADO.Net Driver Installer for ODBC 3.5.x Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6nodbmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -351,6 +352,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/sparc-sun-solaris2.8-32/inf9_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 9.x (2000) on Solaris 2.8 (32 Bit) (Sparc) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 9.x (2000)" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#http3sinf9_lttazSolaris2832BitSparcFileSpecification> ;
@@ -387,6 +389,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/sparc-sun-solaris2.8-32/jdbc_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Solaris 2.8 (32 Bit) (Sparc) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#http3sjdbc_lttazSolaris21032BitSparcFileSpecification> ;
@@ -425,6 +428,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/sparc-sun-solaris2.8-32/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Solaris 2.8 (32 Bit) (Sparc) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#http3smys5_lttazSolaris2832BitSparcFileSpecification> ;
@@ -460,7 +464,7 @@ source:
     schema:dateCreated "2012-07-11T19:08:40-05:00"^^xsd:dateTime ;
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/sparc-sun-solaris2.8-32/ora100_lt.taz> ;
-    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x on Solaris 2.8 (32 Bit) (Sparc) and Higher -- Amazon S3 HTTP Depot" ;
+    schema:name "Lite Edition ODBC Driver Installer for Oracle 10.x, 11.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#http3sora100_lttazSolaris2832BitSparcFileSpecification> ;
@@ -499,6 +503,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/sparc-sun-solaris2.8-32/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Solaris 2.8 (32 Bit) (Sparc) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#http3spgr7_lttazSolaris2832BitSparcFileSpecification> ;
@@ -537,6 +542,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/sparc-sun-solaris2.8-32/prs91_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 9.1 on Solaris 2.8 (32 Bit) (Sparc) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 9.1" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#http3sprs91_lttazSolaris21032BitSparcFileSpecification> ;
@@ -575,6 +581,7 @@ source:
     oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/sparc-sun-solaris2.8-32/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Solaris 2.8 (32 Bit) (Sparc) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#http3ssql_lttazSolaris2832BitSparcFileSpecification> ;
@@ -622,6 +629,7 @@ source:
     schema:dateCreated "2012-07-11T19:21:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/inf10_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 10.x, 11.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 10.x, 11.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3inf10_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -650,6 +658,7 @@ source:
     schema:dateCreated "2012-07-11T19:21:47-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/inf73_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 7.3 on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 7.3" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3inf73_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -676,6 +685,7 @@ source:
     schema:dateCreated "2012-07-11T19:21:55-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/inf9_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 9.x (2000) on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 9.x (2000)" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3inf9_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -702,6 +712,7 @@ source:
     schema:dateCreated "2012-07-11T19:22:18-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/ingii_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Ingres II on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Ingres II" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ingii_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -728,6 +739,7 @@ source:
     schema:dateCreated "2012-07-11T19:22:50-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/jdbc_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3jdbc_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -753,6 +765,7 @@ source:
     schema:dateCreated "2015-05-18T17:06:22-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6g7zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mvl6g7zzdmgMacOSX105UniversalFileSpecification> ;
@@ -789,6 +802,7 @@ source:
     schema:dateCreated "2015-05-18T17:06:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6jzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mvl6jzzzdmgMacOSX105UniversalFileSpecification> ;
@@ -823,6 +837,7 @@ source:
     schema:dateCreated "2015-05-18T17:05:26-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6mzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mvl6mzzzdmgMacOSX105UniversalFileSpecification> ;
@@ -867,6 +882,7 @@ source:
     schema:dateCreated "2015-05-18T17:03:37-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6y3zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mvl6y3zzdmgMacOSX105UniversalFileSpecification> ;
@@ -901,6 +917,7 @@ source:
     schema:dateCreated "2015-05-18T17:03:08-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6y4zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mvl6y4zzdmgMacOSX105UniversalFileSpecification> ;
@@ -935,6 +952,7 @@ source:
     schema:dateCreated "2015-05-18T17:02:14-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6y5zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mvl6y5zzdmgMacOSX105UniversalFileSpecification> ;
@@ -970,6 +988,7 @@ source:
     schema:dateCreated "2012-07-11T19:23:24-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/mys3_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mys3_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -996,6 +1015,7 @@ source:
     schema:dateCreated "2012-07-11T18:56:46-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/mys3_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mys3_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -1022,6 +1042,7 @@ source:
     schema:dateCreated "2012-07-11T18:46:01-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc25-64/mys3_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mys3_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -1048,6 +1069,7 @@ source:
     schema:dateCreated "2012-07-11T19:23:52-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/mys4_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mys4_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -1074,6 +1096,7 @@ source:
     schema:dateCreated "2012-07-11T18:57:37-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/mys4_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mys4_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -1100,6 +1123,7 @@ source:
     schema:dateCreated "2012-07-11T18:46:17-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc25-64/mys4_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mys4_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -1126,6 +1150,7 @@ source:
     schema:dateCreated "2012-07-11T19:24:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mys5_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -1152,6 +1177,7 @@ source:
     schema:dateCreated "2012-07-11T18:58:19-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mys5_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -1178,6 +1204,7 @@ source:
     schema:dateCreated "2013-01-17T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc25-64/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mys5_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -1203,6 +1230,7 @@ source:
     schema:dateCreated "2012-07-11T19:16:33-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntjczzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC 3.5.x Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC 3.5.x Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntjczzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1228,6 +1256,7 @@ source:
     schema:dateCreated "2012-07-11T19:16:38-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6c2zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Ingres II on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Ingres II" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6c2zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1253,6 +1282,7 @@ source:
     schema:dateCreated "2012-07-11T19:16:42-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6d2zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for DB2 6.x - 9.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for DB2 6.x - 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6d2zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1278,6 +1308,7 @@ source:
     schema:dateCreated "2012-07-11T19:17:51-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6g7zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6g7zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1305,6 +1336,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6i9zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 9.x (2000) on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 9.x (2000)" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6i9zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1330,6 +1362,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:03-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6jzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1355,6 +1388,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:07-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6mys3.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6mys3msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1380,6 +1414,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:11-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6mys4.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6mys4msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1405,6 +1440,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:15-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6mys5.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6mys5msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1430,6 +1466,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:22-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6mzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6mzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1465,6 +1502,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:34-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6o10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6o10zmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1490,6 +1528,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:47-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6o8iz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 8.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 8.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6o8izmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1515,6 +1554,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:54-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6o9zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 9.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6o9zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1540,6 +1580,7 @@ source:
     schema:dateCreated "2012-07-11T19:19:04-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6odbc.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for ODBC 3.5.x Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for ODBC 3.5.x Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6odbcmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1565,6 +1606,7 @@ source:
     schema:dateCreated "2012-07-11T19:19:11-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6ps10.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 10.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 10.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6ps10msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1591,6 +1633,7 @@ source:
     schema:dateCreated "2012-07-11T19:19:22-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6ps91.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 9.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6ps91msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -1629,6 +1672,7 @@ source:
     schema:dateCreated "2012-07-11T19:26:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/ora100_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12c, 19c, 21c on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10.x, 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ora100_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -1657,6 +1701,7 @@ source:
     schema:dateCreated "2012-07-11T19:00:25-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/ora100_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12c, 19c, 21c on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10.x, 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ora100_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -1685,6 +1730,7 @@ source:
     schema:dateCreated "2012-07-11T19:26:56-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/ora90_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 9.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ora90_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -1711,6 +1757,7 @@ source:
     schema:dateCreated "2012-07-11T19:27:17-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -1739,6 +1786,7 @@ source:
     schema:dateCreated "2012-07-11T19:00:32-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -1767,6 +1815,7 @@ source:
     schema:dateCreated "2013-01-17T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc25-64/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -1795,6 +1844,7 @@ source:
     schema:dateCreated "2012-07-11T19:27:58-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/prs100_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 10.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 10.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3prs100_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -1821,6 +1871,7 @@ source:
     schema:dateCreated "2012-07-11T19:00:57-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/prs100_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 10.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 10.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3prs100_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -1847,6 +1898,7 @@ source:
     schema:dateCreated "2012-07-11T19:28:06-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/prs91_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 9.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3prs91_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -1873,6 +1925,7 @@ source:
     schema:dateCreated "2012-07-11T19:28:14-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -1909,6 +1962,7 @@ source:
     schema:dateCreated "2012-07-11T19:01:28-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -1945,6 +1999,7 @@ source:
     schema:dateCreated "2013-01-17T17:16:04+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc25-64/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -1980,6 +2035,7 @@ source:
     schema:dateCreated "2012-07-11T18:39:34-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wajczzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wajczzzzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -2005,6 +2061,7 @@ source:
     schema:dateCreated "2012-07-11T18:40:58-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6g7zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6g7zzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -2032,6 +2089,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:06-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6jzzzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -2057,6 +2115,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:13-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6mys3.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6mys3msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -2082,6 +2141,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:22-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6mys4.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6mys4msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -2107,6 +2167,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:29-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6mys5.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6mys5msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -2132,6 +2193,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:35-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6mzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6mzzzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -2167,6 +2229,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:52-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6odbc.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6odbcmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -2192,6 +2255,7 @@ source:
     schema:dateCreated "2012-07-11T19:12:56-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wijczzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wijczzzzmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2217,6 +2281,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6g7zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wil6g7zzmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2244,6 +2309,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:08-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wil6jzzzmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2269,6 +2335,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:13-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6mys3.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wil6mys3msiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2294,6 +2361,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:21-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6mys4.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wil6mys4msiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2319,6 +2387,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:30-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6mys5.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wil6mys5msiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2344,6 +2413,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:40-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6mzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wil6mzzzmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2379,6 +2449,8 @@ source:
     schema:dateCreated "2012-07-11T19:13:50-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6o10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12c, 19c, 21c on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:label "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12c, 19c, 21c on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10.x, 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wil6o10zmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2406,6 +2478,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:55-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6o9zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 9.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wil6o9zzmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2431,6 +2504,7 @@ source:
     schema:dateCreated "2012-07-11T19:14:01-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6odbc.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wil6odbcmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -2457,6 +2531,7 @@ source:
     schema:dateCreated "2012-07-11T19:21:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/inf10_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 10.x, 11.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 10.x, 11.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3inf10_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -2485,6 +2560,7 @@ source:
     schema:dateCreated "2012-07-11T19:21:47-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/inf73_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 7.3 on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 7.3" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3inf73_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -2511,6 +2587,7 @@ source:
     schema:dateCreated "2012-07-11T19:21:55-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/inf9_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 9.x (2000) on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 9.x (2000)" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3inf9_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -2537,6 +2614,7 @@ source:
     schema:dateCreated "2012-07-11T19:22:18-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/ingii_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Ingres II on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Ingres II" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ingii_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -2563,6 +2641,7 @@ source:
     schema:dateCreated "2012-07-11T19:22:50-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/jdbc_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3jdbc_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -2588,6 +2667,7 @@ source:
     schema:dateCreated "2015-05-18T17:06:22-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6g7zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mvl6g7zzdmgMacOSX105UniversalFileSpecification> ;
@@ -2624,6 +2704,7 @@ source:
     schema:dateCreated "2015-05-18T17:06:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6jzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mvl6jzzzdmgMacOSX105UniversalFileSpecification> ;
@@ -2658,6 +2739,7 @@ source:
     schema:dateCreated "2015-05-18T17:05:26-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6mzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mvl6mzzzdmgMacOSX105UniversalFileSpecification> ;
@@ -2702,6 +2784,7 @@ source:
     schema:dateCreated "2015-05-18T17:03:37-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6y3zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mvl6y3zzdmgMacOSX105UniversalFileSpecification> ;
@@ -2736,6 +2819,7 @@ source:
     schema:dateCreated "2015-05-18T17:03:08-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6y4zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mvl6y4zzdmgMacOSX105UniversalFileSpecification> ;
@@ -2770,6 +2854,7 @@ source:
     schema:dateCreated "2015-05-18T17:02:14-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6y5zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mvl6y5zzdmgMacOSX105UniversalFileSpecification> ;
@@ -2805,6 +2890,7 @@ source:
     schema:dateCreated "2012-07-11T19:23:24-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/mys3_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys3_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -2831,6 +2917,7 @@ source:
     schema:dateCreated "2012-07-11T18:56:46-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/mys3_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys3_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -2857,6 +2944,7 @@ source:
     schema:dateCreated "2012-07-11T18:46:01-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc25-64/mys3_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys3_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -2883,6 +2971,7 @@ source:
     schema:dateCreated "2012-07-11T19:23:52-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/mys4_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys4_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -2909,6 +2998,7 @@ source:
     schema:dateCreated "2012-07-11T18:57:37-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/mys4_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys4_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -2935,6 +3025,7 @@ source:
     schema:dateCreated "2012-07-11T18:46:17-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc25-64/mys4_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys4_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -2961,6 +3052,7 @@ source:
     schema:dateCreated "2012-07-11T19:24:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -2987,6 +3079,7 @@ source:
     schema:dateCreated "2012-07-11T18:58:19-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -3013,6 +3106,7 @@ source:
     schema:dateCreated "2013-01-17T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc25-64/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -3038,6 +3132,7 @@ source:
     schema:dateCreated "2012-07-11T19:16:33-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntjczzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntjczzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3063,6 +3158,7 @@ source:
     schema:dateCreated "2012-07-11T19:16:38-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6c2zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Ingres II on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Ingres II" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6c2zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3088,6 +3184,7 @@ source:
     schema:dateCreated "2012-07-11T19:16:42-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6d2zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for DB2 6.x - 9.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for DB2 6.x - 9.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6d2zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3113,6 +3210,7 @@ source:
     schema:dateCreated "2012-07-11T19:17:51-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6g7zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6g7zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3140,6 +3238,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6i9zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 9.x (2000) on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 9.x (2000)" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6i9zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3165,6 +3264,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:03-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6jzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3190,6 +3290,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:07-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6mys3.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6mys3msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3215,6 +3316,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:11-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6mys4.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6mys4msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3240,6 +3342,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:15-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6mys5.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6mys5msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3265,6 +3368,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:22-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6mzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6mzzzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3300,6 +3404,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:34-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6o10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6o10zmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3325,6 +3430,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:47-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6o8iz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 8.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 8.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6o8izmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3350,6 +3456,7 @@ source:
     schema:dateCreated "2012-07-11T19:18:54-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6o9zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 9.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 9.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6o9zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3375,6 +3482,7 @@ source:
     schema:dateCreated "2012-07-11T19:19:04-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6odbc.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for ODBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for ODBC 3.5.x Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6odbcmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3400,6 +3508,7 @@ source:
     schema:dateCreated "2012-07-11T19:19:11-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6ps10.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 10.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 10.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6ps10msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3426,6 +3535,7 @@ source:
     schema:dateCreated "2012-07-11T19:19:22-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6ps91.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 9.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 9.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6ps91msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -3464,6 +3574,7 @@ source:
     schema:dateCreated "2012-07-11T19:26:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/ora100_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12c, 19c, 21c on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10.x, 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ora100_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -3492,6 +3603,7 @@ source:
     schema:dateCreated "2012-07-11T19:00:25-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/ora100_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12c, 19c, 21c on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10.x, 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ora100_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -3520,6 +3632,7 @@ source:
     schema:dateCreated "2012-07-11T19:26:56-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/ora90_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 9.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 9.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ora90_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -3546,6 +3659,7 @@ source:
     schema:dateCreated "2012-07-11T19:27:17-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3pgr7_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -3574,6 +3688,7 @@ source:
     schema:dateCreated "2012-07-11T19:00:32-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3pgr7_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -3602,6 +3717,7 @@ source:
     schema:dateCreated "2013-01-17T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc25-64/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3pgr7_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -3630,6 +3746,7 @@ source:
     schema:dateCreated "2012-07-11T19:27:58-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/prs100_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 10.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 10.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3prs100_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -3656,6 +3773,7 @@ source:
     schema:dateCreated "2012-07-11T19:00:57-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/prs100_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 10.x on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 10.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3prs100_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -3682,6 +3800,7 @@ source:
     schema:dateCreated "2012-07-11T19:28:06-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/prs91_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 9.1 on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 9.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3prs91_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -3708,6 +3827,7 @@ source:
     schema:dateCreated "2012-07-11T19:28:14-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-linux-glibc23-32/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3sql_lttazGenericLinuxGlibc2332Bitx86FileSpecification> ;
@@ -3744,6 +3864,7 @@ source:
     schema:dateCreated "2012-07-11T19:01:28-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc23-64/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Generic Linux Glibc 2.3 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3sql_lttazGenericLinuxGlibc2364Bitx8664FileSpecification> ;
@@ -3780,6 +3901,7 @@ source:
     schema:dateCreated "2013-01-17T17:16:04+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-linux-glibc25-64/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase SQL Server 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3sql_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -3815,6 +3937,7 @@ source:
     schema:dateCreated "2012-07-11T18:39:34-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wajczzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wajczzzzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -3840,6 +3963,7 @@ source:
     schema:dateCreated "2012-07-11T18:40:58-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6g7zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal6g7zzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -3867,6 +3991,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:06-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal6jzzzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -3892,6 +4017,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:13-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6mys3.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal6mys3msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -3917,6 +4043,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:22-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6mys4.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal6mys4msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -3942,6 +4069,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:29-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6mys5.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal6mys5msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -3967,6 +4095,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:35-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6mzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal6mzzzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -4002,6 +4131,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:52-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6odbc.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for ODBC 3.5.x Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal6odbcmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -4027,6 +4157,7 @@ source:
     schema:dateCreated "2012-07-11T19:12:56-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wijczzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wijczzzzmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -4052,6 +4183,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6g7zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wil6g7zzmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -4079,6 +4211,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:08-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wil6jzzzmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -4104,6 +4237,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:13-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6mys3.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wil6mys3msiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -4129,6 +4263,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:21-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6mys4.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wil6mys4msiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -4154,6 +4289,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:30-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6mys5.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wil6mys5msiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -4179,6 +4315,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:40-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6mzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2008 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wil6mzzzmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -4214,6 +4351,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:50-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6o10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x, 11.x, 12c, 19c, 21c on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10.x, 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wil6o10zmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -4241,6 +4379,7 @@ source:
     schema:dateCreated "2012-07-11T19:13:55-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6o9zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 9.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 9.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wil6o9zzmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -4266,6 +4405,7 @@ source:
     schema:dateCreated "2012-07-11T19:14:01-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/ia64-intel-win-64/wil6odbc.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (Itanium) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for ODBC 3.5.x Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wil6odbcmsiWindowsXPVista764BitItaniumFileSpecification> ;
@@ -5353,6 +5493,7 @@ source:
     schema:dateModified "2019-04-14T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7g7zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7g7zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5391,6 +5532,7 @@ source:
     schema:dateCreated "2015-11-20T03:00:05+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7i9zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 9.x (2000) on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 9.x (2000)" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7i9zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5424,6 +5566,7 @@ source:
     schema:dateCreated "2015-11-20T03:00:05+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7mys5.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7mys5msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5457,6 +5600,7 @@ source:
     schema:dateCreated "2015-11-20T03:00:05+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7ps10.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 10.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 10.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7ps10msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5490,6 +5634,7 @@ source:
     schema:dateCreated "2015-11-20T03:00:07+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7ps11.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 11.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 11" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7ps11msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5523,6 +5668,7 @@ source:
     schema:dateCreated "2015-11-20T03:00:07+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7ps91.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 9.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7ps91msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5568,6 +5714,7 @@ source:
     schema:dateCreated "2015-11-20T03:00:05+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7i11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 11 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 11" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7i11zmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5601,6 +5748,7 @@ source:
     schema:dateCreated "2015-11-20T03:11:07+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7ps11.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 11 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 11" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7ps11msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -5634,6 +5782,7 @@ source:
     schema:dateCreated "2015-11-20T03:11:08+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7i11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 11 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 11" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7i11zmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -5668,6 +5817,7 @@ source:
     schema:dateModified "2019-04-14T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7g7zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7g7zzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -5698,6 +5848,7 @@ source:
     schema:dateCreated "2015-11-20T03:11:08+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7mys4.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7mys4msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -5723,6 +5874,7 @@ source:
     schema:dateCreated "2015-11-20T03:11:07+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7mys5.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7mys5msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -5773,6 +5925,7 @@ source:
     schema:dateCreated "2015-07-29T03:37:34-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/jdbc_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3jdbc_lttaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -5807,6 +5960,7 @@ source:
     schema:dateCreated "2015-07-29T03:35:23-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/jdbc_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3jdbc_lttaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
@@ -5841,6 +5995,7 @@ source:
     schema:dateCreated "2015-11-27T17:25:21+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntjczzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntjczzzzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5875,6 +6030,7 @@ source:
     schema:dateCreated "2015-06-21T17:50:12-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7jzzzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5909,6 +6065,7 @@ source:
     schema:dateCreated "2015-06-21T17:50:12-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7mys3.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7mys3msi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5942,6 +6099,7 @@ source:
     schema:dateCreated "2015-06-21T17:50:12-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7mys4.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7mys4msi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -5975,6 +6133,7 @@ source:
     schema:dateCreated "2017-12-08T14:39:00+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7mzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7mzzzmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -6029,6 +6188,7 @@ source:
     schema:dateCreated "2015-11-27T17:28:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wajczzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wajczzzzmsi70WindowsXPVista764Bitx8664FileSpecification> ;
@@ -6063,6 +6223,7 @@ source:
     schema:dateCreated "2017-12-08T14:39:03+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7mzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7mzzzmsi70WindowsXPVista764Bitx8664FileSpecification> ;
@@ -6116,6 +6277,7 @@ source:
     schema:dateCreated "2015-06-21T16:50:10-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7odbc.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for ODBC 3.5.x Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7odbcmsi70WindowsXPVista764Bitx8664FileSpecification> ;
@@ -6151,6 +6313,7 @@ source:
     schema:dateCreated "2017-12-07T10:46:27+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -6205,6 +6368,7 @@ source:
     schema:dateCreated "2017-12-07T10:51:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
@@ -6258,6 +6422,7 @@ source:
     schema:dateCreated "2016-07-27T05:04:10-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7o12z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12c, 19c, 21c on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7o12zmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -6291,6 +6456,7 @@ source:
     schema:dateCreated "2016-07-27T05:04:09-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7o11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7o11zmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -6324,6 +6490,7 @@ source:
     schema:dateCreated "2016-07-27T05:04:09-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7o10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7o10zmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -6357,6 +6524,7 @@ source:
     schema:dateCreated "2015-06-21T17:50:13-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7odbc.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for ODBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for ODBC 3.5.x Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7odbcmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -6390,6 +6558,7 @@ source:
     schema:dateCreated "2016-07-28T01:22:48-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-win-32/ntl7c10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Ingres 10 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Ingres 10" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl7c10zmsi70Windows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -6423,6 +6592,7 @@ source:
     schema:dateCreated "2016-07-27T05:00:53-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7o12z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12c, 19c, 21c on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- OpenLink Download Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7o12zmsi70WindowsXPVista764Bitx8664FileSpecification> ;
@@ -6456,6 +6626,7 @@ source:
     schema:dateCreated "2016-07-27T05:00:53-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7o11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- OpenLink Download Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7o11zmsi70WindowsXPVista764Bitx8664FileSpecification> ;
@@ -6489,6 +6660,7 @@ source:
     schema:dateCreated "2016-07-27T05:00:53-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7o10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- OpenLink Download Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7o10zmsi70WindowsXPVista764Bitx8664FileSpecification> ;
@@ -6523,6 +6695,7 @@ source:
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7mzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7mzzzdmg70MacOSX107UniversalFileSpecification> ;
@@ -6580,6 +6753,7 @@ source:
     schema:dateCreated "2015-07-29T03:38:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/ora120_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12c, 19c, 21c on Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ora120_lttazGenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -6614,6 +6788,7 @@ source:
     schema:dateCreated "2015-07-29T03:36:09-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/ora120_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12c, 19c, 21c on Generic Linux Glibc 2.17 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3ora120_lttazGenericLinuxGlibc21764Bitx8664FileSpecification> ;
@@ -6648,6 +6823,7 @@ source:
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7y3zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 3.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 3.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7y3zzdmg70MacOSX107UniversalFileSpecification> ;
@@ -6684,6 +6860,7 @@ source:
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7y4zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 4.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 4.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7y4zzdmg70MacOSX107UniversalFileSpecification> ;
@@ -6720,6 +6897,7 @@ source:
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7y5zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7y5zzdmg70MacOSX107UniversalFileSpecification> ;
@@ -6756,6 +6934,7 @@ source:
     schema:dateModified "2019-09-10T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7g7zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7g7zzdmg70MacOSX107UniversalFileSpecification> ;
@@ -6796,6 +6975,7 @@ source:
     schema:dateCreated "2015-05-18T17:05:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6o10i.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 10g on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 10g" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mvl6o10idmgMacOSX105UniversalFileSpecification> ;
@@ -6837,6 +7017,7 @@ source:
     schema:dateCreated "2015-05-18T17:04:13-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/universal-apple-macosx10.5-32/mvl6vzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Virtuoso on Mac OS X 10.5.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Virtuoso" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3mvl6vzzzdmgMacOSX105UniversalFileSpecification> ;
@@ -6980,6 +7161,7 @@ source:
     schema:dateCreated "2016-05-27T20:58:28-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6o11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6o11zmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -7015,6 +7197,7 @@ source:
     schema:dateCreated "2016-05-27T20:57:28-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6c10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Ingres 10 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Ingres 10" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6c10zmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -7048,6 +7231,7 @@ source:
     schema:dateCreated "2016-05-27T21:01:22-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6c10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Ingres 10 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Ingres 10" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6c10zmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7081,6 +7265,7 @@ source:
     schema:dateCreated "2016-05-27T21:01:22-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6c10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Ingres 10 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Ingres 10" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6c10zmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7116,6 +7301,7 @@ source:
     schema:dateCreated "2016-05-27T20:58:07-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6i11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 11 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 11" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6i11zmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -7149,6 +7335,7 @@ source:
     schema:dateCreated "2016-05-27T18:36:58-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Version 7.x Installer Archive for JDBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Version 7.x Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7jzzzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -7182,6 +7369,7 @@ source:
     schema:dateCreated "2016-05-27T18:36:58-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Version 7.x Installer Archive for JDBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Version 7.x Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal7jzzzmsiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -7215,6 +7403,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:13-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6ps11.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 11 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 11" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3wal6ps11msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -7248,6 +7437,7 @@ source:
     schema:dateCreated "2012-07-11T18:41:13-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/x86_64-generic-win-64/wal6ps11.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 11 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 11" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal6ps11msiWindowsXPVista764Bitx8664FileSpecification> ;
@@ -7282,6 +7472,7 @@ source:
     schema:dateCreated "2016-05-27T21:02:46-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6ps11.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 11 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 11" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6ps11msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7315,6 +7506,7 @@ source:
     schema:dateCreated "2016-05-27T21:02:46-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6ps11.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Progress 11 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Progress 11" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6ps11msiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7349,6 +7541,7 @@ source:
     schema:dateCreated "2016-05-27T21:02:39-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6o11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x, 12c, 19c, 21c on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6o11zmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7382,6 +7575,7 @@ source:
     schema:dateCreated "2016-05-27T21:02:39-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6o11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x, 12c, 19c, 21c on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6o11zmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7415,6 +7609,7 @@ source:
     schema:dateCreated "2016-06-07T00:00:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6i10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 10.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 10.x, 11.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6i10zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7448,6 +7643,7 @@ source:
     schema:dateCreated "2016-06-07T00:00:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6i10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 10.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 10.x, 11.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6i10zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7482,6 +7678,7 @@ source:
     schema:dateCreated "2016-06-07T00:00:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6i11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 11.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 11.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#https3ntl6i11zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7515,6 +7712,7 @@ source:
     schema:dateCreated "2016-06-07T00:00:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/6.3/i686-generic-win-32/ntl6i11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix 11.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (32 Bit) (x86) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix 11.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L6#this> ;
     oplinst:hasFileSizeSpecification <#httpss3ntl6i11zzmsiWindows98XPVista7WKS2000810Server20xx32Bitx86FileSpecification> ;
@@ -7550,6 +7748,7 @@ source:
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7vzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Virtuoso on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Virtuoso" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7E#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7vzzzdmg70MacOSX107UniversalFileSpecification> ;
@@ -7586,6 +7785,7 @@ source:
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7o11z.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 11.x on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 11.x, 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7o11zdmg70MacOSX107UniversalFileSpecification> ;
@@ -7623,6 +7823,7 @@ source:
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7o12z.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12c, 19c, 21c on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7o12zdmg70MacOSX107UniversalFileSpecification> ;
@@ -7658,6 +7859,7 @@ source:
     schema:dateCreated "2016-07-28T01:21:36-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7c10z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Ingres 10 on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Ingres 10" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7c10zmsi70WindowsXPVista764Bitx8664FileSpecification> ;
@@ -7691,6 +7893,7 @@ source:
     schema:dateCreated "2016-07-28T01:21:36-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-win-64/wal7d2zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for DB2 6.x - 9.x on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- OpenLink Download Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for DB2 6.x - 9.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3wal7d2zzmsi70WindowsXPVista764Bitx8664FileSpecification> ;
@@ -7725,6 +7928,7 @@ source:
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxl7jzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl7jzzzdmg70MacOSX107UniversalFileSpecification> ;
@@ -7761,6 +7965,7 @@ source:
     schema:dateModified "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/universal-apple-macosx10.7-32/mxjczzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Mac OS X 10.7.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/JC#this> ;
     oplinst:hasFileSizeSpecification <#https3mxjczzzzdmg70MacOSX107x64Bitx8664FileSpecification> ;
@@ -7800,6 +8005,7 @@ source:
     schema:dateCreated "2017-12-07T10:50:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc25-64/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -7854,6 +8060,7 @@ source:
     schema:dateCreated "2017-12-07T10:54:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i386-generic-linux-glibc25-32/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.5 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc2532Bitx86FileSpecification> ;
@@ -7908,6 +8115,7 @@ source:
     schema:dateCreated "2017-12-07T10:53:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i386-generic-linux-glibc212-32/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
@@ -7964,6 +8172,7 @@ source:
     schema:dateCreated "2017-12-07T10:53:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i386-generic-linux-glibc212-32/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
@@ -8022,6 +8231,7 @@ source:
     schema:dateModified "2019-04-14T00:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc25-64/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -8062,6 +8272,7 @@ source:
     schema:dateCreated "2018-06-01T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -8102,6 +8313,7 @@ source:
     schema:dateCreated "2018-06-01T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
@@ -8143,6 +8355,7 @@ source:
     schema:dateModified "2019-04-14T10:22:00-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-linux-glibc25-32/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x and 12.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc2532Bitx86FileSpecification> ;
@@ -8182,6 +8395,7 @@ source:
     schema:dateCreated "2018-06-01T19:27:17-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-linux-glibc212-32/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x on Generic Linux Glibc 2.3 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
@@ -8222,6 +8436,7 @@ source:
     schema:dateCreated "2018-06-01T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc25-64/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -8257,6 +8472,7 @@ source:
     schema:dateCreated "2018-06-01T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc212-64/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttaz70GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -8292,6 +8508,7 @@ source:
     schema:dateCreated "2018-06-01T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/x86_64-generic-linux-glibc217-64/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttaz70GenericLinuxGlibc21764Bitx8664FileSpecification> ;
@@ -8327,6 +8544,7 @@ source:
     schema:dateCreated "2018-06-01T19:24:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-linux-glibc25-32/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.5 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3mys5_lttaz70GenericLinuxGlibc2532Bitx86FileSpecification> ;
@@ -8362,6 +8580,7 @@ source:
     schema:dateCreated "2018-06-01T19:24:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/7.0/i686-generic-linux-glibc212-32/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.12 (32 Bit) (x86) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L7#this> ;
     oplinst:hasFileSizeSpecification <#https3mys5_lttaz70GenericLinuxGlibc21232Bitx86FileSpecification> ;
@@ -8400,6 +8619,7 @@ source:
     schema:dateCreated "2019-08-18T10:50:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -8454,6 +8674,7 @@ source:
     schema:dateCreated "2019-08-18T03:38:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/ora120_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12c, 19c, 21c on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3ora120_lttazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -8489,6 +8710,7 @@ source:
     schema:dateModified "2021-01-20T22:14:24-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz70GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -8528,6 +8750,7 @@ source:
     schema:dateCreated "2019-08-18T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -8562,6 +8785,7 @@ source:
     schema:dateCreated "2019-08-18T03:37:34-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/jdbc_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3jdbc_lttaz80GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -8596,6 +8820,7 @@ source:
     schema:dateCreated "2021-03-31T12:14:24-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/opljdbc.taz> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/JC#this> ;
     oplinst:hasFileSizeSpecification <#https3opljdbctaz80GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -8630,6 +8855,7 @@ source:
     schema:dateCreated "2021-02-21T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-linux-glibc25-64/inf11_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#httpss3inf11_lttaz80GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -8668,6 +8894,7 @@ source:
     schema:dateCreated "2019-08-26T10:50:19+05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8mzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3wal8mzzzmsi70Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -8722,6 +8949,7 @@ source:
     schema:dateCreated "2019-08-26T03:38:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8o12z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12c, 19c, 21c on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3wal8o12zmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -8756,6 +8984,7 @@ source:
     schema:dateCreated "2019-08-26T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8g7zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3wal8g7zzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -8795,6 +9024,7 @@ source:
     schema:dateCreated "2019-08-26T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8mys5.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal8mys5msi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -8830,6 +9060,7 @@ source:
     schema:dateModified "2022-03-09T17:00:00+00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal8jzzzmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -8865,6 +9096,7 @@ source:
     schema:dateCreated "2019-08-26T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8odbc.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for ODBC 3.5.x Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal8odbcmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -8899,6 +9131,7 @@ source:
     schema:dateCreated "2020-05-14T17:28:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wajczzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3wajczzzzmsi80WindowsXPVista764Bitx8664FileSpecification> ;
@@ -8934,6 +9167,7 @@ source:
     schema:dateCreated "2021-02-21T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/x86_64-generic-win-64/wal8i11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3wal8i11zmsi80Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -8973,6 +9207,7 @@ source:
     schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8mzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl8mzzzdmg80MacOSX107UniversalFileSpecification> ;
@@ -9030,6 +9265,7 @@ source:
     schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8o12z.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12c, 19c, 21c on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl8o12zdmg80MacOSX107UniversalFileSpecification> ;
@@ -9066,6 +9302,7 @@ source:
     schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8y5zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl8y5zzdmg80MacOSX107UniversalFileSpecification> ;
@@ -9103,6 +9340,7 @@ source:
     schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8g7zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl8g7zzdmg80MacOSX107UniversalFileSpecification> ;
@@ -9145,6 +9383,7 @@ source:
     schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ; 
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxl8jzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3mxl8jzzzdmg80MacOSX107UniversalFileSpecification> ;
@@ -9181,6 +9420,7 @@ source:
     schema:dateModified "2021-07-05T11:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macosx10.7-32/mxjczzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/JC#this> ;
     oplinst:hasFileSizeSpecification <#https3mxjczzzzdmg80MacOSX107x64Bitx8664FileSpecification> ;
@@ -9223,6 +9463,7 @@ source:
 ;    schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macos11-64/m1l8mzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017 on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2017" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3m1l8mzzzdmg80macOS11UniversalFileSpecification> ;
@@ -9278,6 +9519,7 @@ source:
 ;    schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macos11-64/m1l8y5zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on macOS 11.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3m1l8mzzzdmg80macOS11UniversalFileSpecification> ;
@@ -9313,6 +9555,7 @@ source:
 ;    schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macos11-64/m1l8y5zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on macOS 11.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3m1l8y5zzdmg80macOS11UniversalFileSpecification> ;
@@ -9348,6 +9591,7 @@ source:
 ;    schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macos11-64/m1l8g7zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x on macOS 11.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3m1l8g7zzdmg80macOS11UniversalFileSpecification> ;
@@ -9388,6 +9632,7 @@ source:
 ;    schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macos11-64/m1l8jzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on macOS 11.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L8#this> ;
     oplinst:hasFileSizeSpecification <#https3m1l8jzzzdmg80macOS11UniversalFileSpecification> ;
@@ -9423,6 +9668,7 @@ source:
 ;    schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/8.0/universal-apple-macos11-64/m1jczzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) JDBC Driver Installer Archive for ODBC Data Sources on macOS 11.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition JDBC Driver Installer for ODBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/JC#this> ;
     oplinst:hasFileSizeSpecification <#https3m1jczzzzdmg80macOS11UniversalFileSpecification> ;
@@ -9464,6 +9710,7 @@ source:
     schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/sql_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2022 on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2022" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3sql_lttaz90GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -9522,6 +9769,7 @@ source:
     schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/jdbc_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3jdbc_lttaz90GenericLinuxGlibc21264Bitx8664FileSpecification> ;
@@ -9556,6 +9804,7 @@ source:
     schema:dateCreated "2023-07-14T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/inf11_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#httpss3inf11_lttaz90GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -9591,6 +9840,7 @@ source:
     schema:dateCreated "2023-08-16T03:38:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/ora120_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12c, 19c, 21c on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3ora120_lttaz90GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -9626,6 +9876,7 @@ source:
     ; schema:dateModified "2021-01-20T22:14:24-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/pgr7_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3pgr7_lttaz90GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -9665,6 +9916,7 @@ source:
     schema:dateCreated "2023-08-16T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/mys5_lt.taz> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#httpss3mys5_lttaz90GenericLinuxGlibc2564Bitx8664FileSpecification> ;
@@ -9702,6 +9954,7 @@ source:
     schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/universal-apple-macos11-64/m1l9mzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2022 on Mac OS X 10.9.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2022" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3m1l9mzzzdmg90macOS11UniversalFileSpecification> ;
@@ -9759,6 +10012,7 @@ source:
     schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/universal-apple-macos11-64/m1l9jzzz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on macOS 11.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3m1l9jzzzdmg90macOS11UniversalFileSpecification> ;
@@ -9794,6 +10048,7 @@ source:
 ;    schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/universal-apple-macos11-64/m1l9y5zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on macOS 11.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3m1l8y5zzdmg80macOS11UniversalFileSpecification> ;
@@ -9829,6 +10084,7 @@ source:
 ;    schema:dateModified "2021-07-05T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/universal-apple-macos11-64/m1l9g7zz.dmg> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x on macOS 11.x (Universal) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3m1l9g7zzdmg90macOS11UniversalFileSpecification> ;
@@ -9871,6 +10127,7 @@ source:
     schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/wal9mzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2022 on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x and Microsoft SQL Server 6.x - 2022" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3wal9mzzzmsi70Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -9929,6 +10186,7 @@ source:
     schema:dateModified "2025-01-27T20:46:00-00:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/wal9jzzz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for JDBC Data Sources on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for JDBC Data Sources" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3wal9jzzzmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -9964,6 +10222,7 @@ source:
     schema:dateCreated "2023-07-14T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/wal9i11z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Informix on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Informix" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3wal9i11zmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -9999,6 +10258,7 @@ source:
     schema:dateCreated "2023-08-16T03:38:16-05:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/wal9o12z.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Oracle 12c, 19c, 21c on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Oracle 12c, 19c, 21c" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3wal8o12zmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -10033,6 +10293,7 @@ source:
     schema:dateCreated "2023-08-16T17:14:47+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/wal9g7zz.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for PostgreSQL 7.x, 8.x, 9.x, 10.x, 11.x, and 12.x" ;
     opldep:hasDepot <https://download3.openlinksw.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#https3wal9g7zzmsi90Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
@@ -10072,6 +10333,7 @@ source:
     schema:dateCreated "2023-08-16T17:11:39+01:00"^^xsd:dateTime ;
     schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/wal9mys5.msi> ;
     schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for MySQL 5.x on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTPS Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for MySQL 5.x" ;
     opldep:hasDepot <https://s3.amazonaws.com/#this> ;
     oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L9#this> ;
     oplinst:hasFileSizeSpecification <#httpss3wal9mys5msi90Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;

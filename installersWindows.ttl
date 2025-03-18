@@ -98,6 +98,7 @@ source: a schema:CreativeWork ;
   wdrs:describedby source: ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this> ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer Archive for Windows"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer"@en ;
   schema:description """This installer archives includes components that enable connectivity to Virtuoso 
                         Server instances using data access protocols such as: ODBC, JDBC, ADO.NET, and OLE-DB.
                      """@en ;
@@ -139,6 +140,7 @@ source: a schema:CreativeWork ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit & Server Bundle Installer Archive for Windows (64-bit)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit & Server Bundle Installer" ;
   oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
   schema:description """This installer archives includes Virtuoso's Client & Server components. The Client Components
                         enable connectivity to Virtuoso Server instances using data access protocols such as: ODBC, 
@@ -187,6 +189,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 #oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
 wdrs:describedby source: ;
 schema:name "Virtuoso 7.2 Enterprise Edition Server Executable (Binary) for Windows (64-bit)"@en ;
+skos:altLabel "Virtuoso 7.2 Enterprise Edition Server Executable" ;
 schema:description """Zip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -229,6 +232,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
   #oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Open Source Edition (VOS) Installer Archive for Windows (64-bit)"@en ;
+  skos:altLabel "Virtuoso 7.2 Open Source Edition (VOS) Installer"@en ;
   schema:description """Installer program that installs the binary file that delivers 
                         multi-model RDBMS application functionality. Its behavior is informed 
                         by settings in an associated initialization (INI) file.
@@ -272,6 +276,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
   #oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Open Source Edition (VOS) Server Binary for Windows (64-bit)"@en ;
+  skos:altLabel "Virtuoso 7.2 Open Source Edition (VOS) Server"@en ;
   schema:description """Executable program file that delivers multi-model RDBMS application functionality. 
                         Its behavior is informed by settings in an associated initialization (INI) file.
                      """@en ;
@@ -316,6 +321,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.1 Client Connectivity Kit Installer Archive for Windows"@en ;
+  skos:altLabel "Virtuoso 8.1 Client Connectivity Kit Installer" ;
   schema:description """This installer archives includes components that enable connectivity to
                         Virtuoso Server instances using data access protocols such as: ODBC, JDBC, 
                         ADO.NET, and OLE-DB.
@@ -357,6 +363,7 @@ oplinst:hasMeasurementValue "7234174"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.1 Enterprise Edition Client Connectivity Kit and Server Bundle Installer  Archive for Windows (64-bit)"@en ;
+  skos:altlabel "Virtuoso 8.1 Enterprise Edition Client Connectivity Kit and Server Bundle Installer" ;
   oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeWindowsList#this> ;
   schema:description """This installer archives includes Virtuoso's Client & Server components. The Client Components
                         enable connectivity to Virtuoso Server instances using data access protocols such as: ODBC, 
@@ -403,6 +410,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
 wdrs:describedby source: ;
 schema:name "Virtuoso 8.1 Enterprise Edition Server Executable (Binary) for Windows (64-bit)"@en ;
+skos:altLabel "Virtuoso 8.1 Enterprise Edition Server Executable" ;
 schema:description """Zip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -489,6 +497,7 @@ oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server Executable (Binary) for Windows 64-bit"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server Executable" ;
 schema:description """Zip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -534,6 +543,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server PROJ Plugin Library for Windows 64-bit"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server PROJ Plugin Library" ;
 schema:description """Zip archive that contains the Virtuoso PROJ Plugin Library (v4.9.3) file that transforms 
                       geospatial coordinates from one coordinate reference system (CRS) to another. 
                    """@en ;
@@ -575,6 +585,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server GEOS Plugin Library for Mac OS X 64 bit"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server GEOS Plugin Library" ;
 schema:description """Zip archive that contains the Virtuoso GEOS Plugin Library (v3.5.1) file that adds 
                       support for GeoSPARQL functions to the Virtuoso engine.
                    """@en ;
@@ -616,6 +627,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server Shapefile Plugin Library for Windows 64-bit"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server Shapefile Plugin Library" ;
 schema:description """Zip archive that contains the Virtuoso Shapefile Plugin Library (v0.1) file that adds 
                       support for reading ESRI Shapefiles.
                    """@en ;
@@ -658,6 +670,7 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.2 Enterprise Edition Client Connectivity Kit and Server Bundle Installer Archive for Windows 64-bit"@en ;
+  skos:altLabel "Virtuoso 8.2 Enterprise Edition Client Connectivity Kit and Server Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -694,6 +707,7 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.2 Enterprise Edition Client Connectivity Kit Installer Archive for Windows 64-bit"@en ;
+  skos:altLabel "Virtuoso 8.2 Enterprise Edition Client Connectivity Kit Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -736,6 +750,7 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit and Server Bundle Installer Archive for Windows 64-bit"@en ;
+  skos:altLabel "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit and Server Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -772,6 +787,7 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit Installer Archive for Windows 64-bit"@en ;
+  skos:altLabel "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -811,6 +827,7 @@ oplinst:hasMeasurementValue "121173"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Open Source Edition Server and Client Connectivity Kit Bundle Installer Archive for Windows 64-bit"@en ;
+  skos:altLabel "Virtuoso 7.2 Open Source Edition Server and Client Connectivity Kit Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;

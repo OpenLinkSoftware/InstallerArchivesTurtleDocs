@@ -117,6 +117,7 @@ source: a schema:CreativeWork ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit & Server Bundle Installer Archive for Linux (64-bit glibc 2.12 x86_64)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit & Server Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
@@ -157,6 +158,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
 schema:name "Virtuoso 7.2 Enterprise Edition Server Executable (Binary) for Linux (64-bit glibc 2.12 x86_64)"@en ;
+skos:altLabel "Virtuoso 7.2 Enterprise Edition Server Executable" ;
 schema:description """Gzip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -200,6 +202,7 @@ oplinst:hasMeasurementValue "6607026"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit and Server Bundle Installer Archive for Linux (64-bit glibc 2.17 x86_64)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit and Server Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
@@ -240,6 +243,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
 schema:name "Virtuoso 7.2 Enterprise Edition Executable (Binary) for Linux (64-bit glibc 2.17 x86_64)"@en ;
+skos:altLabel "Virtuoso 7.2 Enterprise Edition Executable" ;
 schema:description """Gzip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -283,6 +287,7 @@ oplinst:hasMeasurementValue "6916930"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity and Server Bundle  Installer Archive for Linux (64-bit glibc 2.3 x86_64)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity and Server Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
@@ -321,6 +326,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
 schema:name "Virtuoso 7.2 Enterprise Edition Executable (Binary) for Linux (64-bit glibc 2.3 x86_64)"@en ;
+skos:altLabel "Virtuoso 7.2 Enterprise Edition Executable" ;
 schema:description """Gzip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -364,6 +370,7 @@ oplinst:hasMeasurementValue "4854027"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity and Server Bundle  Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity and Server Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -403,6 +410,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt72#this> ;
 schema:name "Virtuoso 7.2 Enterprise Edition Executable (Binary) for Linux (64-bit glibc 2.5 x86_64)"@en ;
+skos:altLabel "Virtuoso 7.2 Enterprise Edition Executable" ;
 schema:description """Gzip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -448,6 +456,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer Archive for Linux (64-bit glibc 2.12 x86_64)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -486,6 +495,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer Archive for Linux (64-bit glibc 2.17 x86_64)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -522,6 +532,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer Archive for Linux (64-bit glibc 2.3 x86_64)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -558,6 +569,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -599,6 +611,7 @@ oplinst:hasMeasurementValue "6273216"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.1 Enterprise Edition Client Connectivity Kit & Server Bundle Installer Archive for Linux (64-bit glibc 2.12 x86_64)"@en ;
+  skos:altLabel "Virtuoso 8.1 Enterprise Edition Client Connectivity Kit & Server Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on the icon beside the value of the
                     URL property. Otherwise, click on the hyperlink above that anchors the text following 'About:'.
                  """@en ;
@@ -638,6 +651,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
 schema:name "Virtuoso Server 8.1 Executable (Binary) for Linux (64-bit glibc 2.12 x86_64)"@en ;
+skos:altLabel "Virtuoso Server 8.1 Executable" ;
 schema:description """Gzip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -681,6 +695,7 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.1 Enterprise Edition Client Connectivity Kit and Server Bundle (version 8.1) Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  skos:altLabel "Virtuoso 8.1 Enterprise Edition Client Connectivity Kit and Server Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -719,6 +734,7 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
   wdrs:describedby source: ;
   # schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer Archive for Linux (64-bit glibc 2.12 x86_64)"@en ;
   schema:name "Virtuoso 8.1 Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for Linux (64-bit glibc 2.12 x86_64)"@en ;
+  skos:altLabel "Virtuoso 8.1 Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -756,6 +772,7 @@ oplinst:hasMeasurementValue "6437021"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Client Connectivity Kit Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -795,6 +812,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
 schema:name "Virtuoso Server 8.1 Executable (Binary) for Linux (64-bit glibc 2.5 x86_64)"@en ;
+skos:altLabel "Virtuoso Server 8.1 Executable" ;
 schema:description """Gzip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -988,6 +1006,7 @@ oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server Executable (Binary) for Linux (64-bit glibc 2.5 x86_64)"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server Executable" ;
 schema:description """Gzip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -1033,6 +1052,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server PROJ Plugin Library for Linux (64-bit glibc 2.5 x86_64)"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server PROJ Plugin Library" ;
 schema:description """Gzip archive that contains the Virtuoso PROJ Plugin Library (v4.9.3) file that transforms 
                       geospatial coordinates from one coordinate reference system (CRS) to another. 
                    """@en ;
@@ -1074,6 +1094,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server GEOS Plugin Library for Linux (64-bit glibc 2.5 x86_64)"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server GEOS Plugin Library" ;
 schema:description """Gzip archive that contains the Virtuoso GEOS Plugin Library (v3.5.1) file that adds 
                       support for GeoSPARQL functions to the Virtuoso engine.
                    """@en ;
@@ -1115,6 +1136,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server Shapefile Plugin Library for Linux (64-bit glibc 2.5 x86_64)"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server Shapefile Plugin Library" ;
 schema:description """Gzip archive that contains the Virtuoso Shapefile Plugin Library (v0.1) file that adds 
                       support for reading ESRI Shapefiles.
                    """@en ;
@@ -1194,6 +1216,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   wdrs:describedby source: ;
   # schema:name "Virtuoso 8.2 ODBC Driver Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
   schema:name "Virtuoso 8.2 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  skos:altLabel "Virtuoso 8.2 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -1236,6 +1259,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.3 Enterprise Edition Server and Client Connectivity Kit Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  skos:altLabel "Virtuoso 8.3 Enterprise Edition Server and Client Connectivity Kit Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -1273,6 +1297,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   wdrs:describedby source: ;
   # schema:name "Virtuoso 8.3 ODBC Driver Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
   schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  skos:altLabel "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -1315,6 +1340,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Open Source Edition Server and Client Connectivity Kit Bundle Installer Archive for Linux (64-bit glibc 2.5 x86_64)"@en ;
+  skos:altLabel "Virtuoso 7.2 Open Source Edition Server and Client Connectivity Kit Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
