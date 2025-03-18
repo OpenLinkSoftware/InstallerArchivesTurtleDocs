@@ -103,6 +103,7 @@ source: a schema:CreativeWork ;
   wdrs:describedby source: ;
   # schema:name "Virtuoso 7.2 ODBC Driver for macOS Installer Archive"@en ;
   schema:name "Virtuoso 7.2 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   schema:description """This installer archive includes components that enable connectivity to Virtuoso Server 
                         instances (both Enterprise and Open Source Editions) using the ODBC data access protocol. 
                         
@@ -151,6 +152,7 @@ source: a schema:CreativeWork ;
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeMacList#this> ;
   schema:description """This installer archive includes the Virtuoso Client and Server, and the iODBC SDK & Rumtime 
                         components. 
@@ -211,6 +213,7 @@ source: a schema:CreativeWork ;
     # oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
     wdrs:describedby source: ;
     schema:name "Virtuoso 7.2 Open Source Edition (VOS) Installer Archive for macOS (64-bit)"@en ;
+    skos:altLabel "Virtuoso 7.2 Open Source Edition (VOS) Installer" ;
     schema:description """DMG Archive that contains the executable file that delivers multi-model RDBMS 
                           application functionality. The executable's behavior is informed by settings in an 
                           associated initialization (INI) file.
@@ -252,6 +255,7 @@ source: a schema:CreativeWork ;
   wdrs:describedby source: ;
   oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt70#this>  ;
   schema:name "Virtuoso 7.2 Enterprise Edition Executable (Binary) for macOS (64-bit)"@en ;
+  skos:altLabel "Virtuoso 7.2 Enterprise Edition Executable" ;
   schema:description """Zip Archive that contains the executable file that delivers multi-model RDBMS 
                           application functionality. The executable's behavior is informed by settings in an 
                           associated initialization (INI) file.
@@ -300,6 +304,7 @@ source: a schema:CreativeWork ;
   schema:name """Virtuoso 8.1 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle 
                  Installer Archive for macOS
               """@en ;
+  skos:altLabel "Virtuoso 8.1 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   oplinst:hasInstallerStepByGuide <http://data.openlinksw.com/oplweb/guide/VirtuosoUpgradeMacList#this> ;
   schema:description """This installer archive includes the Virtuoso Client and Server, and the iODBC SDK & Rumtime 
                         components. 
@@ -362,6 +367,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt81#this> ;
 schema:name "Virtuoso 8.1 Enterprise Edition Server Executable (Binary) for macOS (64-bit)"@en ;
+skos:altLabel "Virtuoso 8.1 Enterprise Edition Server Executable" ;
 schema:description """Zip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -449,6 +455,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server Executable (Binary) for Mac OS X 64 bit"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server Executable" ;
 schema:description """Gzip archive that contains the executable file that delivers the multi-model 
                       RDBMS application functionality. Its behavior is informed by settings in an 
                       associated initialization (INI) file.
@@ -495,6 +502,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server PROJ Plugin Library for Mac OS X 64 bit"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server PROJ Plugin Library" ;
 schema:description """Gzip archive that contains the Virtuoso PROJ Plugin Library (v4.9.3) file that transforms 
                       geospatial coordinates from one coordinate reference system (CRS) to another. 
                    """@en ;
@@ -536,6 +544,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server GEOS Plugin Library for Mac OS X 64 bit"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server GEOS Plugin Library" ;
 schema:description """Gzip archive that contains the Virtuoso GEOS Plugin Library (v3.5.1) file that adds 
                       support for GeoSPARQL functions to the Virtuoso engine.
                    """@en ;
@@ -577,6 +586,7 @@ opldep:hasDepot <https://download3.openlinksw.com/#this> ;
 wdrs:describedby source: ;
 oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/virt82#this> ;
 schema:name "Virtuoso 8.2 Enterprise Edition Server Shapefile Plugin Library for Mac OS X 64 Bit"@en ;
+skos:altLabel "Virtuoso 8.2 Enterprise Edition Server Shapefile Plugin Library" ;
 schema:description """Gzip archive that contains the Virtuoso Shapefile Plugin Library (v0.1) file that adds 
                       support for reading ESRI Shapefiles.
                    """@en ;
@@ -621,6 +631,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.2 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS"@en ;
+  skos:altLabel "Virtuoso 8.2 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -658,6 +669,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.2 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS 64 Bit"@en ;
+  skos:altLabel "Virtuoso 8.2 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -696,6 +708,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.3 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS"@en ;
+  skos:altLabel "Virtuoso 8.3 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -733,6 +746,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS 64 Bit"@en ;
+  skos:altLabel "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -771,6 +785,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.3 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS 11 64 Bit "@en ;
+  skos:altLabel "Virtuoso 8.3 Enterprise Edition Server, Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -808,6 +823,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientConnectivityKitInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer Archive for macOS 11 64 Bit"@en ;
+  skos:altLabel "Virtuoso 8.3 Enterprise Edition Client Connectivity Kit, and ODBC SDK & Runtime Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
@@ -844,6 +860,7 @@ oplinst:hasMeasurementValue "73641"^^xsd:integer .
   oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/VirtuosoClientServerBundleInstaller#this> ;
   wdrs:describedby source: ;
   schema:name "Virtuoso 7.2 Open Source Edition Server and Client Connectivity Kit Bundle Installer Archive for macOS"@en ;
+  skos:altLabel "Virtuoso 7.2 Open Source Edition Server and Client Connectivity Kit Bundle Installer" ;
   schema:comment """Download this Installer Archive by clicking on icon placed beside the value of the
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
