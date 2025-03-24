@@ -42,7 +42,7 @@ source: a schema:CreativeWork ;
   schema:author <http://www.openlinksw.com/#this> ;
   schema:url :this ;
   schema:dateCreated  "2015-01-27T15:44:00-05:00"^^xsd:dateTime;
-  schema:dateModified "2024-09-16T19:00:00-05:00"^^xsd:dateTime ;
+  schema:dateModified "2025-03-24T19:00:00-05:00"^^xsd:dateTime ;
   xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
   cc:attributionName "OpenLink Software" ;
   dcterms:subject
@@ -1264,7 +1264,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
   schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
-  schema:dateModified "2024-09-16T19:00:00-04:00"^^xsd:dateTime ;
+  schema:dateModified "2025-03-24T19:00:00-04:00"^^xsd:dateTime ;
   oplinst:hasFileSizeSpecification :lovpz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
   oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/VirtuosoRelease83x#this> ;
@@ -1281,7 +1281,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/VirtuosoClientServerInstallerArchive83lovpLinux#this> ;
   schema:name "File Size Details -- lovpz2zz.tar" ;
   oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "38348800"^^xsd:integer .
+  oplinst:hasMeasurementValue "40294400"^^xsd:integer .
 
 
 ## Virtuoso Client Installer Archive for glibc25 x86_64
@@ -1302,7 +1302,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
                     URL property. Otherwise, click on hyperlink anchors the text following 'About:'.
                  """@en ;
   schema:dateCreated "2019-05-14T13:47:27-00:00"^^xsd:dateTime ;
-  schema:dateModified "2024-09-16T19:12:03-04:00"^^xsd:dateTime ;
+  schema:dateModified "2025-03-24T19:12:03-04:00"^^xsd:dateTime ;
 
   oplinst:hasFileSizeSpecification :lovcz2zz-30fcb64.tarSpecification ;
   # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product/virtuoso-linux-odbc-driver#this>  ;
@@ -1324,7 +1324,7 @@ oplinst:hasMeasurementValue "483291"^^xsd:integer .
   schema:name "File Size Details -- lovcz2zz.tar" ;
   oplinst:hasMeasurementUnit "Bytes" ; 
   # oplinst:hasMeasurementUnit "Bytes" ;
-  oplinst:hasMeasurementValue "6307840"^^xsd:integer .
+  oplinst:hasMeasurementValue "40294400"^^xsd:integer .
 
 
 
