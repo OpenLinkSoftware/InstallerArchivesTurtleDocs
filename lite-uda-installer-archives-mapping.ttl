@@ -28,7 +28,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2025-01-27T13:52:00+01:00"^^xsd:dateTime ;
+   schema:dateModified "2025-05-12T13:52:00+01:00"^^xsd:dateTime ;
    schema:creator <http://www.openlinksw.com/#this>;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
