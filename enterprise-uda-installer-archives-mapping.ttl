@@ -12972,7 +12972,7 @@ source: a schema:CreativeWork ;
     oplpro:versionText "9.0" ;
     oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21, oplsof:Oracle23 ; 
     oplsof:hasDatabaseFamily oplsof:Oracle ;
-    oplsof:hasDbmsEngineVersion "12c", "19c", "21c" "23ai";
+    oplsof:hasDbmsEngineVersion "12c", "19c", "21c", "23ai";
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
     oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
     oplsof:hasOpsysVersion "Glibc 2.5" ;
