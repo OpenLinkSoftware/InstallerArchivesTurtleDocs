@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2025-01-27T13:52:00+01:00"^^xsd:dateTime ;
+   schema:dateModified "2025-05-28T13:52:00+01:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -327,6 +327,7 @@ source: a schema:CreativeWork ;
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waadmzzzmsi90WindowsXPVista764Bitx8664#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waaozzzzmsi90WindowsXPVista764Bitx8664#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waajzzzzmsi90WindowsXPVista764Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora120mvtaz90WindowsXPVista764Bitx8664#this> ,
 
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3sqlmvtaz90GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3jdbcsvtaz90GenericLinuxGlibc2564Bitx8664#this> ,
@@ -334,6 +335,7 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3oplrqbtaz90GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3opljdbctaz90GenericLinuxGlibc2564Bitx8664#this> ,
         <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3oplodbctaz90GenericLinuxGlibc2564Bitx8664#this> ,
+	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora120mvtaz90GenericLinuxGlibc2564Bitx8664#this> ,
 
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3m1o3zzzzdmg90MacOSX11Universal#this> ,
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3m1j3zzzzdmg90MacOSX11Universal#this> .
@@ -12543,6 +12545,44 @@ source: a schema:CreativeWork ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3wabrzzzzmsi90WindowsXPVista764Bitx8664#this> ;
     wdrs:describedby source: .
 
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora120mvtaz90WindowsXPVista764Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT90InstallerArchive> ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "waado12z.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2025-05-28T03:38:18+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-win-64/waado12z.msi> ;
+    schema:name "Oracle 12c, 19c, 21c, 23ai Database Agent (Multi-Threaded) Installer Archive for Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Oracle 12c, 19c, 21c, 23ai Database Agent Installer" ;
+    opldep:hasDepot <https://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3waado12zmsiWindowsXPVista764Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease9Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Oracle#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Oracle#this> ;
+    oplpro:versionText "9.0" ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21, oplsof:Oracle23 ;
+    oplsof:hasDatabaseFamily oplsof:Oracle ;
+    oplsof:hasDbmsEngineVersion "12c", "19c", "21c", "23ai";
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3waado12zmsiWindowsXPVista764Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- waadm12z.msi on Windows XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "(2336768"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3waado12zmsiWindowsXPVista764Bitx8664#this> ;
+    wdrs:describedby source: .
+
+
 #### Generic Linux glibc25 x64  ####
 
 <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3odbc_admintaz90GenericLinuxGlibc2564Bitx8664#this> 
@@ -12908,6 +12948,43 @@ source: a schema:CreativeWork ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3jdbcsvtaz90GenericLinuxGlibc2564Bitx8664#this> ;
     wdrs:describedby source: .    
 
+
+<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora120mvtaz90GenericLinuxGlibc2564Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+    schema:CreativeWork ,
+    <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+    <http://www.openlinksw.com/ontology/installers#UDAMT90InstallerArchive> ;
+    dcterms:format "application/x-gzip" ;
+    dcterms:identifier "ora120_mv.taz" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2025-05-28T03:38:18+02:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/9.0/x86_64-generic-linux-glibc25-64/ora120_mv.taz> ;
+    schema:name "Oracle 12c, 19c, 21c, 23ai Database Agent (Multi-Threaded) Installer Archive for Generic Linux Glibc 2.5 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Oracle 12c, 19c, 21c, 23ai Database Agent Installer" ;
+    opldep:hasDepot <https://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/AD#this> ;
+    oplinst:hasFileSizeSpecification <#https3ora120_mvtazGenericLinuxGlibc2564Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/MTServerDBInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionADONETRelease9Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease9Oracle#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Oracle#this> ,
+        <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Oracle#this> ;
+    oplpro:versionText "9.0" ;
+    oplsof:hasDatabaseEngine oplsof:Oracle12, oplsof:Oracle19, oplsof:Oracle21, oplsof:Oracle23 ; 
+    oplsof:hasDatabaseFamily oplsof:Oracle ;
+    oplsof:hasDbmsEngineVersion "12c", "19c", "21c" "23ai";
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc25-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
+    oplsof:hasOpsysVersion "Glibc 2.5" ;
+    wdrs:describedby source: .
+
+<#https3ora120_mvtazGenericLinuxGlibc2564Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- ora120_mv.taz on Generic Linux Glibc 2.5 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "2410792"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora120mvtaz90GenericLinuxGlibc2564Bitx8664#this> ;
+    wdrs:describedby source: .
 
 
 ### UDA 9.0 macOS 11 installers ###
