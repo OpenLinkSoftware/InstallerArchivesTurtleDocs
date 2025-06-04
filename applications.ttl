@@ -26,7 +26,7 @@
 source: a schema:CreativeWork ;
 	schema:comment """Description of OpenLink Software Applications and VAD Packages."""^^xsd:string ;
 	schema:dateCreated  "2014-07-03T15:44:00-05:00"^^xsd:dateTime ;
-	schema:dateModified "2025-03-14T17:00:00-00:00"^^xsd:dateTime ;
+	schema:dateModified "2025-06-04T17:00:00-00:00"^^xsd:dateTime ;
 	schema:author <http://www.openlinksw.com/#this> ;
 	xhv:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
 	cc:attributionName "OpenLink Software" ;
@@ -134,7 +134,7 @@ sourceDAV:
 	schema:author <http://www.openlinksw.com/#this> ;
 	doap:maintainer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
 	doap:repository :PAGitRepo ;
-	oplvad:hasVadPackage :PAVad, PAVad ;
+	oplvad:hasVadPackage :PAVad ;
 	wdrs:describedby source: .
 
 :PAGitRepo a doap:GitRepository ;
@@ -151,14 +151,29 @@ sourceDAV:
 	oplvad:isVadPackageOf :PA ;
 	wdrs:describedby source: .
 
-:PAVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
+### Personal Assistant Metal Skin
+
+:PASkin a doap:Project, schema:SoftwareApplication ;
+	doap:name "Personal Assistant Metal Skin" ;
+	doap:description """This VAD is an Assistant Metal Skin for the OpenLink AI Layer service that enables the creation, testing, and deployment of AI Agents using natural language via Markdown""" ;
+	schema:author <http://www.openlinksw.com/#this> ;
+	doap:maintainer <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
+	doap:repository :PASkinGitRepo ;
+	oplvad:hasVadPackage :PASkinVad ;
+	wdrs:describedby source: .
+
+:PASkinGitRepo a doap:GitRepository ;
+	schema:name "Personal Assistant Metal Skin Git Repository" ;
+	wdrs:describedby source: .
+
+:PASkinVad a oplvad:DAVVirtuosoApplicationPackage, oplinst:InstallerArchive ;
 	schema:url <https://download3.openlinksw.com/uda/vad-packages/8.3/opal_assistant_skin_dav.vad> ;
 	schema:softwareAddOn <http://data.openlinksw.com/oplweb/product/Virtuoso#this> ;
-	schema:name "Personal Assistant  VAD" ;
-	schema:comment "Personal Assistant  VAD" ;
-	oplvad:hasPackageName "personal_assistant"^^xsd:string ;
+	schema:name "Personal Assistant Metal Skin VAD" ;
+	schema:comment "Personal Assistant Metal Skin VAD" ;
+	oplvad:hasPackageName "personal_assistant_metal_skin"^^xsd:string ;
 	oplvad:hasFileName "opal_assistant_skin_dav.vad"^^xsd:string ;
-	oplvad:isVadPackageOf :PA ;
+	oplvad:isVadPackageOf :PASkin ;
 	wdrs:describedby source: .
 
 #DBpedia
