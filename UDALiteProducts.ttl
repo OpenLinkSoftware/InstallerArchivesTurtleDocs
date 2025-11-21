@@ -33,7 +33,7 @@ sourceDAV:
     cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
     schema:datePublished "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
     schema:dateCreated "2013-01-12T12:38:25-00:00"^^xsd:dateTime ;
-    schema:dateModified "2024-07-26T13:50:00+01:00"^^xsd:dateTime;
+    schema:dateModified "2025-11-21T13:50:00+01:00"^^xsd:dateTime;
     schema:name  """OpenLink Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers Related Information Document """ ;
     schema:description  """Document that describes our high-performance and secure Single-Tier ODBC, JDBC, ADO.NET, and OLE-DB Drivers.  """^^xsd:string ;
     schema:keywords  """ODBC, ODBC Driver, JDBC, JDBC Driver, ADO.NET, ADO.NET Provider, OLE-DB, OLE-DB Provider, UDA, Data Access, Data Access Driver, Data Access Middleware.  """;
@@ -826,7 +826,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, Progress JDBC Driver, Progress ADO.NET Pr
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseSQLServer#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7SQLServer#this>,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8SQLServer#this>,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9SQLServer#this>;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9SQLServer#this>,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10SQLServer#this>;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/sql#this> ,
                              <http://data.openlinksw.com/oplweb/dbms_engine/sql6#this> ,
                              <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ;
@@ -942,7 +943,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, SQL Server JDBC Driver, SQL Server ADO.NE
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseSybase#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Sybase#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8Sybase#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Sybase#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease9Sybase#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10Sybase#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/syb10#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/syb11#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/syb12#this>,

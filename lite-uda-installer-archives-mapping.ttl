@@ -10391,3 +10391,125 @@ source:
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3wal9mys5msi90Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
     wdrs:describedby source: .
 
+######### UDA 10.0 Release ##########
+
+#### UDA 10.0 Generic Linux glibc212 x64  ####
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz100GenericLinuxGlibc21264Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite100InstallerArchive ;
+    dcterms:format "application/x-gzip" ;
+    dcterms:identifier "sql_lt.taz" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2025-11-21T20:46:00-00:00"^^xsd:dateTime ;
+    schema:dateModified "2025-11-21T20:46:00-00:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/10.0/x86_64-generic-linux-glibc212-64/sql_lt.taz> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x, Microsoft SQL Server 6.x - 2022 and SQL Azure on Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x, Microsoft SQL Server 6.x - 2022 and SQL Azure" ;
+    opldep:hasDepot <https://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L10#this> ;
+    oplinst:hasFileSizeSpecification <#https3sql_lttaz90GenericLinuxGlibc21264Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10Sybase#this> ;
+    oplpro:versionText "10.0" ;
+    oplsof:hasDatabaseEngine
+        oplsof:SQLServer6,
+        oplsof:SQLServer7,
+        oplsof:SQLServer2000,
+        oplsof:SQLServer2005,
+        oplsof:SQLServer2008,
+        oplsof:SQLServer2008R2,
+        oplsof:SQLServer2012,
+        oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
+        oplsof:SQLServer2019,
+        oplsof:SQLServer2022,
+        oplsof:Sybase10,
+        oplsof:Sybase11,
+        oplsof:Sybase12,
+        oplsof:Sybase15 ;
+    oplsof:hasDatabaseFamily oplsof:SQLServer,
+        oplsof:Sybase ;
+    oplsof:hasDbmsEngineVersion "10.x",
+        "11.x",
+        "12.x",
+        "15.x",
+        "6.x - 2022" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
+    oplsof:hasOpsysVersion "Glibc 2.12" ;
+    wdrs:describedby source: .
+
+<#https3sql_lttaz100GenericLinuxGlibc21264Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- sql_lt.taz on Generic Linux Glibc 2.12 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "29727663"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz100GenericLinuxGlibc21264Bitx8664#this> ;
+    wdrs:describedby source: .
+
+#### UDA Windows x64  ####
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz100Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+        schema:CreativeWork ,
+        oplinst:UDASTInstallerArchive ,
+        oplinst:UDASTLiteInstallerArchive ,
+        oplinst:UDASTLite90InstallerArchive ;
+    dcterms:format "application/x-msdownload" ;
+    dcterms:identifier "wal10mzzz.msi" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2025-11-21T20:46:00-00:00"^^xsd:dateTime ;
+    schema:dateModified "2025-11-21T20:46:00-00:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/10.0/x86_64-generic-win-64/wal10mzzz.msi> ;
+    schema:name "Lite Edition (Single-Tier) ODBC Driver Installer Archive for Sybase 10.x, 11.x, 12.x, 15.x, Microsoft SQL Server 6.x - 2022 and SQL Azure on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "Lite Edition ODBC Driver Installer for Sybase 10.x, 11.x, 12.x, 15.x,  Microsoft SQL Server 6.x - 2022 and SQL Azure" ;
+    opldep:hasDepot <https://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/L10#this> ;
+    oplinst:hasFileSizeSpecification <#https3wal10mzzzmsi100Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10SQLServer#this>,
+        <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10Sybase#this> ;
+    oplpro:versionText "10.0" ;
+    oplsof:hasDatabaseEngine
+        oplsof:SQLServer6,
+        oplsof:SQLServer7,
+        oplsof:SQLServer2000,
+        oplsof:SQLServer2005,
+        oplsof:SQLServer2008,
+        oplsof:SQLServer2008R2,
+        oplsof:SQLServer2012,
+        oplsof:SQLServer2014,
+        oplsof:SQLServer2016,
+        oplsof:SQLServer2017,
+        oplsof:SQLServer2019,
+        oplsof:SQLServer2022,
+        oplsof:Sybase10,
+        oplsof:Sybase11,
+        oplsof:Sybase12,
+        oplsof:Sybase15 ;
+    oplsof:hasDatabaseFamily oplsof:SQLServer,
+        oplsof:Sybase ;
+    oplsof:hasDbmsEngineVersion "10.x",
+        "11.x",
+        "12.x",
+        "15.x",
+        "6.x - 2022" ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-win-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:Windows ;
+    oplsof:hasOpsysVersion "98/2000/XP/Vista/7/8/10/Server 20xx" ;
+    wdrs:describedby source: .
+
+<#https3wal10mzzzmsi100Windows98XPVista7WKS2000810Server20xx64Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- wal10mzzz.msi on Windows 98/2000/XP/Vista/7/8/10/Server 20xx (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "8728576"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3sqllttaz100Windows98XPVista7WKS2000810Server20xx64Bitx8664#this> ;
+    wdrs:describedby source: .
+
