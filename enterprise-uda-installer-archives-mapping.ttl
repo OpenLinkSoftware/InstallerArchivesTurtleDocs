@@ -29,7 +29,7 @@ sourceDAV:
    dcterms:format "text/turtle" ;
    cc:attributionURL <http://www.openlinksw.com/dataspace/organization/openlink#this> ;
    schema:dateCreated  "2015-08-20T18:00:00-05:00"^^xsd:dateTime ;
-   schema:dateModified "2025-05-28T13:52:00+01:00"^^xsd:dateTime ;
+   schema:dateModified "2025-11-21T13:52:00+01:00"^^xsd:dateTime ;
    schema:license <http://creativecommons.org/licenses/by/4.0/deed.en_US> ;
    owl:sameAs source: .
 
@@ -338,7 +338,9 @@ source: a schema:CreativeWork ;
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3ora120mvtaz90GenericLinuxGlibc2564Bitx8664#this> ,
 
 	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3m1o3zzzzdmg90MacOSX11Universal#this> ,
-	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3m1j3zzzzdmg90MacOSX11Universal#this> .
+	<http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3m1j3zzzzdmg90MacOSX11Universal#this> ,
+
+	<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3odbc_admintaz100GenericLinuxGlibc21264Bitx8664#this> .
 
 
 ############## Version 6.3
@@ -13074,4 +13076,75 @@ source: a schema:CreativeWork ;
     oplinst:hasMeasurementUnit "Bytes" ;
     oplinst:hasMeasurementValue "2307457"^^xsd:integer ;
     oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDAMTEnterprisehttps3m1j3zzzzdmg90MacOS11Universal#this> ;
+    wdrs:describedby source: .
+
+
+##### UDA 10 Release #####
+
+#### Generic Linux glibc212 x64  ####
+
+<http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3odbc_admintaz100GenericLinuxGlibc21264Bitx8664#this> 
+    a oplinst:InstallerArchive ,
+      schema:CreativeWork ,
+      oplinst:UDASTInstallerArchive ,
+      oplinst:UDASTLiteInstallerArchive ,
+      oplinst:UDASTLite100InstallerArchive ,
+      <http://www.openlinksw.com/ontology/installers#UDAMTInstallerArchive> ,
+      <http://www.openlinksw.com/ontology/installers#UDAMT90InstallerArchive> ;
+    dcterms:format "application/x-gzip" ;
+    dcterms:identifier "odbc_admin.taz" ;
+    oplinst:hasInstallerArchiveScript oplinst:UDAEnterpriseAndSingleTierInstallerScript ;
+    schema:dateCreated "2025-11-21T10:49:06+05:00"^^xsd:dateTime ;
+    schema:downloadUrl <https://download3.openlinksw.com/uda/components/10.0/x86_64-generic-linux-glibc212-64/odbc_admin.taz> ;
+    schema:name "ODBC Data Source Administrator (HTTP) Installer Archive on Generic Linux Glibc 2.12 (64 Bit) (x86_64) and Higher -- Amazon S3 HTTP Depot" ;
+    skos:altLabel "ODBC Data Source Administrator Installer" ;
+    opldep:hasDepot <https://download3.openlinksw.com/#this> ;
+    oplinst:hasComponentCode <http://data.openlinksw.com/oplweb/component_code/O3#this> ;
+    oplinst:hasFileSizeSpecification <#https3odbc_admintazGenericLinuxGlibc21264Bitx8664FileSpecification> ;
+    oplinst:hasInstallerArchiveCategory <http://data.openlinksw.com/oplweb/component_category/STLiteInstaller#this> ;
+    # oplinst:isInstallerArchiveOf <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10DB2#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10Informix#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10Ingres#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10JDBCBridge#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10MySQL#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10ODBCBridge#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10Oracle#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10PostgreSQL#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10Progress#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10SQLServer#this>,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10Sybase#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierExpressEditionODBCRelease10Ingres#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierExpressEditionODBCRelease10PostgreSQL#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierExpressEditionODBCRelease10Oracle#this>  ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierExpressEditionODBCRelease10PrestoDB#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierExpressEditionODBCRelease10MySQL#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierExpressEditionODBCRelease10Informix#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10ODBCBridge#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierExpressEditionODBCRelease10Firebird#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierExpressEditionODBCRelease10DB2#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierExpressEditionODBCRelease10SQLServer#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierExpressEditionODBCRelease10Sybase#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10Progress#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10MySQL#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10Informix#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10PostgreSQL#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10JDBCBridge#this> ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10SQLServer#this>  ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10Sybase#this>  ,
+    #     <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10Oracle#this> ;
+    oplpro:versionText "10.0" ;
+    oplsof:hasDatabaseEngine oplsof:odbc ;
+    oplsof:hasDatabaseFamily oplsof:ODBCBridge ;
+    oplsof:hasDbmsEngineVersion oplsof:DBEngineVersionAny ;
+    oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/x86_64-generic-linux-glibc212-64#this> ;
+    oplsof:hasOperatingSystemFamily oplsof:GenericLinux ;
+    oplsof:hasOpsysVersion "Glibc 2.12" ;
+    wdrs:describedby source: .
+
+<#https3odbc_admintazGenericLinuxGlibc21264Bitx8664FileSpecification> 
+    a oplinst:FileSizeSpecification, schema:CreativeWork ;
+    schema:name "File Size Details -- odbc_admin.taz on Generic Linux Glibc 2.12 (64 Bit) (x86_64) (with location OpenLink Download Amazon S3 HTTP Depot)" ;
+    oplinst:hasMeasurementUnit "Bytes" ;
+    oplinst:hasMeasurementValue "9429929"^^xsd:integer ;
+    oplinst:isFileSizeSpecificationOf <http://data.openlinksw.com/oplweb/installer/UDASTLitehttps3odbc_admintaz100GenericLinuxGlibc21264Bitx8664#this> ;
     wdrs:describedby source: .
