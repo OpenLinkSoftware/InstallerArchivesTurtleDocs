@@ -68,11 +68,13 @@ source: a schema:CreativeWork ;
    # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9MySQL#this> ,
    <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9JDBCBridge#this> ,
    <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9SQLServer#this> ,
+   <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Sybase#this> ,
    # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9PostgreSQL#this> ,
    # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Oracle#this> ,
    # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Informix#this> ,
 
    <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9SQLServer#this> ,
+   <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Sybase#this> ,
    # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9PostgreSQL#this> ,
    # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Oracle#this> ,
    # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9MySQL#this> ,
@@ -272,6 +274,19 @@ source: a schema:CreativeWork ;
     oplpro:versionText "9.x"^^xsd:string ;
     skos:altLabel "ODBC Driver for SQLServer "^^xsd:string ;
     skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Release 9.0 for SQLServer "^^xsd:string ;
+    wdrs:describedby source: .
+
+<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Sybase#this> a oplpro:ProductRelease  ,
+        schema:CreativeWork ,
+        schema:SoftwareApplication ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Release 9.0 for Sybase "^^xsd:string ;
+    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this> ;
+    schema:image <http://uda.openlinksw.com/images/odbcsybasemt.gif> ;
+    schema:version "9.0"^^xsd:decimal ;
+    oplpro:versionText "9.x"^^xsd:string ;
+    skos:altLabel "ODBC Driver for Sybase "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Release 9.0 for Sybase "^^xsd:string ;
     wdrs:describedby source: .
 
 # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease9Informix#this> a oplpro:ProductRelease  ,

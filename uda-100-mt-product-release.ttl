@@ -274,6 +274,20 @@ source: a schema:CreativeWork ;
     skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Release 10.0 for SQLServer "^^xsd:string ;
     wdrs:describedby source: .
 
+<http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10Sybase#this> a oplpro:ProductRelease  ,
+        schema:CreativeWork ,
+        schema:SoftwareApplication ;
+    oplpro:hasFamily <http://data.openlinksw.com/oplweb/product_family/uda#this>;
+    schema:name "ODBC Driver (Multi-Tier Enterprise Edition) Release 10.0 for Sybase "^^xsd:string ;
+    oplpro:isReleaseOf <http://data.openlinksw.com/oplweb/product/odbc-sybase-mt#this> ;
+    schema:image <http://uda.openlinksw.com/images/odbcsybasemt.gif> ;
+    schema:version "10.0"^^xsd:decimal ;
+    oplpro:versionText "10.x"^^xsd:string ;
+    skos:altLabel "ODBC Driver for Sybase "^^xsd:string ;
+    skos:prefLabel "ODBC Driver (Multi-Tier Enterprise Edition) Release 10.0 for Sybase "^^xsd:string ;
+    wdrs:describedby source: .
+
+
 # <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionODBCRelease10Informix#this> a oplpro:ProductRelease  ,
 #         schema:CreativeWork ,
 #         schema:SoftwareApplication ;
